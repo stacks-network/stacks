@@ -17,7 +17,7 @@ Nobody owns or controls OneName and users are in complete control of their data.
 
 Profiles may be viewed on any OneName profile explorer.
 
-The default explorer is onename.io, but developers may crawl the key-value store and set up their own explorer at any time.
+The default explorer is hosted on onename.io, but developers may crawl the key-value store and set up their own explorer at any time.
 
 URL pattern for viewing a profile on onename.io:
 
