@@ -12,3 +12,17 @@ Users are added to the OneName directory via an entry into the key-value store, 
 The OneName protocol provides formatting specs for usernames and profiles and defines conventions for OneName crawlers/explorers (which read the profile data from the key-value store and display it online), as well as apps built on top of the network.
 
 Nobody owns or controls OneName and users are in complete control of their data. OneName is open source, has a public design, and is for all to take part.
+
+## Viewing Profiles
+
+Profiles may be viewed on any OneName profile explorer.
+
+The default explorer is onename.io, but developers may crawl the key-value store and set up their own explorer at any time.
+
+URL pattern for viewing a profile on onename.io:
+
+    https://www.onename.io/<username>
+
+URL pattern for viewing a profile as raw JSON data on onename.io:
+
+    https://www.onename.io/<username>.json
