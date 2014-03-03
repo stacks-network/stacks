@@ -26,3 +26,13 @@ URL pattern for viewing a profile on onename.io:
 URL pattern for viewing a profile as raw JSON data on onename.io:
 
     https://www.onename.io/<username>.json
+
+## Registering Users
+
+To register a user on OneName:
+
+1. choose an available OneName username
+2. construct a valid JSON object that adheres to the OneName profile specs
+3. register the username and profile as an entry in the key-value store
+
+
