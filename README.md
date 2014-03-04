@@ -163,3 +163,16 @@ All fields are strings unless otherwise noted.
 + flickr
 + email
 + bitmessage
+
+## Registering key-value entries in Namecoin
+
+To register a key-value entry with Namecoin
+
+1. issue a name new with the key (the username with "u/" prepended)
+2. issue a name first update with the chunked profile
+
+Key-value entries on Namecoin currently cost 0.01 NMC, which on the date of writing (Mar 3, 2014) is approximately 3.5 cents.
+
+### Chunking profiles
+
+
