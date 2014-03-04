@@ -192,6 +192,40 @@ To chunk a JSON object, simply do the following:
 4. fill the JSON object with as many properties as possible
 5. go back to 1
 
+Note: we recommend not using the "u/" namespace for linked chunks.
 
+#### Example:
+
+The sample profile above could be chunked as follows:
+
+`"u/username"`
+
+<pre><code>{
+"name": "John Smith",
+"location": "New York, NY",
+"website": "http://example.com",
+"github": "someuser",
+"facebook": "someuser",
+"twitter": "someuser",
+"linkedin": "http://www.linkedin.com/in/someuser",
+"bitcoin": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T",
+"bitmessage": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb",
+"email": "someuser@emailhost.com",
+"pgp": {
+    "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
+    "url": "https://s3.amazonaws.com/97p/pubkey.txt"
+},
+"next": "i/username-1"
+}
+</pre></code>
+
+`"i/username-1"`
+
+<pre><code>{
+"avatar": "http://example.com/avatar.jpg",
+"cover": "http://example.com/cover.jpg",
+"bio": "Just a guy with his head in the cloud.",
+}
+</pre></code>
 
 
