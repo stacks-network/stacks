@@ -164,15 +164,34 @@ All fields are strings unless otherwise noted.
 + email
 + bitmessage
 
-## Registering key-value entries in Namecoin
+## Key-value entries
 
-To register a key-value entry with Namecoin
+### Registering username/profile pairs as key-value entries in Namecoin
 
-1. issue a name new with the key (the username with "u/" prepended)
-2. issue a name first update with the chunked profile
+1. issue a "name new" with the key (the username with "u/" prepended)
+2. issue a "name first update" with the chunked profile
 
-Key-value entries on Namecoin currently cost 0.01 NMC, which on the date of writing (Mar 3, 2014) is approximately 3.5 cents.
+### "Name new" operations
+
+Current cost: 0.01 NMC
+
+### "Name first update" operations
+
+Current cost: 0.00 NMC
 
 ### Chunking profiles
+
+Key-value entries in Namecoin are limited to a maximum of 519 bytes.
+
+As a result, profiles exceeding 519 bytes must be split into several linked components in order to be embedded in the blockchain.
+
+To chunk a JSON object, simply do the following:
+
+1. check if all the remaining data fits in one chunk
+2. if not, choose an unregistered Namecoin key (e.g. "i/username-1" or "i/username-b5sX6gkMp8" - this will be the key of the "next" chunk) and create an empty JSON object (the current chunk), then add a pointer from this chunk to the next one (e.g. "next": "i/username")
+4. fill the JSON object with as many properties as possible
+5. go back to 1
+
+
 
 
