@@ -5,19 +5,17 @@ The decentralized identity system built on Bitcoin.
 
 ## Introduction
 
-OneName is a decentralized identity system (DIS) with a user directory comprised of entries in a decentralized key-value store. OneName uses the Namecoin blockchain, but is compatible with any decentralized key-value store.
+OneName is a decentralized identity system (DIS) with a user directory comprised of entries in a decentralized key-value store. The OneName protocol can use any decentralized key-value store for storing data. OneName currently uses the Namecoin blockchain as a key-value store, but any blockchain can be used.
 
-Users are added to the OneName directory via an entry into the key-value store, where the key is the username and the value is the profile.
+Users are added to the OneName directory via an entry into the key-value store, where the *key* is the username and the *value* is the profile data (in JSON format). The OneName protocol provides formatting specs for usernames and profiles and defines conventions for OneName crawlers/explorers (which read the profile data from the key-value store and display it online). There can be many apps built on top of OneName and the protocol provides specs and conventions for application developers. 
 
-The OneName protocol provides formatting specs for usernames and profiles and defines conventions for OneName crawlers/explorers (which read the profile data from the key-value store and display it online), as well as apps built on top of the network.
-
-Nobody owns or controls OneName and users are in complete control of their data. OneName is open source, has a public design, and is for all to take part.
+Nobody owns or controls OneName and users are in complete control of their data. Just like with Bitcoin a private key gives access to the Bitcoin account, with OneName a private key gives access to the OneName username and data. No one can modify user data without the private key for that specific username. OneName is open source, has a public design, and is for all to take part.
 
 ## Viewing Profiles
 
 Profiles may be viewed on any OneName profile explorer.
 
-The default explorer is hosted on onename.io, but developers may crawl the key-value store and set up their own explorer at any time.
+A default explorer is hosted on http://onename.io, but developers may crawl the key-value store and set up their own explorers.
 
 URL pattern for viewing a profile on onename.io:
 
