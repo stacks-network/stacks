@@ -3,6 +3,15 @@ OneName
 
 The decentralized identity system built on Bitcoin.
 
+##### Table of Contents  
+[Introduction](#introduction)  
+[Viewing Profiles](#viewing-profiles)  
+[Registering Users](#registering-users)  
+[Usernames](#usernames)  
+[Profiles](#profiles)  
+[Key-value Entries](#kv-entries)  
+
+<a name="introduction"/>
 ## Introduction
 
 OneName is a decentralized identity system (DIS) with a user directory comprised of entries in a decentralized key-value store. The OneName protocol can use any decentralized key-value store for storing data. OneName currently uses the Namecoin blockchain as a key-value store, but any blockchain can be used.
@@ -11,6 +20,7 @@ Users are added to the OneName directory via an entry into the key-value store, 
 
 Nobody owns or controls OneName and users are in complete control of their data. Just like with Bitcoin a private key gives access to the Bitcoin account, with OneName a private key gives access to the OneName username and data. No one can modify user data without the private key for that specific username. OneName is open source, has a public design, and is for all to take part.
 
+<a name="viewing-profiles"/>
 ## Viewing Profiles
 
 Profiles may be viewed on any OneName profile explorer.
@@ -25,6 +35,7 @@ URL pattern for viewing a profile as raw JSON data on onename.io:
 
     https://www.onename.io/<username>.json
 
+<a name="registering-users"/>
 ## Registering Users
 
 To register a user on OneName:
@@ -33,6 +44,7 @@ To register a user on OneName:
 2. construct a valid JSON object that adheres to the OneName profile specifications
 3. register the username and profile as an entry in the key-value store
 
+<a name="usernames"/>
 ## Usernames
 
 Usernames may be up to 60 characters long and contain lowercase letters, numbers, and underscores.
@@ -54,6 +66,7 @@ Example:
     Username: someuser
     Key: u/someuser
 
+<a name="profiles"/>
 ## Profiles
 
 User profiles in OneName are collections of attributes that are expressed as JSON objects.
@@ -162,6 +175,7 @@ All fields are strings unless otherwise noted.
 + email
 + bitmessage
 
+<a name="kv-entries"/>
 ## Key-value entries
 
 ### Registering username/profile pairs as key-value entries in Namecoin
