@@ -23,9 +23,9 @@ Nobody owns or controls OneName and users are in complete control of their data.
 <a name="viewing-profiles"/>
 ## Viewing Profiles
 
-Profiles may be viewed on any OneName profile explorer.
+Profiles may be viewed on any OneName profile explorer. Just like Bitcoin has many block explorers (like blockexplorer.com), developers may crawl the key-value store and set up their own OneName explorers.
 
-A default explorer is hosted on http://onename.io, but developers may crawl the key-value store and set up their own explorers.
+A default explorer is hosted on http://onename.io
 
 URL pattern for viewing a profile on onename.io:
 
@@ -53,9 +53,9 @@ Usernames may be up to 60 characters long and contain lowercase letters, numbers
 
 Regex: ^/[a-z0-9_]{1,60}$
 
-### Usernames in Namecoin
+### Namespaces in Namecoin
 
-Namecoin's key-value store has several namespaces. Key entries that start with "d/" are interpreted as domain names. Likewise, those that start with "u/" are interpreted as OneName usernames.
+Namecoin's key-value store has several namespaces. By convention, key entries that start with "d/" are interpreted as domain names. Likewise, those that start with "u/" are interpreted as OneName usernames.
 
 To register a username on Namecoin, prepend "u/" to the username and use that as your key in the key-value entry.
 
