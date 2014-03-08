@@ -5,6 +5,7 @@ The decentralized identity system built on Bitcoin.
 
 ##### Table of Contents  
 [Introduction](#introduction)  
+[Profile Explorers](#profile-explorers)  
 [Viewing Profiles](#viewing-profiles)  
 [Registering Users](#registering-users)  
 [Usernames](#usernames)  
@@ -14,20 +15,27 @@ The decentralized identity system built on Bitcoin.
 <a name="introduction"/>
 ## Introduction
 
-OneName is a decentralized identity system (DIS) with a user directory comprised of entries in a decentralized key-value store. The OneName protocol can use any decentralized key-value store for storing data. OneName currently uses the Namecoin blockchain as a key-value store, but any blockchain can be used.
+OneName is a protocol for a decentralized identity system (DIS) with a user directory comprised of entries in a decentralized key-value store. OneName currently uses the Namecoin blockchain, but any decentralized key-value store may be used.
 
-Users are added to the OneName directory via an entry into the key-value store, where the *key* is the username and the *value* is the profile data (in JSON format). The OneName protocol provides formatting specs for usernames and profiles and defines conventions for OneName crawlers/explorers (which read the profile data from the key-value store and display it online). There can be many apps built on top of OneName and the protocol provides specs and conventions for application developers. 
+Users are added to the OneName directory via an entry into the key-value store, where the *key* is the username and the *value* is the profile data (in JSON format).
 
-Nobody owns or controls OneName and users are in complete control of their data. Just like with Bitcoin a private key gives access to the Bitcoin account, with OneName a private key gives access to the OneName username and data. No one can modify user data without the private key for that specific username. OneName is open source, has a public design, and is for all to take part.
+The OneName protocol provides formatting specifications for usernames and profiles and defines conventions for OneName profile crawlers/explorers (which read from the key-value store, digest profile data, and display profiles).
+
+Nobody owns or controls OneName and users are in complete control of their data.
+
+With Bitcoin, private keys provide us with complete control over our funds - nobody can move it without our permission. In the same way, OneName private keys provide us with complete control over our identities - no individual or entity can usurp our usernames or modify our public data or control the release of our private data without our permission. 
+
+OneName is open source, has a public design, and is for all to take part.
+
+<a name="profile-explorers"/>
+## Profile Explorers
+
+OneName profile explorers are systems that read OneName user data from the key-values store and provide an interface for viewing profiles. This is similar to how Bitcoin has block explorers that read data from the blockchain and provide an interface for viewing transaction data. As with bitcoin block explorers, developers are free to crawl the key-value store and set up their own OneName profile explorers.
 
 <a name="viewing-profiles"/>
 ## Viewing Profiles
 
 Profiles may be viewed on any OneName profile explorer.
-
-### OneName Explorers
-
-OneName profile explorers are systems that read OneName user data from the key-values store and provide an interface for viewing profiles. This is similar to how Bitcoin has block explorers that read data from the blockchain and provide an interface for viewing transaction data. As with bitcoin block explorers, developers are free to crawl the key-value store and set up their own OneName profile explorers.
 
 ### Viewing profiles on onename.io
 
