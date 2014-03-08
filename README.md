@@ -23,15 +23,21 @@ Nobody owns or controls OneName and users are in complete control of their data.
 <a name="viewing-profiles"/>
 ## Viewing Profiles
 
-Profiles may be viewed on any OneName profile explorer. Just like Bitcoin has many block explorers (like blockexplorer.com), developers may crawl the key-value store and set up their own OneName explorers.
+Profiles may be viewed on any OneName profile explorer.
 
-A default explorer is hosted on http://onename.io
+### OneName Explorers
 
-URL pattern for viewing a profile on onename.io:
+OneName profile explorers are systems that read OneName user data from the key-values store and provide an interface for viewing profiles. This is similar to how Bitcoin has block explorers that read data from the blockchain and provide an interface for viewing transaction data. As with bitcoin block explorers, developers are free to crawl the key-value store and set up their own OneName profile explorers.
+
+### Viewing profiles on onename.io
+
+[onename.io](https://www.onename.io) comes with it's own default OneName explorer.
+
+The URL pattern for viewing a profile on onename.io:
 
     https://www.onename.io/<username>
 
-URL pattern for viewing a profile as raw JSON data on onename.io:
+The URL pattern for viewing a profile as raw JSON data on onename.io:
 
     https://www.onename.io/<username>.json
 
