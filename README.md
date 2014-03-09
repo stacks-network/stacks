@@ -177,39 +177,24 @@ All fields are strings unless otherwise noted.
 #### Sample profile
 
 <pre><code>{
-    "name": {
-        "full": "John Smith"
-    },
-	"avatar": "http://example.com/avatar.jpg",
-	"cover": "http://example.com/cover.jpg",
-	"location": "New York, NY",
-	"website": "http://example.com",
-	"bio": "Just a guy with his head in the cloud.",
-	"github": {
-    	"username": "someuser"
-	},
-	"facebook": {
-    	"username": "someuser"
-	},
-	"twitter": {
-    	"username": "someuser"
-	},
-	"linkedin": {
-    	"url": "http://www.linkedin.com/in/someuser"
-	},
-	"bitcoin": {
-    	"address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T"
-	},
-	"bitmessage": {
-    	"address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb"
-	},
-	"email": "someuser@emailhost.com",
-	"pgp": {
-    	"fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
-    	"url": "https://s3.amazonaws.com/97p/pubkey.txt"
-	}
-}
-</pre></code>
+    "name": { "formatted": "John Smith" },
+    "avatar": { "url": "http://example.com/avatar.jpg" },
+    "cover": { "url": "http://example.com/cover.jpg" },
+    "location": { "formatted": "New York, NY" },
+    "website": "http://example.com",
+    "bio": "Just a guy with his head in the cloud.",
+    "github": { "username": "someuser" },
+    "facebook": { "username": "someuser" },
+    "twitter": { "username": "someuser" },
+    "linkedin": { "url": "http://www.linkedin.com/in/someuser" },
+    "bitcoin": { "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T" },
+    "bitmessage": { "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" },
+    "email": "someuser@emailhost.com",
+    "pgp": {
+        "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
+        "url": "https://s3.amazonaws.com/97p/pubkey.txt"
+    }
+}</pre></code>
 
 ### Services/Sites Currently Supported by Profile Explorers
 
