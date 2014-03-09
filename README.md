@@ -67,7 +67,7 @@ Usernames may be up to 60 characters long and contain lowercase letters, numbers
 
 Regex: ^/[a-z0-9_]{1,60}$
 
-### Usernames in Namecoin
+### Usernames on Namecoin
 
 Namecoin's key-value store has several namespaces. By convention, key entries that start with "d/" are interpreted as domain names. Likewise, those that start with "u/" are interpreted as OneName usernames.
 
@@ -79,6 +79,8 @@ Example:
 
     Username: someuser
     Key: u/someuser
+
+Full instructions for registering usernames on Namecoin can be found below.
 
 <a name="profiles"/>
 ## Profiles
@@ -238,9 +240,13 @@ All fields are strings unless otherwise noted.
 
 ### "Name new" operations
 
+The "name new" operation is the first operation required to register a key-value pair on Namecoin (and by extension, a username/profile pair in accordance with the OneName protocol). This is the operation that communicates intent to register and use a given name. Without "name first update," however, the name registration is not complete.
+
 Current cost: 0.01 NMC
 
 ### "Name first update" operations
+
+After the "name new" operation is complete, the "name first update" operation completes the name registration.
 
 Current cost: 0.00 NMC
 
