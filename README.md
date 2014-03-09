@@ -91,8 +91,6 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 
 ### Profile Format v0.1
 
-All fields are strings unless otherwise noted.
-
 <table class="table table-bordered">
 <thead>
 	<tr>
@@ -105,17 +103,17 @@ All fields are strings unless otherwise noted.
 	<tr>
 		<td>name</td>
 		<td>The user's name, including his/her given name and family name.</td>
-		<td>"John Smith"</td>
+		<td>{ "formatted": "John Smith" }</td>
 	</tr>
 	<tr>
 		<td>avatar</td>
 		<td>A url to an image that serves as the user's avatar.</td>
-		<td>"http://example.com/avatar.jpg"</td>
+		<td>{ "url": "http://example.com/avatar.jpg"}</td>
 	</tr>
 	<tr>
 		<td>cover</td>
 		<td>A url to an image that serves as the user's cover photo.</td>
-		<td>"http://example.com/cover.jpg"</td>
+		<td>{ "cover": "http://example.com/cover.jpg" }</td>
 	</tr>
 	<tr>
 		<td>location</td>
@@ -135,44 +133,19 @@ All fields are strings unless otherwise noted.
 	<tr>
 		<td>bitcoin</td>
 		<td>The user's bitcoin address.</td>
-		<td>"1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T"</td>
+		<td>{ "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T" }</td>
 		</td>
 	</tr>
 	<tr>
 		<td>[name of service or social network]</td>
 		<td>A unique identifier of the user on the given social network. By default, crawlers will read this field as a username, unless the string is deciphered as a URL.</td>
 		<td>
-		 <div>1. "sometwitterhandle"</div>
-		 <div>2. "http://www.linkedin.com/in/someuser"</div>
+		 <div>1. "twitter": { "username": "sometwitterhandle" }</div>
+		 <div>2. "linkedin": { "url": "http://www.linkedin.com/in/someuser" }</div>
 		</td>
 	</tr>
 </tbody>
 </table>
-
-#### Sample profile
-
-<pre><code>{
-"name": "John Smith",
-"avatar": "http://example.com/avatar.jpg",
-"cover": "http://example.com/cover.jpg",
-"location": "New York, NY",
-"website": "http://example.com",
-"bio": "Just a guy with his head in the cloud.",
-"github": "someuser",,
-"facebook": "someuser",
-"twitter": "someuser",
-"linkedin": "http://www.linkedin.com/in/someuser",
-"bitcoin": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T",
-"bitmessage": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb",
-"email": "someuser@emailhost.com",
-"pgp": {
-    "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
-    "url": "https://s3.amazonaws.com/97p/pubkey.txt"
-}
-}
-</pre></code>
-
-### Profile format v0.2
 
 #### Sample profile
 
@@ -189,7 +162,6 @@ All fields are strings unless otherwise noted.
     "linkedin": { "url": "http://www.linkedin.com/in/someuser" },
     "bitcoin": { "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T" },
     "bitmessage": { "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" },
-    "email": "someuser@emailhost.com",
     "pgp": {
         "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
         "url": "https://s3.amazonaws.com/97p/pubkey.txt"
@@ -257,30 +229,29 @@ The sample profile above could be chunked as follows:
 `"u/username"`
 
 <pre><code>{
-"name": "John Smith",
-"location": "New York, NY",
-"website": "http://example.com",
-"github": "someuser",
-"facebook": "someuser",
-"twitter": "someuser",
-"linkedin": "http://www.linkedin.com/in/someuser",
-"bitcoin": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T",
-"bitmessage": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb",
-"email": "someuser@emailhost.com",
-"pgp": {
-    "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
-    "url": "https://s3.amazonaws.com/97p/pubkey.txt"
-},
-"next": "i/username-1"
+    "name": { "formatted": "John Smith" },
+    "location": { "formatted": "New York, NY" },
+    "website": "http://example.com",
+    "github": { "username": "someuser" },
+    "facebook": { "username": "someuser" },
+    "twitter": { "username": "someuser" },
+    "bitcoin": { "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T" },
+    "bitmessage": { "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" },
+    "pgp": {
+        "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
+        "url": "https://s3.amazonaws.com/97p/pubkey.txt"
+    },
+    "next": "i/username-1"
 }
 </pre></code>
 
 `"i/username-1"`
 
 <pre><code>{
-"avatar": "http://example.com/avatar.jpg",
-"cover": "http://example.com/cover.jpg",
-"bio": "Just a guy with his head in the cloud.",
+    "avatar": { "url": "http://example.com/avatar.jpg" },
+    "cover": { "url": "http://example.com/cover.jpg" },
+    "bio": "Just a guy with his head in the cloud.",
+    "linkedin": { "url": "http://www.linkedin.com/in/someuser" }
 }
 </pre></code>
 
