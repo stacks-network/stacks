@@ -118,7 +118,7 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 	<tr>
 		<td>location</td>
 		<td>The user's current location.</td>
-		<td>"New York, NY"</td>
+		<td>{ "formatted": "New York, NY" }</td>
 	</tr>
 	<tr>
 		<td>website</td>
@@ -134,13 +134,27 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 		<td>bitcoin</td>
 		<td>The user's bitcoin address.</td>
 		<td>{ "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T" }</td>
-		</td>
+	</tr>
+	<tr>
+		<td>pgp</td>
+		<td>The user's PGP key and fingerprint.</td>
+		<td>{ "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1", "url": "https://s3.amazonaws.com/97p/pubkey.txt" }</td>
+	</tr>
+	<tr>
+		<td>twitter</td>
+		<td>The user's twitter account.</td>
+		<td>{ "username": "someuser", "proof": "https://twitter.com/someuser/status/958360498327054801" }</td>
+	</tr>
+	<tr>
+		<td>github</td>
+		<td>The user's github account.</td>
+		<td>{ "username": "someuser", "proof": "https://gist.github.com/someuser/e8dd382ccf7c19c2e041" }</td>
 	</tr>
 	<tr>
 		<td>[name of service or social network]</td>
 		<td>A unique identifier of the user on the given social network. By default, crawlers will read this field as a username, unless the string is deciphered as a URL.</td>
 		<td>
-		 <div>1. "twitter": { "username": "sometwitterhandle" }</div>
+		 <div>1. "facebook": { "username": "someuser" }</div>
 		 <div>2. "linkedin": { "url": "http://www.linkedin.com/in/someuser" }</div>
 		</td>
 	</tr>
