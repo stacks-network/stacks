@@ -40,3 +40,29 @@ You can now compile namecoind
 
 	cd namecoin/src
 	make namecoind 
+
+Starting Namecoind
+---------------------
+
+Run namecoind once, so that it initializes the files in ~/.namecoin directory 
+
+	./namecoind 
+	
+Now create the namecoin.conf file
+
+	touch ~/.namecoin/namecoin.conf
+	chmod 600 ~/.namecoin/namecoin.conf
+	
+Open the namecoin.conf file and enter values for rpcuser and rpcpassword
+
+	vi ~/.namecoin/namecoin.conf
+	rpcuser=<type_here>
+	rpcpassword=<type_strong_passwd_here>
+
+You should now be able to run namecoind  
+
+	./namecoind -daemon
+	
+Get basic stats to confirm that your installation was successful (it takes a few minutes for namecoind to start)
+
+	./namecoind getinfo
