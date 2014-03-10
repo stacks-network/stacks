@@ -5,6 +5,38 @@ Some notes on how to build Namecoin daemon on Debian. Ubuntu should work similar
 Get the Namecoin source
 ---------------------
 
-	    sudo apt-get update
-      sudo apt-get install git
-      git clone https://github.com/namecoin/namecoin.git
+	sudo apt-get update
+	sudo apt-get install git
+	git clone https://github.com/namecoin/namecoin.git
+
+Get the required packages
+---------------------
+
+	sudo apt-get install build-essential
+	sudo apt-get install libssl-dev
+	sudo apt-get install libboost-all-dev
+	sudo apt-get install libminiupnpc-dev
+	sudo apt-get install libglib2.0-dev libglibmm-2.4-dev
+	
+Install LibDB
+---------------------
+
+Debian 7 (Wheezy) and later have packages for libdb5.1-dev and libdb5.1++-dev, but using these will break binary wallet compatibility, and is not recommended. The oldstable repository contains db4.8 packages. Add the following line to /etc/apt/sources.list, can use any official debian mirror.
+
+	deb http://ftp.us.debian.org/debian/ oldstable main
+        
+To enable the change run
+
+	sudo apt-get update
+	
+And now you can install the libdb4.8 packages
+
+	sudo apt-get install libdb4.8-dev libdb4.8++-dev
+	
+Compile the source
+---------------------
+
+You can now compile namecoind
+
+	cd namecoin/src
+	make namecoind 
