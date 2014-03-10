@@ -89,7 +89,7 @@ User profiles in OneName are collections of attributes that are expressed as JSO
 
 For profiles to be properly read by OneName crawlers and displayed on OneName profile explorers, their fields must adhere to the conventions outlined below.
 
-### Profile Format v0.1
+### Profile Format v0.2
 
 <table class="table table-bordered">
 <thead>
@@ -170,6 +170,11 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 		<td>The user's account on a given service or social network.</td>
 		<td>{ "username": "someuser" }</td>
 	</tr>
+	<tr>
+		<td>v</td>
+		<td>The version number of the profile data format.</td>
+		<td>"0.2"</td>
+	</tr>
 </tbody>
 </table>
 
@@ -191,7 +196,8 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
     "pgp": {
         "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
         "url": "https://s3.amazonaws.com/97p/pubkey.txt"
-    }
+    },
+    "v": "0.2"
 }</pre></code>
 
 ### Services/Sites Currently Supported by Profile Explorers
@@ -269,6 +275,7 @@ The sample profile above could be chunked as follows:
         "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
         "url": "https://s3.amazonaws.com/97p/pubkey.txt"
     },
+    "v": "0.2",
     "next": "i/username-1"
 }
 </pre></code>
