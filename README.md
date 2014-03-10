@@ -218,6 +218,8 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 
 ### Registering username/profile pairs as key-value entries in Namecoin
 
+You'll need either a desktop Namecoin client [(Namecoin-Qt)](https://www.namecoin.org/download) or a UNIX Namecoin daemon. Instructions for building namecoind from source are [here](build-debian.md). Once you have a running version of either Namecoin-Qt or namecoind you will need to buy some namecoins (from exchanges like [Kraken](http://kraken.com) or [BTC-e](http://btc-e.com)) and send them to yourself. Now you're ready to register new names:
+
 1. issue a "name new" with the key (the username with "u/" prepended)
 2. issue a "name first update" with the chunked profile
 
