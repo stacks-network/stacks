@@ -1,7 +1,7 @@
 OneName
 =======
 
-The decentralized identity system built on Bitcoin.
+The decentralized identity system for Bitcoin.
 
 ##### Table of Contents  
 [Introduction](#introduction)  
