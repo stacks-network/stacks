@@ -133,7 +133,7 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 	<tr>
 		<td>bitcoin</td>
 		<td>The user's bitcoin address.</td>
-		<td>{ "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T" }</td>
+		<td>{ "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T", "signature": "Gyk26Le4ER0EUvZiFGUCXhJKWVEoTtQNU449puYZPaiUmYyrcozt2LuAMgLvnEgpoF6cw8ob9Mj/CjP9ATydO1k=", "message": "This is an example of a signed message." }</td>
 	</tr>
 	<tr>
 		<td>pgp</td>
