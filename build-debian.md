@@ -23,6 +23,7 @@ Install LibDB
 
 Debian 7 (Wheezy) and later have packages for libdb5.1-dev and libdb5.1++-dev, but using these will break binary wallet compatibility, and is not recommended. The oldstable repository contains db4.8 packages. Add the following line to /etc/apt/sources.list, can use any official debian mirror.
 
+	sudo vi /etc/apt/sources.list
 	deb http://ftp.us.debian.org/debian/ oldstable main
         
 To enable the change run
