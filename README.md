@@ -1,7 +1,7 @@
 OneName
 =======
 
-The decentralized identity system for Bitcoin.
+The decentralized identity system built on Bitcoin.
 
 ##### Table of Contents  
 [Introduction](#introduction)  
@@ -151,12 +151,24 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 		<td>{ "username": "someuser", "proof": "https://gist.github.com/someuser/e8dd382ccf7c19c2e041" }</td>
 	</tr>
 	<tr>
+		<td>facebook</td>
+		<td>The user's facebook account.</td>
+		<td>{ "username": "someuser" }</td>
+	</tr>
+	<tr>
+		<td>linkedin</td>
+		<td>The user's linkedin account.</td>
+		<td>{ "url": "http://www.linkedin.com/in/someuser" }</td>
+	</tr>
+	<tr>
+		<td>bitmessage</td>
+		<td>The user's message account.</td>
+		<td>{ "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" }</td>
+	</tr>
+	<tr>
 		<td>[name of service or social network]</td>
-		<td>A unique identifier of the user on the given social network. By default, crawlers will read this field as a username, unless the string is deciphered as a URL.</td>
-		<td>
-		 <div>1. "facebook": { "username": "someuser" }</div>
-		 <div>2. "linkedin": { "url": "http://www.linkedin.com/in/someuser" }</div>
-		</td>
+		<td>The user's account on a given service or social network.</td>
+		<td>{ "username": "someuser" }</td>
 	</tr>
 </tbody>
 </table>
@@ -189,6 +201,7 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 + twitter
 + linkedin
 + instagram
++ bitmessage
 + dribbble
 + foursquare
 + pinterest
@@ -199,7 +212,6 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 + googleplus
 + flickr
 + email
-+ bitmessage
 
 <a name="kv-entries"/>
 ## Key-value entries
