@@ -289,5 +289,3 @@ The sample profile above could be chunked as follows:
     "linkedin": { "url": "http://www.linkedin.com/in/someuser" }
 }
 </pre></code>
-
-
