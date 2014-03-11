@@ -250,7 +250,7 @@ As a result, profiles exceeding 519 bytes must be split into several linked comp
 To chunk a JSON object, simply do the following:
 
 1. check if all the remaining data fits in one chunk
-2. if not, choose an unregistered Namecoin key (e.g. "i/username-1" or "i/username-b5sX6gkMp8" - this will be the key of the "next" chunk) and create an empty JSON object (the current chunk), then add a pointer from this chunk to the next one (e.g. "next": "i/username")
+2. if not, choose an unregistered Namecoin key (e.g. "i/username-1" - this will be the key of the "next" chunk) and create an empty JSON object (the current chunk), then add a pointer from this chunk to the next one (e.g. "next": "i/username-1")
 4. fill the JSON object with as many properties as possible
 5. go back to 1
 
@@ -263,6 +263,7 @@ The sample profile above could be chunked as follows:
 `"u/username"`
 
 <pre><code>{
+    "next": "i/username-1"
     "name": { "formatted": "John Smith" },
     "location": { "formatted": "New York, NY" },
     "website": "http://example.com",
@@ -276,7 +277,6 @@ The sample profile above could be chunked as follows:
         "url": "https://s3.amazonaws.com/97p/pubkey.txt"
     },
     "v": "0.2",
-    "next": "i/username-1"
 }
 </pre></code>
 
