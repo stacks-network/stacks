@@ -200,6 +200,16 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
     "v": "0.2"
 }</pre></code>
 
+### Social media proof
+
+When providing proof of OneName ownership on social media profiles, include <code>onename-username</code> in your verification posts. For example, if you're offering proof on Twitter and your OneName username is <code>bob</code>, then include <code>onename-bob</code> in your verification Twitter post. This makes it easy for crawlers to parse the post and automatically verify ownership.
+
+### Website ownership proof
+
+To prove ownership of a website, you must upload a blank html file with the filename "onename-username.html" to the ROOT of your website. This is to prevent false ownership on websites that allow users to upload files to their servers.
+
+It is important to note that any proof you provide must be publicly and perpetually available. If you ever delete a social media post or website html file that provides proof of your OneName ownership, that account will no longer be verified from that point forward.
+
 ### Services/Sites Currently Supported by Profile Explorers
 
 + github
