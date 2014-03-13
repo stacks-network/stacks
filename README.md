@@ -153,7 +153,7 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 	<tr>
 		<td>facebook</td>
 		<td>The user's facebook account.</td>
-		<td>{ "username": "someuser" }</td>
+		<td>{ "username": "someuser", "proof": "https://www.facebook.com/someuser/posts/10152292145311923" }</td>
 	</tr>
 	<tr>
 		<td>linkedin</td>
