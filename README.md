@@ -113,7 +113,7 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 	<tr>
 		<td>cover</td>
 		<td>A url to an image that serves as the user's cover photo.</td>
-		<td>{ "cover": "http://example.com/cover.jpg" }</td>
+		<td>{ "url": "http://example.com/cover.jpg" }</td>
 	</tr>
 	<tr>
 		<td>location</td>
