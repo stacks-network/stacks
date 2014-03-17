@@ -224,8 +224,8 @@ Messages must contain `#verifymyonename` and `+<username>`.
 
 #### Sample posts:
 
-`#verifymyonename +someuser`
-`I am +someuser on OneName #verifymyonename`
+1. `#verifymyonename +someuser`
+2. `I am +someuser on OneName #verifymyonename`
 
 ### Linking a domain to OneName profiles
 
