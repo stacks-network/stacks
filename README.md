@@ -211,7 +211,7 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 }</code></pre>
 
 <a name="verification"/>
-## Verifying OneName profiles
+## Verification
 
 ### Linking a social network or other online service
 
