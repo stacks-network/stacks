@@ -10,6 +10,7 @@ The decentralized identity system built on Bitcoin.
 [Registering Users](#registering-users)  
 [Usernames](#usernames)  
 [Profiles](#profiles)  
+[Verification](#verification)  
 [Key-value Entries](#kv-entries)  
 
 <a name="introduction"/>
@@ -93,93 +94,93 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 
 <table class="table table-bordered">
 <thead>
-	<tr>
-		<th>Field Name</th>
-		<th>Description</th>
-		<th>Example(s)</th>
-	</tr>
+    <tr>
+        <th>Field Name</th>
+        <th>Description</th>
+        <th>Example(s)</th>
+    </tr>
 </thead>
 <tbody>
-	<tr>
-		<td>name</td>
-		<td>The user's name, including his/her given name and family name.</td>
-		<td>{ "formatted": "John Smith" }</td>
-	</tr>
-	<tr>
-		<td>avatar</td>
-		<td>A url to an image that serves as the user's avatar.</td>
-		<td>{ "url": "http://example.com/avatar.jpg"}</td>
-	</tr>
-	<tr>
-		<td>cover</td>
-		<td>A url to an image that serves as the user's cover photo.</td>
-		<td>{ "url": "http://example.com/cover.jpg" }</td>
-	</tr>
-	<tr>
-		<td>location</td>
-		<td>The user's current location.</td>
-		<td>{ "formatted": "New York, NY" }</td>
-	</tr>
-	<tr>
-		<td>website</td>
-		<td>The user's website or blog.</td>
-		<td>"http://example.com"</td>
-	</tr>
-	<tr>
-		<td>bio</td>
-		<td>The user's biography/self-summary.</td>
-		<td>"Just a guy with his head in the cloud."</td>
-	</tr>
-	<tr>
-		<td>bitcoin</td>
-		<td>The user's bitcoin address.</td>
-		<td>{ "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T", "signature": "Gyk26Le4ER0...", "message": "This is a signed message." }</td>
-	</tr>
-	<tr>
-		<td>pgp</td>
-		<td>The user's PGP key and fingerprint.</td>
-		<td>{ "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1", "url": "https://s3.amazonaws.com/97p/pubkey.txt" }</td>
-	</tr>
-	<tr>
-		<td>twitter</td>
-		<td>The user's twitter account.</td>
-		<td>{ "username": "someuser", "proof": { "url": "https://twitter.com/someuser/status/958360498327054801", "id": "958360498327054801" } }</td>
-	</tr>
-	<tr>
-		<td>github</td>
-		<td>The user's github account.</td>
-		<td>{ "username": "someuser", "proof": { "url": "https://gist.github.com/someuser/e8dd382ccf7c19c2e041", "id": "afa72b13d6cd53dc61f5" } }</td>
-	</tr>
-	<tr>
-		<td>facebook</td>
-		<td>The user's facebook account.</td>
-		<td>{ "username": "someuser", "proof": { "url": "https://www.facebook.com/someuser/posts/10152292145311923", "id": "10152292145311923" } }</td>
-	</tr>
-	<tr>
-		<td>linkedin</td>
-		<td>The user's linkedin account.</td>
-		<td>{ "url": "http://www.linkedin.com/in/someuser" }</td>
-	</tr>
-	<tr>
-		<td>bitmessage</td>
-		<td>The user's message account.</td>
-		<td>{ "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" }</td>
-	</tr>
-	<tr>
-		<td>[name of service or social network]</td>
-		<td>The user's account on a given service or social network.</td>
-		<td>{ "username": "someuser" }</td>
-	</tr>
-	<tr>
-		<td>orgs</td>
-		<td>A list of organizations the user belongs to.</td>
-		<td>[{ "url": "http://mypersonalwebsite.com" }, { "url": "http://somecorporation.com" }]</td>
-	</tr>
-	<tr>
-		<td>v</td>
-		<td>The version number of the profile data format.</td>
-		<td>"0.2"</td>
-	</tr>
+    <tr>
+        <td>name</td>
+        <td>The user's name, including his/her given name and family name.</td>
+        <td>{ "formatted": "John Smith" }</td>
+    </tr>
+    <tr>
+        <td>avatar</td>
+        <td>A url to an image that serves as the user's avatar.</td>
+        <td>{ "url": "http://example.com/avatar.jpg"}</td>
+    </tr>
+    <tr>
+        <td>cover</td>
+        <td>A url to an image that serves as the user's cover photo.</td>
+        <td>{ "url": "http://example.com/cover.jpg" }</td>
+    </tr>
+    <tr>
+        <td>location</td>
+        <td>The user's current location.</td>
+        <td>{ "formatted": "New York, NY" }</td>
+    </tr>
+    <tr>
+        <td>website</td>
+        <td>The user's website or blog.</td>
+        <td>"http://example.com"</td>
+    </tr>
+    <tr>
+        <td>bio</td>
+        <td>The user's biography/self-summary.</td>
+        <td>"Just a guy with his head in the cloud."</td>
+    </tr>
+    <tr>
+        <td>bitcoin</td>
+        <td>The user's bitcoin address.</td>
+        <td>{ "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T", "signature": "Gyk26Le4ER0...", "message": "This is a signed message." }</td>
+    </tr>
+    <tr>
+        <td>pgp</td>
+        <td>The user's PGP key and fingerprint.</td>
+        <td>{ "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1", "url": "https://s3.amazonaws.com/97p/pubkey.txt" }</td>
+    </tr>
+    <tr>
+        <td>twitter</td>
+        <td>The user's twitter account.</td>
+        <td>{ "username": "someuser", "proof": { "url": "https://twitter.com/someuser/status/958360498327054801", "id": "958360498327054801" } }</td>
+    </tr>
+    <tr>
+        <td>github</td>
+        <td>The user's github account.</td>
+        <td>{ "username": "someuser", "proof": { "url": "https://gist.github.com/someuser/e8dd382ccf7c19c2e041", "id": "afa72b13d6cd53dc61f5" } }</td>
+    </tr>
+    <tr>
+        <td>facebook</td>
+        <td>The user's facebook account.</td>
+        <td>{ "username": "someuser", "proof": { "url": "https://www.facebook.com/someuser/posts/10152292145311923", "id": "10152292145311923" } }</td>
+    </tr>
+    <tr>
+        <td>linkedin</td>
+        <td>The user's linkedin account.</td>
+        <td>{ "url": "http://www.linkedin.com/in/someuser" }</td>
+    </tr>
+    <tr>
+        <td>bitmessage</td>
+        <td>The user's message account.</td>
+        <td>{ "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" }</td>
+    </tr>
+    <tr>
+        <td>[name of service or social network]</td>
+        <td>The user's account on a given service or social network.</td>
+        <td>{ "username": "someuser" }</td>
+    </tr>
+    <tr>
+        <td>orgs</td>
+        <td>A list of organizations the user belongs to.</td>
+        <td>[{ "url": "http://mypersonalwebsite.com" }, { "url": "http://somecorporation.com" }]</td>
+    </tr>
+    <tr>
+        <td>v</td>
+        <td>The version number of the profile data format.</td>
+        <td>"0.2"</td>
+    </tr>
 </tbody>
 </table>
 
@@ -206,9 +207,10 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
     "v": "0.2"
 }</pre></code>
 
-### Verifying a OneName profile
+<a name="verification"/>
+## Verifying OneName profiles
 
-#### Linking a social network or other online service:
+### Linking a social network or other online service
 
 1. Create a post (tweet, gist, facebook post, etc.) with a message that explicitly states that you are the owner of your OneName username.
 2. Reference the post in your profile data, providing either the post's URL or an identifier that is globally unique on that website.
@@ -217,12 +219,12 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 
 Messages must contain `#verifymyonename` and `+<username>`.
 
-Sample posts:
+#### Sample posts:
 
 `#verifymyonename +someuser`
 `I am +someuser on OneName #verifymyonename`
 
-#### Linking a domain to OneName profiles
+### Linking a domain to OneName profiles
 
 1. Create a JSON file called onename.json and place it in the root directory of your website. List all the users that you would like to have that domain vouch for.
 2. Make sure all of the users reference the site in the "orgs" section of their profile data.
@@ -231,9 +233,9 @@ Sample posts:
 
 <pre><code>{
 "users": [
-	"user1",
-	"user2",
-	"user3"
+    "user1",
+    "user2",
+    "user3"
 ]
 }</code></pre>
 
