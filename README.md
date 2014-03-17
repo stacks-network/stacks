@@ -237,11 +237,11 @@ Messages must contain `#verifymyonename` and `+<username>`.
 #### OneName.json file format
 
 <pre><code>{
-"users": [
-    "user1",
-    "user2",
-    "user3"
-]
+    "users": [
+        "user1",
+        "user2",
+        "user3"
+    ]
 }</code></pre>
 
 This file is the equivalent of the domain vouching for the users listed.
