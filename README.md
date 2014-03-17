@@ -38,17 +38,19 @@ OneName profile explorers are systems that read OneName user data from the key-v
 
 Profiles may be viewed on any OneName profile explorer.
 
-### Viewing profiles on onename.io
+### Viewing profiles on a profile explorer
 
-[onename.io](https://www.onename.io) comes with it's own default OneName explorer.
+The URL pattern for viewing a profile on a profile explorer:
 
-The URL pattern for viewing a profile on onename.io:
+    someonenameexplorer.com/<username>
 
-    https://www.onename.io/<username>
+The URL pattern for viewing a profile as raw JSON data:
 
-The URL pattern for viewing a profile as raw JSON data on onename.io:
+    someonenameexplorer.com/<username>.json
 
-    https://www.onename.io/<username>.json
+### Current profile explorers
+
++ [onename.io](https://www.onename.io)
 
 <a name="registering-users"/>
 ## Registering Users
