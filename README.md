@@ -143,17 +143,17 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 	<tr>
 		<td>twitter</td>
 		<td>The user's twitter account.</td>
-		<td>{ "username": "someuser", "proof": "https://twitter.com/someuser/status/958360498327054801" }</td>
+		<td>{ "username": "someuser", "proof": { "url": "https://twitter.com/someuser/status/958360498327054801", "id": "958360498327054801" } }</td>
 	</tr>
 	<tr>
 		<td>github</td>
 		<td>The user's github account.</td>
-		<td>{ "username": "someuser", "proof": "https://gist.github.com/someuser/e8dd382ccf7c19c2e041" }</td>
+		<td>{ "username": "someuser", "proof": { "url": "https://gist.github.com/someuser/e8dd382ccf7c19c2e041", "id": "afa72b13d6cd53dc61f5" } }</td>
 	</tr>
 	<tr>
 		<td>facebook</td>
 		<td>The user's facebook account.</td>
-		<td>{ "username": "someuser", "proof": "https://www.facebook.com/someuser/posts/10152292145311923" }</td>
+		<td>{ "username": "someuser", "proof": { "url": "https://www.facebook.com/someuser/posts/10152292145311923", "id": "10152292145311923" } }</td>
 	</tr>
 	<tr>
 		<td>linkedin</td>
@@ -169,6 +169,11 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 		<td>[name of service or social network]</td>
 		<td>The user's account on a given service or social network.</td>
 		<td>{ "username": "someuser" }</td>
+	</tr>
+	<tr>
+		<td>orgs</td>
+		<td>A list of organizations the user belongs to.</td>
+		<td>[{ "url": "http://mypersonalwebsite.com" }, { "url": "http://somecorporation.com" }]</td>
 	</tr>
 	<tr>
 		<td>v</td>
@@ -197,18 +202,48 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
         "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
         "url": "https://s3.amazonaws.com/97p/pubkey.txt"
     },
+    "orgs": [{ "url": "http://mypersonalwebsite.com" }, { "url": "http://somecorporation.com" }],
     "v": "0.2"
 }</pre></code>
 
-### Social media proof
+### Verifying a OneName profile
 
-When providing proof of OneName ownership on social media profiles, include <code>onename-username</code> in your verification posts. For example, if you're offering proof on Twitter and your OneName username is <code>bob</code>, then include <code>onename-bob</code> in your verification Twitter post. This makes it easy for crawlers to parse the post and automatically verify ownership.
+#### Linking a social network or other online service:
 
-### Website ownership proof
+1. Create a post (tweet, gist, facebook post, etc.) with a message that explicitly states that you are the owner of your OneName username.
+2. Reference the post in your profile data, providing either the post's URL or an identifier that is globally unique on that website.
 
-To prove ownership of a website, you must upload a blank html file with the filename "onename-username.html" to the ROOT of your website. This is to prevent false ownership on websites that allow users to upload files to their servers.
+#### Message format
 
-It is important to note that any proof you provide must be publicly and perpetually available. If you ever delete a social media post or website html file that provides proof of your OneName ownership, that account will no longer be verified from that point forward.
+Messages must contain `#verifymyonename` and `+<username>`.
+
+Sample posts:
+
+`#verifymyonename +someuser`
+`I am +someuser on OneName #verifymyonename`
+
+#### Linking a domain to OneName profiles
+
+1. Create a JSON file called onename.json and place it in the root directory of your website. List all the users that you would like to have that domain vouch for.
+2. Make sure all of the users reference the site in the "orgs" section of their profile data.
+
+#### OneName.json file format
+
+<pre><code>{
+"users": [
+	"user1",
+	"user2",
+	"user3"
+]
+}</code></pre>
+
+This file is the equivalent of the domain vouching for the users listed.
+
+#### Notes
+
+1. Using the root directory is necessary to prevent false ownership on websites that allow users to upload files to their servers. It also provides a standard location for OneName crawlers to look.
+2. Any proof you provide must be publicly and perpetually available. If you ever delete a social media post that provides proof of ownership of your OneName profile, that account lose it's verified status.
+3. Verification is a two-way process. That is, in order to be verified by a particular domain or account on a social network, two things must happen: (1) the account/site must reference/vouch for your OneName account (2) your OneName account must reference the account/site.
 
 ### Services/Sites Currently Supported by Profile Explorers
 
