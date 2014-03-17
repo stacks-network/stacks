@@ -203,9 +203,12 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
         "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
         "url": "https://s3.amazonaws.com/97p/pubkey.txt"
     },
-    "orgs": [{ "url": "http://mypersonalwebsite.com" }, { "url": "http://somecorporation.com" }],
+    "orgs": [
+        { "url": "http://mypersonalwebsite.com" },
+        { "url": "http://somecorporation.com" }
+    ],
     "v": "0.2"
-}</pre></code>
+}</code></pre>
 
 <a name="verification"/>
 ## Verifying OneName profiles
