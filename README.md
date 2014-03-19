@@ -176,7 +176,7 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
     <tr>
         <td>orgs</td>
         <td>A list of organizations the user belongs to.</td>
-        <td>[{ "url": "http://mypersonalwebsite.com" }, { "url": "http://somecorporation.com" }]</td>
+        <td>[{ "url": "http://mypersonalwebsite.com" }, { "name": "Organization name", "relationship": "Your Title", "url": "http://somecorporation.com" }]</td>
     </tr>
     <tr>
         <td>v</td>
