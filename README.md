@@ -215,7 +215,18 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
 <a name="verification"/>
 ## Verification
 
-### Linking a social network or other online service
+OneName users may verify their identities by
+
+1. Providing links to and from accounts on social networks and other services.
+2. Providing links to and from websites/organizations.
+
+### Linking an account on a social network or other service
+
+For a OneName profile to be verified by a given account, the profile must reference that account in it's data and the account must also have a post that references the profile. This shows that the owners of each account are in fact the same person.
+
+For example, to prove that you own both your OneName profile and your twitter account, you would tweet out a reference to your OneName profile and then include the URL to that tweet in your OneName profile data.
+
+#### Steps required
 
 1. Create a post (tweet, gist, facebook post, etc.) with a message that explicitly states that you are the owner of your OneName username.
 2. Reference the post in your profile data, providing either the post's URL or an identifier that is globally unique on that website.
@@ -229,7 +240,11 @@ Messages must contain `#verifymyonename` and `+<username>`.
 1. `#verifymyonename +someuser`
 2. `I am +someuser on OneName #verifymyonename`
 
-### Linking a domain to OneName profiles
+### Linking a website/organization
+
+For a OneName profile to be verified by a given website/organization, the profile must reference that site in it's data and the site must also include the profile in the list of users that it vouches for. This shows that the owner of the website/organization professes that the OneName user is indeed a part of the organization.
+
+#### Steps required
 
 1. Create a JSON file called onename.json and place it in the root directory of your website. List all the users that you would like to have that domain vouch for.
 2. Make sure all of the users reference the site in the "orgs" section of their profile data.
@@ -238,9 +253,9 @@ Messages must contain `#verifymyonename` and `+<username>`.
 
 <pre><code>{
     "users": [
-        "user1",
-        "user2",
-        "user3"
+        { "username": "user1" },
+        { "username": "user2" },
+        { "username": "user3" }
     ]
 }</code></pre>
 
@@ -249,7 +264,7 @@ This file is the equivalent of the domain vouching for the users listed.
 #### Notes
 
 1. Using the root directory is necessary to prevent false ownership on websites that allow users to upload files to their servers. It also provides a standard location for OneName crawlers to look.
-2. Any proof you provide must be publicly and perpetually available. If you ever delete a social media post that provides proof of ownership of your OneName profile, that account lose it's verified status.
+2. Any proof you provide must be publicly and perpetually available. If you ever delete a post that provides proof of ownership of your OneName profile, that account will lose it's verified status.
 3. Verification is a two-way process. That is, in order to be verified by a particular domain or account on a social network, two things must happen: (1) the account/site must reference/vouch for your OneName account (2) your OneName account must reference the account/site.
 
 ### Services/Sites Currently Supported by Profile Explorers
