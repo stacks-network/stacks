@@ -206,8 +206,8 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
         "url": "https://s3.amazonaws.com/97p/pubkey.txt"
     },
     "orgs": [
-        { "url": "http://mypersonalwebsite.com" },
-        { "url": "http://somecorporation.com" }
+        { "name": "Big Corp", "relationship": "Software Engineer", "url": "http://bigcorp.com" },
+        { "url": "http://mypersonalblog.com" }
     ],
     "v": "0.2"
 }</code></pre>
