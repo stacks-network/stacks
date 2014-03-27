@@ -169,6 +169,16 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
         <td>{ "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" }</td>
     </tr>
     <tr>
+        <td>bitcointalk</td>
+        <td>The user's account on bitcointalk.org (Bitcoin Forum).</td>
+        <td>{ "url": "https://bitcointalk.org/index.php?action=profile;u=000000" }</td>
+    </tr>
+    <tr>
+        <td>bitcoinotc</td>
+        <td>The user's account on #bitcoin-otc.</td>
+        <td>{ "username": "someuser" }</td>
+    </tr>
+    <tr>
         <td>[name of service or social network]</td>
         <td>The user's account on a given service or social network.</td>
         <td>{ "username": "someuser" }</td>
@@ -201,6 +211,7 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
     "linkedin": { "url": "http://www.linkedin.com/in/someuser" },
     "bitcoin": { "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T" },
     "bitmessage": { "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" },
+    "bitcoinotc": { "username": "someuser" },
     "pgp": {
         "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
         "url": "https://s3.amazonaws.com/97p/pubkey.txt"
@@ -275,6 +286,8 @@ This file is the equivalent of the domain vouching for the users listed.
 + linkedin
 + instagram
 + bitmessage
++ bitcointalk
++ bitcoinotc
 + dribbble
 + foursquare
 + pinterest
@@ -353,6 +366,11 @@ The sample profile above could be chunked as follows:
     "avatar": { "url": "http://example.com/avatar.jpg" },
     "cover": { "url": "http://example.com/cover.jpg" },
     "bio": "Just a guy with his head in the cloud.",
-    "linkedin": { "url": "http://www.linkedin.com/in/someuser" }
+    "linkedin": { "url": "http://www.linkedin.com/in/someuser" },
+    "bitcoinotc": { "username": "someuser" },
+    "orgs": [
+        { "name": "Big Corp", "relationship": "Software Engineer", "url": "http://bigcorp.com" },
+        { "url": "http://mypersonalblog.com" }
+    ]
 }
 </pre></code>
