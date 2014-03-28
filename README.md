@@ -260,7 +260,7 @@ For a OneName profile to be verified by a given website/organization, the profil
 1. Create a JSON file called onename.json and place it in the root directory of your website. List all the users that you would like to have that domain vouch for.
 2. Make sure all of the users reference the site in the "orgs" section of their profile data.
 
-#### OneName.json file format
+#### onename.json file format
 
 <pre><code>{
     "users": [
