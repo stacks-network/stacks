@@ -244,12 +244,13 @@ For example, to prove that you own both your OneName profile and your twitter ac
 
 #### Message format
 
-Messages must contain `#verifymyonename` and `+<username>`.
+Messages must contain `#verifymyonename` and `+<username>`. Neither of these are case sensitive.
 
 #### Sample posts:
 
 1. `#verifymyonename +someuser`
 2. `I am +someuser on OneName #verifymyonename`
+3. `I am +someuser on OneName #VerifyMyOneName`
 
 ### Linking a website/organization
 
