@@ -139,6 +139,11 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
         <td>{ "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T", "signature": "Gyk26Le4ER0...", "message": "This is a signed message." }</td>
     </tr>
     <tr>
+        <td>bitcoin stealth address</td>
+        <td>The user's bitcoin stealth address address.</td>
+        <td>{ "stealth address": "vJmuhe8BU5WPaUHcamoN9aaE1bEotZexJPytCH8H9FsUM5PFHgmzzDJuTRZezkzPoo9HZa7U5AFYhHTsULUo4N6HZESWJLVvrTp2fP" }</td>
+    </tr>
+    <tr>
         <td>pgp</td>
         <td>The user's PGP key and fingerprint.</td>
         <td>{ "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1", "url": "https://s3.amazonaws.com/97p/pubkey.txt" }</td>
@@ -210,6 +215,7 @@ For profiles to be properly read by OneName crawlers and displayed on OneName pr
     "twitter": { "username": "someuser" },
     "linkedin": { "url": "http://www.linkedin.com/in/someuser" },
     "bitcoin": { "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T" },
+    "bitcoin stealth address": { "stealth address": "vJmuhe8BU5WPaUHcamoN9aaE1bEotZexJPytCH8H9FsUM5PFHgmzzDJuTRZezkzPoo9HZa7U5AFYhHTsULUo4N6HZESWJLVvrTp2fP" },
     "bitmessage": { "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" },
     "bitcoinotc": { "username": "someuser" },
     "pgp": {
@@ -352,6 +358,7 @@ The sample profile above could be chunked as follows:
     "facebook": { "username": "someuser" },
     "twitter": { "username": "someuser" },
     "bitcoin": { "address": "1JwSSubhmg6iPtRjtyqhUYYH7bZg3Lfy1T" },
+    "bitcoin stealth address": { "stealth address": "vJmuhe8BU5WPaUHcamoN9aaE1bEotZexJPytCH8H9FsUM5PFHgmzzDJuTRZezkzPoo9HZa7U5AFYhHTsULUo4N6HZESWJLVvrTp2fP" },
     "bitmessage": { "address": "BM-orkCbppXWSqPpAxnz6jnfTZ2djb5pJKDb" },
     "pgp": {
         "fingerprint": "D34987E8FAD4AE18C8680B4604DE396333BDC0E1",
