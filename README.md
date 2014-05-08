@@ -92,7 +92,7 @@ User profiles in OneName are collections of attributes that are expressed as JSO
 
 For profiles to be properly read by OneName crawlers and displayed on OneName profile explorers, their fields must adhere to the conventions outlined below.
 
-### Profile Format v0.2
+### Profile Format v0.3
 
 <table class="table table-bordered">
 <thead>
