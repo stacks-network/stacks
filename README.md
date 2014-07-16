@@ -18,6 +18,10 @@ On ONS, users may register a username and then have that name resolve to a descr
 
 This schema is a proposed standard for said description/characterization.
 
+### Notes
+
+This standard specifies a way to publicly describe a user. All data on a user is public, and all fields are optional. If there are any fields that you would prefer to keep private (your email address, for example), then it is advised that you do not include that information in your profile.
+
 <a name="installation"/>
 ## Installation
 
@@ -26,7 +30,37 @@ This schema is a proposed standard for said description/characterization.
 <a name="schema"/>
 ## Schema
 
-[Read the full user schema](https://github.com/opennamesystem/user-schema/blob/master/onsuserschema/schema.py).
+[View the full JSON schema](https://github.com/opennamesystem/user-schema/blob/master/onsuserschema/schema.py).
+
+### Sections
+
+#### Basics
+
+A user's basic information, including their name, location and bio.
+
+#### Photos
+
+A user's photos, including their avatar and cover photo.
+
+#### Payments
+
+A user's payment details, including their bitcoin addresses.
+
+#### Profiles
+
+A user's social network profiles.
+
+#### Websites
+
+A user's websites.
+
+#### PGP
+
+A user's PGP key.
+
+#### Email
+
+A user's email addresses.
 
 <a name="examples"/>
 ## Examples
