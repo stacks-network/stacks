@@ -1,11 +1,35 @@
-OpenName
+User Schema for the Open Name System
 =============
 
+Standard, specification, schema for characterizing a person's online identity on the open name system.
+
+##### Table of Contents
+[Introduction](#introduction)  
+[Installation](#installation)  
+[Schema](#schema)  
+[Examples](#examples)  
+
+<a name="introduction"/>
+## Introduction
+
+The open name system (ONS) is a protocol for registering unique names in a decentralized database (you can find more info about ONS here).
+
+On ONS, users may register a username and then have that name resolve to a description of their identity as a web user.
+
+This schema is a proposed standard for said description/characterization.
+
+<a name="installation"/>
 ## Installation
 
     >>> pip install onsuserschema
 
-#### Example User JSON
+<a name="schema"/>
+## Schema
+
+[Read the full user schema](https://github.com/opennamesystem/user-schema/blob/master/onsuserschema/schema.py).
+
+<a name="examples"/>
+## Examples
 <pre><code>{
 "basics": {
     "name": "Ryan Shea",
