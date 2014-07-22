@@ -7,7 +7,7 @@ Standard, specification, schema for characterizing a person's online identity on
 [Introduction](#introduction)  
 [Installation](#installation)  
 [User Schema](#schema)  
-[Schema RFC](#schema-rfc)  
+[User Schema RFC](#schema-rfc)  
 [Examples](#examples)  
 
 <a name="introduction"/>
@@ -86,7 +86,7 @@ This standard specifies a way to publicly describe a user. All data on a user is
 }</code></pre>
 
 <a name="schema-rfc"/>
-## Schema RFC (v0.3)
+## User Schema RFC (v0.3)
 
 [View the full JSON schema](https://github.com/opennamesystem/user-schema/blob/master/onsuserschema/schema_rfc.py).
 
