@@ -1,7 +1,10 @@
-User Schema for the Open Name System
+Specifications for the Open Name System
 =============
 
-Standard, specification, schema for characterizing a person's online identity on the open name system.
+Standard, specification, schema for the Open Name System
+
+
+characterizing a person's online identity on the open name system.
 
 ##### Table of Contents
 [Introduction](#introduction)  
@@ -15,21 +18,19 @@ Standard, specification, schema for characterizing a person's online identity on
 
 The open name system (ONS) is a protocol for registering unique names in a decentralized database (you can find more info about ONS <a href="https://github.com/opennamesystem/opennamesystem.org">here</a>).
 
-On ONS, users may register a username and then have that name resolve to a description of their identity as a web user.
+<a name="installation"/>
+## Installation
 
-This schema is a proposed standard for said description/characterization.
+    >>> pip install openspecs
+
+<a name="schema"/>
+## User Schema (v0.2)
+
+On ONS, users may register a username and then have that name resolve to a description of their identity as a web user. This schema is a standard for such description/characterization.
 
 ### Notes
 
 This standard specifies a way to publicly describe a user. All data on a user is public, and all fields are optional. If there are any fields that you would prefer to keep private (your email address, for example), then it is advised that you do not include that information in your profile.
-
-<a name="installation"/>
-## Installation
-
-    >>> pip install onsuserschema
-
-<a name="schema"/>
-## User Schema (v0.2)
 
 [View the full JSON schema](/openspecs/userschema.py).
 
@@ -87,6 +88,8 @@ This standard specifies a way to publicly describe a user. All data on a user is
 
 <a name="schema-rfc"/>
 ## User Schema RFC (v0.3)
+
+The ONS User Schema v0.2 is planned to be phased out and v0.3 will gradually take its place. Here we present a request for comments for the new v0.3 schema.
 
 [View the full JSON schema](/openspecs/userschema_rfc.py).
 
