@@ -13,56 +13,92 @@ from test import test_support
 from openspecs.userschema import User, userschema
 from jsonschema import validate
 
-example_user_json = {
-  "name": {
-    "formatted": "Ryan Shea"
-  },
-  "bio": "Co-founder of @OneNameio with @Muneeb. Bitcoin, identity, the blockchain, and decentralization.", 
-  "location": {
-    "formatted": "New York, NY"
-  },
-  "website": "http://shea.io",
-  "avatar": {
-    "url": "https://s3.amazonaws.com/97p/tux.jpg"
-  },
-  "cover": {
-    "url": "https://s3.amazonaws.com/dx3/ryanshea"
-  },
+user_json_barrysilbert = {
   "bitcoin": {
-    "address": "14eautXfJT7EZsKfm1eHSAPnHkn3w1XF9R"
-  },
+    "address": "1N9rsxZimC8z8SRfocEh9pAa5RweBa76st"
+  }, 
+  "avatar": {
+    "url": "https://pbs.twimg.com/profile_images/2597394462/32b6p3stu0g09zwy8rq5.jpeg"
+  }, 
   "twitter": {
-    "username": "ryaneshea", 
     "proof": {
-      "url": "https://twitter.com/ryaneshea/status/486057647808868352"
-    }
-  },
-  "github": {
-    "username": "rxl", 
-    "proof": {
-      "url": "https://gist.github.com/rxl/9799732"
-    }
-  },
-  "pgp": {
-    "url": "https://s3.amazonaws.com/97p/pubkey.asc", 
-    "fingerprint": "DDA1CF3D659064044EC99354429E1A42A93EA312"
-  },
-  "v": "0.2",
+      "url": "https://twitter.com/barrysilbert/status/486629628618891264"
+    }, 
+    "username": "barrysilbert"
+  }, 
+  "v": "0.2", 
+  "cover": {
+    "url": "https://s3.amazonaws.com/97p/orange-sky.jpg"
+  }, 
+  "website": "https://www.bitcointrust.co", 
+  "name": {
+    "formatted": "Barry Silbert"
+  }, 
+  "linkedin": {
+    "url": "https://www.linkedin.com/in/barrysilbert"
+  }, 
+  "location": {
+    "formatted": "New York"
+  }, 
+  "bio": "Founder/CEO @SecondMarket, Founder @BitcoinTrust; investor in Bitcoin companies, entrepreneur advocate", 
+  "angellist": {
+    "username": "https://angel.co/barry-silbert"
+  }
 }
+
+user_json_naval = {
+  "name": {
+    "formatted": "Naval Ravikant"
+  }, 
+  "website": "https://angel.co/naval", 
+  "cover": {
+    "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
+  }, 
+  "bitcoin": {
+    "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
+  }, 
+  "v": "0.2", 
+  "facebook": {
+    "username": "navalr"
+  }, 
+  "twitter": {
+    "proof": {
+      "url": "https://twitter.com/naval/status/486609266212499456"
+    }, 
+    "username": "naval"
+  }, 
+  "bio": "Co-founder AngelList \u2022 Founder Epinions, Vast \u2022 Author Startupboy, Venture Hacks \u2022 Investor Twitter, Uber, Yammer, Postmates", 
+  "avatar": {
+    "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg"
+  }, 
+  "angellist": {
+    "username": "naval"
+  }, 
+  "location": {
+    "formatted": "San Francisco, CA"
+  }, 
+  "twitterUsername": "naval"
+}
+
+
 
 class UserSchemaTests(unittest.TestCase):
     def setUp(self):
-        self.example_user_json = example_user_json
+        self.sample_user_json_1 = user_json_barrysilbert
+        self.sample_user_json_2 = user_json_naval
 
     def tearDown(self):
         pass
         
     def test_warlock_user_object_with_example_userdata(self):
-        user = User(**self.example_user_json)
+        user = User(**self.sample_user_json_1)
+        assert(user)
+        user = User(**self.sample_user_json_2)
         assert(user)
 
     def test_user_schema_with_example_userdata(self):
-        validate(self.example_user_json, userschema)
+        validate(self.sample_user_json_1, userschema)
+        validate(self.sample_user_json_2, userschema)
 
 def test_main():
     test_support.run_unittest(
