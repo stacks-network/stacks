@@ -8,7 +8,7 @@ Standard, specification, schema for characterizing a person's online identity on
 [Installation](#installation)  
 [User Schema](#schema)  
 [User Schema RFC](#schema-rfc)  
-[Examples](#examples)  
+[Identity Verification](#verification)  
 
 <a name="introduction"/>
 ## Introduction
@@ -150,3 +150,25 @@ A user's email addresses.
 ],
 "v": "0.3",
 }</code></pre>
+
+<a name="verification"/>
+## Identity Verification
+
+Users may verify their identities by providing links to and from accounts on social networks and other services.
+
+### Linking an account on a social network or other service
+
+For a profile to be verified by a given account, the profile must reference that account in it's data and the account must also have a post that references the profile. This shows that the owners of each account are in fact the same person.
+
+For example, to prove that you own both your ONS profile and your twitter account, you would tweet out a reference to your ONS profile and then include the URL to that tweet in your ONS profile data.
+
+#### Steps required
+
+1. Create a post (tweet, gist, facebook post, etc.) with a message that explicitly states that you are the owner of your ONS username.
+2. Reference the post in your profile data, providing either the post's URL or an identifier that is globally unique on that website.
+
+#### Message format
+
+    Verifying myself: My Bitcoin username is +someuser
+
+*Messages are not case sensitive.*
