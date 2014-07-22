@@ -10,9 +10,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='onsuserschema',
+    name='openspecs',
     version='0.1.0',
-    url='https://github.com/opennamesystem/user-schema',
+    url='https://github.com/opennamesystem/openspecs',
     license='MIT',
     packages=find_packages(),
     install_requires=[

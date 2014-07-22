@@ -9,5 +9,4 @@
 
 __version__ = '0.1.0'
 
-from .schema import user_schema
-from .user import User
+from .userschema import userschema

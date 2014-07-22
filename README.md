@@ -6,7 +6,8 @@ Standard, specification, schema for characterizing a person's online identity on
 ##### Table of Contents
 [Introduction](#introduction)  
 [Installation](#installation)  
-[Schema](#schema)  
+[User Schema](#schema)  
+[Schema RFC](#schema-rfc)  
 [Examples](#examples)  
 
 <a name="introduction"/>
@@ -28,9 +29,66 @@ This standard specifies a way to publicly describe a user. All data on a user is
     >>> pip install onsuserschema
 
 <a name="schema"/>
-## Schema
+## User Schema (v0.2)
 
 [View the full JSON schema](https://github.com/opennamesystem/user-schema/blob/master/onsuserschema/schema.py).
+
+### Fields
+
++ name
++ avatar
++ cover
++ location
++ bio
++ github
++ twitter
++ bitcoin
++ pgp
++ orgs
++ v
+
+### Example
+<pre><code>{
+  "bio": "Co-founder of @OneNameio with @Muneeb. Bitcoin, identity, the blockchain, and decentralization.", 
+  "location": {
+    "formatted": "New York, NY"
+  }, 
+  "twitter": {
+    "username": "ryaneshea", 
+    "proof": {
+      "url": "https://twitter.com/ryaneshea/status/486057647808868352"
+    }
+  }, 
+  "avatar": {
+    "url": "https://s3.amazonaws.com/97p/tux.jpg"
+  }, 
+  "cover": {
+    "url": "https://s3.amazonaws.com/dx3/ryanshea"
+  }, 
+  "github": {
+    "username": "rxl", 
+    "proof": {
+      "url": "https://gist.github.com/rxl/9799732"
+    }
+  }, 
+  "website": "http://shea.io", 
+  "pgp": {
+    "url": "https://s3.amazonaws.com/97p/pubkey.asc", 
+    "fingerprint": "DDA1CF3D659064044EC99354429E1A42A93EA312"
+  }, 
+  "v": "0.2", 
+  "name": {
+    "formatted": "Ryan Shea"
+  }, 
+  "bitcoin": {
+    "address": "14eautXfJT7EZsKfm1eHSAPnHkn3w1XF9R"
+  }
+}</code></pre>
+
+<a name="schema-rfc"/>
+## Schema RFC (v0.3)
+
+[View the full JSON schema](https://github.com/opennamesystem/user-schema/blob/master/onsuserschema/schema_rfc.py).
 
 ### Sections
 
@@ -62,8 +120,7 @@ A user's PGP key.
 
 A user's email addresses.
 
-<a name="examples"/>
-## Examples
+### Example
 <pre><code>{
 "basics": {
     "name": "Ryan Shea",

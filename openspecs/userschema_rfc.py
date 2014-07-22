@@ -7,7 +7,7 @@
     :license: MIT, see LICENSE for more details.
 """
 
-user_schema = {
+userschema = {
 	"name": "User",
 	"title": "ONS User Profile",
 	"type": "object",
@@ -122,3 +122,9 @@ user_schema = {
 		}
 	}
 }
+
+import warlock
+from usefulutils import to_dict
+
+User = warlock.model_factory(userschema)
+User.to_dict = to_dict
