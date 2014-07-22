@@ -47,39 +47,35 @@ This standard specifies a way to publicly describe a user. All data on a user is
 
 ### Example
 <pre><code>{
-  "bio": "Co-founder of @OneNameio with @Muneeb. Bitcoin, identity, the blockchain, and decentralization.", 
-  "location": {
-    "formatted": "New York, NY"
-  }, 
-  "twitter": {
-    "username": "ryaneshea", 
-    "proof": {
-      "url": "https://twitter.com/ryaneshea/status/486057647808868352"
-    }
+  "bitcoin": {
+    "address": "1N9rsxZimC8z8SRfocEh9pAa5RweBa76st"
   }, 
   "avatar": {
-    "url": "https://s3.amazonaws.com/97p/tux.jpg"
+    "url": "https://pbs.twimg.com/profile_images/2597394462/32b6p3stu0g09zwy8rq5.jpeg"
   }, 
-  "cover": {
-    "url": "https://s3.amazonaws.com/dx3/ryanshea"
-  }, 
-  "github": {
-    "username": "rxl", 
+  "twitter": {
     "proof": {
-      "url": "https://gist.github.com/rxl/9799732"
-    }
-  }, 
-  "website": "http://shea.io", 
-  "pgp": {
-    "url": "https://s3.amazonaws.com/97p/pubkey.asc", 
-    "fingerprint": "DDA1CF3D659064044EC99354429E1A42A93EA312"
+      "url": "https://twitter.com/barrysilbert/status/486629628618891264"
+    }, 
+    "username": "barrysilbert"
   }, 
   "v": "0.2", 
-  "name": {
-    "formatted": "Ryan Shea"
+  "cover": {
+    "url": "https://s3.amazonaws.com/97p/orange-sky.jpg"
   }, 
-  "bitcoin": {
-    "address": "14eautXfJT7EZsKfm1eHSAPnHkn3w1XF9R"
+  "website": "https://www.bitcointrust.co", 
+  "name": {
+    "formatted": "Barry Silbert"
+  }, 
+  "linkedin": {
+    "url": "https://www.linkedin.com/in/barrysilbert"
+  }, 
+  "location": {
+    "formatted": "New York"
+  }, 
+  "bio": "Founder/CEO @SecondMarket, Founder @BitcoinTrust; investor in Bitcoin companies, entrepreneur advocate", 
+  "angellist": {
+    "username": "https://angel.co/barry-silbert"
   }
 }</code></pre>
 
@@ -171,7 +167,6 @@ For example, to prove that you own both your ONS profile and your twitter accoun
 
 All of the following are valid formats of identity verification messages:
 
-    Verifying myself: My ONS username is +someuser
     Verifying myself: My open username is +someuser
     Verifying myself: My Bitcoin username is +someuser
     Verifying myself: My Blockchain username is +someuser

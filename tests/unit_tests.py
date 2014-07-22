@@ -10,7 +10,7 @@
 import unittest
 from test import test_support
 
-from openspecs.userschema import User, userschema
+from openspecs import User, userschema
 from jsonschema import validate
 
 user_json_barrysilbert = {
