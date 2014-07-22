@@ -1,10 +1,7 @@
 Specifications for the Open Name System
 =============
 
-Standard, specification, schema for the Open Name System
-
-
-characterizing a person's online identity on the open name system.
+Standard, specification, schema for the Open Name System.
 
 ##### Table of Contents
 [Introduction](#introduction)  
