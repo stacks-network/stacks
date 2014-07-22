@@ -169,7 +169,7 @@ For example, to prove that you own both your ONS profile and your twitter accoun
 
 #### Message format
 
-Any of the following are valid formats of identity verification messages:
+All of the following are valid formats of identity verification messages:
 
     Verifying myself: My ONS username is +someuser
     Verifying myself: My open username is +someuser
