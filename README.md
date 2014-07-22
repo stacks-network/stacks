@@ -13,7 +13,7 @@ Standard, specification, schema for characterizing a person's online identity on
 <a name="introduction"/>
 ## Introduction
 
-The open name system (ONS) is a protocol for registering unique names in a decentralized database (you can find more info about ONS here).
+The open name system (ONS) is a protocol for registering unique names in a decentralized database (you can find more info about ONS <a href="https://github.com/opennamesystem/opennamesystem.org">here</a>).
 
 On ONS, users may register a username and then have that name resolve to a description of their identity as a web user.
 
@@ -31,7 +31,7 @@ This standard specifies a way to publicly describe a user. All data on a user is
 <a name="schema"/>
 ## User Schema (v0.2)
 
-[View the full JSON schema](https://github.com/opennamesystem/user-schema/blob/master/onsuserschema/schema.py).
+[View the full JSON schema](/openspecs/userschema.py).
 
 ### Fields
 
@@ -88,7 +88,7 @@ This standard specifies a way to publicly describe a user. All data on a user is
 <a name="schema-rfc"/>
 ## User Schema RFC (v0.3)
 
-[View the full JSON schema](https://github.com/opennamesystem/user-schema/blob/master/onsuserschema/schema_rfc.py).
+[View the full JSON schema](/openspecs/userschema_rfc.py).
 
 ### Sections
 
