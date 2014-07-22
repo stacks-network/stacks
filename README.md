@@ -165,10 +165,13 @@ For example, to prove that you own both your ONS profile and your twitter accoun
 #### Steps required
 
 1. Create a post (tweet, gist, facebook post, etc.) with a message that explicitly states that you are the owner of your ONS username.
-2. Reference the post in your profile data, providing either the post's URL or an identifier that is globally unique on that website.
+2. Reference the post in your profile data, providing either the post's URL or an identifier that is globally unique on that network.
 
 #### Message format
 
+    Verifying myself: My ONS username is +someuser
+    Verifying myself: My open username is +someuser
     Verifying myself: My Bitcoin username is +someuser
+    Verifying myself: My Blockchain username is +someuser
 
 *Messages are not case sensitive.*
