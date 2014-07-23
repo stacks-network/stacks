@@ -48,22 +48,21 @@ On ONS, users may register a username and then have that name resolve to a descr
 
 ### Notes
 
-This schema specifies a way to publicly describe a user. All data contained describing a user is public, and all fields are optional. If there are any fields that you would prefer to keep private (your email address, for example), then it is advised that you do not include that information in your profile.
-
-Further, at some point the specifications may support other measures to enable the inclusion of private data, potentially with URI's to encrypted data containers.
+This schema specifies a way to publicly describe a user. All data involved in this description is public, and all fields are optional. If there are any fields that you would prefer to keep private (your email address, for example), then it is advised that you do not include that information in your profile. Further, at some point the specifications may support other measures to enable the inclusion of private data, for example by using URI's leading to encrypted data containers.
 
 [View the full JSON schema](/openspecs/userschema.py).
 
 ### Fields
 
 + name
-+ avatar
-+ cover
 + location
 + bio
++ website
++ bitcoin
++ avatar
++ cover
 + github
 + twitter
-+ bitcoin
 + pgp
 + orgs
 + v
@@ -112,19 +111,19 @@ A user's photos, including their avatar and cover photo.
 
 #### Payments
 
-A user's payment details, including their bitcoin addresses.
+A user's payment details for various payment methods, including Bitcoin and other cryptocurrencies. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
 
 #### Profiles
 
-A user's social network profiles.
+A user's social network profiles. A user can provide the appropriate usernames or urls, as well as provide proof of ownership of their accounts by referencing posts that only they could have produced (tweets, gists, etc.).
 
 #### Websites
 
-A user's websites.
+A list of a user's websites. A user can establish proof of ownership outside of this schema by placing a file in their website's directory (potentially either the root directory or .well-known directory) that references them as an owner or team member of the organization that runs the site.
 
 #### PGP
 
-A user's PGP key.
+A user's PGP key. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
 
 #### Email
 
@@ -178,6 +177,6 @@ All of the following are valid formats of identity verification messages:
 
     Verifying myself: My open username is +someuser
     Verifying myself: My Bitcoin username is +someuser
-    Verifying myself: My Blockchain username is +someuser
+    Verifying myself: My blockchain handle is +someuser
 
 *Messages are not case sensitive.*
