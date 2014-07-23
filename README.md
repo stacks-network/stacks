@@ -35,8 +35,8 @@ This repository includes the specifications, standards, and schema for the Open 
 
 Here are a few ways to get started:
 
-+ <a href="https://opennamesystem.org">Read the overview</a>
-+ <a href="https://github.com/opennamesystem/openspecs">Download and fork opendig</a>  (the ONS equivalent of dig)
++ <a href="https://opennamesystem.org">Check out opennamesystem.org</a>
++ <a href="https://github.com/opennamesystem/openspecs">Download and fork opendig</a> (the ONS equivalent of dig)
 + <a href="/openspecs/userschema_rfc.py">Explore and comment on the RFC specifications in this repo</a>
 + [Install openspecs](#installation) and try testing sample profiles against the JSON schema.
 + <a href="/scripts/profile_builder.py">Try out the profile builder</a> (for profiles linked to blockchain user handles)
