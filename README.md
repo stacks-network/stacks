@@ -22,7 +22,7 @@ The Open Name System (ONS) is a protocol that extends DNS by supporting the regi
 
 ONS is 100% backwards compatible with ICANN DNS and simply extends the functionality.
 
-### The ONS Specifications
+### ONS Specifications
 
 This repository includes the specifications, standards, and schema for the Open Name System.
 
