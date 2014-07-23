@@ -8,40 +8,10 @@
 """
 
 import os, sys, json, argparse, traceback
-from usefulutils import recursive_dict, scrub_dict
+from usefulutils import recursive_dict, scrub_dict, recursive_dict_to_dict
 from collections import defaultdict
 from openspecs import User, userschema
 from jsonschema import validate
-
-def recursive_dict_to_dict(rdict):
-    d = {}
-    for (k,v) in rdict.items():
-        if isinstance(v, defaultdict):
-            d[k] = recursive_dict_to_dict(v)
-        else:
-            d[k] = v
-    return d
-
-def get_props(schema, parent_prop_names=[]):
-    props = []
-    for prop_name, prop_value in schema.get('properties', {}).items():
-        prop_type = prop_value.get('type', '')
-        if prop_type == 'object':
-            prop_names = parent_prop_names + [prop_name]
-            props.extend(
-                get_props(prop_value, prop_names)
-            )
-        elif prop_type == 'array':
-            prop_names = parent_prop_names + [prop_name]
-            props.extend(
-                get_props(prop_value.get('items', {}), prop_names)
-            )
-        elif prop_type == 'string':
-            prop_names = parent_prop_names + [prop_name]
-            props.append(
-                ('.'.join(prop_names), prop_type)
-            )
-    return props
 
 def format_profile_v02(name=None, location=None, bio=None, website=None,
                        avatar_url=None, cover_url=None,

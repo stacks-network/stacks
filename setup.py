@@ -11,13 +11,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='openspecs',
-    version='0.1.0',
+    version='0.1.1',
     url='https://github.com/opennamesystem/openspecs',
     license='MIT',
     packages=find_packages(),
     install_requires=[
         'warlock == 1.1.0',
-        'usefulutils >= 0.1.0'
+        'usefulutils == 0.1.2'
     ],
     classifiers=[
         'Intended Audience :: Developers',
