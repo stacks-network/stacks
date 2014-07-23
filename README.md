@@ -1,19 +1,25 @@
-Specifications for the Open Name System
+Open Name System Specifications
 =============
 
-Standard, specification, schema for the Open Name System.
+#### Specifications, standards, and schema for the Open Name System.
 
-##### Table of Contents
-[Introduction](#introduction)  
+The open name system (ONS) is a protocol that extends DNS by:
+
+2. supporting the registration and resolution of domains on the blockchain
+1. supporting the registration and resolution of user handles on the blockchain
+
+### ONS = ICANN DNS + blockchain handles + blockchain domains
+
+
+ONS is 100% backwards compatible with ICANN DNS and simply extends the functionality.
+
+You can read more about ONS <a href="https://opennamesystem.org"> here</a>.
+
+#### Table of Contents
 [Installation](#installation)  
 [User Schema](#schema)  
 [User Schema RFC](#schema-rfc)  
 [Identity Verification](#verification)  
-
-<a name="introduction"/>
-## Introduction
-
-The open name system (ONS) is a protocol for registering unique names in a decentralized database (you can find more info about ONS <a href="https://github.com/opennamesystem/opennamesystem.org">here</a>).
 
 <a name="installation"/>
 ## Installation
