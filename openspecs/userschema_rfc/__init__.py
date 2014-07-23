@@ -7,4 +7,4 @@
     :license: MIT, see LICENSE for more details.
 """
 
-from .schema import schema as userschema
+from .schema import schema

@@ -24,7 +24,7 @@ class UserSchemaTests(unittest.TestCase):
 
     def test_user_schema_with_example_userdata(self):
         for v in sample_json:
-            validate(v, userschema)
+            validate(v, userschema.schema)
 
 def test_main():
     test_support.run_unittest(

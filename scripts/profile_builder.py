@@ -10,7 +10,7 @@
 import os, sys, json, argparse, traceback
 from usefulutils import recursive_dict, scrub_dict, recursive_dict_to_dict
 from collections import defaultdict
-from openspecs import userschema
+from openspecs import userschema, userschema_rfc
 from jsonschema import validate
 
 def format_profile_v02(name=None, location=None, bio=None, website=None,
@@ -98,10 +98,11 @@ def build_profile_from_user_input():
 
     if args.version == '0.2':
         user_dict = format_profile_v02(**raw_data_input)
+        validate(user_dict, userschema.schema)
     elif args.version == '0.3':
         user_dict = format_profile_v03(**raw_data_input)
-
-    validate(user_dict, userschema)
+        validate(user_dict, userschema_rfc.schema)
+    
     return json.dumps(user_dict, indent=4)
 
 if __name__ == '__main__':

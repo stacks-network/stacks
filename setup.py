@@ -11,7 +11,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='openspecs',
-    version='0.1.2',
+    version='0.1.3',
     url='https://github.com/opennamesystem/openspecs',
     license='MIT',
     packages=find_packages(),

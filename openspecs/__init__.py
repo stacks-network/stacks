@@ -7,6 +7,4 @@
     :license: MIT, see LICENSE for more details.
 """
 
-__version__ = '0.1.2'
-
-from .userschema import userschema
+__version__ = '0.1.3'
