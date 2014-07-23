@@ -11,6 +11,7 @@ VALUE_MAX_LIMIT = 512
 
 import json
 
+
 #-----------------------------------
 def utf8len(s):
 
@@ -19,11 +20,12 @@ def utf8len(s):
     else:
         return len(s.encode('utf-8'))
 
+
 #-----------------------------------
 def slice_profile(username, profile):
 
     keys = []
-    values = [] 
+    values = []
 
     key = 'u/' + username.lower()
     keys.append(key)
@@ -32,32 +34,32 @@ def slice_profile(username, profile):
         return VALUE_MAX_LIMIT - len('next: i-' + username + '000000')
 
     #-----------------------------------
-    def splitter(remaining,username):
+    def splitter(remaining, username):
 
-        split = {} 
+        split = {}
 
         if utf8len(json.dumps(remaining)) < max_size(username):
-            return remaining, None 
+            return remaining, None
         else:
-            for key in remaining.keys(): 
+            for key in remaining.keys():
                 split[key] = remaining[key]
 
                 if utf8len(json.dumps(split)) < max_size(username):
                     del remaining[key]
                 else:
                     del split[key]
-                    break 
+                    break
             return split, remaining
 
     #-----------------------------------
     def get_key(key_counter):
         return 'i/' + username.lower() + '-' + str(key_counter)
 
-    split, remaining = splitter(profile, username) 
+    split, remaining = splitter(profile, username)
     values.append(split)
 
     key_counter = 0
-    counter = 0 
+    counter = 0
 
     while(remaining is not None):
 
@@ -65,12 +67,10 @@ def slice_profile(username, profile):
         key = get_key(key_counter)
 
         split, remaining = splitter(remaining, username)
-        keys.append(key) 
+        keys.append(key)
         values.append(split)
 
         values[counter]['next'] = key
         counter += 1
 
     return keys, values
-
-
