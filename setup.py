@@ -13,6 +13,7 @@ setup(
     name='openspecs',
     version='0.1.3',
     url='https://github.com/opennamesystem/openspecs',
+    description='Protocol specifications for the Open Name System',
     license='MIT',
     packages=find_packages(),
     install_requires=[
@@ -24,5 +25,5 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
     ],
-    zip_safe=False, 
+    zip_safe=False,
 )
