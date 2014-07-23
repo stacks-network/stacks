@@ -67,16 +67,10 @@ This standard specifies a way to publicly describe a user. All data on a user is
   "name": {
     "formatted": "Barry Silbert"
   }, 
-  "linkedin": {
-    "url": "https://www.linkedin.com/in/barrysilbert"
-  }, 
   "location": {
     "formatted": "New York"
   }, 
   "bio": "Founder/CEO @SecondMarket, Founder @BitcoinTrust; investor in Bitcoin companies, entrepreneur advocate", 
-  "angellist": {
-    "username": "https://angel.co/barry-silbert"
-  }
 }</code></pre>
 
 <a name="schema-rfc"/>
