@@ -20,9 +20,11 @@ The Open Name System (ONS) is a protocol that extends DNS by supporting the regi
 
 ONS is 100% backwards compatible with ICANN DNS and simply extends the functionality.
 
-You can read more about ONS <a href="https://opennamesystem.org"> here</a>.
+You can read more about ONS <a href="https://opennamesystem.org"> here</a> and <a href="https://github.com/opennamesystem/openspecs">download opendig here</a> (the ONS equivalent of dig).
 
-This repository includes the specifications, standards, and schema for the Open Name System.
+Meanwhile, this repository includes the specifications, standards, and schema for the Open Name System.
+
+All the schemas are in JSON format and the python packages provided allow you to start inspecting and playing around with them. Meanwhile, this README simply contains an overview of the specifications.
 
 <a name="installation"/>
 ## Installation
@@ -32,13 +34,13 @@ This repository includes the specifications, standards, and schema for the Open 
 <a name="schema"/>
 ## User Schema (v0.2)
 
-On ONS, users may register a username and then have that name resolve to a description of their identity as a web user. This schema is a standard for such description/characterization.
+On ONS, users may register a username and then have that name resolve to a description of their identity as a user on the web. This schema is a standardization of user descriptions.
 
 ### Notes
 
-This standard specifies a way to publicly describe a user. All data on a user is public, and all fields are optional. If there are any fields that you would prefer to keep private (your email address, for example), then it is advised that you do not include that information in your profile.
+This schema specifies a way to publicly describe a user. All data contained describing a user is public, and all fields are optional. If there are any fields that you would prefer to keep private (your email address, for example), then it is advised that you do not include that information in your profile.
 
-At some point the specifications may support other measures that will enable the inclusion of private data, potentially with URI's to encrypted data containers.
+Further, at some point the specifications may support other measures to enable the inclusion of private data, potentially with URI's to encrypted data containers.
 
 [View the full JSON schema](/openspecs/userschema.py).
 
@@ -58,30 +60,24 @@ At some point the specifications may support other measures that will enable the
 
 ### Example
 <pre><code>{
-  "bitcoin": {
-    "address": "1N9rsxZimC8z8SRfocEh9pAa5RweBa76st"
-  }, 
-  "avatar": {
-    "url": "https://pbs.twimg.com/profile_images/2597394462/32b6p3stu0g09zwy8rq5.jpeg"
-  }, 
-  "twitter": {
-    "proof": {
-      "url": "https://twitter.com/barrysilbert/status/486629628618891264"
+    "name": {
+        "formatted": "Naval Ravikant"
+    },
+    "bio": "Co-founder AngelList \\u2022 Founder Epinions, Vast \\u2022 Author Startupboy, Venture Hacks \\u2022 Investor Twitter, Uber, Yammer, Postmates", 
+    "twitter": {
+        "username": "naval"
     }, 
-    "username": "barrysilbert"
-  }, 
-  "v": "0.2", 
-  "cover": {
-    "url": "https://s3.amazonaws.com/97p/orange-sky.jpg"
-  }, 
-  "website": "https://www.bitcointrust.co", 
-  "name": {
-    "formatted": "Barry Silbert"
-  }, 
-  "location": {
-    "formatted": "New York"
-  }, 
-  "bio": "Founder/CEO @SecondMarket, Founder @BitcoinTrust; investor in Bitcoin companies, entrepreneur advocate", 
+    "cover": {
+        "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
+    }, 
+    "bitcoin": {
+        "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
+    }, 
+    "websites": "https://angel.co/naval", 
+    "avatar": {
+        "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg"
+    }, 
+    "v": "0.2"
 }</code></pre>
 
 <a name="schema-rfc"/>
@@ -123,33 +119,24 @@ A user's email addresses.
 
 ### Example
 <pre><code>{
-"basics": {
-    "name": "Ryan Shea",
-    "location": "New York, NY",
-    "bio": "Co-founder of @OneNameio with @Muneeb. Bitcoin, identity, the blockchain, and decentralization."
-},
-"photos": [
-    { "type": "avatar", "url": "https://s3.amazonaws.com/97p/tux.jpg" },
-    { "type": "cover", "url": "https://s3.amazonaws.com/dx3/ryanshea" },
-],
-"payments": [
-    { "type": "bitcoin", "address": "14eautXfJT7EZsKfm1eHSAPnHkn3w1XF9R" },
-],
-"profiles": [
-    { "type": "twitter", "username": "ryaneshea", "proof": "https://twitter.com/ryaneshea/status/486057647808868352" },
-    { "type": "github", "username": "rxl", "proof": "https://gist.github.com/rxl/9799732" },
-],
-"websites": [
-    { "label": "Blog", "url": "http://shea.io" },
-],
-"pgp": {
-    "url": "https://s3.amazonaws.com/97p/pubkey.asc",
-    "fingerprint": "DDA1CF3D659064044EC99354429E1A42A93EA312",
-},
-"email": [
-    { "address": "ryan@shea.io" }
-],
-"v": "0.3",
+    "basics": {
+        "bio": "Co-founder AngelList \\u2022 Founder Epinions, Vast \\u2022 Author Startupboy, Venture Hacks \\u2022 Investor Twitter, Uber, Yammer, Postmates", 
+        "name": "Naval Ravikant", 
+        "location": "San Francisco, CA"
+    },
+    "photos": [{
+        "type": "avatar",
+        "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg"
+    }, {
+        "type": "cover",
+        "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
+    }],
+    "payments": [{ "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk" }],
+    "profiles": [{ "username": "naval", "type": "twitter"}],
+    "websites": [{
+        "url": "https://angel.co/naval"
+    }],
+    "v": "0.3"
 }</code></pre>
 
 <a name="verification"/>
