@@ -26,7 +26,7 @@ ONS is 100% backwards compatible with ICANN DNS and simply extends the functiona
 
 This repository includes the specifications, standards, and schema for the Open Name System.
 
-All the schemas are in JSON format and the python packages provided allow you to start inspecting and playing around with them. Meanwhile, this README simply contains an overview of the specifications.
+All the schemas are in JSON format - this README contains an overview of the specifications and the python packages provided allow you to dig deep and start playing around with them.
 
 ### Getting Started
 
