@@ -63,20 +63,23 @@ Further, at some point the specifications may support other measures to enable t
     "name": {
         "formatted": "Naval Ravikant"
     },
-    "bio": "Co-founder AngelList \\u2022 Founder Epinions, Vast \\u2022 Author Startupboy, Venture Hacks \\u2022 Investor Twitter, Uber, Yammer, Postmates", 
-    "twitter": {
-        "username": "naval"
-    }, 
-    "cover": {
-        "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
-    }, 
+    "location": {
+        "formatted": "San Francisco, CA"
+    },
+    "bio": "Co-founder AngelList \\u2022 Founder Epinions, Vast \\u2022 Author Startupboy, Venture Hacks \\u2022 Investor Twitter, Uber, Yammer, Postmates",
+    "website": "https://angel.co/naval",
     "bitcoin": {
         "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
-    }, 
-    "websites": "https://angel.co/naval", 
+    },
+    "cover": {
+        "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
+    },
     "avatar": {
         "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg"
-    }, 
+    },
+    "twitter": {
+        "username": "naval"
+    },
     "v": "0.2"
 }</code></pre>
 
@@ -124,6 +127,12 @@ A user's email addresses.
         "name": "Naval Ravikant", 
         "location": "San Francisco, CA"
     },
+    "payments": [{
+        "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
+    }],
+    "profiles": [{
+        "username": "naval", "type": "twitter"
+    }],
     "photos": [{
         "type": "avatar",
         "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg"
@@ -131,8 +140,6 @@ A user's email addresses.
         "type": "cover",
         "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
     }],
-    "payments": [{ "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk" }],
-    "profiles": [{ "username": "naval", "type": "twitter"}],
     "websites": [{
         "url": "https://angel.co/naval"
     }],
