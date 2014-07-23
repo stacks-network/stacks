@@ -1,7 +1,17 @@
 Open Name System Specifications
 =============
 
-#### Specifications, standards, and schema for the Open Name System.
+##### Specifications, standards, and schema for the Open Name System.
+
+### Table of Contents
+[Overview](#overview)  
+[Installation](#installation)  
+[User Schema](#schema)  
+[User Schema RFC](#schema-rfc)  
+[Identity Verification](#verification)  
+
+<a name="overview"/>
+## Overview
 
 The open name system (ONS) is a protocol that extends DNS by:
 
@@ -14,12 +24,6 @@ The open name system (ONS) is a protocol that extends DNS by:
 ONS is 100% backwards compatible with ICANN DNS and simply extends the functionality.
 
 You can read more about ONS <a href="https://opennamesystem.org"> here</a>.
-
-#### Table of Contents
-[Installation](#installation)  
-[User Schema](#schema)  
-[User Schema RFC](#schema-rfc)  
-[Identity Verification](#verification)  
 
 <a name="installation"/>
 ## Installation
