@@ -10,7 +10,7 @@
 import os, sys, json, argparse, traceback
 from usefulutils import recursive_dict, scrub_dict, recursive_dict_to_dict
 from collections import defaultdict
-from openspecs import User, userschema
+from openspecs import userschema
 from jsonschema import validate
 
 def format_profile_v02(name=None, location=None, bio=None, website=None,
@@ -25,7 +25,7 @@ def format_profile_v02(name=None, location=None, bio=None, website=None,
     profile['name']['formatted'] = name
     profile['location']['formatted'] = location
     profile['bio'] = bio
-    profile['websites'] = website
+    profile['website'] = website
     profile['avatar'] = { "url": avatar_url }
     profile['cover'] = { "url": cover_url }
     profile['bitcoin'] = { "address": bitcoin_address }
@@ -89,8 +89,18 @@ def get_raw_profile_data_from_user_input():
     return profile
 
 def build_profile_from_user_input():
+    parser = argparse.ArgumentParser(description='Build an open name system user profile from user input.')
+    parser.add_argument('-version', metavar='v', choices=['0.2', '0.3'],
+        default='0.2', help='the schema version')
+    args = parser.parse_args()
+
     raw_data_input = get_raw_profile_data_from_user_input()
-    user_dict = format_profile_v02(**raw_data_input)    
+
+    if args.version == '0.2':
+        user_dict = format_profile_v02(**raw_data_input)
+    elif args.version == '0.3':
+        user_dict = format_profile_v03(**raw_data_input)
+
     validate(user_dict, userschema)
     return json.dumps(user_dict, indent=4)
 
