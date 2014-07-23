@@ -20,7 +20,7 @@ Open Name System Specifications
 
 The Open Name System (ONS) is a protocol that extends DNS by supporting the registration and resolution of:
 
-1. user handles on the blockchain (deployed)
+1. user handles on the blockchain
 1. domains on the blockchain (design phase)
 
 #### ONS = ICANN DNS + blockchain handles + blockchain domains
