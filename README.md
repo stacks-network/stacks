@@ -11,6 +11,8 @@ Open Name System Specifications
 <a name="overview"/>
 ## Overview
 
+### The Open Name System
+
 The Open Name System (ONS) is a protocol that extends DNS by supporting the registration and resolution of:
 
 1. domains on the blockchain
@@ -20,15 +22,19 @@ The Open Name System (ONS) is a protocol that extends DNS by supporting the regi
 
 ONS is 100% backwards compatible with ICANN DNS and simply extends the functionality.
 
+### The ONS Specifications
+
 This repository includes the specifications, standards, and schema for the Open Name System.
 
 All the schemas are in JSON format and the python packages provided allow you to start inspecting and playing around with them. Meanwhile, this README simply contains an overview of the specifications.
 
-Ways to get started with ONS:
+### Getting Started
+
+Here are a few ways to get started:
 
 + <a href="https://opennamesystem.org">Read the overview</a>
 + <a href="https://github.com/opennamesystem/openspecs">Download and fork opendig</a>  (the ONS equivalent of dig)
-+ Explore and comment on the RFC specifications in this repo
++ <a href="/openspecs/userschema_rfc.py">Explore and comment on the RFC specifications in this repo</a>
 
 <a name="installation"/>
 ## Installation
