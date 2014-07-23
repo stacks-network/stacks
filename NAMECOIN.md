@@ -13,10 +13,6 @@ Usernames may be up to 60 characters long and contain lowercase letters, numbers
 
 **Note:** usernames with ANY uppercase letters will be ignored by crawlers, so make sure to only use lowercase letters when you register a name.
 
-Regex: ^[a-z0-9_]{1,60}$
-
-### Usernames on Namecoin
-
 Namecoin's key-value store has several namespaces. By convention, key entries that start with "d/" are interpreted as domain names. Likewise, those that start with "u/" are interpreted as usernames.
 
 When registering a username on Namecoin, prepend "u/" to the username and use that as your key in the key-value entry.
