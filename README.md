@@ -7,6 +7,11 @@ Open Name System Specifications
 [User Schema](#schema)  
 [User Schema RFC](#schema-rfc)  
 [Identity Verification](#verification)  
+[Usernames](#usernames)  
+[Profile Explorers](#explorers)  
+[Registering Users](#registration)  
+[Domains](#domains)  
+[Key-Value Stores](#kvstores)  
 
 <a name="overview"/>
 ## Overview
@@ -180,3 +185,46 @@ All of the following are valid formats of identity verification messages:
     Verifying myself: My blockchain handle is +someuser
 
 *Messages are not case sensitive.*
+
+<a name="usernames"/>
+## Usernames
+
+Usernames may be up to 60 characters long and contain lowercase letters, numbers, and underscores.
+
+**Note:** usernames with ANY uppercase letters will be ignored by crawlers, so make sure to only use lowercase letters when you register a name.
+
+Regex: ^[a-z0-9_]{1,60}$
+
+<a name="explorers"/>
+## Profile Explorers
+
+Profile explorers are systems that read user data from the key-value store and provide an interface for viewing profiles. This is similar to how Bitcoin has block explorers that read data from the blockchain and provide an interface for viewing transaction data. As with bitcoin block explorers, developers are free to crawl the key-value store and set up their own profile explorers.
+
+<a name="registration"/>
+## Registering Users
+
+To register a user:
+
+1. choose an available username
+2. construct a valid JSON object that adheres to the user schema specifications
+3. register the username and profile as an entry in the key-value store
+
+<a name="domains"/>
+## Domains
+
+#### Coming soon
+
+As of yet, no work has been done on adding support for blockchain domains to ONS and the ONS command line tools. There have been a few interesting efforts within this vein, most notably the standards drafted up for namecoin's `d/` namespace. At some point it will be interesting to include support for blockchain domains, but we feel it is best for now to focus on providing specifications and tools for extending ICANN DNS to support users and user handles registered in an open way on the blockchain.
+
+<a name="kvstores"/>
+## Key-Value Stores
+
+Users may be registered on any decentralized key-value store (DKVS). In this sense, the DKVS chosen is an implementation detail.
+
+However, it is important to note that uniqueness and ownership of usernames is only enforced within a particular DKVS (or within a particular namespace on a particular DKVS if the DKVS has multiple namespaces).
+
+We know that there are multiple IRC networks, but for getting usernames, the only one that matters is the one that everyone uses.
+
+In the same way, the only user handle namespace that matters is the one that everyone uses. Right now that is the user namespace on the namecoin blockchain.
+
+To learn how users are registered on the namecoin blockchain, you can [read more here](/NAMECOIN.md).
