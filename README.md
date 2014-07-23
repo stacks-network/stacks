@@ -18,7 +18,7 @@ The open name system (ONS) is a protocol that extends DNS by:
 2. supporting the registration and resolution of domains on the blockchain
 1. supporting the registration and resolution of user handles on the blockchain
 
-### ONS = ICANN DNS + blockchain handles + blockchain domains
+#### ONS = ICANN DNS + blockchain handles + blockchain domains
 
 
 ONS is 100% backwards compatible with ICANN DNS and simply extends the functionality.
@@ -38,6 +38,8 @@ On ONS, users may register a username and then have that name resolve to a descr
 ### Notes
 
 This standard specifies a way to publicly describe a user. All data on a user is public, and all fields are optional. If there are any fields that you would prefer to keep private (your email address, for example), then it is advised that you do not include that information in your profile.
+
+At some point the specifications may support other measures that will enable the inclusion of private data, potentially with URI's to encrypted data containers.
 
 [View the full JSON schema](/openspecs/userschema.py).
 
