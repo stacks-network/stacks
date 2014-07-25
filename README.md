@@ -20,8 +20,8 @@ Open Name System Specifications
 
 The Open Name System (ONS) is a protocol that extends DNS by supporting the registration and resolution of:
 
-1. domains on the blockchain
 1. user handles on the blockchain
+1. domains on the blockchain (design phase)
 
 #### ONS = ICANN DNS + blockchain handles + blockchain domains
 
@@ -35,8 +35,8 @@ This repository includes the specifications, standards, and schema for the Open 
 
 Here are a few ways to get started:
 
-+ <a href="https://opennamesystem.org">Read the overview</a>
-+ <a href="https://github.com/opennamesystem/openspecs">Download and fork opendig</a>  (the ONS equivalent of dig)
++ <a href="https://opennamesystem.org">Check out opennamesystem.org</a>
++ <a href="https://github.com/opennamesystem/openspecs">Download and fork opendig</a> (the ONS equivalent of dig)
 + <a href="/openspecs/userschema_rfc.py">Explore and comment on the RFC specifications in this repo</a>
 + [Install openspecs](#installation) and try testing sample profiles against the JSON schema.
 + <a href="/scripts/profile_builder.py">Try out the profile builder</a> (for profiles linked to blockchain user handles)
@@ -55,7 +55,7 @@ On ONS, users may register a username and then have that name resolve to a descr
 
 This schema specifies a way to publicly describe a user. All data involved in this description is public, and all fields are optional. If there are any fields that you would prefer to keep private (your email address, for example), then it is advised that you do not include that information in your profile. Further, at some point the specifications may support other measures to enable the inclusion of private data, for example by using URI's leading to encrypted data containers.
 
-[View the full JSON schema](/openspecs/userschema.py).
+[View the full JSON schema](/openspecs/userschema/schema.py).
 
 ### Fields
 
@@ -100,65 +100,9 @@ This schema specifies a way to publicly describe a user. All data involved in th
 <a name="schema-rfc"/>
 ## User Schema RFC (v0.3)
 
-The ONS User Schema v0.2 is planned to be phased out and v0.3 will gradually take its place. Here we present a request for comments for the new v0.3 schema.
+The ONS User Schema v0.2 is planned to be phased out and v0.3 will gradually take its place. 
 
-[View the full JSON schema](/openspecs/userschema_rfc.py).
-
-### Sections
-
-#### Basics
-
-A user's basic information, including their name, location and bio.
-
-#### Photos
-
-A user's photos, including their avatar and cover photo.
-
-#### Payments
-
-A user's payment details for various payment methods, including Bitcoin and other cryptocurrencies. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
-
-#### Profiles
-
-A user's social network profiles. A user can provide the appropriate usernames or urls, as well as provide proof of ownership of their accounts by referencing posts that only they could have produced (tweets, gists, etc.).
-
-#### Websites
-
-A list of a user's websites. A user can establish proof of ownership outside of this schema by placing a file in their website's directory (potentially either the root directory or .well-known directory) that references them as an owner or team member of the organization that runs the site.
-
-#### PGP
-
-A user's PGP key. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
-
-#### Email
-
-A user's email addresses.
-
-### Example
-<pre><code>{
-    "basics": {
-        "bio": "Co-founder AngelList \\u2022 Founder Epinions, Vast \\u2022 Author Startupboy, Venture Hacks \\u2022 Investor Twitter, Uber, Yammer, Postmates", 
-        "name": "Naval Ravikant", 
-        "location": "San Francisco, CA"
-    },
-    "payments": [{
-        "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
-    }],
-    "profiles": [{
-        "username": "naval", "type": "twitter"
-    }],
-    "photos": [{
-        "type": "avatar",
-        "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg"
-    }, {
-        "type": "cover",
-        "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
-    }],
-    "websites": [{
-        "url": "https://angel.co/naval"
-    }],
-    "v": "0.3"
-}</code></pre>
+[View the user-schema v0.3 RFC](/rfcs/0002-rfc-user-schema-v0.3.md).
 
 <a name="verification"/>
 ## Identity Verification
