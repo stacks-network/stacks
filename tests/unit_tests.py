@@ -15,6 +15,7 @@ from openspecs import userschema
 from jsonschema import validate
 from sample_json import sample_json
 
+
 class UserSchemaTests(unittest.TestCase):
     def setUp(self):
         pass
@@ -26,11 +27,12 @@ class UserSchemaTests(unittest.TestCase):
         for v in sample_json:
             validate(v, userschema.schema)
 
+
 def test_main():
     test_support.run_unittest(
         UserSchemaTests,
     )
 
+
 if __name__ == '__main__':
     test_main()
-
