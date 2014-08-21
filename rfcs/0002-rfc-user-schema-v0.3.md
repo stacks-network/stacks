@@ -7,10 +7,6 @@ The ONS User Schema v0.2 is planned to be phased out and v0.3 will gradually tak
 
 ### Sections
 
-#### Basics
-
-A user's basic information, including their location and bio.
-
 #### Names
 
 A list of names associated with a user.
@@ -169,6 +165,19 @@ A list of the user's location details.
 * postal code
 * permanent
 * temporary
+
+#### Text
+
+A list of short text strings which a user can associate with their entry
+
+##### Suggested Types for Text
+
+* bio
+* tagline
+
+##### Suggested Attributes for Text
+
+*none*
 
 ### Example
 <pre><code>{

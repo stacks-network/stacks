@@ -13,17 +13,6 @@ schema = {
     "title": "ONS User Profile",
     "type": "object",
     "properties": {
-        "basics": {
-            "type": "object",
-            "properties": {
-                "location": {
-                    "type": "string"
-                },
-                "bio": {
-                    "type": "string"
-                }
-            }
-        },
         "names": {
             "type": "array",
             "items": {
@@ -199,6 +188,26 @@ schema = {
                         }
                     },
                     "location": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+        "text": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "attribute": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "text": {
                         "type": "string"
                     }
                 }
