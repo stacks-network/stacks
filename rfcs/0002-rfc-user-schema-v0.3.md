@@ -4,6 +4,7 @@ The ONS User Schema v0.2 is planned to be phased out and v0.3 will gradually tak
 
 [View the full JSON schema](/openspecs/userschema_rfc/schema.py).
 
+
 ### Sections
 
 #### Basics
@@ -136,7 +137,16 @@ A list of public key fingerprints associated with a user.
 
 #### Payments
 
-A user's payment details for various payment methods, including Bitcoin and other cryptocurrencies. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
+A list of the user's payment details for various payment methods, including Bitcoin and other cryptocurrencies.
+
+##### Suggested Types for Payments
+
+* bitcoin
+* *any other cryptocyrrency name*
+
+##### Suggested Attributes for Payments
+
+*none*
 
 ### Example
 <pre><code>{
@@ -165,7 +175,8 @@ A user's payment details for various payment methods, including Bitcoin and othe
         "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
     }],
     "payments": [{
-        "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
+        "type": "bitcoin",
+        "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
     }],
     "v": "0.3"
 }</code></pre>

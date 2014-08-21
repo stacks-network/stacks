@@ -172,15 +172,18 @@ schema = {
                     "type": {
                         "type": "string"
                     },
-                    "address": {
-                        "type": "string"
+                    "attribute": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
                     },
-                    "proof": {
+                    "address": {
                         "type": "string"
                     }
                 }
             }
-        },
+        }
         "v": {
             "type": "string",
             "description": "version number"
