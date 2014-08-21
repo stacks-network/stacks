@@ -213,6 +213,26 @@ schema = {
                 }
             }
         }
+        "proof": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "attribute": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "location": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
         "v": {
             "type": "string",
             "description": "version number"

@@ -13,12 +13,12 @@ A list of names associated with a user.
 
 Each name must have one category, and zero or more attributes.
 
-##### Suggested Types for Names
+##### Suggested Types
 
 * personal
 * business
 
-##### Suggested Attributes for Names
+##### Suggested Attributes
 
 * legal
 * nick
@@ -35,12 +35,12 @@ Each url must have one category, and zero or more attributes.
 
 A user can establish proof of ownership outside of this schema by placing a file in their website's directory (potentially either the root directory or .well-known directory) that references them as an owner or team member of the organization that runs the site.
 
-##### Suggested Types for URLs
+##### Suggested Types
 
 * website
 * file
 
-##### Suggested Attributes for URLs
+##### Suggested Attributes
 
 * personal
 * business
@@ -53,11 +53,11 @@ A user can establish proof of ownership outside of this schema by placing a file
 
 A list of site-specific username associated with a user on specific websites.
 
-##### Suggested Types for Profiles
+##### Suggested Types
 
 * *canonical link to the site (example: https://www.facebook.com)*
 
-##### Suggested Attributes for Profiles
+##### Suggested Attributes
 
 * *optional link to the user's profile page*
 
@@ -65,12 +65,12 @@ A list of site-specific username associated with a user on specific websites.
 
 A list of link to a user's images, including avatars and cover photos. Images can include Gravatar-compatible ratings as attributes.
 
-##### Suggested Types for Images
+##### Suggested Types
 
 * avatar
 * cover
 
-##### Suggested Attributes for Images
+##### Suggested Attributes
 
 * personal
 * business
@@ -83,13 +83,13 @@ A list of link to a user's images, including avatars and cover photos. Images ca
 
 A list of asynchronous communication (email-like) addresses associated with a user.
 
-##### Suggested Types for Mail
+##### Suggested Types
 
 * email
 * bitmessage
 * freemail
 
-##### Suggested Attributes for Mail
+##### Suggested Attributes
 
 * personal
 * business
@@ -100,7 +100,7 @@ A list of asynchronous communication (email-like) addresses associated with a us
 
 A list of synchronous communication (instant messaging) addresses associated with a user, including voice/video methods.
 
-##### Suggested Types for IM
+##### Suggested Types
 
 * phone
 * xmpp
@@ -108,7 +108,7 @@ A list of synchronous communication (instant messaging) addresses associated wit
 * aim
 * skype
 
-##### Suggested Attributes for IM
+##### Suggested Attributes
 
 * personal
 * business
@@ -121,13 +121,13 @@ A list of synchronous communication (instant messaging) addresses associated wit
 
 A list of public key fingerprints associated with a user.
 
-##### Suggested Types for Fingerprints
+##### Suggested Types
 
 * pgp
 * otr
 * ssl
 
-##### Suggested Attributes for Fingerints
+##### Suggested Attributes
 
 *none*
 
@@ -135,12 +135,12 @@ A list of public key fingerprints associated with a user.
 
 A list of the user's payment details for various payment methods, including Bitcoin and other cryptocurrencies.
 
-##### Suggested Types for Payments
+##### Suggested Types
 
 * bitcoin
 * *any other cryptocyrrency name*
 
-##### Suggested Attributes for Payments
+##### Suggested Attributes
 
 * personal
 * business
@@ -151,12 +151,12 @@ A list of the user's payment details for various payment methods, including Bitc
 
 A list of the user's location details.
 
-##### Suggested Types for Locations
+##### Suggested Types
 
 * home
 * business
 
-##### Suggested Attributes for Locations
+##### Suggested Attributes
 
 * country
 * region
@@ -170,12 +170,27 @@ A list of the user's location details.
 
 A list of short text strings which a user can associate with their entry
 
-##### Suggested Types for Text
+##### Suggested Types
 
 * bio
 * tagline
 
-##### Suggested Attributes for Text
+##### Suggested Attributes
+
+*none*
+
+#### Proofs
+
+This section contains a list of Namecoin identifiers where proof information is stored. Proofs allow for any identity to attest to the validity of any information claimed by any other user.
+
+Users can split their proof information into two types of entries: attestations they've made about other users, and attestations they've received from other users.
+
+##### Suggested Types:
+
+* incoming
+* outgoing
+
+##### Suggested Attributes:
 
 *none*
 
