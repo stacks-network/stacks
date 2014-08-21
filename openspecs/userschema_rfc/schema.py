@@ -58,6 +58,26 @@ schema = {
                             "type": "string"
                         }
                     },
+                    "username": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+        "profiles": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "attribute": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
                     "url": {
                         "type": "string"
                     }
@@ -90,26 +110,6 @@ schema = {
                         "type": "string"
                     },
                     "proof": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "profiles": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "type": {
-                        "type": "string"
-                    },
-                    "username": {
-                        "type": "string"
-                    },
-                    "proof": {
-                        "type": "string"
-                    },
-                    "url": {
                         "type": "string"
                     }
                 }

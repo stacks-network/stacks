@@ -52,6 +52,18 @@ A user can establish proof of ownership outside of this schema by placing a file
 * store
 * *public key identifier*
 
+#### Profiles
+
+The site-specific username associated with a user on specific websites.
+
+##### Suggested Types for Profiles
+
+* *canonical link to the site (example: https://www.facebook.com)*
+
+##### Suggested Attributes for Profiles
+
+* *optional link to the user's profile page*
+
 #### Photos
 
 A user's photos, including their avatar and cover photo.
@@ -59,10 +71,6 @@ A user's photos, including their avatar and cover photo.
 #### Payments
 
 A user's payment details for various payment methods, including Bitcoin and other cryptocurrencies. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
-
-#### Profiles
-
-A user's social network profiles. A user can provide the appropriate usernames or urls, as well as provide proof of ownership of their accounts by referencing posts that only they could have produced (tweets, gists, etc.).
 
 #### PGP
 
@@ -87,11 +95,12 @@ A user's email addresses.
         "type": "website",
         "url": "https://angel.co/naval"
     }],
+    "profiles": [{
+        "type": "https://twitter.com"
+        "username": "naval"
+    }],
     "payments": [{
         "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
-    }],
-    "profiles": [{
-        "username": "naval", "type": "twitter"
     }],
     "photos": [{
         "type": "avatar",
