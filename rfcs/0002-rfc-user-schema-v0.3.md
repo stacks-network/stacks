@@ -146,7 +146,10 @@ A list of the user's payment details for various payment methods, including Bitc
 
 ##### Suggested Attributes for Payments
 
-*none*
+* personal
+* business
+* tip
+* donation
 
 ### Example
 <pre><code>{
