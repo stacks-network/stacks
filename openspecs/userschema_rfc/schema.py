@@ -181,17 +181,6 @@ schema = {
                 }
             }
         },
-        "pgp": {
-            "type": "object",
-            "properties": {
-                "url": {
-                    "type": "string"
-                },
-                "fingerprint": {
-                    "type": "string"
-                }
-            }
-        },
         "v": {
             "type": "string",
             "description": "version number"
