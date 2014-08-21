@@ -151,6 +151,25 @@ A list of the user's payment details for various payment methods, including Bitc
 * tip
 * donation
 
+#### Locations
+
+A list of the user's location details.
+
+##### Suggested Types for Locations
+
+* home
+* business
+
+##### Suggested Attributes for Locations
+
+* country
+* region
+* locality
+* street
+* postal code
+* permanent
+* temporary
+
 ### Example
 <pre><code>{
     "basics": {
