@@ -82,6 +82,23 @@ A list of link to a user's images, including avatars and cover photos. Images ca
 * R
 * X
 
+#### Mail
+
+A list of asynchronous communication (email-like) addresses associated with a user.
+
+##### Suggested Types for Mail
+
+* email
+* bitmessage
+* freemail
+
+##### Suggested Attributes for Mail
+
+* personal
+* business
+* student
+* official
+
 #### Payments
 
 A user's payment details for various payment methods, including Bitcoin and other cryptocurrencies. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
@@ -89,10 +106,6 @@ A user's payment details for various payment methods, including Bitcoin and othe
 #### PGP
 
 A user's PGP key. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
-
-#### Email
-
-A user's email addresses.
 
 ### Example
 <pre><code>{

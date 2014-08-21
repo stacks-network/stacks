@@ -104,6 +104,26 @@ schema = {
                 }
             }
         }
+        "mail": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "attribute": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "address": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
         "payments": {
             "type": "array",
             "items": {
@@ -129,20 +149,6 @@ schema = {
                 },
                 "fingerprint": {
                     "type": "string"
-                }
-            }
-        },
-        "email": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "label": {
-                        "type": "string"
-                    },
-                    "url": {
-                        "type": "string"
-                    }
                 }
             }
         },
