@@ -24,7 +24,7 @@ schema = {
                 }
             }
         },
-        "name": {
+        "names": {
             "type": "array",
             "items": {
                 "type": "object",
@@ -44,7 +44,26 @@ schema = {
                 }
             }
         }
-        "photos": {
+        "urls": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "attribute": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "url": {
+                        "type": "string"
+                    }
+                }
+            }
+        }        "photos": {
             "type": "array",
             "items": {
                 "type": "object",
@@ -87,20 +106,6 @@ schema = {
                         "type": "string"
                     },
                     "proof": {
-                        "type": "string"
-                    },
-                    "url": {
-                        "type": "string"
-                    }
-                }
-            }
-        },
-        "websites": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "label": {
                         "type": "string"
                     },
                     "url": {

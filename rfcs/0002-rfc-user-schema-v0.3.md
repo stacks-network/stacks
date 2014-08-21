@@ -12,7 +12,9 @@ A user's basic information, including their location and bio.
 
 #### Names
 
-An array of names associated with a user. Each name must have one category, and zero or more attributes.
+A list of names associated with a user.
+
+Each name must have one category, and zero or more attributes.
 
 ##### Suggested Types for Names
 
@@ -28,6 +30,28 @@ An array of names associated with a user. Each name must have one category, and 
 * stage
 * pen
 
+#### URLs
+
+A list of URLs associated with a user, which may include websites, public keys, or another link they may which to associate with their identity. Links to avatar images should not be added to this section as they as handled in their own section.
+
+Each url must have one category, and zero or more attributes.
+
+A user can establish proof of ownership outside of this schema by placing a file in their website's directory (potentially either the root directory or .well-known directory) that references them as an owner or team member of the organization that runs the site.
+
+##### Suggested Types for URLs
+
+* website
+* file
+
+##### Suggested Attributes for URLs
+
+* personal
+* business
+* blog
+* wiki
+* store
+* *public key identifier*
+
 #### Photos
 
 A user's photos, including their avatar and cover photo.
@@ -39,10 +63,6 @@ A user's payment details for various payment methods, including Bitcoin and othe
 #### Profiles
 
 A user's social network profiles. A user can provide the appropriate usernames or urls, as well as provide proof of ownership of their accounts by referencing posts that only they could have produced (tweets, gists, etc.).
-
-#### Websites
-
-A list of a user's websites. A user can establish proof of ownership outside of this schema by placing a file in their website's directory (potentially either the root directory or .well-known directory) that references them as an owner or team member of the organization that runs the site.
 
 #### PGP
 
@@ -63,6 +83,10 @@ A user's email addresses.
         "attributes": [{ "legal" }],
         "name": "Naval Ravikant"
     }],
+    "urls": [{
+        "type": "website",
+        "url": "https://angel.co/naval"
+    }],
     "payments": [{
         "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
     }],
@@ -75,9 +99,6 @@ A user's email addresses.
     }, {
         "type": "cover",
         "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
-    }],
-    "websites": [{
-        "url": "https://angel.co/naval"
     }],
     "v": "0.3"
 }</code></pre>
