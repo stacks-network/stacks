@@ -10,6 +10,24 @@ The ONS User Schema v0.2 is planned to be phased out and v0.3 will gradually tak
 
 A user's basic information, including their name, location and bio.
 
+#### Names
+
+An array of names associated with a user. Each name must have one category, and zero or more attributes.
+
+##### Suggested Types for Names
+
+* personal
+* business
+
+##### Suggested Attributes for Names
+
+* legal
+* nick
+* married
+* maiden
+* stage
+* pen
+
 #### Photos
 
 A user's photos, including their avatar and cover photo.
@@ -38,9 +56,13 @@ A user's email addresses.
 <pre><code>{
     "basics": {
         "bio": "Co-founder AngelList \\u2022 Founder Epinions, Vast \\u2022 Author Startupboy, Venture Hacks \\u2022 Investor Twitter, Uber, Yammer, Postmates", 
-        "name": "Naval Ravikant", 
         "location": "San Francisco, CA"
     },
+    "names": [{
+        "type": "personal",
+        "attributes": [{ "legal" }],
+        "name": "Naval Ravikant"
+    }],
     "payments": [{
         "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
     }],

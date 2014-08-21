@@ -16,9 +16,6 @@ schema = {
         "basics": {
             "type": "object",
             "properties": {
-                "name": {
-                    "type": "string"
-                },
                 "location": {
                     "type": "string"
                 },
@@ -27,6 +24,26 @@ schema = {
                 }
             }
         },
+        "name": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "attribute": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "name": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
         "photos": {
             "type": "array",
             "items": {
