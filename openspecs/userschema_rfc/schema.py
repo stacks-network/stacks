@@ -144,6 +144,26 @@ schema = {
                 }
             }
         }
+        "fingerprints": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string"
+                    },
+                    "attribute": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "fingerprint": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
         "payments": {
             "type": "array",
             "items": {

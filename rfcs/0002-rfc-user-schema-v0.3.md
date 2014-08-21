@@ -120,13 +120,23 @@ A list of synchronous communication (instant messaging) addresses associated wit
 * mobile
 * fax
 
+#### Fingerprints
+
+A list of public key fingerprints associated with a user.
+
+##### Suggested Types for Fingerprints
+
+* pgp
+* otr
+* ssl
+
+##### Suggested Attributes for Fingerints
+
+*none*
+
 #### Payments
 
 A user's payment details for various payment methods, including Bitcoin and other cryptocurrencies. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
-
-#### PGP
-
-A user's PGP key. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
 
 ### Example
 <pre><code>{
