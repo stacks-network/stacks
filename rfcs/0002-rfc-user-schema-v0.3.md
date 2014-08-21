@@ -54,7 +54,7 @@ A user can establish proof of ownership outside of this schema by placing a file
 
 #### Profiles
 
-The site-specific username associated with a user on specific websites.
+A list of site-specific username associated with a user on specific websites.
 
 ##### Suggested Types for Profiles
 
@@ -64,9 +64,23 @@ The site-specific username associated with a user on specific websites.
 
 * *optional link to the user's profile page*
 
-#### Photos
+#### Images
 
-A user's photos, including their avatar and cover photo.
+A list of link to a user's images, including avatars and cover photos. Images can include Gravatar-compatible ratings as attributes.
+
+##### Suggested Types for Images
+
+* avatar
+* cover
+
+##### Suggested Attributes for Images
+
+* personal
+* business
+* G
+* PG
+* R
+* X
 
 #### Payments
 
@@ -99,15 +113,15 @@ A user's email addresses.
         "type": "https://twitter.com"
         "username": "naval"
     }],
-    "payments": [{
-        "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
-    }],
-    "photos": [{
+    "images": [{
         "type": "avatar",
         "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg"
     }, {
         "type": "cover",
         "url": "https://pbs.twimg.com/profile_banners/745273/1355705777/web_retina"
+    }],
+    "payments": [{
+        "type": "bitcoin", "address": "1919UrhYyhs471ps8CFcJ3DRpWSda8qtSk"
     }],
     "v": "0.3"
 }</code></pre>

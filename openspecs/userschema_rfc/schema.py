@@ -84,7 +84,7 @@ schema = {
                 }
             }
         }
-        "photos": {
+        "images": {
             "type": "array",
             "items": {
                 "type": "object",
@@ -92,12 +92,18 @@ schema = {
                     "type": {
                         "type": "string"
                     },
+                    "attribute": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
                     "url": {
                         "type": "string"
                     }
                 }
             }
-        },
+        }
         "payments": {
             "type": "array",
             "items": {
