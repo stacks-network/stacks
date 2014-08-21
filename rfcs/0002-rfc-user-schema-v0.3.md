@@ -19,9 +19,9 @@ There are two global attributes which can be applied to any object, regardless o
 * primary
 * old
 
-The <pre>primary<pre> attribute indicates the default object to be used when more then object of a given type or type/attribute exist. 
+The *primary* attribute indicates the default object to be used when more then object of a given type or type/attribute exist. 
 
-The <pre>old</pre> attributes that an object should no longer be used, and is only included in the entry for historical reasons.
+The *old* attributes that an object should no longer be used, and is only included in the entry for historical reasons.
 
 ### Sections
 
