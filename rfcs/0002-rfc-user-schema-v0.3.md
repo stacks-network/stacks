@@ -6,7 +6,7 @@ The ONS User Schema v0.2 is planned to be phased out and v0.3 will gradually tak
 
 ### Format
 
-A user's ONS consists of lists of objects. In order to faciliate the greatest possible uses while retaining forward and backward compatibilty, objects and lists are as generic as possible. Objects may have <pre>types</pre> and <pre>attributes</pre> which explain their purpose.
+A user's ONS consists of lists of objects. In order to faciliate the greatest possible uses while retaining forward and backward compatibilty, objects and lists are as generic as possible. Objects may have *types* and *attributes* which explain their purpose.
 
 Applications which parse ONS entries need not understand the semantic meaning of every type and attribute, and should display all data which is correctly specified.
 
