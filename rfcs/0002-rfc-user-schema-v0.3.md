@@ -4,6 +4,24 @@ The ONS User Schema v0.2 is planned to be phased out and v0.3 will gradually tak
 
 [View the full JSON schema](/openspecs/userschema_rfc/schema.py).
 
+### Format
+
+A user's ONS consists of lists of objects. In order to faciliate the greatest possible uses while retaining forward and backward compatibilty, objects and lists are as generic as possible. Objects may have <pre>types</pre> and <pre>attributes</pre> which explain their purpose.
+
+Applications which parse ONS entries need not understand the semantic meaning of every type and attribute, and should display all data which is correctly specified.
+
+Applications which require additional types or attributes for their functionality should use existing ones to the maximum extent possible, and where it is not possible they should add their new types and attributes to this specification.
+
+#### Global Attributes
+
+There are two global attributes which can be applied to any object, regardless of type:
+
+* primary
+* old
+
+The <pre>primary<pre> attribute indicates the default object to be used when more then object of a given type or type/attribute exist. 
+
+The <pre>old</pre> attributes that an object should no longer be used, and is only included in the entry for historical reasons.
 
 ### Sections
 
