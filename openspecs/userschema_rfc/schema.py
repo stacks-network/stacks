@@ -63,7 +63,8 @@ schema = {
                     }
                 }
             }
-        }        "photos": {
+        }
+        "photos": {
             "type": "array",
             "items": {
                 "type": "object",
