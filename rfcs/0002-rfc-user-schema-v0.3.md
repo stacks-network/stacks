@@ -99,6 +99,27 @@ A list of asynchronous communication (email-like) addresses associated with a us
 * student
 * official
 
+#### IM
+
+A list of synchronous communication (instant messaging) addresses associated with a user, including voice/video methods.
+
+##### Suggested Types for IM
+
+* phone
+* xmpp
+* icq
+* aim
+* skype
+
+##### Suggested Attributes for IM
+
+* personal
+* business
+* official
+* land
+* mobile
+* fax
+
 #### Payments
 
 A user's payment details for various payment methods, including Bitcoin and other cryptocurrencies. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
