@@ -8,7 +8,7 @@ The ONS User Schema v0.2 is planned to be phased out and v0.3 will gradually tak
 
 #### Basics
 
-A user's basic information, including their name, location and bio.
+A user's basic information, including their location and bio.
 
 #### Names
 
