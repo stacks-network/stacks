@@ -16,7 +16,7 @@ This field is mandatory.
 
 #### Ratee
 
-The name of the identity whose idenfity information is being certified.
+The name of the identity whose information is being certified.
 
 This field is mandatory.
 
@@ -52,15 +52,13 @@ The object should be formatted as a JSON object with a label corresponding to th
 
 ##### Example
 
-<pre><code>
-{ images: { "type": "avatar", "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg" } }
-</pre></code>
+<pre><code>{ images: { "type": "avatar", "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg" } }</code></pre>
 
 This field is mandatory.
 
 #### Type
 
-The type of public key used to generate the signature. The public key should be listed in the ratee's ONS entry as Fingerprint object or be an address listed as a Payments object.
+The type of public key used to generate the signature. The public key should be listed in the ratee's ONS entry as <code>fingerprint</code> object or be an address listed as a <code>payments</code> object.
 
 This field is mandatory.
 
@@ -92,21 +90,26 @@ If users ever desire to evalulating other users based on the accuracy of their a
 
 #### Rules
 
-A <pre>date</pre> value by itself implicitly indicates the proof is true for the given date, with no positive or negative claims implied for any past or future dates. If there are two proof that are identical except for the data, the proof with the newest date should be considered current.
+A date value by itself implicitly indicates the proof is true for the given date, with no positive or negative claims implied for any past or future dates. If there are two proof that are identical except for the data, the proof with the newest date should be considered current.
 
-A <pre>start</pre> value by itself indicates the proof transitioned from false to true (or true to false, for negative proofs) at the given date, with no positive or negative claims implied for any point after the start date.
+A start value by itself indicates the proof transitioned from false to true (or true to false, for negative proofs) at the given date, with no positive or negative claims implied for any point after the start date.
 
-An <pre>end</pre> value by itself indicates the proof transitioned from true to false (false to true) at the given date, with no positive or negative claims implied for any point before the end date.
+An end value by itself indicates the proof transitioned from true to false (false to true) at the given date, with no positive or negative claims implied for any point before the end date.
 
-A <pre>start</pre> combined with an <pre>end</pre> value indicates an inclusive range of date in which the proof was true (or false).
+A start combined with an end value indicates an inclusive range of date in which the proof was true (or false).
 
 ### Example
 
 The object being rated is: 
 
-<pre><code>{ images: { "type": "avatar", "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg" } }</code></pre>
+<pre><code>
+{ images: { "type": "avatar", "url": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg" } }
+</code></pre>
 
-<pre><code>{[
+The finished proof object is:
+
+<pre><code>
+{[
     "proof": {
         "rater": "u/me",
         "ratee": "id/you",
@@ -115,8 +118,9 @@ The object being rated is:
         "signature": "HAOHHIRgr1218Dp6ffAcqdW3A8/5EklYVrvpD3K8kJQmCONOfH7eVwl1dj6HjiJkRaD85nLgC1T2nrWUgtz6D8g="
     }],
     "v": "0.1"
-}</code></pre>
+}
+</code></pre>
 
-Note: to sign and verify the proof, it is placed in a single line canonical form with the signature field empty as shown:
+**Note**: to sign and verify the proof, it is placed in a single line canonical form with the signature field empty as shown:
 
 <pre><code>{ "proof": { "rater": "u/me", "ratee": "id/you", "object": "d9779cb38a5fc5b93a739e086ede1abbce29df8b", "type": "bitcoin", "signature": "" } }</code></pre>
