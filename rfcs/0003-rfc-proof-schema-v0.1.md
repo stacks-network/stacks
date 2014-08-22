@@ -6,6 +6,8 @@ An ONS proof block is an array of digitally signed attestations one user makes r
 
 Each proof object contains an assestation regarding one piece of identity information.
 
+[View the full JSON schema](/openspecs/proofschema_rfc/schema.py).
+
 ### Sections of a Proof
 
 #### Rater
