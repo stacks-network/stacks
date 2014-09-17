@@ -1,6 +1,10 @@
 Open Name System Specifications
 =============
 
+[![Latest Version](https://pypip.in/version/openspecs/badge.svg)](https://pypi.python.org/pypi/openspecs/)
+[![Downloads](https://pypip.in/download/openspecs/badge.svg)](https://pypi.python.org/pypi/openspecs/)
+[![License](https://pypip.in/license/openspecs/badge.svg)](https://pypi.python.org/pypi/openspecs>/)
+
 ### Table of Contents
 [Overview](#overview)  
 [Installation](#installation)  
