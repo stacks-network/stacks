@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "ONS Profile",
+    "description": "A set of information associated with a unique identity.",
+    "type": "object",
+    "properties": {
+        "v": {
+            "type": "string",
+            "description": "Version number",
+        },
+        "sections": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "description": "A grouping of related objects",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the section"
+                    },
+                    "objects": {
+                        "type": "object",
+                        "description": "A section entry. Objects have a type, zero or more tags, and a value",
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "description": "The logical type associated with this object"
+                            },
+                            "tags": {
+                                "type": "array",
+                                "description": "Defined attributes of the object which enhance its semantic meaning",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "value": {
+                                "type": "string",
+                                "description": "The logical value of the object"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
