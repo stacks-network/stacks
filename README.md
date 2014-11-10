@@ -1,4 +1,4 @@
-Open Name System Specifications
+Openname Specifications
 =============
 
 [![Latest Version](https://pypip.in/version/openspecs/badge.svg)](https://pypi.python.org/pypi/openspecs/)
@@ -20,9 +20,9 @@ Open Name System Specifications
 <a name="overview"/>
 ## Overview
 
-### The Open Name System
+### The Openname System
 
-The Open Name System (ONS) is a protocol that extends DNS by supporting the registration and resolution of:
+The Openname System (ONS) is a protocol that extends DNS by supporting the registration and resolution of:
 
 1. user handles on the blockchain
 1. domains on the blockchain (design phase)
