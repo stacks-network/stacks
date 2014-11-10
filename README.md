@@ -33,7 +33,7 @@ ONS is 100% backwards compatible with ICANN DNS and simply extends the functiona
 
 ### ONS Specifications
 
-This repository includes the specifications, standards, and schema for the Open Name System.
+This repository includes the specifications, standards, and schema for the Openname System.
 
 ### Getting Started
 
