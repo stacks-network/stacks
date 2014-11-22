@@ -1,0 +1,1 @@
+This is the home of the specifications for the Openname protocol.
