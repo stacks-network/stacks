@@ -1,6 +1,4 @@
-==Profiles==
-
-===Fields===
+==Fields==
 
 {| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
 !Name
@@ -13,7 +11,9 @@
 | the user's name
 | object
 | 'formatted'
-| { 'formatted': 'Satoshi Nakamoto' }
+| {
+  'formatted': 'Satoshi Nakamoto'
+}
 |- style="background-color: #ffcfcf"
 | bio
 | a short summary/description of the user
@@ -25,7 +25,9 @@
 | the user's location
 | object
 | 'formatted'
-| { 'formatted': 'Somewhere on planet Earth' }
+| {
+  'formatted': 'Somewhere on planet Earth'
+}
 |- style="background-color: #ffcfcf"
 | website
 | the user's website
@@ -37,19 +39,25 @@
 | the user's bitcoin payment details
 | object
 | 'address'
-| { 'address': '1HLoD9E4SDFFPDiYfNYnkBLQ85Y51J3Zb1' }
+| {
+  'address': '1HLoD9E4SDFFPDiYfNYnkBLQ85Y51J3Zb1'
+}
 |- style="background-color: #ffcfcf"
 | avatar
 | a photo that represents the user's appearance
 | object
 | 'url'
-| { 'url': 'https://s3.amazonaws.com/97p/satoshinakamoto' }
+| {
+  'url': 'https://s3.amazonaws.com/97p/satoshi'
+}
 |- style="background-color: #cfffcf"
 | cover
 | a photo that adds a personal touch to the user's profile
 | object
 | 'url'
-| { 'url': 'https://s3.amazonaws.com/dx3/satoshinakamoto' }
+| {
+  'url': 'https://s3.amazonaws.com/dx3/satoshi'
+}
 |- style="background-color: #ffcfcf"
 | pgp
 | the user's pgp fingerprint and a url to their public key
@@ -103,3 +111,65 @@
 | '0.2'
 |}
 
+==Identity Verification Proofs==
+
+Each social media account that a user specifies must include both a username and a verification proof.
+
+The data is structured like so:
+
+<pre>"twitter": {
+  "username": "fredwilson", 
+  "proof": {
+    "url": "https://twitter.com/fredwilson/status/533040726146162689"
+  }
+}</pre>
+
+Note that in the case of this twitter proof, the proof object includes a url to a tweet that only the user could have produced
+
+In that tweet is a verification message that shows the user publicly proclaiming ownership of their openname username.
+
+From this, we can conclude that the person in possession of the twitter account is in fact the same person as the person in possession of the openname username.
+
+===Verification Proof Messages===
+
+<pre>Verifying that +fredwilson is my openname</pre>
+
+==Examples==
+
+===+fredwilson===
+
+<pre>{
+  "bio": "I am a VC", 
+  "bitcoin": {
+    "address": "1Fbi3WDPEK6FxKppCXReCPFTgr9KhWhNB7"
+  }, 
+  "avatar": {
+    "url": "https://s3.amazonaws.com/kd4/fredwilson1"
+  }, 
+  "v": "0.2", 
+  "location": {
+    "formatted": "New York City"
+  }, 
+  "website": "http://avc.com", 
+  "cover": {
+    "url": "https://s3.amazonaws.com/dx3/fredwilson"
+  }, 
+  "facebook": {
+    "username": "fred.wilson.963871", 
+    "proof": {
+      "url": "https://facebook.com/fred.wilson.963871/posts/10100401430876108"
+    }
+  }, 
+  "name": {
+    "formatted": "Fred Wilson"
+  }, 
+  "graph": {
+    "url": "https://s3.amazonaws.com/grph/fredwilson"
+  }, 
+  "twitter": {
+    "username": "fredwilson", 
+    "proof": {
+      "url": "https://twitter.com/fredwilson/status/533040726146162689"
+    }
+  }
+}</pre>
