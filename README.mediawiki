@@ -1,1 +1,17 @@
 This is the home of the specifications for the Openname protocol.
+
+==Contents==
+
+{| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
+!Name
+!Description
+|- style="background-color: #cfffcf"
+| [[username.mediawiki|username]]
+| rules for what constitutes a valid openname username
+|- style="background-color: #ffcfcf"
+| [[profile.mediawiki|profile]]
+| specifications for user profile data
+|- style="background-color: #cfffcf"
+| [[resolver.mediawiki|resolver]]
+| specifications for openname resolvers
+|}
