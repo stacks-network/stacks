@@ -1,1 +1,54 @@
 ==Profiles==
+
+===Fields===
+
+{| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
+!Name
+!Description
+!Type
+!Properties
+!Example
+|- style="background-color: #cfffcf"
+| name
+| 
+| object
+| 'formatted'
+| { 'formatted': 'Satoshi Nakamoto' }
+|- style="background-color: #ffcfcf"
+| bio
+| 
+| string
+| 
+| 'Creator of Bitcoin'
+|- style="background-color: #cfffcf"
+| location
+| 
+| object
+| 'formatted'
+| { 'formatted': 'Somewhere on planet Earth' }
+|- style="background-color: #ffcfcf"
+| website
+| 
+| string
+| 
+| 'https://bitcoin.org'
+|- style="background-color: #cfffcf"
+| bitcoin
+| 
+| object
+| 'address'
+| { 'address': '1HLoD9E4SDFFPDiYfNYnkBLQ85Y51J3Zb1' }
+|- style="background-color: #ffcfcf"
+| avatar
+| 
+| object
+| 'url'
+| { 'url': 'https://en.bitcoin.it/w/images/en/2/29/BC_Logo_.png' }
+|- style="background-color: #cfffcf"
+| v
+| the version of the specifications
+| string
+| 
+| '0.2'
+|}
+
