@@ -67,19 +67,34 @@
 | the user's twitter account information
 | object
 | 'username', 'proof'
-| { 'username': 'satoshinakamoto' }
+| {
+  'username': 'satoshi',
+  'proof': {
+    'url': 'https://twitter.com...'
+  }
+}
 |- style="background-color: #cfffcf"
 | facebook
 | the user's facebook account information
 | object
 | 'username', 'proof'
-| { 'username': 'satoshinakamoto' }
+| {
+  'username': 'satoshi',
+  'proof': {
+    'url': 'https://facebook.com...'
+  }
+}
 |- style="background-color: #ffcfcf"
 | github
 | the user's github account information
 | object
 | 'username', 'proof'
-| { 'username': 'satoshinakamoto' }
+| {
+  'username': 'satoshi',
+  'proof': {
+    'url': 'https://gist.github.com...'
+  }
+}
 |- style="background-color: #cfffcf"
 | v
 | the number of the specification version being used
