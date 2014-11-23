@@ -49,7 +49,7 @@
 | a photo that adds a personal touch to the user's profile
 | object
 | 'url'
-| { 'url': 'http://www.bloomberg.com/quicktake/content/uploads/sites/2/2013/09/bitcoin11.jpg' }
+| { 'url': 'https://s3.amazonaws.com/dx3/satoshinakamoto' }
 |- style="background-color: #ffcfcf"
 | pgp
 | the user's pgp fingerprint and a url to their public key
