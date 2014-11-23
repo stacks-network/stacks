@@ -43,7 +43,7 @@
 | a photo that represents the user's appearance
 | object
 | 'url'
-| { 'url': 'https://en.bitcoin.it/w/images/en/2/29/BC_Logo_.png' }
+| { 'url': 'https://s3.amazonaws.com/97p/satoshinakamoto' }
 |- style="background-color: #cfffcf"
 | cover
 | a photo that adds a personal touch to the user's profile
@@ -67,19 +67,19 @@
 | the user's twitter account information
 | object
 | 'username', 'proof'
-| { 'username': 'satoshinakamoto', 'proof': { 'url': '' } }
+| { 'username': 'satoshinakamoto' }
 |- style="background-color: #cfffcf"
 | facebook
 | the user's facebook account information
 | object
 | 'username', 'proof'
-| { 'username': 'satoshinakamoto', 'proof': { 'url': '' } }
+| { 'username': 'satoshinakamoto' }
 |- style="background-color: #ffcfcf"
 | github
 | the user's github account information
 | object
 | 'username', 'proof'
-| { 'username': 'satoshinakamoto', 'proof': { 'url': '' } }
+| { 'username': 'satoshinakamoto' }
 |- style="background-color: #cfffcf"
 | v
 | the number of the specification version being used
