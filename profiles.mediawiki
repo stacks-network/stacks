@@ -65,19 +65,19 @@
 | the user's twitter account information
 | object
 | "username", "proof"
-| { "username': "satoshi", "proof": {} }
+| [[#Identity_Verification_Proofs|see below]]
 |- style="background-color: #cfffcf"
 | facebook
 | the user's facebook account information
 | object
 | 'username', 'proof'
-| { "username': "satoshi", "proof": {} }
+| [[#Identity_Verification_Proofs|see below]]
 |- style="background-color: #ffcfcf"
 | github
 | the user's github account information
 | object
 | 'username', 'proof'
-| { "username': "satoshi", "proof": {} }
+| [[#Identity_Verification_Proofs|see below]]
 |- style="background-color: #cfffcf"
 | v
 | the number of the specification version being used
