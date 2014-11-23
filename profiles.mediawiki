@@ -10,105 +10,80 @@
 | name
 | the user's name
 | object
-| 'formatted'
-| {
-  'formatted': 'Satoshi Nakamoto'
-}
+| "formatted"
+| { "formatted": "Satoshi Nakamoto" }
 |- style="background-color: #ffcfcf"
 | bio
 | a short summary/description of the user
 | string
 | 
-| 'Creator of Bitcoin'
+| "Creator of Bitcoin"
 |- style="background-color: #cfffcf"
 | location
 | the user's location
 | object
-| 'formatted'
-| {
-  'formatted': 'Somewhere on planet Earth'
-}
+| "formatted"
+| { "formatted": "Somewhere on planet Earth" }
 |- style="background-color: #ffcfcf"
 | website
 | the user's website
 | string
 | 
-| 'https://bitcoin.org'
+| "https://bitcoin.org"
 |- style="background-color: #cfffcf"
 | bitcoin
 | the user's bitcoin payment details
 | object
-| 'address'
-| {
-  'address': '1HLoD9E4SDFFPDiYfNYnkBLQ85Y51J3Zb1'
-}
+| "address"
+| { "address": "1HLoD9E4SDFFPDiYfNYnkBLQ85Y51J3Zb1" }
 |- style="background-color: #ffcfcf"
 | avatar
 | a photo that represents the user's appearance
 | object
-| 'url'
-| {
-  'url': 'https://s3.amazonaws.com/97p/satoshi'
-}
+| "url"
+| { "url": "https://s3.amazonaws.com/97p/satoshi" }
 |- style="background-color: #cfffcf"
 | cover
 | a photo that adds a personal touch to the user's profile
 | object
-| 'url'
-| {
-  'url': 'https://s3.amazonaws.com/dx3/satoshi'
-}
+| "url"
+| { "url": "https://s3.amazonaws.com/dx3/satoshi" }
 |- style="background-color: #ffcfcf"
 | pgp
 | the user's pgp fingerprint and a url to their public key
 | object
 | 'url', 'fingerprint'
-| { 'url': '', 'fingerprint': '' }
+| { "url": "https://", "fingerprint": "0123 4567 89AB CDEF" }
 |- style="background-color: #cfffcf"
 | email
 | the user's email address
 | string
 | 
-| 'satoshin@gmx.com'
+| "satoshin@gmx.com"
 |- style="background-color: #ffcfcf"
 | twitter
 | the user's twitter account information
 | object
-| 'username', 'proof'
-| {
-  'username': 'satoshi',
-  'proof': {
-    'url': 'https://twitter.com...'
-  }
-}
+| "username", "proof"
+| { "username': "satoshi", "proof": {} }
 |- style="background-color: #cfffcf"
 | facebook
 | the user's facebook account information
 | object
 | 'username', 'proof'
-| {
-  'username': 'satoshi',
-  'proof': {
-    'url': 'https://facebook.com...'
-  }
-}
+| { "username': "satoshi", "proof": {} }
 |- style="background-color: #ffcfcf"
 | github
 | the user's github account information
 | object
 | 'username', 'proof'
-| {
-  'username': 'satoshi',
-  'proof': {
-    'url': 'https://gist.github.com...'
-  }
-}
+| { "username': "satoshi", "proof": {} }
 |- style="background-color: #cfffcf"
 | v
 | the number of the specification version being used
 | string
 | 
-| '0.2'
+| "0.2"
 |}
 
 ==Identity Verification Proofs==
