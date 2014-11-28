@@ -1,4 +1,4 @@
-# Profiles v2
+# Profile Schema v2
 
 ### Fields
 
