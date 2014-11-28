@@ -4,6 +4,10 @@
 
 |Name      |Type    |Properties         |Description                           |
 |----------|--------|-------------------|--------------------------------------|
+|name      |object  |"formatted"        |the user's name                       |
+|location  |object  |"formatted"        |the user's location                   |
+|summary   |string  |                   |a short summary of the user           |
+|v         |string  |                   |the version number of the specs being used |
 
 ### Identity Verification Proofs
 
@@ -66,12 +70,12 @@ From this, we can conclude that the person in possession of the twitter account 
       { "type": "otr",
         "fingerprint": "756CE84F 90ABDE84 0555F4E2 E0B2ACB1 297F9E65" },
       { "type": "bitcoin",
-        "fingerprint": "1EEwLZVZMc2EhMf3LXDARbp4mA3qAwhBxu",
-        "value": "083a...a2c4"},
+        "fingerprint": "1FbynFXB1C6jSAQZivucAnzAm9N7GxURYa",
+        "value": "083a0518062cc3c5ad48501c60aa06059785449f579a256ed2f1a5e781a109d978e54b20fb43b6e90dc91d8f9898665b969e122df6e1d1e5ce06c790f618a2c4"},
     ],
     "payments": [
         { "type": "bitcoin",
-          "identifier": "14eautXfJT7EZsKfm1eHSAPnHkn3w1XF9R" },
+          "identifier": "1EEwLZVZMc2EhMf3LXDARbp4mA3qAwhBxu" },
         { "type": "namecoin",
           "identifier": "N4izoiyX9XKapXqsts7bSN7c3Bcgnr9aeo" },
         { "type": "dogecoin",
@@ -114,10 +118,10 @@ From this, we can conclude that the person in possession of the twitter account 
           "username": "Ryan Shea",
           "proofUrl": "https://plus.google.com/110166845166458482181/posts" }
     ],
-    "followees": {
-        "albertwenger": { "username": "albertwenger" },
-        "fredwilson", { "username": "fredwilson" }
-    },
+    "connections": [
+        { "type": "followee", "username": "albertwenger" },
+        { "type": "followee", "username": "fredwilson" },
+    ],
     "statements": [
         { "message": "I hereby cast my vote for Bitdevs to be held at USV on Tue Dec 16",
           "signature": "HIFDEkiBuJK8MwAJV57L/jLUlTdhwhcIPWCAHJ7Rz58lRTxJfGTKAVxcN6zCtgX4bWlWVEb/qr5oI1AIqVXgUbA=" }
