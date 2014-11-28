@@ -63,6 +63,10 @@ From this, we can conclude that the person in possession of the twitter account 
   "cover": {
     "url": "https://s3.amazonaws.com/dx3/fredwilson"
   },
+  "pgp": {
+    "fingerprint": "DE4E FCA3 E1AB 9E41 CE96 CECB 18C0 9E86 5EC9 48A1",
+    "url": "https://pgp.mit.edu/pks/lookup?op=vindex&search=0x18C09E865EC948A1"
+  },
   "twitter": {
     "username": "satoshinakamoto", 
     "proof": {
