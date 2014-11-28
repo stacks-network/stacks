@@ -2,12 +2,21 @@
 
 ### Fields
 
-|Name      |Type    |Properties         |Description                           |
-|----------|--------|-------------------|--------------------------------------|
-|name      |object  |"formatted"        |the user's name                       |
-|location  |object  |"formatted"        |the user's location                   |
-|summary   |string  |                   |a short summary of the user           |
-|v         |string  |                   |the version number of the specs being used |
+|Name       |Type    |Properties                   |Description                           |
+|-----------|--------|-----------------------------|--------------------------------------|
+|name       |object  |"formatted"                  |the user's name                       |
+|location   |object  |"formatted"                  |the user's location                   |
+|summary    |string  |                             |a short summary of the user           |
+|websites   |list    |"url"                        |                                      |
+|contact    |list    |"type","identifier"          |                                      |
+|photos     |list    |"type","url"                 |                                      |
+|pubkeys    |list    |"type","fingerprint","url","value"|                                      |
+|payments   |list    |"type","identifier"          |                                      |
+|profiles   |list    |"type","username","proofUrl" |                                      |
+|connections|list    |"type","username"            |                                      |
+|statements |list    |"message","signature"        |                                      |
+|auth       |object  |"method", "url"              |                                      |
+|v          |string  |                             |the version number of the specs being used |
 
 ### Identity Verification Proofs
 
