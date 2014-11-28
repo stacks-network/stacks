@@ -1,6 +1,6 @@
 # Profile Schema v0.3
 
-### Fields
+## Fields
 
 |Name       |Type    |Properties                   |Description                           |
 |-----------|--------|-----------------------------|--------------------------------------|
@@ -10,7 +10,7 @@
 |websites   |list    |"url"                        |                                      |
 |contact    |list    |"type","identifier"          |                                      |
 |photos     |list    |"type","url"                 |                                      |
-|pubkeys    |list    |"type","fingerprint","url","value"|                                      |
+|pubkeys    |list    |"type","fingerprint","url","value"|                                 |
 |payments   |list    |"type","identifier"          |                                      |
 |profiles   |list    |"type","username","proofUrl" |                                      |
 |connections|list    |"type","username"            |                                      |
@@ -18,7 +18,7 @@
 |auth       |object  |"method", "url"              |                                      |
 |v          |string  |                             |the version number of the specs being used |
 
-### Identity Verification Proofs
+## Identity Verification Proofs
 
 Each social media account that a user specifies must include both a username and a verification proof.
 
@@ -30,7 +30,7 @@ The data is structured like so:
     "proofUrl": "https://twitter.com/fredwilson/status/533040726146162689"
 }</pre>
 
-Note that in the case of this twitter proof, the proof object includes a url to a tweet that only the user could have produced
+Note that in the case of this twitter proof, the proof object includes a url to a tweet that only the user could have produced.
 
 In that tweet is a verification message that shows the user publicly proclaiming ownership of their openname username.
 
@@ -40,7 +40,7 @@ From this, we can conclude that the person in possession of the twitter account 
 
 <pre>Verifying that +fredwilson is my openname</pre>
 
-### Examples
+## Examples
 
 #### +ryanshea
 
@@ -143,11 +143,25 @@ From this, we can conclude that the person in possession of the twitter account 
 }
 </code></pre>
 
-### Sections
+## Sections
+
+#### Name
+
+#### Location
+
+#### Summary
+
+#### Websites
+
+A list of a user's websites. A user can establish proof of ownership outside of this schema by placing a file in their website's directory (potentially either the root directory or .well-known directory) that references them as an owner or team member of the organization that runs the site.
+
+#### Contact
 
 #### Photos
 
 A user's photos, including their avatar and cover photo.
+
+#### Pubkeys
 
 #### Payments
 
@@ -157,11 +171,8 @@ A user's payment details for various payment methods, including Bitcoin and othe
 
 A user's social network profiles. A user can provide the appropriate usernames or urls, as well as provide proof of ownership of their accounts by referencing posts that only they could have produced (tweets, gists, etc.).
 
-#### Websites
+#### Connections
 
-A list of a user's websites. A user can establish proof of ownership outside of this schema by placing a file in their website's directory (potentially either the root directory or .well-known directory) that references them as an owner or team member of the organization that runs the site.
+#### Statements
 
-#### PGP
-
-A user's PGP key. A user may provide proof of ownership by signing a message stating their blockchain handle and including it in their profile.
-
+#### Auth

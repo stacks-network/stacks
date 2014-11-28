@@ -1,6 +1,6 @@
 # Profile Schema v0.2
 
-### Fields
+## Fields
 
 |Name      |Type    |Properties         |Description                           |
 |----------|--------|-------------------|--------------------------------------|
@@ -18,7 +18,7 @@
 |github    |object  |"username","proof" |the user's github account info        |
 |v         |string  |                   |the version number of the specs being used |
 
-### Identity Verification Proofs
+## Identity Verification Proofs
 
 Each social media account that a user specifies must include both a username and a verification proof.
 
@@ -41,7 +41,7 @@ From this, we can conclude that the person in possession of the twitter account 
 
 <pre>Verifying that +fredwilson is my openname</pre>
 
-### Examples
+## Examples
 
 #### +satoshi
 
