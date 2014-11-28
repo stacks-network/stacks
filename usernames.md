@@ -1,4 +1,4 @@
-==Usernames==
+# Usernames
 
 Usernames may be up to 60 characters long and contain lowercase letters, numbers, and underscores.
 
