@@ -12,6 +12,7 @@ __Table of Contents__
         - [Writing from blockchains](<#Writing>)
     - [Resolver information](<#Resolver>)
 - [DNS API (Draft)](<#DNS>)
+    - [TLDs for existing blockchain](<#TLDs>)
     - [MetaTLDs](<#MetaTLDs>)
     - [Records for blockchains](<#Records>)
 
@@ -28,7 +29,7 @@ Resolvers conform to a blockchain-agnostic RESTful API according the following _
 
 ### Specifying what is being queried<a name="Specifying"/>
 
-Resolvers can support multiple _functionalities_ and multiple _blockchains_.
+Resolvers CAN support multiple _functionalities_ and multiple _blockchains_. They MUST support: at least one blockchain metaTLD, at least one blockchain TLD, and at least the corresponding `api.` subdomain functionality.
 
 To specify the blockchain being queried, two HTTP headers are supported: `HOST` and `BLOCKCHAIN`. The `HOST` header is used as convenience when using a resolver for DNS via the [`.dns` metaTLD](<#metatlds>).
 
@@ -70,7 +71,7 @@ __Examples: Querying user profile information__
 
 _Note that JSON is the default when the extension isn't specified._
 
-#### Writing from blockchains<a name="Writing"/>
+#### Writing to blockchains<a name="Writing"/>
 
 _TBD: [copy from namecoin forum](https://forum.namecoin.info/viewtopic.php?p=10750#p10750)._
 
@@ -82,9 +83,9 @@ _TBD: [copy from namecoin forum](https://forum.namecoin.info/viewtopic.php?p=107
 
 ## DNS API (Draft)<a name="DNS"/>
 
-#### Blockchain-based TLDs
+#### TLDs for existing blockchain<a name="TLDs"/>
 
-These TLDs have been "staked out" as belonging to the following blockchains:
+Resolvers MUST support at least one of the following TLDs:
 
 |  TLD   |                                           Blockchain                                           |
 |--------|------------------------------------------------------------------------------------------------|
