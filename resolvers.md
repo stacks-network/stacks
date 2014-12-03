@@ -82,6 +82,18 @@ _TBD: [copy from namecoin forum](https://forum.namecoin.info/viewtopic.php?p=107
 
 ## DNS API (Draft)<a name="DNS"/>
 
+#### Blockchain-based TLDs
+
+These TLDs have been "staked out" as belonging to the following blockchains:
+
+|  TLD   |                                           Blockchain                                           |
+|--------|------------------------------------------------------------------------------------------------|
+| `.bit` | Namecoin ([spec](https://wiki.namecoin.info/index.php?title=Domain_Name_Specification))        |
+| `.p2p` | KeyID aka BitShares DNS ([spec](http://wiki.bitshares.org/index.php/.p2p_%28BitShares_DNS%29)) |
+| `.eth` | Ethereum (spec doesn't exist yet, probably will follow Namecoin)                               |
+
+_Note: blockchains should choose TLDs that do not conflict with any existing ICANN TLDs (and ICANN should do the same)._ 
+
 #### MetaTLDs<a name="MetaTLDs"/>
 
 MetaTLDs are TLDs that [resolve to the IP of the resolver itself](http://blog.okturtles.com/2014/02/introducing-the-dotdns-metatld/).
