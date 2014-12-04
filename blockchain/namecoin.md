@@ -1,32 +1,3 @@
-Namecoin
-==================
-
-##### Table of Contents  
-[Usernames](#usernames)  
-[Key-value Entries](#kventries)  
-[Profile Chunking](#chunking)  
-
-<a name="usernames"/>
-## Usernames
-
-Usernames may be up to 60 characters long and contain lowercase letters, numbers, and underscores.
-
-**Note:** usernames with ANY uppercase letters will be ignored by crawlers, so make sure to only use lowercase letters when you register a name.
-
-Namecoin's key-value store has several namespaces. By convention, key entries that start with "d/" are interpreted as domain names. Likewise, those that start with "u/" are interpreted as usernames.
-
-When registering a username on Namecoin, prepend "u/" to the username and use that as your key in the key-value entry.
-
-Regex: ^u/[a-z0-9_]{1,60}$
-
-Example:
-
-    Username: someuser
-    Key: u/someuser
-onen
-Full instructions for registering usernames on Namecoin can be found below.
-
-<a name="kventries"/>
 ## Key-value Entries
 
 ### Registering username/profile pairs as key-value entries in Namecoin
@@ -48,7 +19,6 @@ After the "name new" operation is complete, the "name first update" operation co
 
 Current cost: 0.00 NMC
 
-<a name="chunking"/>
 ## Profile Chunking
 
 Key-value entries in Namecoin are limited to a maximum of 519 bytes.
