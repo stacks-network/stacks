@@ -1,5 +1,7 @@
 # Resolvers (DRAFT)
 
+***Warning: This document is currently in DRAFT status and therefore may change rapidly and significantly. Do not build production-ready apps based on it yet!***
+
 Resolvers can return data via multiple protocols Currently two protocols are defined by this spec: __HTTP(S)__ (as a RESTful API), and __DNS__.
 
 __Table of Contents__
@@ -105,15 +107,27 @@ _Note that JSON is the default when the extension isn't specified._
 
 _TBD: [copy from namecoin forum](https://forum.namecoin.info/viewtopic.php?p=10750#p10750)._
 
-These will probably take the form of: `POST /write/{key}`
+These will probably take the form of:
+
+- `POST /update/{key}`
+- `POST /transfer/{key}?to={new_owner_address}` (exact semantics TBD)
+- `POST /delete/{key}`
+- etc.
+
+Note that *the same RESTful API* MUST be used across all blockchains to ensure a generic, agnostic approach.
+If one blockchain supports a unique action that other blockchains do not, then its interface will act as the
+blueprint that will be used on other blockchains (should they support the action in the future). Therefore
+the design of all actions must be as general and agnostic as possible.
 
 The data being written SHOULD be placed into the body of the request, following standard `POST` semantics.
 
 ### Resolver information<a name="Resolver"/>
 
-| `HOST` or `BLOCKCHAIN` Header | HTTP verb |               Query                |               Returns               |
-|-------------------------------|-----------|------------------------------------|-------------------------------------|
-| api.namecoin.dns              | _ANY_     | /fingerprint{. [json &#x7C; xml]} | _TBD: format of SHA256 fingerprint_ |
+If resolvers wish to provide resolver-specific functionality that does relate to blockchain-specific
+data, they SHOULD do so over a separate, resolver-specific metaTLD, the API details of which are up
+to the resolver to decide.
+
+For example, the DNSChain reference resolver supports retrieving its fingerprint over `api.dnschain.dns/fingerprint`.
 
 ## DNS API (Draft)<a name="DNS"/>
 
