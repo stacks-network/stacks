@@ -24,7 +24,7 @@ All operations are performed via the URL [path and query string](https://en.wiki
 
 All possible queries that can be performed on a blockchain (both read, write, and delete operations) conform to the following structure:
 
-    /{version}/[{chain}|resolver]/{resource}/{property}/{operation}{resp_format}?{args}
+    /{version}/{chain|resolver}/{resource}/{property}/{operation}{resp_format}?{args}
 
 Examples:
 
@@ -36,14 +36,13 @@ Examples:
 Unless marked __Optional__, all parts are required:
 
 - `{version}`: Specifies the API version. This value should be `v1` for now.
-- `[{chain}|resolver]`: Specifies the full name of the blockchain, or request [resolver-specific information](<#ResolverInfo>).
+- `{chain|resolver}`: Specifies the full name of the blockchain, or request [resolver-specific information](<#ResolverInfo>).
 - `{resource}`: Blockchains can support different resources that can be queried, but most support the same types of resources. For example, all blockchains (by definition) have a `blocks` resource. Examples: `blocks`, `txn`, `txns`, `addr`, `key`, `accounts`, `contracts`.
 - `{property}` __(Optional):__ Specifies a property of a `{resource}`. Depending on the resource being queried, this can be used to refer to different things. Properties MUST be [URL encoded](https://en.wikipedia.org/wiki/Percent-encoding)! Example queries:
     + `/v1/namecoin/blocks/height` - The height of the blockchain (positive integer).
     + `/v1/namecoin/addr/MywyjpyBbFTsHkevcoYnSaifShG2Et8R3S` - Return information about this address.
 - `{operation}` __(Optional):__ Perform some action on a `{resource}` or a `{property}` of a resource. Example queries:
     + `/v1/namecoin/key/d%2Fgreatwebsite/transfer` - Transfer the key (in this case the domain `greatwebsite.bit`) to a new owner (specified by `{args}`).
-    + `/v1/namecoin/key/u%2Fryan` - Return the JSON stored in the Namecoin blockchain for `/u/ryan`.
 - `{resp_format}` __(Optional):__ The response format. __Default__ response format is JSON. Resolvers MUST support `.json` and MAY support other formats. Examples:
     + `/v1/namecoin/blocks/height.xml` - Return response in XML instead of JSON.
 - `{args}` __(Optional):__ The URL-encoded arguments to some `{operation}`. Examples:
