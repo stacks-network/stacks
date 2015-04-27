@@ -1,4 +1,4 @@
-# Blockchain Name System Specifications
+# Blockchain Name System
 
 |Name|Description|
 |---|---|
