@@ -14,15 +14,12 @@ The Blockchain Name System is composed of several layers. At the bottom, raw dat
 
 Entries in the Blockchain Name System each have:
 
+1. a entry type
 1. a globally unique identifier
-1. a data field for storing descriptive information
+1. a data container for storing descriptive information
 
-Each entry type has it's own namespace in the key-value store and has its own set of specifications for how to format data in the data field.
+Each entry type has it's own namespace in the key-value store and has its own set of specifications for how to format data. Some example entry types are people, businesses, artwork, websites, physical products, and places.
 
-For example, user entries/identities are called passcards. In the system, the unique identifier serves as a username and the data field provides a location for storing descriptive information about the person. Specifications for formatting this data can be found in the wiki.
-
-And entries/identities can correspond to various types beyond just people, like businesses, websites, artwork, physical products, or places.
+Each entry type may also have it's own terminology. For example, user identies on the system are called passcards. In addition, their unique identifiers are referred to as usernames and the data containers store descriptive information about the person (specifications for formatting this data can be found in the wiki).
 
 If there's an identity type that you'd like to see added to the Blockchain Name System, simply propose it in the issues and start a discussion about it. Once the community approves it and there are specifications established for the type, it can be added to the wiki.
-
-
