@@ -9,4 +9,3 @@ For more information, visit the wiki.
 
 [![Read the Wiki](/images/read-the-wiki.png)](https://github.com/blockstack/blockstack/wiki)
 
-![Blockstack Layers](/images/blockstack-1.png)
