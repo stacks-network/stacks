@@ -7,3 +7,9 @@ Blockstack is shorthand for "the blockchain stack". It is a collection of protoc
 The various components include data storage, secure naming, authentication, user identity verification, content ownership verification, and product trading. 
 
 This stack is completely decentralized and only uses open source software.
+
+### Blockchain ID
+
+Note: the documentation on the Blockchain ID protocol has been moved to another repo.
+
+[![Read the Wiki](https://raw.githubusercontent.com/blockstack/blockchain-id/master/images/read-the-wiki.png)](https://github.com/blockstack/blockchain-id/wiki)
