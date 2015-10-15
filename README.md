@@ -2,11 +2,11 @@
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
-Blockstack is an open community of developers who are working to create a complete, standardized, well-documented toolkit for building decentralized applications.
+Blockstack is shorthand for "the blockchain stack." Our mission is to create common infrastructure for developing decentralized applications.
 
-The various components include data storage, secure naming, authentication, user identity verification, content ownership verification, and product trading.
+The various components include data storage, secure naming, authentication, user identity verification, and content ownership verification.
 
-This stack is completely decentralized and only uses open source software.
+This stack is completely decentralized and is built with free, open source software.
 
 ## Community
 [GitHub](https://github.com/blockstack) - share code, file issues, discuss future features, plan and document community activities
