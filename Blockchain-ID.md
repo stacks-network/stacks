@@ -1,0 +1,1 @@
+Moved to: https://github.com/blockstack/blockchain-id/wiki
