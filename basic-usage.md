@@ -1,8 +1,8 @@
 ---
 title: Basic Usage
 nextUrl: /docs/extended-usage
-nextLabel: Advanced Usage
-nextDescription: Dig deeper with Blockstack usage. Learn how to create new namespaces and more.
+nextLabel: Extended Usage
+nextDescription: Dig deeper with Blockstack usage. Learn how to transfer names and more.
 ---
 
 # Basic Usage
@@ -48,7 +48,7 @@ Example response:
 After you get comfortable with looking up names, take the next step and register and manage a name for yourself. Run the following command:
 
 ```bash
-$ blockstack register $(whoami)_$RANDOM.id
+$ blockstack register <YOUR FULL NAME>.id
 ```
 
 If the name hasn’t been registered yet, you’ll get a confirmation that your registration is pending:
