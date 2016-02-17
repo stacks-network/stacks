@@ -1,13 +1,11 @@
 ---
 title: Installation
-nextUrl: /docs/usage
-nextLabel: Usage
+nextUrl: /docs/basic-usage
+nextLabel: Basic Usage
 nextDescription: Explore the basic usage of Blockstack, including looking up and registering names.
 ---
 
 # Installation
-
-## Quick Installation
 
 The quickest way to get started with Blockstack and get a glimpse of what it can do is to download the command line interface and perform a name lookup.
 
@@ -17,9 +15,9 @@ Installing the Blockstack command line interface is simple if you have pip. Just
 $ pip install blockstack
 ```
 
-## Alternative Installations
+### Alternative Installations
 
-### Mac Users
+#### Mac Users
 
 If you're a mac user and would like an alternative to installing through pip, you can also install Blockstack with brew, as seen below.
 
@@ -27,7 +25,7 @@ If you're a mac user and would like an alternative to installing through pip, yo
 $ brew install blockstack
 ```
 
-### Linux Users
+#### Linux Users
 
 If you're a linux user and would like an alternative to installing through pip, you can also install via apt-get.
 
