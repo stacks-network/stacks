@@ -1,5 +1,8 @@
 ---
 title: Blockstack vs. Namecoin
+nextUrl: /docs/faq
+nextLabel: FAQ
+nextDescription: A list of questions frequently asked about Blockstack.
 ---
 
 # Blockstack vs. Namecoin

@@ -1,8 +1,8 @@
 ---
 title: Extended Usage
-nextUrl: /docs/blockstack-vs-dns
-nextLabel: Blockstack vs Traditional DNS
-nextDescription: Learn about how Blockstack DNS differs from traditional ICANN DNS.
+nextUrl: /docs/what-is-blockstack
+nextLabel: What is Blockstack
+nextDescription: Learn about what Blockstack is and how it works.
 ---
 
 # Extended Usage

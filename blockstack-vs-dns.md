@@ -7,10 +7,6 @@ nextDescription: Learn about how Blockstack DNS differs from Namecoin.
 
 # Blockstack vs. Traditional DNS
 
-With the Blockstack software, a network of computers collectively maintain a global registry of domain names.
-
-In this registry, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how browsers and other software should resolve the name.
-
 As with the traditional domain name system, the Blockstack domain name system allows users to lookup, register, renew, and transfer names, as well as manage name resolution information.
 
 But, Blockstack DNS differs in a few fundamental ways from traditional DNS.
