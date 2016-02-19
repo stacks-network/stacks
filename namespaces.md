@@ -7,7 +7,7 @@ next: faq
 
 Blockstack's DNS system allows anyone to create namespaces or directories for their decentralized applications.
 
-The first namespace ever created is one for referring to user identities (TLD: <kbd>.id</kbd>). These identities are called "blockchain IDs" because they are identities registered on the blockchain. The blockchain ID namespace is being utilized by services like [Onename](https://onename.com), [Nametiles](http://nametiles.co), [OB1](http://ob1.io), [Bitseed](http://bitseed.org) and more.
+The first namespace ever created is one for referring to user identities (TLD: <kbd>alt</kbd>). These identities are called "blockchain IDs" because they are identities registered on the blockchain. The blockchain ID namespace is being utilized by services like [Onename](https://onename.com), [Nametiles](http://nametiles.co), [OB1](http://ob1.io), [Bitseed](http://bitseed.org) and more.
 
 #### Namespaces Coming Soon
 
@@ -22,23 +22,23 @@ The first namespace ever created is one for referring to user identities (TLD: <
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td><kbd>.site</kbd></td>
-      <td>Directing browsers to websites with a system like [ZeroNet](http://zeronet.io/), in conjunction with [okTurtles](https://okturtles.com)</td>
+      <td>`.site`</td>
+      <td>Directing browsers to websites with a system like [ZeroNet](http://zeronet.io), in conjunction with [okTurtles](http://okturtles.com)</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td><kbd>.file</kbd></td>
-      <td>Notarized files on services like [Stampery](http://stampery.co) and [the Chainpoint protocol](https://github.com/chainpoint/chainpoint)</td>
+      <td>`.file`</td>
+      <td>Notarized files on services like [Stampery](http://stampery.co) and [the Chainpoint protocol](http://github.com/chainpoint/chainpoint)</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td><kbd>.store</kbd></td>
+      <td>`.store`</td>
       <td>E-commerce stores on decentralized commerce platforms like [OpenBazaar](http://openbazaar.org) and [Bitmarkets](http://bitmarkets.org)</td>
     </tr>
     <tr>
       <th scope="row">1</th>
       <td><kbd>.media</kbd></td>
-      <td>Hosted media files on systems like [Mine](http://mine.nyc) and [Alexandria](http://blocktech.com)</td>
+      <td>Hosted media files on systems like [Mine](http://mine.nyc), [Ascribe](http://ascribe.io), [Monegraph](http://monegraph.com) and [Alexandria](http://blocktech.com)</td>
     </tr>
     <tr>
       <th scope="row">2</th>
@@ -48,7 +48,7 @@ The first namespace ever created is one for referring to user identities (TLD: <
     <tr>
       <th scope="row">3</th>
       <td><kbd>.dir</kbd></td>
-      <td>Linking human-meaningful names to IPNS identifiers, the hash-based path names on [IPFS](https://ipfs.io)</td>
+      <td>Linking human-meaningful names to IPNS identifiers, the hash-based path names on [IPFS](http://ipfs.io)</td>
     </tr>
   </tbody>
 </table>
