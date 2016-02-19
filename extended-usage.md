@@ -2,7 +2,7 @@
 title: Extended Usage
 description: Dig deeper with Blockstack usage, including name transfers and more.
 image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
-next: what-is-blockstack
+next: blockstack-vs-dns
 ---
 
 ### Transfers

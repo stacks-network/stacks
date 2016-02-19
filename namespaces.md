@@ -16,4 +16,6 @@ The first namespace is for referring to user identities (TLD: .id). These identi
 - A namespace for referring to e-commerce stores on decentralized commerce platforms like [OpenBazaar](http://openbazaar.org) and [Bitmarkets](http://bitmarkets.org) (tentative TLD: .store).
 - A namespace for referring to hosted media files on systems like [Mine](http://mine.nyc) and [Alexandria](http://blocktech.com) (tentative TLD: .media).
 - A namespace to refer to devices on the internet of things on platforms like [Filament](http://filament.com/) (tentative TLD: .device).
-- A namespace for linking human-meaningful names to hash-based names on [IPFS/IPNS](https://ipfs.io) (tentative TLD: .ipfs).
+- A namespace for linking human-meaningful names to IPNS identifiers, the hash-based path names on [IPFS](https://ipfs.io) (tentative TLD: .ipfs).
+
+See [the Blockstack Wiki](https://github.com/blockstack/blockstack-server/wiki/Usage) for information on how to create your own namespace.

@@ -2,7 +2,7 @@
 title: What is Blockstack?
 description: Learn about what Blockstack is and how it works.
 image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
-next: blockstack-vs-dns
+next: installation
 ---
 
 Blockstack is decentralized DNS.
