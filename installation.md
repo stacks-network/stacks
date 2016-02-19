@@ -1,7 +1,7 @@
 ---
 title: Installation
 description: Get started by installing and configuring Blockstack.
-image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
+image: https://images.unsplash.com/photo-1420310414923-bf3651a89816?crop=entropy&fit=crop&fm=jpg&h=1100&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1500
 next: basic-usage
 ---
 
