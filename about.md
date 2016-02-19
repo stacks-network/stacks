@@ -1,0 +1,10 @@
+---
+title: About
+---
+
+# About
+
+Blockstack is a community of developers who are working to create a complete, standardized, well-documented toolkit for building decentralized applications. Developers will be able to use this stack to create decentralized versions of
+popular online services like [Amazon](http://openbazaar.org), [YouTube](http://blocktech.com), [Twitter](http://twister.net.co), [Reddit](http://datt.co), or even a whole new way of [publishing data](http://ipfs.io), and [browsing websites](http://zeronet.io). Many applications are using the same or similar components to achieve decentralization, and Blockstack is working to combine these tools into a simple yet powerful software stack for developers of decentralized applications to build with.
+
+Since launching the Blockstack website a little over two months ago, an incredible amount of attention and support has poured into this community from talented and passionate developers and enthusiasts from all over the world. Developers from companies and projects such as [2WAY.io](http://2way.io), [Bitmarkets](http://bitmarkets.org), [Bitseed](http://bitseed.org), [Chord](http://trychord.com), [creativework.info](http://creativework.info), [DATT](http://datt.co), [Fabric](http://fabric.fm), [Mine](http://mine.nyc), [Nametiles](http://nametiles.co), [OB1](http://ob1.io), [the okTurtles Foundation](http://okturtles.org), [Stampery](http://stampery.co), [Tierion](http://tierion.com), and [ZeroNet](http://zeronet.io) have joined the Blockstack community and are already contributing code and ideas. We have started and continued important discussions both in the [forum](http://forum.blockstack.org) and [slack](http://chat.blockstack.org) about the future of decentralized application development and the role Blockstack will play in this space going forward. Progress is being made and issues are being resolved. We are invite all who support our mission to join our community and contribute to Blockstack!
