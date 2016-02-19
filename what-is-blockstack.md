@@ -1,8 +1,8 @@
 ---
 title: What is Blockstack?
-nextUrl: /docs/blockstack-vs-dns
-nextLabel: Blockstack vs Traditional DNS
-nextDescription: Learn about how Blockstack DNS differs from traditional ICANN DNS.
+description: Learn about what Blockstack is and how it works.
+image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
+next: blockstack-vs-dns
 ---
 
 # What is Blockstack?

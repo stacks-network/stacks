@@ -1,8 +1,8 @@
 ---
 title: Extended Usage
-nextUrl: /docs/what-is-blockstack
-nextLabel: What is Blockstack
-nextDescription: Learn about what Blockstack is and how it works.
+description: Dig deeper with Blockstack usage, including name transfers and more.
+image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
+next: what-is-blockstack
 ---
 
 # Extended Usage

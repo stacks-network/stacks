@@ -1,8 +1,8 @@
 ---
 title: Basic Usage
-nextUrl: /docs/extended-usage
-nextLabel: Extended Usage
-nextDescription: Dig deeper with Blockstack usage. Learn how to transfer names and more.
+description: Explore Blockstack usage, including looking up & registering names.
+image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
+next: extended-usage
 ---
 
 # Basic Usage

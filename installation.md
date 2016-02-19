@@ -1,8 +1,8 @@
 ---
 title: Installation
-nextUrl: /docs/basic-usage
-nextLabel: Basic Usage
-nextDescription: Explore the basic usage of Blockstack, including looking up and registering names.
+description: Get started by installing and configuring Blockstack.
+image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
+next: basic-usage
 ---
 
 # Installation

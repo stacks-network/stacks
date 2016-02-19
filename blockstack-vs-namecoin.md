@@ -1,8 +1,8 @@
 ---
 title: Blockstack vs. Namecoin
-nextUrl: /docs/faq
-nextLabel: FAQ
-nextDescription: A list of questions frequently asked about Blockstack.
+description: Learn about how Blockstack DNS differs from Namecoin.
+image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
+next: faq
 ---
 
 # Blockstack vs. Namecoin
