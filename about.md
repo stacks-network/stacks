@@ -2,8 +2,6 @@
 title: About
 ---
 
-# About
-
 Blockstack is a community of developers who are working to create a complete, standardized, well-documented toolkit for building decentralized applications. Developers will be able to use this stack to create decentralized versions of
 popular online services like [Amazon](http://openbazaar.org), [YouTube](http://blocktech.com), [Twitter](http://twister.net.co), [Reddit](http://datt.co), or even a whole new way of [publishing data](http://ipfs.io), and [browsing websites](http://zeronet.io). Many applications are using the same or similar components to achieve decentralization, and Blockstack is working to combine these tools into a simple yet powerful software stack for developers of decentralized applications to build with.
 

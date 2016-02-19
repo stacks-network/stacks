@@ -5,8 +5,6 @@ image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
 next: basic-usage
 ---
 
-# Installation
-
 The quickest way to get started with Blockstack and get a glimpse of what it can do is to download the command line interface and perform a name lookup.
 
 Installing the Blockstack command line interface is simple if you have pip. Just run the following command in your console:

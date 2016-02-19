@@ -5,8 +5,6 @@ image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
 next: faq
 ---
 
-# Blockstack vs. Namecoin
-
 Blockstack DNS differs from Namecoin DNS in a few fundamental ways.
 
 First, they differ in how the domain name system is operated. Namecoin DNS is operated by nodes of a cryptocurrency called Namecoin, which is a fork of Bitcoin that has it's own separate blockchain. Blockstack DNS, meanwhile, is operated by nodes that read data from and write data to an underlying blockchain, which can be any blockchain that they are configured to operate on top of. The logic for operating the domain name system is decoupled from the logic of the underlying blockchain. This allows a Blockstack network to be configured to operate on any Blockchain in particular, and the main Blockstack network is currently operating on the most secure blockchain - the Bitcoin blockchain.

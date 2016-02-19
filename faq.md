@@ -4,8 +4,6 @@ description: A list of questions frequently asked about Blockstack.
 image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
 ---
 
-# FAQ
-
 ### How is Blockstack DNS different from ICANN DNS?
 
 See this article for a full explanation:

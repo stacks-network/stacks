@@ -5,8 +5,6 @@ image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
 next: blockstack-vs-namecoin
 ---
 
-# Blockstack vs. Traditional DNS
-
 As with the traditional domain name system, the Blockstack domain name system allows users to lookup, register, renew, and transfer names, as well as manage name resolution information.
 
 But, Blockstack DNS differs in a few fundamental ways from traditional DNS.

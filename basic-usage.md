@@ -5,8 +5,6 @@ image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
 next: extended-usage
 ---
 
-# Basic Usage
-
 ### Lookups
 
 Now, to perform a name lookup, run this command:

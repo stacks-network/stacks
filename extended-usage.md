@@ -5,8 +5,6 @@ image: https://images.unsplash.com/photo-1454165205744-3b78555e5572
 next: what-is-blockstack
 ---
 
-# Extended Usage
-
 ### Transfers
 
 To transfer a name that you own to another address, run the `blockstack transfer` command:
