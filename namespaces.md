@@ -7,15 +7,50 @@ next: faq
 
 Blockstack's DNS system allows anyone to create namespaces or directories for their decentralized applications.
 
-The first namespace is for referring to user identities (TLD: .id). These identities are called "blockchain IDs" because they are identities registered on the blockchain. The blockchain ID namespace is being utilized by services like [Onename](https://onename.com), [Nametiles](http://nametiles.co), [OB1](http://ob1.io), [Bitseed](http://bitseed.org) and more.
+The first namespace ever created is one for referring to user identities (TLD: <kbd>.id</kbd>). These identities are called "blockchain IDs" because they are identities registered on the blockchain. The blockchain ID namespace is being utilized by services like [Onename](https://onename.com), [Nametiles](http://nametiles.co), [OB1](http://ob1.io), [Bitseed](http://bitseed.org) and more.
 
 #### Namespaces Coming Soon
 
-- A namespace for directing browsers to websites with a system like [ZeroNet](http://zeronet.io/) and in conjunction with software by [okTurtles](https://okturtles.com) (tentative TLD: .site).
-- A namespace for referring to notarized files on services like [Stampery](http://stampery.co) and [the Chainpoint protocol](https://github.com/chainpoint/chainpoint) (tentative TLD: .file).
-- A namespace for referring to e-commerce stores on decentralized commerce platforms like [OpenBazaar](http://openbazaar.org) and [Bitmarkets](http://bitmarkets.org) (tentative TLD: .store).
-- A namespace for referring to hosted media files on systems like [Mine](http://mine.nyc) and [Alexandria](http://blocktech.com) (tentative TLD: .media).
-- A namespace to refer to devices on the internet of things on platforms like [Filament](http://filament.com/) (tentative TLD: .device).
-- A namespace for linking human-meaningful names to IPNS identifiers, the hash-based path names on [IPFS](https://ipfs.io) (tentative TLD: .ipfs).
+<table class="table">
+  <thead class="thead-inverse">
+    <tr>
+      <th>#</th>
+      <th>Tentative TLD</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><kbd>.site</kbd></td>
+      <td>Directing browsers to websites with a system like [ZeroNet](http://zeronet.io/), in conjunction with [okTurtles](https://okturtles.com)</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><kbd>.file</kbd></td>
+      <td>Notarized files on services like [Stampery](http://stampery.co) and [the Chainpoint protocol](https://github.com/chainpoint/chainpoint)</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><kbd>.store</kbd></td>
+      <td>E-commerce stores on decentralized commerce platforms like [OpenBazaar](http://openbazaar.org) and [Bitmarkets](http://bitmarkets.org)</td>
+    </tr>
+    <tr>
+      <th scope="row">1</th>
+      <td><kbd>.media</kbd></td>
+      <td>Hosted media files on systems like [Mine](http://mine.nyc) and [Alexandria](http://blocktech.com)</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><kbd>.device</kbd></td>
+      <td>Devices on the internet of things on platforms like [Filament](http://filament.com/)</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><kbd>.dir</kbd></td>
+      <td>Linking human-meaningful names to IPNS identifiers, the hash-based path names on [IPFS](https://ipfs.io)</td>
+    </tr>
+  </tbody>
+</table>
 
-See [the Blockstack Wiki](https://github.com/blockstack/blockstack-server/wiki/Usage) for information on how to create your own namespace.
+For help creating your own namespace, reach out to other Blockstack members in [the Blockstack Forum](http://forum.blockstack.org) or [the Blockstack Slack group](http://chat.blockstack.org).
