@@ -10,7 +10,7 @@ next: blockstack-vs-dns
 To transfer a name that you own to another address, run the `blockstack transfer` command:
 
 ```bash
-$ blockstack transfer <name> <recipient>
+$ blockstack transfer <NAME YOU OWN> <RECIPIENT ADDRESS>
 ```
 
 Expected response:
@@ -27,7 +27,7 @@ Expected response:
 To renew a name that you own, run the `blockstack renew` command:
 
 ```bash
-$ blockstack renew <name>
+$ blockstack renew <NAME YOU OWN>
 ```
 
 Expected response:
@@ -121,7 +121,7 @@ Example response:
 To update the blockstack server that your command line is connecting to, use the `blockstack config` command:
 
 ```bash
-$ blockstack config --server=server.blockstack.org --port=6264
+$ blockstack config --server=server.blockstack.org --port=6264 --advanced=off
 ```
 
 Expected response:

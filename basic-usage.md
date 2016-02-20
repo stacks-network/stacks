@@ -28,7 +28,7 @@ You should get a response like this:
 ### Cost Estimations
 
 ```bash
-$ blockstack fee $(whoami).id
+$ blockstack fee <YOUR NAME HERE>.id
 ```
 
 Example response:
@@ -46,7 +46,7 @@ Example response:
 After you get comfortable with looking up names, take the next step and register and manage a name for yourself. Run the following command:
 
 ```bash
-$ blockstack register <YOUR FULL NAME>.id
+$ blockstack register <YOUR NAME HERE>.id
 ```
 
 If the name hasn’t been registered yet, you’ll get a confirmation that your registration is pending:
@@ -65,7 +65,7 @@ After a few hours, your registration should go through and you’ll be able to u
 To update the data record associated with a name you own, run the `blockstack update` command:
 
 ```bash
-$ blockstack update '{ "cname": [{"name": "@", "alias": "https://zk9.s3.amazonaws.com/yeezy.id"}] }'
+$ blockstack update <YOUR NAME HERE>.id '{ "cname": [{"name": "@", "alias": "https://zk9.s3.amazonaws.com"}] }'
 ```
 
 Expected response:
