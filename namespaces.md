@@ -2,7 +2,7 @@
 title: Namespaces
 description: Learn what namespaces are and what they can be used for.
 image: https://images.unsplash.com/photo-1455533453512-ebbb2486f8ad?crop=entropy&fit=crop&fm=jpg&h=1100&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1500
-next: faq
+next: technology
 ---
 
 Blockstack's DNS system allows anyone to create namespaces or directories for their decentralized applications.
