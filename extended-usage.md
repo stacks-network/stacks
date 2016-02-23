@@ -1,7 +1,7 @@
 ---
 title: Extended Usage
 description: Dig deeper with Blockstack usage, including name transfers and more.
-image: https://images.unsplash.com/photo-1447433768642-e424729ed767?
+image: https://images.unsplash.com/photo-1447433865958-f402f562b843
 next: blockstack-vs-dns
 ---
 
