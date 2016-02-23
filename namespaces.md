@@ -1,8 +1,8 @@
 ---
 title: Namespaces
 description: Learn what namespaces are and what they can be used for.
-image: https://images.unsplash.com/photo-1455533453512-ebbb2486f8ad
-next: how-blockstack-works
+image: https://images.unsplash.com/photo-1455533453512-ebbb2486f8ad?crop=entropy&fit=crop&fm=jpg&h=1100&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1500
+next: faq
 ---
 
 Blockstack's DNS system allows anyone to create namespaces or directories for their decentralized applications.
@@ -22,17 +22,17 @@ The first namespace ever created is one for referring to user identities (TLD: <
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td><kbd>.site</kbd></td>
+      <td>`.site`</td>
       <td>Directing browsers to websites with a system like [ZeroNet](http://zeronet.io), in conjunction with [okTurtles](http://okturtles.com)</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td><kbd>.file</kbd></td>
+      <td>`.file`</td>
       <td>Notarized files on services like [Stampery](http://stampery.co) and [the Chainpoint protocol](http://github.com/chainpoint/chainpoint)</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td><kbd>.store</kbd></td>
+      <td>`.store`</td>
       <td>E-commerce stores on decentralized commerce platforms like [OpenBazaar](http://openbazaar.org) and [Bitmarkets](http://bitmarkets.org)</td>
     </tr>
     <tr>
