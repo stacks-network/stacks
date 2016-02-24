@@ -1,7 +1,7 @@
 ---
 title: How Blockstack Works
 description: Learn how Blockstack works under the hood.
-image: https://images.unsplash.com/photo-1451187863213-d1bcbaae3fa3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=1100&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1500
+image: capsule.jpg
 next: faq
 ---
 
@@ -17,7 +17,7 @@ The Blockstack nodes build and continuously update the name database by processi
 
 Blockstack name operations are embedded in the transactions of an underlying blockchain.  Once incorporated into a block, they are read and processed by all Blockstack nodes, where each node updates its local copy of the name database. Right now, there is only one network of Blockstack nodes, and it sits on top of the Bitcoin blockchain.
 
-<img src="/images/docs/blockstack-network.png" class="img-fluid" alt="The Blockstack Network">
+<img src="/images/article-diagrams/blockstack-network.png" class="img-fluid" alt="The Blockstack Network">
 
 ### Virtual Blockchains
 
@@ -25,7 +25,7 @@ When a Blockstack node boots up, it derives a name database that matches the dat
 
 If a transaction has a sequence of data that identifies it as a Blockstack transaction, the node parses it, checks that it has both the proper form and it doesn't violate any authorization rules, and then adds it to the list of valid operations for that block.  Invalid transactions are ignored and discarded.  Once the sequence of operations for a block is validated, the Blockstack node executes them to update its name database.  Because each Blockstack node evaluates the same blockchain data, they will each calculate the same database.  For example, if a keypair issues an operation attempting to transfer a name that it doesn't own, the operation is flagged as invalid and discarded.  But, if the keypair that actually owns the name issues a transfer operation, every Blockstack node processes the name transfer.
 
-<img src="/images/docs/virtual-blockchain.png" class="img-fluid" alt="Virtual Blockchains">
+<img src="/images/article-diagrams/virtual-blockchain.png" class="img-fluid" alt="Virtual Blockchains">
 
 The embedded sequence of valid Blockstack operations make up what is referred to as a virtual blockchain. That is because the transactions of the underlying blockchain are filtered and interpreted in a context that the underlying blockchain is not aware of.   Blockstack gives the transactions extra meaning; they otherwise look like normal transactions to the underlying blockchain's nodes. For example, a Bitcoin node may look at a Blockstack transaction and only see that bitcoins are moving from one address to another and that an unintelligible sequence of data has been attached in a data field (e.g. a field identified by OP_RETURN). Meanwhile, a Blockstack node will look at that data and will know how to interpret it in a way that updates the name database.
 
@@ -43,7 +43,7 @@ The third type of operation is a name transfer, where the sender announces it is
 
 The fourth type of operation is a name update, where the sender announces it is replacing the name's associated data record with a new data record. In this operation, only the hash of the data record is provided in the transaction and the data itself is stored elsewhere.
 
-<img src="/images/docs/name-database.png" class="img-fluid" alt="Name Databases">
+<img src="/images/article-diagrams/name-database.png" class="img-fluid" alt="Name Databases">
 
 Even though only data record hashes are stored in blockchain transactions, we can use them to verify the authenticity and integrity of the data itself once we get it.  For example, you can host your data in S3, and other peers can verify your data by first obtaining the hash from Blockstack DNS and then checking it against your data's hash.  Because only the name's cryptographic keypair could have feasibly signed the transaction in the blockchain that announced the hash, it is safe to assume that the data is authentic.
 
@@ -51,7 +51,7 @@ Even though only data record hashes are stored in blockchain transactions, we ca
 
 By default, Blockstack nodes store the data records in a distributed hash table (DHT) that all Blockstack nodes are connected to (the Blockstack nodes each have their own accompanying DHT nodes). Every Blockstack node knows to look in the DHT to resolve the hash of a data record to the data record itself.  The DHT is spam-proof--because each Blockstack node knows the entire set of data record hashes, it effectively has a data white-list.  It will only store data if it's hash is in this set.
 
-<img src="/images/docs/data-record-storage.png" class="img-fluid" alt="Data Record Storage">
+<img src="/images/article-diagrams/data-record-storage.png" class="img-fluid" alt="Data Record Storage">
 
 While the DHT is the default storage location for all data records, other copies of the data records may be stored in other locations. In fact, data mirrors may be set up that continuously crawl the DHT and maintain their own copies of the entire data set.  Blockstack nodes may be configured to look in these data mirrors first before looking in the DHT or anywhere else for the record, for better performance and higher availability.
 

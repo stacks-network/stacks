@@ -1,7 +1,7 @@
 ---
 title: FAQ
 description: Review the questions most frequently asked about Blockstack.
-image: https://images.unsplash.com/photo-1453733190371-0a9bedd82893?crop=entropy&fit=crop&fm=jpg&h=1100&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1500
+image: chalkboard.jpg
 ---
 
 ### How is Blockstack DNS different from ICANN DNS?
