@@ -27,6 +27,8 @@ You should get a response like this:
 
 ### Cost Estimations
 
+Names are not free; each namespace has an associated cost function.  To determine how much it will cost to order a name (including the transaction fees), you can use the `fee` command:
+
 ```bash
 $ blockstack fee $(whoami).id
 ```
@@ -49,7 +51,7 @@ After you get comfortable with looking up names, take the next step and register
 $ blockstack register <YOUR FULL NAME>.id
 ```
 
-If the name hasn’t been registered yet, you’ll get a confirmation that your registration is pending:
+If the name hasn't been registered yet, you'll get a confirmation that your registration is pending:
 
 ```json
 {
@@ -58,7 +60,7 @@ If the name hasn’t been registered yet, you’ll get a confirmation that your 
 }
 ```
 
-After a few hours, your registration should go through and you’ll be able to update your DNS records for the name.
+After a few hours, your registration should go through and you'll be able to update your DNS records for the name.
 
 ### Updates
 
