@@ -21,4 +21,4 @@ Blockstack provides:
 - automatic cache invalidation
 - immunity to DNS cache poisoning
 - robust certificate pinning capabilities
-- resistence to censorship of name registration and resolution
+- resistance to censorship of name registration and resolution
