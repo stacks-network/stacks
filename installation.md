@@ -17,7 +17,7 @@ $ pip install blockstack
 
 #### Mac Users
 
-If you're a mac user and would like an alternative to installing through pip, you can also install Blockstack with brew, as seen below.
+If you're a Mac user and would like an alternative to installing through pip, you can also install Blockstack with brew, as seen below.
 
 ```bash
 $ brew install blockstack
@@ -25,7 +25,7 @@ $ brew install blockstack
 
 #### Linux Users
 
-If you're a linux user and would like an alternative to installing through pip, you can also install via apt-get.
+If you're a Linux user and would like an alternative to installing through pip, you can also install via apt-get.
 
 First, though, you'll need to add packages.blockstack.org to your sources list to tell apt-get where to get the blockstack package:
 
