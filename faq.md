@@ -18,7 +18,7 @@ See this article for a full explanation:
 
 ### What blockchain is Blockstack DNS built on?
 
-Blockstack DNS is operated by nodes that read and write data to an underlying blockchain.  The Blockstack DNS architecture is portable--the domain name system's logic is fully decoupled from the blockchain's logic.  This lets Blockstack DNS leverage the most secure blockchain - the Bitcoin blockchain today, and other, better blockchains in the future.
+Blockstack DNS is operated by nodes that read and write data to an underlying blockchain. The Blockstack DNS architecture is portable--the domain name system's logic is fully decoupled from the blockchain's logic. This lets Blockstack DNS leverage the most secure blockchain. This is the Bitcoin blockchain today but may be any other blockchain at some point in the future.
 
 ### Why isn't there a Blockstack network on a blockchain other than the Bitcoin blockchain?
 
