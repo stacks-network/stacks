@@ -1,6 +1,8 @@
 ---
-title: Blockstack DNS for Resource-Limited Computers
-description: Understand how fast-bootstrapping and lightweight name verification works.
+title: Light Clients
+description: Learn about fast bootstrapping and lightweight name verification
+image: computer.jpg
+next: faq
 ---
 
 Each Blockstack DNS node maintains a 100% replica of all names and name records.  To do so, it must continuously crawl the underlying blockchain to discover more name operations.  While this is acceptable for desktops and servers with an "always-on" Internet connection, it may not be suitable for laptops and mobile devices where bandwidth, connectivity, and power are limited.
@@ -13,18 +15,18 @@ The consensus hash gives Blockstack DNS a couple useful properties:
 * If two Blockstack DNS peers agree on the same consensus hash, then they have processed the exact same sequence of name operations (with extremely high probability).
 * If a client has a consensus hash at block height `h`, then it can verify the authenticity of any operations in previous blocks with `O(log h)` queries and `O(K + log h)` bytes transferred (where `K` is the maximum size of a block).
 
-## Consensus Hash Construction
+### Consensus Hash Construction
 
 Recall that a Blockstack DNS node broadcasts name operations by writing them as transactions on an underlying blockchain.  Peer nodes discover them by reading the blockchain and replaying the operations sequentially.  In doing so, the blockchain serves as an append-only log of name operations, which when replayed in sequence allow a Blockstack DNS peer to determine the current and prior states of each name and namespace.
 
-<img src="/images/docs/consensus-hash-construction.png" class="img-fluid" alt="Overview of how Blockstack DNS constructs a consensus hash.">
+<img src="/images/article-diagrams/consensus-hash-construction.png" class="img-fluid" alt="Overview of how Blockstack DNS constructs a consensus hash.">
 _Figure 1: Overview of how Blockstack DNS constructs a consensus hash._
 
 When broadcasting new operations, a Blockstack DNS node maintains a consensus hash for the current blockchain height, and embeds it within the operation's data.  The consensus hash is a cryptographic hash calculated over the last block's sequence of name operations, as well as a logarithmic number of prior consensus hashes (Figure 1).  Specifically, at block height `h`, the consensus hash is calculated by first hashing the canonical forms of each name operation in transaction order, and then hashing the prior consensus hashes for all blocks at heights `{h | h - 2^i && i > 0 && h - 2^i >= h0}` (where `h0` is the block height of the first-ever name operation).  As a result, two Blockstack DNS peers at block `h` will calculate the same consensus hash if they observed the same sequence of name operations.
 
 The usefulness of fast bootstrapping and lightweight name verification depend on the client first obtaining a reasonably fresh consensus hash.  To facilitate this, Blockstack DNS peers reject operations that do not have fresh consensus hashes (e.g. the operation must be found within 40 blocks of the height that its embedded consensus hash corresponds to).  This gives clients a straightfoward way to discover a recent consensus hash:  get it from a transaction in the underlying blockchain known to have been accepted by Blockstack DNS.  The Blockstack DNS client software makes it easy for users and application developers to discover these consensus hashes, such as (but not limited to) using a transaction the client itself recently issued, using a valid transaction a trusted friend issued, or fetching and validating a (possibly old) copy of an untrusted Blockstack DNS peer's database and fetching only the new transactions that have not yet been processed.
 
-## Fast Bootstrapping
+### Fast Bootstrapping
 
 Recall that a full Blockstack DNS peer not only stores each name and namespace it finds while processing the blockchain, but also the history of operations on it.  In particular, a client can query a name or namespace _as it was at a prior blockchain height_.  For example, suppose Alice preordered `alice.id` at block 400000, registered it at block 400010, updated it twice in block 400020, and transferred it to Bob at block 400030.  Then, Charlie can query a Blockstack DNS node for the state of the name `alice.id` as it was at block 400011, and see that it was registered to Alice.  At block 400009, he would see that it was still preordered.  He can query it at block 400025 and see that Alice had updated the name (he would see the effect of the second update).  He can also query the name at block 400031 and see that it was transferred to his public key.
 
@@ -97,11 +99,11 @@ In effect, the bootstrapping node translates the database back into the sequence
 
 One nice thing about this feature is that once you know *any* consensus hash, you can take an up-to-date Blockstack DNS node's database and validate all records that were processesed up to that consensus hash's block height.  If you had a copy of the name database that incorporated operations up to block 300000, but your consensus hash corresponds to block 250000, you can still use it to construct a trusted database with all records prior to block 250000.  You can then download the remaining 5000 blocks to finish the bootstrapping process.
 
-## Lightweight Name Lookups (SNV)
+### Lightweight Name Lookups
 
 The set of back-links from a given block `h` to all blocks `h - 2^i` constitute a _Merkle skip-list_ (Figure 2).  Given the consensus hash at height `h`, a client can query an untrusted Blockstack DNS server to determine the name operations at any block with a lower height.  The query requires a logarithmic number of requests relative to the number of blocks, and only requires a logarithmic number of bytes transferred relative to the blockchain's size (plus the records for the previous block).  The process of verifying the authenticity of a prior name operation with a later known-good consensus hash is called _Simplified Name Verification_ (SNV).
 
-<img src="/images/docs/snv-overview.png" class="img-fluid" alt="Overview of how lightweight name lookups work.">
+<img src="/images/article-diagrams/snv-overview.png" class="img-fluid" alt="Overview of how lightweight name lookups work.">
 _Figure 3: Overview of Simplified Name Verification (SNV) protocol.  Each row represents the blockchain, in decreasing block height order from left to right (h > h0).  The user wishes to verify the authenticity of a name operation in the block marked with a `?`.  In each step, the user trusts the consensus hash for the white outlined block, and uses it to verify the authenticity of that block's name operations, as well as the set of prior consensus hashes (belonging to yellow blocks indicated by the arrows).  By iteratively fetching name operations and consensus hashes for prior blocks, the user will eventually prove the authenticity of all name operations in the `?` block._
 
 To see how this works, suppose that a user trusts the consensus hash at height `h`, but needs to verify a name operation in block `h - 11`.  Suppose that the blockchain currently has 17 blocks beyond height `h0` (Figure 2).  To do so, the user queries any Blockstack DNS node to obtain all of the name operations processed at height `h`, and the consensus hashes for blocks `h - 1`, `h - 2`, `h - 4`, `h - 8`, and `h - 16`.  Once obtained, the user serializes the name operations and prior consensus hashes to re-calculate the consensus hash at `h`.  If the trusted consensus hash matches, then the user knows that both the name operations the prior consensus hashes are authentic.  The user then iteratively downloads name operations and consensus hashes in this way, until block `h - 11` is reached.  Then, the user will have obtained and verified the authenticity of all name operations in that block, including the desired name operation.
@@ -160,7 +162,7 @@ _Figure 4: The SNV algorithm pseudocode.  A client executes this algorithm to us
 
 Because of the way the consensus hash is constructed, a Blockstack DNS peer cannot serve invalid data without the client noticing.  The worst it can do is not serve data at all.  Once you have a recent consensus hash, you can use it to look up any prior version of a name record without running either a Blockstack DNS node or a full Bitcoin node.
 
-## Approaches to Keeping the Consensus Hash Up-To-Date
+### Consensus Hash Updating
 
 If your consensus hash gets too stale, you'll be unable to verify the authenticity of more and more names as they get updated.  Fortunately, there are two easy ways to solve this.
 
