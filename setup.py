@@ -13,7 +13,7 @@ import os
 
 setup(
     name='blockstack',
-    version='0.0.10.4',
+    version='0.0.10.5',
     url='https://github.com/blockstack/blockstack',
     license='GPLv3',
     author='Blockstack.org',
@@ -24,7 +24,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'blockstore-client==0.0.12.4',
-        'blockstore==0.0.10.4',
+        'blockstore==0.0.10.5',
         'registrar==0.0.3.3'
     ],
     classifiers=[
