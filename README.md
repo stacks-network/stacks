@@ -12,9 +12,9 @@ In the registry that makes up Blockstack, each of the names has an owner, repres
 
 Blockstack is already being used in production and currently [more than 46,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
+<a href="https://blockstack.org/docs">
 <img src="/images/documentation-site-2x.png" data-canonical-src="/images/documentation-site-2x.png" width="250" height="62" />
-
-![The Blockstack Network](/images/blockstack-network.png)
+</a>
 
 ### Quick Installation
 
@@ -25,6 +25,8 @@ $ sudo pip install blockstack
 ```
 
 ### Project Links
+
+![The Blockstack Network](/images/blockstack-network.png)
 
 Below are some repositories and tools that are needed to register, resolve, and authenticate names in a decentralized way:  
 
