@@ -19,6 +19,8 @@ Detailed install instruction are [here](http://github.com/blockstack/blockstack-
 
 * Muneeb Ali, Jude Nelson, Ryan Shea, Michael Freedman, ["Blockstack: Design and Implementation of a Global Naming System with Blockchains"](http://blockstack.org/blockstack.pdf), Draft v3, under peer review, Feb 2016
 
+Blockstack is already used in production and currently [more than 46,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
+
 ## Project Links
 
 Below are some repositories and tools that are needed to register, resolve, and authenticate names in a decentralized way:  
