@@ -38,8 +38,8 @@ Example response:
 
 ```json
 {
-    "name_price": 0.001,
-    "total_estimated_cost": 0.00116,
+    "name_price": 0.064,
+    "total_estimated_cost": 0.06416,
     "transaction_fee": 0.00016
 }
 ```

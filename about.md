@@ -1,6 +1,6 @@
 ---
 title: About
-image: blockchain-timeline.png
+image: /images/visuals/blockchain-timeline.svg
 ---
 
 First and foremost, Blockstack is a community. It is a group of developers who are deeply committed to building decentralized applications and building out their underlying infrastructure.
