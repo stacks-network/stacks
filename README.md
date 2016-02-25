@@ -21,7 +21,7 @@ Detailed install instruction at [here](http://github.com/blockstack/blockstack-c
 
 ## Project Links
 
-Below are some repositories and tools that are needed to register, resolve, view, and authenticate names in a decentralized way:  
+Below are some repositories and tools that are needed to register, resolve, and authenticate names in a decentralized way:  
 
 - [Blockstack-server](https://github.com/blockstack/blockstack-server), which is used for registering names on the Bitcoin blockchain. Blockstack-server handles the core functionality of decentralized DNS for blockchain applications and has an external storage system built-in for storing data records off-chain.  
 - [Blockstore-client](https://github.com/blockstack/blockstore-client), which provides an interface for interacting with the Blockstack server and to perform decentralized DNS operations.   
@@ -32,6 +32,15 @@ Below are some repositories and tools that are needed to register, resolve, view
 - [DHT mirror](https://github.com/blockstack/dht-mirror), software that improves read/write performance for the Blockstore DHT.  
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
+
+## Blockstack vs. DNS
+
+A detailed discussion of differences is [here](https://blockstack.org/docs/blockstack-vs-dns).
+
+## Blockstack vs. Namecoin
+
+A detailed discussion of differences is [here](https://blockstack.org/docs/blockstack-vs-namecoin).
+
 
 ## Community
 
