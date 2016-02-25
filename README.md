@@ -2,11 +2,29 @@
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
-Blockstack is shorthand for "the blockchain stack." Our mission is to create common infrastructure for developing decentralized applications.
+Blockstack is decentralized DNS.
 
-The various components include data storage, secure naming, authentication, user identity verification, and content ownership verification.
+With the Blockstack software, a network of computers collectively maintain a global registry of domain names.
 
-This stack is completely decentralized and is built with free, open source software.
+When you run a Blockstack node, you join this network, which is more secure by design than traditional DNS. This is because the system's registry and its records are secured by an underlying blockchain, which is extremely resilient against tampering and control.
+
+In the registry that makes up Blockstack DNS, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name.
+
+For more information checkout these [tutorials](https://blockstack.org/docs) on the website or read the [Blockstack paper](https://blockstack.org/blockstack.pdf).
+
+## Project Links
+
+Below are some repositories and tools that are needed to register, resolve, view, and authenticate names in a decentralized way:  
+
+- [Blockstack-server](https://github.com/blockstack/blockstack-server), which is used for registering names on the Bitcoin blockchain. Blockstack-server handles the core functionality of decentralized DNS for blockchain applications and has an external storage system built-in for storing data records off-chain.  
+- [Blockstore-client](https://github.com/blockstack/blockstore-client), which provides an interface for interacting with the Blockstack server and to perform decentralized DNS operations.   
+- [Blockchain-auth-js](https://github.com/blockstack/blockchain-auth-js) or [blockchain-auth-python](https://github.com/blockstack/blockchain-auth-python), libraries that support generating, decoding and verifying auth request and auth response tokens.  
+- [Blockstack-resolver](https://github.com/blockstack/blockstack-resolver), a scalable server for resolving names to data records at scale.  
+- [Blockstack-registrar](https://github.com/blockstack/blockstack-registrar), software that can do bulk registrations and updates.  
+- [Virtual chain](https://github.com/blockstack/virtualchain), a Python library for creating virtual blockchains on top of a well-known cryptocurrency.  
+- [DHT mirror](https://github.com/blockstack/dht-mirror), software that improves read/write performance for the Blockstore DHT.  
+
+Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
 
 ## Community
 
