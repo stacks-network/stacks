@@ -12,7 +12,7 @@ In the registry that makes up Blockstack, each of the names has an owner, repres
 
 Blockstack is already being used in production and currently [more than 46,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
-[![Documentation Site](/images/documentation-site-2x.png =250x62)](https://blockstack.org/docs)
+[![Documentation Site](https://raw.githubusercontent.com/blockstack/blockstack/docs/images/documentation-site-2x.png =250x62)](https://blockstack.org/docs)
 
 ![The Blockstack Network](/images/blockstack-network.png)
 
