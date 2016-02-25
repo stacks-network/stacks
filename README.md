@@ -1,4 +1,4 @@
-# [Blockstack](http://blockstack.org)
+# Blockstack
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
@@ -24,7 +24,7 @@ Run the following to install the Blockstack command line interface:
 $ sudo pip install blockstack
 ```
 
-## Project Links
+### Project Links
 
 Below are some repositories and tools that are needed to register, resolve, and authenticate names in a decentralized way:  
 
@@ -38,7 +38,7 @@ Below are some repositories and tools that are needed to register, resolve, and 
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
 
-## Articles
+### Articles
 
 - [How Blockstack Works](https://blockstack.org/docs/how-blockstack-works)
 - [Blockstack vs. DNS](https://blockstack.org/docs/blockstack-vs-dns)
@@ -46,11 +46,11 @@ Most of these repositories are under heavy development and we appreciate any fee
 - [Blockstack Namespaces](https://blockstack.org/docs/namespaces)
 - [Blockstack Light Clients](https://blockstack.org/docs/light-clients)
 
-## Blockstack Papers
+### Blockstack Papers
 
 - ["Blockstack: Design and Implementation of a Global Naming System with Blockchains"](http://blockstack.org/blockstack.pdf) by Muneeb Ali, Jude Nelson, Ryan Shea, and Michael Freedman (Draft v3, under peer review, Feb 2016)
 
-## Community Resources
+### Community Resources
 
 - [GitHub](https://github.com/blockstack) - share code, file issues, discuss future features, plan and document community activities
 - [Slack Group](http://chat.blockstack.org) - real-time chat for all things Blockstack
@@ -58,7 +58,7 @@ Most of these repositories are under heavy development and we appreciate any fee
 - [Blog](https://medium.com/blockstack-review) - a blog with the latest Blockstack articles
 - [Twitter](https://twitter.com/blockstackorg) - social media feed curating Blockstack-related content from around the web
 
-## How You Can Help
+### How You Can Help
 
 - **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved
 - **Help with software testing** - we really appreciate and value our testers, and encourage people who want to support Blockstack to run the software and file issues in the appropriate repository for any bugs that are found
