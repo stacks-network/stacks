@@ -28,44 +28,23 @@ $ sudo pip install blockstack
 
 Below are some repositories and tools that are needed to register, resolve, and authenticate names in a decentralized way:  
 
-#### The Blockstack Server
-
 - [Blockstack Server](https://github.com/blockstack/blockstack-server) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
-
-#### The Blockstack Client/CLI
-
 - [Blockstack Client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
-
-#### The Virtualchain Library
-
 - [Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
-
-#### Blockstack Supporting Services
-
 - [Blockstack Resolvers](https://github.com/blockstack/blockstack-resolver) - scalable servers for resolving names to data records at scale
 - [Blockstack Registrars](https://github.com/blockstack/blockstack-registrar) - servers that can do bulk Blockstack name registrations and updates
 - [Blockstack DHT Mirrors](https://github.com/blockstack/dht-mirror) - software that improves read and write performance for the Blockstore DHT
-
-#### Blockstack Auth
-
-Libraries that support generating, decoding and verifying auth request and auth response tokens:
-
-- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js)
-- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-python)
+- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) and [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-python) - libraries that support generating, decoding and verifying auth request and auth response tokens
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
 
 ## Articles
 
-#### [How Blockstack Works](https://blockstack.org/docs/how-blockstack-works)
-
-#### [Blockstack vs. DNS](https://blockstack.org/docs/blockstack-vs-dns)
-
-#### [Blockstack vs. Namecoin](https://blockstack.org/docs/blockstack-vs-namecoin)
-
-#### [Blockstack Namespaces](https://blockstack.org/docs/namespaces)
-
-#### [Light Clients](https://blockstack.org/docs/light-clients)
+- [How Blockstack Works](https://blockstack.org/docs/how-blockstack-works)
+- [Blockstack vs. DNS](https://blockstack.org/docs/blockstack-vs-dns)
+- [Blockstack vs. Namecoin](https://blockstack.org/docs/blockstack-vs-namecoin)
+- [Blockstack Namespaces](https://blockstack.org/docs/namespaces)
+- [Blockstack Light Clients](https://blockstack.org/docs/light-clients)
 
 ## The Blockstack Paper
 
