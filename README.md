@@ -22,27 +22,35 @@ Run the following to install the Blockstack command line interface:
 $ sudo pip install blockstack
 ```
 
-### Project Links
+## Project Links
 
 Below are some repositories and tools that are needed to register, resolve, and authenticate names in a decentralized way:  
 
 #### The Blockstack Server
 
-[Blockstack-server](https://github.com/blockstack/blockstack-server), which is used for registering names on the Bitcoin blockchain. Blockstack-server handles the core functionality of decentralized DNS for blockchain applications and has an external storage system built-in for storing data records off-chain.  
+- [Blockstack-server](https://github.com/blockstack/blockstack-server), which is used for registering names on the Bitcoin blockchain. Blockstack-server handles the core functionality of decentralized DNS for blockchain applications and has an external storage system built-in for storing data records off-chain.  
+
+![The Blockstack Network](/blockstack-network.png)
 
 #### The Blockstack Client/CLI
 
-[Blockstack-client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
+- [Blockstack-client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
+
+![The Blockstack CLI](/pip-install-blockstack.png)
 
 #### The Virtualchain Library
 
-[Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
+- [Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
+
+![Virtual Blockchains](/virtual-blockchain.png)
 
 #### Blockstack Supporting Services
 
 - [Blockstack Resolvers](https://github.com/blockstack/blockstack-resolver) - scalable servers for resolving names to data records at scale
 - [Blockstack Registrars](https://github.com/blockstack/blockstack-registrar) - servers that can do bulk Blockstack name registrations and updates
 - [Blockstack DHT Mirrors](https://github.com/blockstack/dht-mirror) - software that improves read and write performance for the Blockstore DHT
+
+![DHT Data Record Storage](/data-record-storage.png)
 
 #### Blockstack Auth
 
@@ -53,7 +61,7 @@ Libraries that support generating, decoding and verifying auth request and auth 
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
 
-### Articles
+## Articles
 
 #### How Blockstack Works
 
@@ -75,11 +83,11 @@ Most of these repositories are under heavy development and we appreciate any fee
 
 [An introduction to how light clients work on Blockstack](https://blockstack.org/docs/light-clients)
 
-### The Blockstack Paper
+## The Blockstack Paper
 
 * Muneeb Ali, Jude Nelson, Ryan Shea, Michael Freedman, ["Blockstack: Design and Implementation of a Global Naming System with Blockchains"](http://blockstack.org/blockstack.pdf), Draft v3, under peer review, Feb 2016
 
-### Community Resources
+## Community Resources
 
 [GitHub](https://github.com/blockstack) - share code, file issues, discuss future features, plan and document community activities
 
@@ -89,7 +97,7 @@ Most of these repositories are under heavy development and we appreciate any fee
 
 [Twitter](https://twitter.com/blockstackorg) - social media feed curating Blockstack-related content from around the web
 
-### How You Can Help
+## How You Can Help
 
 #### Contribute code
 
