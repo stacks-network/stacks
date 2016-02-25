@@ -12,44 +12,57 @@ When you run a Blockstack node, you join this network, which is more secure by d
 
 In the registry that makes up Blockstack, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name.
 
-You can install blockstack by:
+Blockstack is already being used in production and currently [more than 46,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
+
+### Quick Installation
+
+Run the following to install the Blockstack command line interface:
+
 ```
 $ sudo pip install blockstack
 ```
 
-Detailed install instruction are [here](http://github.com/blockstack/blockstack-client). For more information checkout these [tutorials](https://blockstack.org/docs) or read the following paper:
-
-* Muneeb Ali, Jude Nelson, Ryan Shea, Michael Freedman, ["Blockstack: Design and Implementation of a Global Naming System with Blockchains"](http://blockstack.org/blockstack.pdf), Draft v3, under peer review, Feb 2016
-
-Blockstack is already being used in production and currently [more than 46,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
-
-## Project Links
+### Project Links
 
 Below are some repositories and tools that are needed to register, resolve, and authenticate names in a decentralized way:  
 
 - [Blockstack-server](https://github.com/blockstack/blockstack-server), which is used for registering names on the Bitcoin blockchain. Blockstack-server handles the core functionality of decentralized DNS for blockchain applications and has an external storage system built-in for storing data records off-chain.  
 - [Blockstore-client](https://github.com/blockstack/blockstore-client), which provides an interface for interacting with the Blockstack server and to perform decentralized DNS operations.   
-- [Blockchain-auth-js](https://github.com/blockstack/blockchain-auth-js) or [blockchain-auth-python](https://github.com/blockstack/blockchain-auth-python), libraries that support generating, decoding and verifying auth request and auth response tokens.  
 - [Blockstack-resolver](https://github.com/blockstack/blockstack-resolver), a scalable server for resolving names to data records at scale.  
 - [Blockstack-registrar](https://github.com/blockstack/blockstack-registrar), software that can do bulk registrations and updates.  
-- [Virtual chain](https://github.com/blockstack/virtualchain), a Python library for creating virtual blockchains on top of a well-known cryptocurrency.  
+- [Virtualchain](https://github.com/blockstack/virtualchain), a Python library for creating virtual blockchains on top of a well-known cryptocurrency.  
+- [Blockchain-auth-js](https://github.com/blockstack/blockchain-auth-js) or [blockchain-auth-python](https://github.com/blockstack/blockchain-auth-python), libraries that support generating, decoding and verifying auth request and auth response tokens.
 - [DHT mirror](https://github.com/blockstack/dht-mirror), software that improves read/write performance for the Blockstore DHT.  
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
 
-## How Blockstack Works
+### Articles
 
-A great overview of how Blockstack works is [here](https://blockstack.org/docs/how-blockstack-works).
+#### How Blockstack Works
 
-## Blockstack vs. DNS
+[A great overview of how Blockstack works](https://blockstack.org/docs/how-blockstack-works).
 
-A detailed discussion of differences is [here](https://blockstack.org/docs/blockstack-vs-dns).
+#### Blockstack vs. DNS
 
-## Blockstack vs. Namecoin
+[A detailed discussion of the differences between Blockstack and DNS](https://blockstack.org/docs/blockstack-vs-dns).
 
-A detailed discussion of differences is [here](https://blockstack.org/docs/blockstack-vs-namecoin).
+#### Blockstack vs. Namecoin
 
-## Community
+[A detailed discussion of the differences between Blockstack and Namecoin](https://blockstack.org/docs/blockstack-vs-namecoin).
+
+#### Namespaces
+
+[An introduction to how namespaces work on Blockstack](https://blockstack.org/docs/namespaces)
+
+#### Light Clients
+
+[An introduction to how light clients work on Blockstack](https://blockstack.org/docs/light-clients)
+
+### The Blockstack Paper
+
+* Muneeb Ali, Jude Nelson, Ryan Shea, Michael Freedman, ["Blockstack: Design and Implementation of a Global Naming System with Blockchains"](http://blockstack.org/blockstack.pdf), Draft v3, under peer review, Feb 2016
+
+### Community Resources
 
 [GitHub](https://github.com/blockstack) - share code, file issues, discuss future features, plan and document community activities
 
@@ -59,7 +72,7 @@ A detailed discussion of differences is [here](https://blockstack.org/docs/block
 
 [Twitter](https://twitter.com/blockstackorg) - social media feed curating Blockstack-related content from around the web
 
-## How You Can Help
+### How You Can Help
 
 #### Contribute code
 
