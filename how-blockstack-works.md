@@ -1,7 +1,7 @@
 ---
 title: How Blockstack Works
 description: Learn how Blockstack works under the hood.
-image: typewriter.jpg
+image: /images/article-photos/typewriter.jpg
 next: light-clients
 ---
 

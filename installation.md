@@ -1,7 +1,7 @@
 ---
 title: Installation
 description: Get started by installing and configuring Blockstack.
-image: computer.jpg
+image: /images/article-photos/computer.jpg
 next: basic-usage
 ---
 

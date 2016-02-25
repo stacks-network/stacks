@@ -1,7 +1,7 @@
 ---
 title: Blockstack vs. Traditional DNS
 description: Learn about how Blockstack DNS differs from traditional ICANN DNS.
-image: football.jpg
+image: /images/article-photos/football.jpg
 next: blockstack-vs-namecoin
 ---
 

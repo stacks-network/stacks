@@ -1,7 +1,7 @@
 ---
 title: Namespaces
 description: Learn what namespaces are and what they can be used for.
-image: bookshelves.jpg
+image: /images/article-photos/bookshelves.jpg
 next: how-blockstack-works
 ---
 

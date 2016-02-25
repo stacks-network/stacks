@@ -1,7 +1,7 @@
 ---
 title: Basic Usage
 description: Explore Blockstack usage, including looking up & registering names.
-image: programming.jpg
+image: /images/article-photos/programming.jpg
 next: extended-usage
 ---
 

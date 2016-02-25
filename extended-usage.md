@@ -1,7 +1,7 @@
 ---
 title: Extended Usage
 description: Dig deeper with Blockstack usage, including name transfers and more.
-image: astronaut.jpg
+image: /images/article-photos/astronaut.jpg
 next: blockstack-vs-dns
 ---
 

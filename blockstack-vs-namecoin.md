@@ -1,7 +1,7 @@
 ---
 title: Blockstack vs. Namecoin
 description: Learn about how Blockstack DNS differs from Namecoin.
-image: sprinting.jpg
+image: /images/article-photos/sprinting.jpg
 next: namespaces
 ---
 

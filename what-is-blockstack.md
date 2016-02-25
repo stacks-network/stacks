@@ -1,7 +1,7 @@
 ---
 title: What is Blockstack?
 description: Learn about what Blockstack is and how it works.
-image: lake.jpg
+image: /images/article-photos/lake.jpg
 next: installation
 ---
 
