@@ -33,6 +33,10 @@ Below are some repositories and tools that are needed to register, resolve, and 
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
 
+## How Blockstack Work
+
+A great overview of how Blockstack works is [here](https://blockstack.org/docs/how-blockstack-works).
+
 ## Blockstack vs. DNS
 
 A detailed discussion of differences is [here](https://blockstack.org/docs/blockstack-vs-dns).
