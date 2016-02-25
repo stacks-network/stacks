@@ -5,39 +5,32 @@ image: /images/article-photos/computer.jpg
 next: basic-usage
 ---
 
-The quickest way to get started with Blockstack and get a glimpse of what it can do is to download the command line interface and perform a name lookup.
+The quickest way to get started with Blockstack and get a glimpse of what it can do is to install the command line interface and start performing name lookups.
 
-Installing the Blockstack command line interface is simple if you have pip. Just run the following command in your console:
-
-```bash
-$ pip install blockstack
-```
-
-### Alternative Installations
-
-#### Mac Users
-
-If you're a Mac user and would like an alternative to installing through pip, you can also install Blockstack with brew, as seen below.
+Installing the Blockstack command line interface is simple if you already pip installed on your computer (it often comes packaged with python). Just run the following command in your console:
 
 ```bash
-$ brew install blockstack
+$ sudo pip install blockstack
 ```
 
-#### Linux Users
+### OS X Users
 
-If you're a Linux user and would like an alternative to installing through pip, you can also install via apt-get.
+If you're running OS X, you should already have an installation of pip and the command shown above should be all you need.
 
-First, though, you'll need to add packages.blockstack.org to your sources list to tell apt-get where to get the blockstack package:
+Otherwise, you can install pip along with python using the following command:
+
+```
+$ brew install python
+```
+
+Then continue with the installation using `sudo pip install blockstack`.
+
+### Debian + Ubuntu Users
+
+If you're on Debian or Ubuntu, you may have to run another command before you perform the installation shown above. To prevent any installation issues, run the following first:
 
 ```bash
-$ wget -O - http://packages.blockstack.org/jude@onename.com.gpg.key | sudo apt-key add -
-$ sudo -- sh -c 'echo "deb http://packages.blockstack.org jessie main" >> /etc/hosts'
+$ sudo apt-get update && sudo apt-get install -y python-pip python-dev libssl-dev
 ```
 
-Now, you may move on to installing blockstack via apt-get:
-
-```
-$ sudo apt-get update && sudo apt-get install blockstack
-```
-
-After your done installing blockstack, you should be ready to check out the usage section and give it a spin.
+Then continue with the installation using `sudo pip install blockstack`.
