@@ -57,25 +57,15 @@ Most of these repositories are under heavy development and we appreciate any fee
 
 ## Articles
 
-#### How Blockstack Works
+#### [How Blockstack Works](https://blockstack.org/docs/how-blockstack-works)
 
-[A great overview of how Blockstack works](https://blockstack.org/docs/how-blockstack-works)
+#### [Blockstack vs. DNS](https://blockstack.org/docs/blockstack-vs-dns)
 
-#### Blockstack vs. DNS
+#### [Blockstack vs. Namecoin](https://blockstack.org/docs/blockstack-vs-namecoin)
 
-[A detailed discussion of the differences between Blockstack and DNS](https://blockstack.org/docs/blockstack-vs-dns)
+#### [Blockstack Namespaces](https://blockstack.org/docs/namespaces)
 
-#### Blockstack vs. Namecoin
-
-[A detailed discussion of the differences between Blockstack and Namecoin](https://blockstack.org/docs/blockstack-vs-namecoin)
-
-#### Namespaces
-
-[An introduction to how namespaces work on Blockstack](https://blockstack.org/docs/namespaces)
-
-#### Light Clients
-
-[An introduction to how light clients work on Blockstack](https://blockstack.org/docs/light-clients)
+#### [Light Clients](https://blockstack.org/docs/light-clients)
 
 ## The Blockstack Paper
 
