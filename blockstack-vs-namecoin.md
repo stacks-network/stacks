@@ -9,7 +9,7 @@ Blockstack DNS differs from Namecoin DNS in a few fundamental ways.
 
 #### Blockchain Layering
 
-Blockstack and Namecoin differ in how the domain name system is operated. Namecoin DNS is operated by nodes of a cryptocurrency called Namecoin, which is a fork of Bitcoin that requires it's own separate blockchain. Blockstack DNS, meanwhile, has a portable architecture. It is designed to be able to read and write data to *any* blockchain and the logic for operating the domain name system is decoupled from the logic of the underlying blockchain. This allows one to run Blockstack DNS on the most secure blockchain. While this is currently the Bitcoin blockchain, Blockstore DNS and all of the network's state can be seamlessly ported to another blockchain if it ever makes sense to do so. Blockstack also has support for creating namespaces with a pre-instantiated list of names (to facilitate migration of a namespace from another DNS system, like ICANN DNS).
+Blockstack and Namecoin differ in how the domain name system is operated. Namecoin DNS is operated by nodes of a cryptocurrency called Namecoin, which is a fork of Bitcoin that requires it's own separate blockchain. Blockstack DNS, meanwhile, has a portable architecture. It is designed to be able to read and write data to *any* blockchain and the logic for operating the domain name system is decoupled from the logic of the underlying blockchain. This allows one to run Blockstack DNS on the most secure blockchain. While this is currently the Bitcoin blockchain, Blockstore DNS and all of the network's state can be seamlessly ported to another blockchain if it ever makes sense to do so.
 
 #### Storage Models
 
@@ -26,7 +26,3 @@ As an example, a name can be registered for a relatively low registration fee li
 #### Incentives for Miners
 
 In the Namecoin system, money spent on name registrations is destroyed as a sacrifice. Blockstack works in a similar way today, but going forward registration fees for names will start going to miners. This creates a significant economic incentive for miners to contribute additional resources to the underlying blockchain, and it aligns everyone's interests around supporting a decentralized DNS system. 
-
-#### Additional Features
-
-Blockstack DNS has support for certain powerful features that Namecoin DNS doesn't have. This includes support for multi-party ownership of names, support for light nodes (enabling secure lookups by mobile devices and desktop users with limited ability to run their own nodes), and support for creating namespaces with a pre-instantiated list of names (to facilitate migration of a namespace from another DNS system like ICANN DNS).
