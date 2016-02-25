@@ -17,29 +17,30 @@ You should get a response like this:
 
 ```json
 {
-  "data": {
-    "$origin": "fredwilson.id",
-    "$ttl": "3600",
-    "cname": [{ "name": "@", "alias": "https://zk9.s3.amazonaws.com" }]
-  }
+    "data_record": {
+    }
 }
 ```
 
-### Cost Estimations
+### Price Estimations
 
-Names are not free; each namespace has an associated cost function.  To determine how much it will cost to order a name (including the transaction fees), you can use the `fee` command:
+Every name costs a certain amount of money to register, and each namespace has it's own name pricing rules.
+
+As an example, in the `.id` namespace 6-letter alphabetic-only names cost 0.001 bitcoins, but with every additional letter the names get 4x cheaper and with every fewer letter the names get 4x more expensive. In addition, names without vowels and names with numbers and special characters get a special discount.
+
+To determine how much a name will cost to order a name, use the `price` command:
 
 ```bash
-$ blockstack fee $(whoami).id
+$ blockstack price <YOUR NAME>.id
 ```
 
 Example response:
 
 ```json
 {
-  "fee": 0.01624,
-  "registration_fee": 0.016,
-  "transaction_fee": 0.00024
+    "name_price": 0.001,
+    "total_estimated_cost": 0.00116,
+    "transaction_fee": 0.00016
 }
 ```
 
@@ -48,15 +49,14 @@ Example response:
 After you get comfortable with looking up names, take the next step and register and manage a name for yourself. Run the following command:
 
 ```bash
-$ blockstack register <YOUR FULL NAME>.id
+$ blockstack register <YOUR NAME>.id
 ```
 
 If the name hasn't been registered yet, you'll get a confirmation that your registration is pending:
 
 ```json
 {
-  "message": "Name queued up for registration. Please expect a few hours for this process to be completed.",
-  "error": false
+    "success": true
 }
 ```
 
@@ -67,14 +67,13 @@ After a few hours, your registration should go through and you'll be able to upd
 To update the data record associated with a name you own, run the `blockstack update` command:
 
 ```bash
-$ blockstack update '{ "cname": [{"name": "@", "alias": "https://zk9.s3.amazonaws.com/yeezy.id"}] }'
+$ blockstack update '{ "cname": [{"name": "@", "alias": "https://zk9.s3.amazonaws.com"}] }'
 ```
 
 Expected response:
 
 ```json
 {
-  "message": "Data record updated.",
-  "error": false
+    "success": true
 }
 ```
