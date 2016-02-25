@@ -32,13 +32,13 @@ Below are some repositories and tools that are needed to register, resolve, and 
 
 #### The Blockstack Client/CLI
 
-[Blockstack-client](https://github.com/blockstack/blockstack-client), which provides an interface for interacting with the Blockstack server and to perform decentralized DNS operations.
+[Blockstack-client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
 
 #### The Virtualchain Library
 
-[Virtualchain](https://github.com/blockstack/virtualchain), a Python library for creating virtual blockchains on top of a well-known cryptocurrency.  
+[Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
 
-### Blockstack Supporting Services
+#### Blockstack Supporting Services
 
 - [Blockstack Resolvers](https://github.com/blockstack/blockstack-resolver) - scalable servers for resolving names to data records at scale
 - [Blockstack Registrars](https://github.com/blockstack/blockstack-registrar) - servers that can do bulk Blockstack name registrations and updates
