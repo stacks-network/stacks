@@ -13,7 +13,7 @@ To overcome these challenges, Blockstack DNS uses a secure, light-weight consens
 
 The consensus hash gives Blockstack DNS a couple useful properties:
 * If two Blockstack DNS peers agree on the same consensus hash, then they have processed the exact same sequence of name operations (with extremely high probability).
-* If a client has a consensus hash at block height `h`, then it can verify the authenticity of any operations in previous blocks with `O(log h)` queries and `O(K + log^2 h)` bytes transferred (where `K` is the maximum size of a block).
+* If a client has a consensus hash at block height `h`, then it can verify the authenticity of any operations in previous blocks with `O(log h)` queries and `O(K + (log h)^2)` bytes transferred (where `K` is the maximum size of a block).
 
 ### Consensus Hash Construction
 
