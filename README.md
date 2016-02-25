@@ -2,6 +2,8 @@
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
+[![View the Docs](/view-the-docs.png)](https://blockstack.org/docs)
+
 Blockstack is decentralized DNS and identity.
 
 With the Blockstack software, a network of computers collectively maintain a global registry of names.
@@ -35,7 +37,7 @@ Below are some repositories and tools that are needed to register, resolve, and 
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
 
-## How Blockstack Work
+## How Blockstack Works
 
 A great overview of how Blockstack works is [here](https://blockstack.org/docs/how-blockstack-works).
 
@@ -47,7 +49,6 @@ A detailed discussion of differences is [here](https://blockstack.org/docs/block
 
 A detailed discussion of differences is [here](https://blockstack.org/docs/blockstack-vs-namecoin).
 
-
 ## Community
 
 [GitHub](https://github.com/blockstack) - share code, file issues, discuss future features, plan and document community activities
@@ -57,8 +58,6 @@ A detailed discussion of differences is [here](https://blockstack.org/docs/block
 [Forum](http://forum.blockstack.org) - discussion forum for all things Blockstack
 
 [Twitter](https://twitter.com/blockstackorg) - social media feed curating Blockstack-related content from around the web
-
-[YouTube](https://www.youtube.com/channel/UCvDtRhHLNDyKiY-iwhneNbw) - videos and playlists featuring Blockstack-related content
 
 ## How You Can Help
 
