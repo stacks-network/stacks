@@ -10,7 +10,14 @@ When you run a Blockstack node, you join this network, which is more secure by d
 
 In the registry that makes up Blockstack DNS, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name.
 
-For more information checkout these [tutorials](https://blockstack.org/docs) on the website or read the [Blockstack paper](https://blockstack.org/blockstack.pdf).
+You can install blockstack by:
+```
+$ sudo pip install blockstack
+```
+
+Detailed install instruction at [here](http://github.com/blockstack/blockstack-client). For more information checkout these [tutorials](https://blockstack.org/docs) on the website or read the following paper:
+
+* Muneeb Ali, Jude Nelson, Ryan Shea, Michael Freedman, ["Blockstack: Design and Implementation of a Global Naming System with Blockchains"](http://blockstack.org/blockstack.pdf), Draft v3, under peer review, Feb 2016
 
 ## Project Links
 
