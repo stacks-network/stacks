@@ -83,13 +83,11 @@ Most of these repositories are under heavy development and we appreciate any fee
 
 ## Community Resources
 
-[GitHub](https://github.com/blockstack) - share code, file issues, discuss future features, plan and document community activities
-
-[Slack](http://chat.blockstack.org) - real-time chat for all things Blockstack
-
-[Forum](http://forum.blockstack.org) - discussion forum for all things Blockstack
-
-[Twitter](https://twitter.com/blockstackorg) - social media feed curating Blockstack-related content from around the web
+- [GitHub](https://github.com/blockstack) - share code, file issues, discuss future features, plan and document community activities
+- [Slack Group](http://chat.blockstack.org) - real-time chat for all things Blockstack
+- [Forum](http://forum.blockstack.org) - discussion forum for all things Blockstack
+- [Blog](https://medium.com/blockstack-review) - a blog with the latest Blockstack articles
+- [Twitter](https://twitter.com/blockstackorg) - social media feed curating Blockstack-related content from around the web
 
 ## How You Can Help
 
