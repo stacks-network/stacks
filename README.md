@@ -2,8 +2,6 @@
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
-[![View the Docs](/view-the-docs.png)](https://blockstack.org/docs)
-
 Blockstack is decentralized DNS and identity.
 
 With the Blockstack software, a network of computers collectively maintain a global registry of names.
@@ -13,6 +11,8 @@ When you run a Blockstack node, you join this network, which is more secure by d
 In the registry that makes up Blockstack, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name.
 
 Blockstack is already being used in production and currently [more than 46,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
+
+[![View the Docs](/view-the-docs.png)](https://blockstack.org/docs)
 
 ![The Blockstack Network](/blockstack-network.png)
 
@@ -30,11 +30,11 @@ Below are some repositories and tools that are needed to register, resolve, and 
 
 #### The Blockstack Server
 
-- [Blockstack-server](https://github.com/blockstack/blockstack-server), which is used for registering names on the Bitcoin blockchain. Blockstack-server handles the core functionality of decentralized DNS for blockchain applications and has an external storage system built-in for storing data records off-chain.  
+- [Blockstack Server](https://github.com/blockstack/blockstack-server) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
 
 #### The Blockstack Client/CLI
 
-- [Blockstack-client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
+- [Blockstack Client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
 
 #### The Virtualchain Library
 
