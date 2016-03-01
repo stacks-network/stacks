@@ -28,10 +28,13 @@ $ sudo pip install blockstack
 
 ![The Blockstack Network](/images/blockstack-network.png)
 
-Below are some repositories and tools that are needed to register, resolve, and authenticate names in a decentralized way:  
+If you're just starting with Blockstack, here are the two main repositories you should checkout: 
 
 - [Blockstack Server](https://github.com/blockstack/blockstack-server) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
 - [Blockstack Client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
+
+If you're already familiar with basic concepts of Blockstack, below are some repositories and tools that can help in building applications using Blockstack or to run your own services using Blockstack:
+
 - [Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
 - [Blockstack Resolvers](https://github.com/blockstack/blockstack-resolver) - scalable servers for resolving names to data records at scale
 - [Blockstack Registrars](https://github.com/blockstack/blockstack-registrar) - servers that can do bulk Blockstack name registrations and updates
