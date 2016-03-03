@@ -7,7 +7,7 @@ next: how-blockstack-works
 
 Blockstack's DNS system allows anyone to create namespaces or directories for their decentralized applications.
 
-The first namespace ever created is one for referring to user identities (TLD: <kbd>alt</kbd>). These identities are called "blockchain IDs" because they are identities registered on the blockchain. The blockchain ID namespace is being utilized by services like [Onename](https://onename.com), [Nametiles](http://nametiles.co), [OB1](http://ob1.io), [Bitseed](http://bitseed.org) and more.
+The first namespace ever created is one for referring to user identities (TLD: <kbd>.id</kbd>). These identities are called "blockchain IDs" because they are identities registered on the blockchain. The blockchain ID namespace is being utilized by services like [Onename](https://onename.com), [Nametiles](http://nametiles.co), [OB1](http://ob1.io), [Bitseed](http://bitseed.org) and more.
 
 #### Namespaces Coming Soon
 
