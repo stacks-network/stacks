@@ -50,7 +50,7 @@ Most of these repositories are under heavy development and we appreciate any fee
 
 ### Blockstack Papers
 
-- ["Blockstack: Design and Implementation of a Global Naming System with Blockchains"](http://blockstack.org/blockstack.pdf) by Muneeb Ali, Jude Nelson, Ryan Shea, and Michael Freedman (Draft v3, under peer review, Feb 2016)
+- ["Blockstack: Design and Implementation of a Global Naming System with Blockchains"](http://blockstack.org/blockstack.pdf), Draft v3, under peer review, Feb 2016
 
 ### Community Resources
 
