@@ -21,6 +21,9 @@
 
 ### Contributors
 
+Below is a manually-generated list of code contributors in no particular order.
+We plan to automatically generate this list in the future:
+
 - [shea256](https://github.com/shea256)
 - [jcnelson](https://github.com/jcnelson)
 - [muneeb-ali](https://github.com/muneeb-ali)
