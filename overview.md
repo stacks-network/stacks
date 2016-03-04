@@ -2,8 +2,13 @@
 
 ### Repositories
 
+#### Main Respositories
+
 - [Blockstack Server](https://github.com/blockstack/blockstack-server)
 - [Blockstack Client](https://github.com/blockstack/blockstack-client)
+
+#### Other Repositories
+
 - [Blockstack Profiles](https://github.com/blockstack/blockstack-profiles)
 - [Virtualchain](https://github.com/blockstack/virtualchain)
 - [Pybitcoin](https://github.com/blockstack/pybitcoin)
@@ -21,16 +26,23 @@
 
 ### Contributors
 
-- [shea256](https://github.com/shea256)
-- [jcnelson](https://github.com/jcnelson)
-- [muneeb-ali](https://github.com/muneeb-ali)
-- [guylepage3](https://github.com/guylepage3)
+#### Main Contributors
+
+| Name          | GitHub                                           |
+| ------------- |:-------------:                                   |
+| Jude Nelson   | [jcnelson](https://github.com/jcnelson)          |
+| Muneeb Ali    | [muneeb-ali](https://github.com/muneeb-ali)      |
+| Guy Lepage    | [guylepage3](https://github.com/guylepage3)      |
+| Ryan Shea     | [shea256](https://github.com/shea256)            |
+| Larry Salibra | [larrysalibra](https://github.com/larry-salibra) |
+| John Light    | [john-light](https://github.com/john-light)      |
+
+#### Other Contributors
+
 - [arbedout](https://github.com/arbedout)
 - [ibrahimahmed443](https://github.com/ibrahimahmed443)
 - [kef](https://github.com/kef)
 - [gidgreen](https://github.com/gidgreen)
-- [john-light](https://github.com/john-light)
-- [larrysalibra](https://github.com/larry-salibra)
 - [hasanmehmood](https://github.com/hasanmehmood)
 - [asjad99](https://github.com/adjad99)
 - [smurthas](https://github.com/smurthas)
