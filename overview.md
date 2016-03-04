@@ -8,7 +8,7 @@
 | Server + Infrastructure  | [jcnelson](https://github.com/jcnelson) and [muneeb-ali](https://github.com/muneeb-ali) |
 | Identity + Auth Libraries| [shea256](https://github.com/shea256) |
 | Supporting Crypto        | [shea256](https://github.com/shea256) and [jcnelson](https://github.com/jcnelson) |
-| Websites                 | [guylepage3](https://github.com/guylepage3) and [shea256](https://github.com/shea256) |
+| Website + Design         | [guylepage3](https://github.com/guylepage3) and [shea256](https://github.com/shea256) |
 
 ### Repositories
 
@@ -40,8 +40,9 @@
 - [JWT JS](https://github.com/blockstack/jwt-js)
 - [Key Encoder JS](https://github.com/blockstack/key-encoder-js)
 
-#### Websites
+#### Website + Design
 
+- [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap)
 - [blockstack.org](https://github.com/blockstack/blockstack-site)
 - [blockstackstats.com](https://github.com/blockstack/blockstack-stats)
 
@@ -57,16 +58,16 @@
 | Ryan Shea     | [shea256](https://github.com/shea256)            |
 | Larry Salibra | [larrysalibra](https://github.com/larry-salibra) |
 | John Light    | [john-light](https://github.com/john-light)      |
-| | [arbedout](https://github.com/arbedout) |
-| | [ibrahimahmed443](https://github.com/ibrahimahmed443) |
-| | [kef](https://github.com/kef) |
-| | [gidgreen](https://github.com/gidgreen) |
-| | [hasanmehmood](https://github.com/hasanmehmood) |
-| | [asjad99](https://github.com/adjad99) |
-| | [smurthas](https://github.com/smurthas) |
-| | [mflaxman](https://github.com/mflaxman) |
-| | [lionzeye](https://github.com/lionzeye) |
-| | [deftnerd](https://github.com/deftnerd) |
-| | [travs](https://github.com/travs) |
-| | [eateroa](https://github.com/eateroa) |
-| | [prusnak](https://github.com/prusnak) |
+| arbedout | [arbedout](https://github.com/arbedout) |
+| Ibrahim Ahmed | [ibrahimahmed443](https://github.com/ibrahimahmed443) |
+| Paul O'Keeffe | [kef](https://github.com/kef) |
+| Gideon Greenspan | [gidgreen](https://github.com/gidgreen) |
+| Hasan Mehmood | [hasanmehmood](https://github.com/hasanmehmood) |
+| asjad99 | [asjad99](https://github.com/adjad99) |
+| Simon Murtha Smith | [smurthas](https://github.com/smurthas) |
+| Michael Flaxman | [mflaxman](https://github.com/mflaxman) |
+| lionzeye | [lionzeye](https://github.com/lionzeye) |
+| Adam Brown | [deftnerd](https://github.com/deftnerd) |
+| Travis Jacobs | [travs](https://github.com/travs) |
+| Vincent Wong | [eateroa](https://github.com/eateroa) |
+| Pavol Rusnak | [prusnak](https://github.com/prusnak) |
