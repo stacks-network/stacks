@@ -26,6 +26,8 @@
 
 ### Contributors
 
+*Note: all contributor lists were generated in no particular order. In the future, they will be automatically generated.
+
 #### Main Contributors
 
 | Name          | GitHub                                           |
