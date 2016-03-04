@@ -1,34 +1,53 @@
 # Code Overview
 
+### Maintainers
+
+| Library                  | Maintainers                                      |
+| -------------            |:-------------:                                   |
+| Client/CLI               | [muneeb-ali](https://github.com/muneeb-ali) |
+| Server + Infrastructure  | [jcnelson](https://github.com/jcnelson) and [muneeb-ali](https://github.com/muneeb-ali) |
+| Identity + Auth Libraries| [shea256](https://github.com/shea256) |
+| Supporting Crypto        | [shea256](https://github.com/shea256) and [jcnelson](https://github.com/jcnelson) |
+| Websites                 | [guylepage3](https://github.com/guylepage3) and [shea256](https://github.com/shea256) |
+
 ### Repositories
 
-#### Main Respositories
+#### Client/CLI
 
-- [Blockstack Server](https://github.com/blockstack/blockstack-server)
 - [Blockstack Client](https://github.com/blockstack/blockstack-client)
 
-#### Other Repositories
+#### Server + Infrastructure
 
-- [Blockstack Profiles](https://github.com/blockstack/blockstack-profiles)
+- [Blockstack Server](https://github.com/blockstack/blockstack-server)
 - [Virtualchain](https://github.com/blockstack/virtualchain)
-- [Pybitcoin](https://github.com/blockstack/pybitcoin)
 - [Blockstack Resolvers](https://github.com/blockstack/blockstack-resolver)
 - [Blockstack Registrars](https://github.com/blockstack/blockstack-registrar)
 - [Blockstack DHT Mirrors](https://github.com/blockstack/dht-mirror)
+- [Blockstack Proofs](https://github.com/blockstack/blockstack-proofs)
+
+#### Identity + Auth Libraries
+
+- [Blockstack Profiles](https://github.com/blockstack/blockstack-profiles)
 - [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js)
 - [Blockstack Auth Python](https://github.com/blockstack/blockstack-auth-python)
-- [Blockstack Proofs](https://github.com/blockstack/blockstack-proofs)
+
+#### Supporting Crypto
+
+- [Pybitcoin](https://github.com/blockstack/pybitcoin)
 - [Secret Sharing](https://github.com/blockstack/secret-sharing)
 - [Elliptic Keychain](https://github.com/blockstack/elliptic-keychain)
 - [Keychain Manager Py](https://github.com/blockstack/keychain-manager-py)
 - [JWT JS](https://github.com/blockstack/jwt-js)
 - [Key Encoder JS](https://github.com/blockstack/key-encoder-js)
 
+#### Websites
+
+- [blockstack.org](https://github.com/blockstack/blockstack-site)
+- [blockstackstats.com](https://github.com/blockstack/blockstack-stats)
+
 ### Contributors
 
-*Note: all contributor lists were generated in no particular order. In the future, they will be automatically generated.
-
-#### Main Contributors
+*Note: this list was generated in no particular order - in the future, it will be automatically generated.*
 
 | Name          | GitHub                                           |
 | ------------- |:-------------:                                   |
@@ -38,19 +57,16 @@
 | Ryan Shea     | [shea256](https://github.com/shea256)            |
 | Larry Salibra | [larrysalibra](https://github.com/larry-salibra) |
 | John Light    | [john-light](https://github.com/john-light)      |
-
-#### Other Contributors
-
-- [arbedout](https://github.com/arbedout)
-- [ibrahimahmed443](https://github.com/ibrahimahmed443)
-- [kef](https://github.com/kef)
-- [gidgreen](https://github.com/gidgreen)
-- [hasanmehmood](https://github.com/hasanmehmood)
-- [asjad99](https://github.com/adjad99)
-- [smurthas](https://github.com/smurthas)
-- [mflaxman](https://github.com/mflaxman)
-- [lionzeye](https://github.com/lionzeye)
-- [deftnerd](https://github.com/deftnerd)
-- [travs](https://github.com/travs)
-- [eateroa](https://github.com/eateroa)
-- [prusnak](https://github.com/prusnak)
+| | [arbedout](https://github.com/arbedout) |
+| | [ibrahimahmed443](https://github.com/ibrahimahmed443) |
+| | [kef](https://github.com/kef) |
+| | [gidgreen](https://github.com/gidgreen) |
+| | [hasanmehmood](https://github.com/hasanmehmood) |
+| | [asjad99](https://github.com/adjad99) |
+| | [smurthas](https://github.com/smurthas) |
+| | [mflaxman](https://github.com/mflaxman) |
+| | [lionzeye](https://github.com/lionzeye) |
+| | [deftnerd](https://github.com/deftnerd) |
+| | [travs](https://github.com/travs) |
+| | [eateroa](https://github.com/eateroa) |
+| | [prusnak](https://github.com/prusnak) |
