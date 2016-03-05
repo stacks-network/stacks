@@ -34,16 +34,16 @@
 #### Supporting Crypto
 
 - [Pybitcoin](https://github.com/blockstack/pybitcoin)
-- [Secret Sharing](https://github.com/blockstack/secret-sharing)
 - [Elliptic Keychain](https://github.com/blockstack/elliptic-keychain)
 - [Keychain Manager Py](https://github.com/blockstack/keychain-manager-py)
 - [JWT JS](https://github.com/blockstack/jwt-js)
 - [Key Encoder JS](https://github.com/blockstack/key-encoder-js)
+- [Secret Sharing](https://github.com/blockstack/secret-sharing)
 
 #### Website + Design
 
-- [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap)
 - [blockstack.org](https://github.com/blockstack/blockstack-site)
+- [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap)
 - [blockstackstats.com](https://github.com/blockstack/blockstack-stats)
 
 ### Contributors
