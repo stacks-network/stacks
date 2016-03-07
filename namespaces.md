@@ -23,32 +23,47 @@ The first namespace ever created is one for referring to user identities (TLD: <
     <tr>
       <th scope="row">1</th>
       <td><kbd>.site</kbd></td>
-      <td>Directing browsers to websites with a system like [ZeroNet](http://zeronet.io), in conjunction with [okTurtles](http://okturtles.com)</td>
+      <td>Directing users to websites with browsers like [ZeroNet](http://zeronet.io), [Brave](https://brave.com/) and [Metamask](https://metamask.io/)</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td><kbd>.file</kbd></td>
-      <td>Notarized files on services like [Stampery](http://stampery.co) and [the Chainpoint protocol](http://github.com/chainpoint/chainpoint)</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><kbd>.store</kbd></td>
-      <td>E-commerce stores on decentralized commerce platforms like [OpenBazaar](http://openbazaar.org) and [Bitmarkets](http://bitmarkets.org)</td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
       <td><kbd>.media</kbd></td>
-      <td>Hosted media files on systems like [Mine](http://mine.nyc), [Ascribe](http://ascribe.io), [Monegraph](http://monegraph.com) and [Alexandria](http://blocktech.com)</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><kbd>.device</kbd></td>
-      <td>Devices on the internet of things on platforms like [Filament](http://filament.com/)</td>
+      <td>Hosted media files on systems like [Mine](http://mine.nyc), [Ascribe](http://ascribe.io), [Monegraph](http://monegraph.com), [Verisart](http://www.verisart.com/) and [Alexandria](http://blocktech.com)</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td><kbd>.dir</kbd></td>
-      <td>Linking human-meaningful names to IPNS identifiers, the hash-based path names on [IPFS](http://ipfs.io)</td>
+      <td><kbd>.device</kbd></td>
+      <td>Devices on the internet of things with companies like [Filament](http://filament.com/) and [Philips](http://www.usa.philips.com/)</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><kbd>.file</kbd></td>
+      <td>Notarized files on services like [Stampery](http://stampery.co) and [Tierion](https://tierion.com/)</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td><kbd>.store</kbd></td>
+      <td>E-commerce stores on decentralized commerce platforms like [OpenBazaar](http://openbazaar.org) and [BitMarkets](http://bitmarkets.org)</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td><kbd>.directory</kbd></td>
+      <td>Directories on distributed file systems like [IPFS](http://ipfs.io) (readable names instead of hashes)</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td><kbd>.git</kbd></td>
+      <td>Code repositories on services like [GitLab](https://about.gitlab.com/)</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td><kbd>.product</kbd></td>
+      <td>Physical items listed on services like [Everledger](http://www.everledger.io/)</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td><kbd>.land</kbd></td>
+      <td>Land titles listed by various land title registry organizations</td>
     </tr>
   </tbody>
 </table>
