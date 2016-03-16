@@ -5,32 +5,34 @@ image: /images/article-photos/computer.jpg
 next: basic-usage
 ---
 
-The quickest way to get started with Blockstack and get a glimpse of what it can do is to install the command line interface and start performing name lookups.
+The quickest way to experience the power of Blockstack first hand is to install the command line interface and play around with looking up names and registering names.
 
-Installing the Blockstack command line interface is simple if you already pip installed on your computer (it often comes packaged with python). Just run the following command in your console:
+Below you'll find the installation instructions for both OS X and Linux (Debian and Ubuntu).
+
+### OS X Users
+
+Installation on OS X requires `pip`. If you're running OS X, you should already have `pip` installed (it comes with Python), but if not make sure to install it using the following command:
+
+```bash
+$ brew install python
+```
+
+Next, use `pip` to install blockstack:
 
 ```bash
 $ sudo pip install blockstack
 ```
 
-### OS X Users
-
-If you're running OS X, you should already have an installation of pip and the command shown above should be all you need.
-
-Otherwise, you can install pip along with python using the following command:
-
-```
-$ brew install python
-```
-
-Then continue with the installation using `sudo pip install blockstack`.
-
 ### Debian + Ubuntu Users
 
-If you're on Debian or Ubuntu, you may have to run another command before you perform the installation shown above. To prevent any installation issues, run the following first:
+Installation on Debian + Ubuntu requires `pip` and `libssl`. First, make sure you have both:
 
 ```bash
 $ sudo apt-get update && sudo apt-get install -y python-pip python-dev libssl-dev
 ```
 
-Then continue with the installation using `sudo pip install blockstack`.
+Next, use `pip` to install blockstack:
+
+```bash
+$ sudo pip install blockstack
+```
