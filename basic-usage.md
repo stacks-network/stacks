@@ -48,6 +48,27 @@ Example response:
 }
 ```
 
+### Deposits
+
+Name registrations and name management operations cost money, so before you can do these things, you'll need to deposit bitcoins in your account.
+
+*Note that in some cases you'll need to wait for one or more confirmations (about 10-60 minutes) before the Blockstack CLI will register the funds as fully deposited and allow you to proceed with registering names.*
+
+To get the Bitcoin address where you should deposit your bitcoins, run the `deposit` command:
+
+```bash
+$ blockstack deposit
+```
+
+Example response:
+
+```json
+{
+    "address": "13aUoeUtQnHUTfRwbksKvyvMRMzN3Qf2iR",
+    "message": "Send bitcoins to the address specified."
+}
+```
+
 ### Registrations
 
 After you get comfortable with looking up names, take the next step and register and manage a name for yourself. Run the following command:
