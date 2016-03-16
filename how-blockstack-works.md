@@ -2,7 +2,7 @@
 title: How Blockstack Works
 description: Learn how Blockstack works under the hood.
 image: /images/article-photos/typewriter.jpg
-next: installation
+next: blockstack-papers
 ---
 
 Blockstack is a decentralized network of computers that provides secure domain name services.
