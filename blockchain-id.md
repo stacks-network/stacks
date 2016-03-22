@@ -11,7 +11,6 @@ You can have one blockchain ID or many and you can register them just like you w
 
 The main difference between a blockchain ID and an account on any other service is that you own your blockchain ID completely. It can't be taken away from you by any service at all because the system defines ownership according to ownership of public-private keypairs, just like ownership of coins on Bitcoin. This is in direct contrast to Twitter or Facebook usernames, which could be confiscated or censored at any time by the respective companies that they belong to.
 
-
 ### Names
 
 Blockchain IDs are registered using the blockstack naming system, on the `.id` namespace.
