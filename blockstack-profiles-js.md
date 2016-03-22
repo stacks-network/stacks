@@ -2,7 +2,7 @@
 title: Blockstack Profiles - Javascript
 description: A Javascript library for creating, signing, and verifying Blockstack profiles
 image: https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=98326a6e44d1b6bbcddb0d89f75ed95c
-next: faq
+next: blockstack-profiles-py
 ---
 
 *Note: this document features the latest version of Javascript (ES6) in its examples, so you may see an unfamiliar syntax for imports and use of the newly supported "let" in place of "var". Don't worry, though, if you're using ES5, an older version of Javascript, as this library is completely compatible with both.*

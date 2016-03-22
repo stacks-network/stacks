@@ -2,7 +2,7 @@
 title: Pybitcoin
 description: A Python library for working with private and public keys, addresses, transactions, and RPC calls
 image: https://images.unsplash.com/photo-1430760903787-4d91bbf15384?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=98326a6e44d1b6bbcddb0d89f75ed95c
-next: faq
+next: blockstack-vs-dns
 ---
 
 ### Installation
