@@ -65,7 +65,20 @@ Let's return to the example above of Naval's profile, and see what it might look
       "contentUrl": "https://pbs.twimg.com/profile_images/3696617328/667874c5936764d93d56ccc76a2bcc13.jpeg"
     }
   ],
+  "website": [
+    {
+      "@type": "WebSite",
+      "url": "angel.co"
+    }
+  ],
   "account": [
+    {
+      "@type": "Account",
+      "service": "facebook",
+      "identifier": "navalr",
+      "proofType": "http",
+      "proofUrl": "https://facebook.com/navalr/posts/10152190734077261"
+    },
     {
       "@type": "Account",
       "service": "twitter",
