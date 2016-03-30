@@ -1,7 +1,7 @@
 ---
 title: Identity Attestations
 description: Explore about identity attestations on Blockstack.
-image: https://images.unsplash.com/photo-1422568374078-27d3842ba676?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1625
+image: /images/article-photos/persona.jpg
 next: light-clients
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Light Clients
 description: Learn about fast bootstrapping and lightweight name verification
-image: https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=98326a6e44d1b6bbcddb0d89f75ed95c
+image: /images/article-photos/mobile.jpg
 next: faq
 ---
 

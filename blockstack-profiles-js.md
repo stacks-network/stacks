@@ -1,7 +1,7 @@
 ---
 title: Blockstack Profiles - Javascript
 description: A Javascript library for creating, signing, and verifying Blockstack profiles
-image: https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=98326a6e44d1b6bbcddb0d89f75ed95c
+image: /images/article-photos/computer-3.jpg
 next: blockstack-profiles-py
 ---
 
