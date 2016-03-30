@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Command Line - Installation
 description: Get started by installing and configuring Blockstack.
 image: /images/article-photos/computer.jpg
 next: basic-usage

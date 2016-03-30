@@ -1,5 +1,5 @@
 ---
-title: Basic Usage
+title: Command Line - Basic Usage
 description: Explore Blockstack usage, including looking up & registering names.
 image: /images/article-photos/programming.jpg
 next: extended-usage
