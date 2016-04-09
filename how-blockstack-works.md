@@ -49,7 +49,7 @@ Even though only data record hashes are stored in blockchain transactions, we ca
 
 ### Data Record Storage
 
-By default, Blockstack nodes store the data records in a distributed hash table (DHT) that all Blockstack nodes are connected to (the Blockstack nodes each have their own accompanying DHT nodes). Every Blockstack node knows to look in the DHT to resolve the hash of a data record to the data record itself.  The DHT is spam-proof--because each Blockstack node knows the entire set of data record hashes, it effectively has a data white-list.  It will only store data if it's hash is in this set.
+By default, Blockstack nodes store the data records in a distributed hash table (DHT) that all Blockstack nodes are connected to (the Blockstack nodes each have their own accompanying DHT nodes). Every Blockstack node knows to look in the DHT to resolve the hash of a data record to the data record itself.  The DHT is spam-proof--because each Blockstack node knows the entire set of data record hashes, it effectively has a data white-list.  It will only store data if its hash is in this set.
 
 <img src="/images/article-diagrams/data-record-storage.png" class="img-fluid" alt="Data Record Storage">
 
