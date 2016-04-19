@@ -1,4 +1,4 @@
-# Blockstack Improvement Proposals
+# Blockstack RFCs
 
 |Date   |Title   	|Owner    |Status   |
 |---	|---	|---	|---	|
@@ -12,7 +12,7 @@
 |2015/02/17 |[Incentives to Run Nodes](https://github.com/blockstack/blockstack-server/issues/59)    |Muneeb Ali        |Open           |
 |2015/03/23 |[Name Revokes & Resets](https://github.com/blockstack/blockstack-server/issues/75)      |Ryan Shea         |Open   	   	  |
 |2015/03/24 |[Namespace Creation System](https://github.com/blockstack/blockstack-server/issues/76)  |Ryan Shea   	   	|Implemented   	|
-|2015/04/15 |[Subdomains](https://github.com/blockstack/blockstack-server/issues/81)                 |Ryan Shea         |Implemented    |
+|2015/04/15 |[Subdomains](https://github.com/blockstack/blockstack-server/issues/81)                 |Ryan Shea         |Open           |
 |2015/05/18 |[BitTorrent Driver](https://github.com/blockstack/blockstack-server/issues/89)   	     |Jude Nelson   	  |Deferred   	  |
 |2015/05/19 |[Chaining of Virtual Blocks](https://github.com/blockstack/blockstack-server/issues/90) |Muneeb Ali        |Implemented   	|
 |2015/10/01 |[Rolling Consensus Hashing](https://github.com/blockstack/blockstack-server/issues/146) |Ryan Shea   	   	|Implemented   	|
