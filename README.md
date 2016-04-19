@@ -63,6 +63,10 @@ Most of these repositories are under heavy development and we appreciate any fee
 - [Blog](https://medium.com/blockstack-review) - a blog with the latest Blockstack articles
 - [Twitter](https://twitter.com/blockstackorg) - social media feed curating Blockstack-related content from around the web
 
+### Requests for Comments
+
+- [Blockstack RFCs](/blockstack-rfcs.md)
+
 ### How You Can Help
 
 - **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved
