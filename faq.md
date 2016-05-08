@@ -42,7 +42,7 @@ When a name is registered, that name registration is broadcast to the world. Any
 
 ### Is there support for names that don't ever expire?
 
-Yes. Each namespace has it's own settings, so if you'd like to register names that don't expire, simply use a namespace that has a flag set for non-expiration.
+Yes. Each namespace has its own settings, so if you'd like to register names that don't expire, simply use a namespace that has a flag set for non-expiration.
 
 ### Does name ownership have multi-party support?
 
