@@ -5,7 +5,7 @@ image: /images/article-photos/typewriter.jpg
 next: blockstack-papers
 ---
 
-Blockstack is a decentralized network of computers that provides secure domain name services.
+Blockstack is a decentralized network of computers that provides secure naming and identity services.
 
 For a quick overview of what Blockstack is, check out [What is Blockstack?](/docs/what-is-blockstack), and continue reading on for a deeper dive into how blockstack works under the hood.
 
