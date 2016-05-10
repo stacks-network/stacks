@@ -22,7 +22,7 @@ setup(
     download_url='https://github.com/blockstack/blockstack/archive/master.zip',
     zip_safe=False,
     install_requires=[
-        'blockstore-client==0.0.12.7',
+        'blockstack-client==0.0.12.7',
         'blockstore==0.0.10.6',
         'registrar==0.0.3.4'
     ],
