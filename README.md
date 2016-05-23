@@ -10,7 +10,7 @@ When you run a Blockstack node, you join this network, which is more secure by d
 
 In the registry that makes up Blockstack, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name.
 
-Blockstack is already being used in production and currently [more than 46,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
+Blockstack is already being used in production and currently [more than 55,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
 <a href="https://blockstack.org/docs">
 <img src="/images/documentation-site-2x.png" data-canonical-src="/images/documentation-site-2x.png" width="250" height="62" />
