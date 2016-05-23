@@ -12,19 +12,19 @@ import os
 
 setup(
     name='blockstack',
-    version='0.0.10.7',
+    version='0.0.10.8',
     url='https://github.com/blockstack/blockstack',
     license='GPLv3',
     author='Blockstack.org',
     author_email='support@blockstack.org',
-    description='Decentralized naming and storage',
+    description='Decentralized naming and storage secured by the blockchain',
     keywords='blockchain bitcoin btc cryptocurrency name domain naming system data',
     download_url='https://github.com/blockstack/blockstack/archive/master.zip',
     zip_safe=False,
     install_requires=[
-        'blockstack-client==0.0.12.7',
-        'blockstore==0.0.10.6',
-        'registrar==0.0.3.4'
+        'blockstore==0.0.10.9',
+        'registrar==0.0.3.9',
+        'blockstack-client==0.0.12.7'
     ],
     classifiers=[
         'Intended Audience :: Developers',
