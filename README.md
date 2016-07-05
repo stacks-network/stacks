@@ -39,7 +39,7 @@ If you're already familiar with basic concepts of Blockstack, below are some rep
 - [Blockstack Resolvers](https://github.com/blockstack/blockstack-resolver) - scalable servers for resolving names to data records at scale
 - [Blockstack Registrars](https://github.com/blockstack/blockstack-registrar) - servers that can do bulk Blockstack name registrations and updates
 - [Blockstack DHT Mirrors](https://github.com/blockstack/dht-mirror) - software that improves read and write performance for the Blockstore DHT
-- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) and [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-python) - libraries that support generating, decoding and verifying auth request and auth response tokens
+- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) and [Blockstack Auth Python](https://github.com/blockstack/blockstack-auth-python) - libraries that support generating, decoding and verifying auth request and auth response tokens
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
 
