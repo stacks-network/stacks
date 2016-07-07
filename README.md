@@ -53,9 +53,9 @@ Most of these repositories are under heavy development and we appreciate any fee
 
 ### Blockstack Papers
 
-- ["Blockstack: A Global Naming and Storage System Secured by Blockchains"](http://github.com/blockstack/blockstack/papers/blockstack_usenix16.pdf), Proc. USENIX Annual Technical Conference (ATC ’16), June 2016
-- ["Extending Existing Blockchains with Virtualchain"](http://github.com/blockstack/blockstack/papers/virtualchain_dccl16.pdf), Proc. Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL '16), July 2016
-- ["Bootstrapping Trust in Distributed Systems with Blockchains"](http://github.com/blockstack/blockstack/papers/blockstack_login16.pdf), USENIX ;login: Magazine (pre-print)
+- ["Blockstack: A Global Naming and Storage System Secured by Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_usenix16.pdf), Proc. USENIX Annual Technical Conference (ATC ’16), June 2016
+- ["Extending Existing Blockchains with Virtualchain"](https://github.com/blockstack/blockstack/blob/master/papers/virtualchain_dccl16.pdf), Proc. Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL '16), July 2016
+- ["Bootstrapping Trust in Distributed Systems with Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_login16.pdf), USENIX ;login: Magazine (pre-print)
 
 ### Community Resources
 
