@@ -61,8 +61,9 @@ Most of these repositories are under heavy development and we appreciate any fee
 
 - [Slack Group](http://chat.blockstack.org) - real-time chat for all things Blockstack
 - [Blog](https://blog.blockstack.org) - a blog with the latest Blockstack articles
-- [Twitter](https://twitter.com/blockstackorg) - social media feed curating Blockstack-related content from around the web
-
+- [Twitter](https://twitter.com/blockstackorg) - social media feed 
+- [Community Repo](https://github.com/blockstack/community) - github repo for events & other community resources
+ 
 ### Requests for Comments
 
 - [Blockstack RFCs](/blockstack-rfcs.md)
