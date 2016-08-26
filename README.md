@@ -27,7 +27,7 @@ $ sudo pip install blockstack
 
 ### Project Links
 
-![The Blockstack Network](/system-diagram.png)
+![The Blockstack Network](/images/system-diagram.png)
 
 If you're just starting with Blockstack, here are the two main repositories you should checkout: 
 
