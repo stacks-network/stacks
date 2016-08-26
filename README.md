@@ -25,9 +25,11 @@ Run the following to install the Blockstack command line interface:
 $ sudo pip install blockstack
 ```
 
-### Project Links
+Below is a system diagram of Blockstack. You can read more details about the system in [this](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_login16.pdf) USENIX Login article.
 
 ![The Blockstack Network](/images/system-diagram.png)
+
+### Project Links
 
 If you're just starting with Blockstack, here are the two main repositories you should checkout: 
 
