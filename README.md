@@ -2,11 +2,12 @@
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
-Blockstack is decentralized DNS and identity.
+Blockstack is new decentralized web. It enables users to register their usernames/identity without going through any third parties and
+enables developers to build secure, server-less apps and publish them on the app store of this new decentralized web.
 
-With the Blockstack software, a network of computers collectively maintain a global registry of names.
+Blockstack provides a full stack of services to developers which include naming (like DNS), identity, auth, and storage.  
 
-When you run a Blockstack node, you join this network, which is more secure by design than traditional DNS systems and identity systems. This is because the system's registry and its records are secured by an underlying blockchain, which is extremely resilient against tampering and control.
+With the Blockstack software, a network of computers collectively maintain a global registry of names. When you run a Blockstack node, you join this network, which is more secure by design than traditional DNS and identity systems. This is because the system's registry and its records are secured by an underlying blockchain, which is extremely resilient against tampering and control.
 
 In the registry that makes up Blockstack, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name.
 
@@ -26,19 +27,16 @@ $ sudo pip install blockstack
 
 ### Project Links
 
-![The Blockstack Network](/images/blockstack-network.png)
+![The Blockstack Network](/system-diagram.png)
 
 If you're just starting with Blockstack, here are the two main repositories you should checkout: 
 
-- [Blockstack Server](https://github.com/blockstack/blockstack-server) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
+- [Blockstack Core](https://github.com/blockstack/blockstack-core) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
 - [Blockstack Client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
 
 If you're already familiar with basic concepts of Blockstack, below are some repositories and tools that can help in building applications using Blockstack or to run your own services using Blockstack:
 
 - [Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
-- [Blockstack Resolvers](https://github.com/blockstack/blockstack-resolver) - scalable servers for resolving names to data records at scale
-- [Blockstack Registrars](https://github.com/blockstack/blockstack-registrar) - servers that can do bulk Blockstack name registrations and updates
-- [Blockstack DHT Mirrors](https://github.com/blockstack/dht-mirror) - software that improves read and write performance for the Blockstore DHT
 - [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) and [Blockstack Auth Python](https://github.com/blockstack/blockstack-auth-python) - libraries that support generating, decoding and verifying auth request and auth response tokens
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
@@ -59,10 +57,8 @@ Most of these repositories are under heavy development and we appreciate any fee
 
 ### Community Resources
 
-- [GitHub](https://github.com/blockstack) - share code, file issues, discuss future features, plan and document community activities
 - [Slack Group](http://chat.blockstack.org) - real-time chat for all things Blockstack
-- [Forum](http://forum.blockstack.org) - discussion forum for all things Blockstack
-- [Blog](https://medium.com/blockstack-review) - a blog with the latest Blockstack articles
+- [Blog](https://blog.blockstack.org) - a blog with the latest Blockstack articles
 - [Twitter](https://twitter.com/blockstackorg) - social media feed curating Blockstack-related content from around the web
 
 ### Requests for Comments
