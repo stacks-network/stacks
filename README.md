@@ -2,7 +2,7 @@
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
-Blockstack is new decentralized web. It enables users to register their usernames/identity without going through any third parties and
+Blockstack is a new decentralized web. It enables users to register their usernames/identity without going through any third parties and
 enables developers to build secure, server-less apps and publish them on the app store of this new decentralized web.
 
 Blockstack provides a full stack of services to developers which include naming (like DNS), identity, auth, and storage.  
