@@ -1,17 +1,13 @@
 ---
-title: Blockstack Papers
-description: Explore the Blockstack academic papers.
+title: Blockstack Usenix Paper
+description: Academic paper on the design and implementation of Blockstack's global naming system with blockchains
 image: /images/article-photos/glasses.jpg
-next: installation
+next: virtualchain-paper
 ---
-
-The first Blockstack paper is currently under peer review and is in the draft phase:
 
 - "Blockstack: Design and Implementation of a Global Naming System with Blockchains" by Muneeb Ali, Jude Nelson, Ryan Shea, and Michael J. Freedman.
 
 You can view an embedded version of the paper below or [view it in full screen](/blockstack.pdf).
-
-As additional papers are announced, they will be added here, so check back for updates.
 
 <embed src="/blockstack.pdf" class="embedded-pdf" type="application/pdf" allowfullscreen>
 </embed>
