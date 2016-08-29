@@ -1,5 +1,5 @@
 ---
-title: Blockstack Login Paper
+title: Blockstack Usenix ;login: Paper
 description: Blockstack's paper on Bootstrapping trust in distributed systems with Blockchains
 image: /images/article-photos/booklets.jpg
 next: installation
