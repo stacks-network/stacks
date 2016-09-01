@@ -2,7 +2,6 @@
 title: Command Line - Extended Usage
 description: Dig deeper with Blockstack usage, including name transfers and more.
 image: /images/article-photos/astronaut.jpg
-next: blockstack-vs-dns
 ---
 
 ### Transfers

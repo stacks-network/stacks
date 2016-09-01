@@ -1,5 +1,5 @@
 ---
-title: Virtualchain Paper
+title: Virtualchain DCCL Paper
 description: Academic paper on Blockstack's Virtualchain system for extending existing blockchains
 image: /images/article-photos/writing.jpg
 next: login-paper

@@ -1,5 +1,5 @@
 ---
-title: Blockstack Usenix Paper
+title: Blockstack USENIX Paper
 description: Academic paper on the design and implementation of Blockstack's global naming system with blockchains
 image: /images/article-photos/glasses.jpg
 next: virtualchain-paper
