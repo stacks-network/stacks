@@ -14,7 +14,7 @@ In the registry that makes up Blockstack, each of the names has an owner, repres
 Blockstack is already being used in production and currently [more than 60,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
 <a href="https://blockstack.org/docs">
-<img src="/images/documentation-site-2x.png" data-canonical-src="/images/documentation-site-2x.png" width="250" height="62" />
+<img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" width="250" height="62" />
 </a>
 
 ### Quick Installation
