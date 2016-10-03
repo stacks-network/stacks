@@ -23,6 +23,7 @@ If you're just starting with Blockstack, here are the main repositories you shou
 - [Blockstack Core](https://github.com/blockstack/blockstack-core) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
 - [Blockstack CLI](https://github.com/blockstack/blockstack-cli) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
 - [Blockstack Website](https://github.com/blockstack/blockstack-site) - the code for the official Blockstack website (found at blockstack.org)
+- Blockstack Browser - the reference browser for browsing the Blockstack decentralized internet (coming soon)
 
 After you've gotten familiar with the components above, you may want to take a deeper dive. Below you'll find some supporting libraries to dig into:
 
