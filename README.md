@@ -2,6 +2,20 @@
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Project Links](#project-links)
+- [Tutorials](#tutorials)
+- [Papers](#papers)
+- [Articles](#articles)
+- [Community Resources](#community-resources)
+- [Events](#events)
+- [Requests for Comments](#requests-for-comments)
+- [How to Help](#how-to-help)
+
+### Overview
+
 Blockstack is a movement to build the decentralized web - a movement of hackers, designers, and entrepreneurs from around the world deeply committed to the future of the Internet as a bastion of innovation, freedom, and economic inclusion. Blockstack is about pushing power to the edges with decentralized applications and allowing users to be in control of their data, identities and software.
 
 Blockstack has protocols and software projects that when used together are a powerful way for developers to build decentralized, server-less applications, without having to rely on third parties. Blockstack Core provides decentralized naming, public key infrastructure, and storage. Blockstack Auth provides support for decentralized identity and authentication. Blockstack clients like the Blockstack CLI, Onename, and the Blockstack Browser provide complete packages that hook into Blockstack Core and Blockstack Auth.
@@ -39,7 +53,7 @@ After you've gotten familiar with the components above, you may want to take a d
 - Decentralized Apps
   - [Hello World](https://blockstack.org/tutorials/hello-world)
 
-### Blockstack Papers
+### Papers
 
 - ["Blockstack: A Global Naming and Storage System Secured by Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_usenix16.pdf), Proc. USENIX Annual Technical Conference (ATC ’16), June 2016
 - ["Extending Existing Blockchains with Virtualchain"](https://github.com/blockstack/blockstack/blob/master/papers/virtualchain_dccl16.pdf), Proc. Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL '16), July 2016
@@ -68,12 +82,18 @@ Blockstack is already being used in production and currently [more than 60,000 n
 ### Events
 
 - [Events](/events)
+    - [Blockstack Meetups](/events/meetups.md)
+    - [Non-Blockstack Events](/events/external-events.md)
+    - [Past Events](/events/past-events.md)
+    - [Past Meetups](/events/past-meetups.md)
+    - [Event Checklist](/events/event-checklist.md)
+    - [Swag](/events/swag.md)
 
 ### Requests for Comments
 
 - [Blockstack RFCs](/blockstack-rfcs.md)
 
-### How You Can Help
+### How to Help
 
 - **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved
 - **Help with software testing** - we really appreciate and value our testers, and encourage people who want to support Blockstack to run the software and file issues in the appropriate repository for any bugs that are found
