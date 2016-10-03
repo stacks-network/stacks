@@ -7,13 +7,12 @@ Blockstack is a movement to build the decentralized web - a movement of hackers,
 Blockstack has protocols and software projects that when used together are a powerful way for developers to build decentralized, server-less applications, without having to rely on third parties. Blockstack Core provides decentralized naming, public key infrastructure, and storage. Blockstack Auth provides support for decentralized identity and authentication. Blockstack clients like the Blockstack CLI, Onename, and the Blockstack Browser provide complete packages that hook into Blockstack Core and Blockstack Auth.
 
 <p>
-<a href="https://blockstack.org/docs">
-<img src="/images/documentation-site-2x.png" data-canonical-src="/images/documentation-site-2x.png" width="250" height="62" />
-</a>
+    <a href="https://blockstack.org/docs">
+        <img src="/images/documentation-site-2x.png" data-canonical-src="/images/documentation-site-2x.png" width="250" height="62" />
+    </a>
 </p>
-
 <p>
-<img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" />
+    <img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" />
 </p>
 
 ### Project Links
@@ -65,6 +64,11 @@ Blockstack is already being used in production and currently [more than 60,000 n
 - [Blog](https://blog.blockstack.org/) - Read posts by community members
 - [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
 - [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
+- [Chat Archive](http://blockstack.slackarchive.io/lounge/)
+
+### Events and Swag
+
+- [Events and Swag](/events.md)
 
 ### Requests for Comments
 
