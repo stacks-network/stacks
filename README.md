@@ -2,10 +2,32 @@
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
-Blockstack is a new decentralized web. It enables users to register their usernames/identity without going through any third parties and
-enables developers to build secure, server-less apps and publish them on the app store of this new decentralized web.
+<a href="https://blockstack.org/docs">
+<img src="/images/documentation-site-2x.png" data-canonical-src="/images/documentation-site-2x.png" width="250" height="62" />
+</a>
 
-Blockstack provides a full stack of services to developers which include naming (like DNS), identity, auth, and storage.  
+Blockstack is a movement to build the decentralized web - a movement of hackers, designers, and entrepreneurs from around the world deeply committed to the future of the Internet as a bastion of innovation, freedom, and economic inclusion. Blockstack is about pushing power to the edges with decentralized applications and allowing users to be in control of their data, identities and software.
+
+Blockstack has protocols and software projects that when used together are a powerful way for developers to build decentralized, server-less applications, without having to rely on third parties. Blockstack Core provides decentralized naming, public key infrastructure, and storage. Blockstack Auth provides support for decentralized identity and authentication. Blockstack clients like the Blockstack CLI, Onename, and the Blockstack Browser provide complete packages that hook into Blockstack Core and Blockstack Auth.
+
+![The Blockstack Network](https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png)
+
+### Community Resources
+
+- [Slack Group](http://chat.blockstack.org) - Live chat with other Blockstackers
+- [Meetup Groups](http://www.meetup.com/topics/blockstack/) - Join Meetup groups around the world
+- [Subreddit](https://www.reddit.com/r/blockstack) - Share and discuss on the subreddit
+- [Blog](https://blog.blockstack.org/) - Read posts by community members
+- [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
+- [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
+
+### Blockstack Papers
+
+- ["Blockstack: A Global Naming and Storage System Secured by Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_usenix16.pdf), Proc. USENIX Annual Technical Conference (ATC ’16), June 2016
+- ["Extending Existing Blockchains with Virtualchain"](https://github.com/blockstack/blockstack/blob/master/papers/virtualchain_dccl16.pdf), Proc. Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL '16), July 2016
+- ["Bootstrapping Trust in Distributed Systems with Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_login16.pdf), USENIX ;login: Magazine (pre-print)
+
+### Articles
 
 With the Blockstack software, a network of computers collectively maintain a global registry of names. When you run a Blockstack node, you join this network, which is more secure by design than traditional DNS and identity systems. This is because the system's registry and its records are secured by an underlying blockchain, which is extremely resilient against tampering and control.
 
@@ -13,21 +35,15 @@ In the registry that makes up Blockstack, each of the names has an owner, repres
 
 Blockstack is already being used in production and currently [more than 60,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
-<a href="https://blockstack.org/docs">
-<img src="/images/documentation-site-2x.png" data-canonical-src="/images/documentation-site-2x.png" width="250" height="62" />
-</a>
+- [What is Blockstack Core?](https://blockstack.org/articles/blockstack-core)
+- [How Blockstack Works](https://blockstack.org/articles/how-blockstack-works)
 
-### Quick Installation
+### Tutorials
 
-Run the following to install the Blockstack command line interface:
-
-```
-$ sudo pip install blockstack
-```
-
-Below is a system diagram of Blockstack. You can read more details about the system in [this](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_login16.pdf) USENIX Login article.
-
-![The Blockstack Network](https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png)
+- [Command Line Interface - Installation](https://blockstack.org/tutorials/installation)
+- [Command Line Interface - Basic Usage](https://blockstack.org/tutorials/basic-usage)
+- [Command Line Interface - Extended Usage](https://blockstack.org/tutorials/extended-usage)
+- [Decentralized Apps - Hello World](https://blockstack.org/tutorials/hello-world)
 
 ### Project Links
 
@@ -43,27 +59,6 @@ If you're already familiar with basic concepts of Blockstack, below are some rep
 
 Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
 
-### Articles
-
-- [How Blockstack Works](https://blockstack.org/docs/how-blockstack-works)
-- [Blockstack vs. DNS](https://blockstack.org/docs/blockstack-vs-dns)
-- [Blockstack vs. Namecoin](https://blockstack.org/docs/blockstack-vs-namecoin)
-- [Blockstack Namespaces](https://blockstack.org/docs/namespaces)
-- [Blockstack Light Clients](https://blockstack.org/docs/light-clients)
-
-### Blockstack Papers
-
-- ["Blockstack: A Global Naming and Storage System Secured by Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_usenix16.pdf), Proc. USENIX Annual Technical Conference (ATC ’16), June 2016
-- ["Extending Existing Blockchains with Virtualchain"](https://github.com/blockstack/blockstack/blob/master/papers/virtualchain_dccl16.pdf), Proc. Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL '16), July 2016
-- ["Bootstrapping Trust in Distributed Systems with Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_login16.pdf), USENIX ;login: Magazine (pre-print)
-
-### Community Resources
-
-- [Slack Group](http://chat.blockstack.org) - real-time chat for all things Blockstack
-- [Blog](https://blog.blockstack.org) - a blog with the latest Blockstack articles
-- [Twitter](https://twitter.com/blockstackorg) - social media feed 
-- [Community Repo](https://github.com/blockstack/community) - github repo for events & other community resources
- 
 ### Requests for Comments
 
 - [Blockstack RFCs](/blockstack-rfcs.md)
