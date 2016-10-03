@@ -1,4 +1,5 @@
-## Meetups
+# Meetups
+
 [›› current meetup stats](http://www.meetup.com/topics/blockstack/)
 
 <img src="https://raw.githubusercontent.com/blockstack/community/master/images/meetup-blockstack-map-2016-09-15.png" width="750">

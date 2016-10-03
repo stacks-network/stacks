@@ -1,4 +1,5 @@
-## Events
+# Events
+
 Events is broken into four categories. 
 
 **[Upcoming events](#upcoming-events)** where one or more Blockstack member will attend an event to either sit on a panel, participate in a workshop or give a presentation. 
