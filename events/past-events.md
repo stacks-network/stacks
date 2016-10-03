@@ -1,4 +1,5 @@
-###Past events
+# Past events
+
 * Sep 28, 2016 - [DLT 2016 Blockchain For Financial Institutions conference](http://www.imn.org/investment-management/conference/DLT2016-Blockchain-Financial-Institutions/)
 * Sep 19-24, 2016 - [International Blockchain Week 2016](https://blog.ethereum.org/2016/04/05/devcon2-and-blockchain-summit-shanghai-september2016/)
 * Sep 19–22 - [Global Identity Summit 2016](http://events.afcea.org/GlobalID16/Public/MainHall.aspx?ID=57390&sortMenu=101000)
