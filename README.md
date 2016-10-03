@@ -2,15 +2,42 @@
 
 [![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
 
-<a href="https://blockstack.org/docs">
-<img src="/images/documentation-site-2x.png" data-canonical-src="/images/documentation-site-2x.png" width="250" height="62" />
-</a>
-
 Blockstack is a movement to build the decentralized web - a movement of hackers, designers, and entrepreneurs from around the world deeply committed to the future of the Internet as a bastion of innovation, freedom, and economic inclusion. Blockstack is about pushing power to the edges with decentralized applications and allowing users to be in control of their data, identities and software.
 
 Blockstack has protocols and software projects that when used together are a powerful way for developers to build decentralized, server-less applications, without having to rely on third parties. Blockstack Core provides decentralized naming, public key infrastructure, and storage. Blockstack Auth provides support for decentralized identity and authentication. Blockstack clients like the Blockstack CLI, Onename, and the Blockstack Browser provide complete packages that hook into Blockstack Core and Blockstack Auth.
 
-![The Blockstack Network](https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png)
+<p>
+<a href="https://blockstack.org/docs">
+<img src="/images/documentation-site-2x.png" data-canonical-src="/images/documentation-site-2x.png" width="250" height="62" />
+</a>
+</p>
+
+<p>
+<img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" />
+</p>
+
+### Project Links
+
+If you're just starting with Blockstack, here are the main repositories you should checkout: 
+
+- [Blockstack Core](https://github.com/blockstack/blockstack-core) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
+- [Blockstack CLI](https://github.com/blockstack/blockstack-cli) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
+- [Blockstack Website](https://github.com/blockstack/blockstack-site)
+
+After you've gotten familiar with the components above, you may want to take a deeper dive. Below you'll find some supporting libraries to dig into:
+
+- [Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
+- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) and [Blockstack Auth Python](https://github.com/blockstack/blockstack-auth-python) - libraries that support generating, decoding and verifying auth request and auth response tokens
+- [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap)
+
+### Tutorials
+
+- CLI (Command Line Interface)
+  - [Installation](https://blockstack.org/tutorials/installation)
+  - [Basic Usage](https://blockstack.org/tutorials/basic-usage)
+  - [Extended Usage](https://blockstack.org/tutorials/extended-usage)
+- Decentralized Apps
+  - [Hello World](https://blockstack.org/tutorials/hello-world)
 
 ### Blockstack Papers
 
@@ -28,27 +55,6 @@ Blockstack is already being used in production and currently [more than 60,000 n
 
 - [What is Blockstack Core?](https://blockstack.org/articles/blockstack-core)
 - [How Blockstack Works](https://blockstack.org/articles/how-blockstack-works)
-
-### Tutorials
-
-- [Command Line Interface - Installation](https://blockstack.org/tutorials/installation)
-- [Command Line Interface - Basic Usage](https://blockstack.org/tutorials/basic-usage)
-- [Command Line Interface - Extended Usage](https://blockstack.org/tutorials/extended-usage)
-- [Decentralized Apps - Hello World](https://blockstack.org/tutorials/hello-world)
-
-### Project Links
-
-If you're just starting with Blockstack, here are the main repositories you should checkout: 
-
-- [Blockstack Core](https://github.com/blockstack/blockstack-core) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
-- [Blockstack Client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
-- [Blockstack Website](https://github.com/blockstack/blockstack-site)
-
-After you've gotten familiar with the components above, you may want to take a deeper dive. Below you'll find some supporting libraries to dig into:
-
-- [Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
-- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) and [Blockstack Auth Python](https://github.com/blockstack/blockstack-auth-python) - libraries that support generating, decoding and verifying auth request and auth response tokens
-- [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap)
 
 ### Community Resources
 
