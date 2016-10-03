@@ -64,11 +64,10 @@ Blockstack is already being used in production and currently [more than 60,000 n
 - [Blog](https://blog.blockstack.org/) - Read posts by community members
 - [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
 - [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
-- [Chat Archive](http://blockstack.slackarchive.io/lounge/)
 
-### Events and Swag
+### Events
 
-- [Events and Swag](/events.md)
+- [Events](/events)
 
 ### Requests for Comments
 
