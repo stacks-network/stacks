@@ -9,7 +9,7 @@
 - [Tutorials](#tutorials)
 - [Papers](#papers)
 - [Articles](#articles)
-- [Online Communities](#online-communities)
+- [Community](#community)
 - [Events](#events)
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
@@ -70,7 +70,7 @@ In the registry that makes up Blockstack, each of the names has an owner, repres
 
 Blockstack is already being used in production and currently [more than 60,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
-### Online Communities
+### Community
 
 - [Slack Group](http://chat.blockstack.org) - Live chat with other Blockstackers
 - [Meetup Groups](http://www.meetup.com/topics/blockstack/) - Join Meetup groups around the world
