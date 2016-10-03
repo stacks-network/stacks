@@ -2,13 +2,11 @@
 
 Here you can find the latest news, events, meetups, and more for all things Blockstack.
 
-- [Event Checklist](/event-checklist.md)
-- Upcoming
-    - [Blockstack Meetups](/meetups.md)
-    - [Non-Blockstack Events](/external-events.md)
-- Past
-    - [Past Events](/past-events.md)
-    - [Past Meetups](/past-meetups.md)
+- [Event Checklist](/events/event-checklist.md)
+- [Blockstack Meetups](/events/meetups.md)
+- [Non-Blockstack Events](/events/external-events.md)
+- [Past Events](/events/past-events.md)
+- [Past Meetups](/events/past-meetups.md)
 
 ### Swag
 
