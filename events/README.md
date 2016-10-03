@@ -23,8 +23,13 @@ Decentralized and Encrypted           | Berlin                        | June 1, 
 ### Swag
 
 **Want Blockstack Swag?**
+Sign up here! › [Blockstack Swag!](https://github.com/blockstack/blockstack/issues/96)
 
-Sign up here! › [Blockstack Swag!](https://github.com/blockstack/community/issues/28)
+Choose from;
+* [Blockstack Stickers](https://github.com/blockstack/blockstack/issues/96)
+* [Blockstack T-Shirts](https://github.com/blockstack/blockstack/issues/96)
+* [Blockstack Hoodies](https://github.com/blockstack/blockstack/issues/96)
+* [Blockstack Backpacks](https://github.com/blockstack/blockstack/issues/96)
 
 #### Stickers
 
@@ -38,10 +43,13 @@ If you want a t-shirt, you have a few options:
 
 1. Attend any meetup event around the world and we'll give you one for free.
 2. If you're hosting a meetup event and would like some shirts, drop us a line and we'll send you some for free.
-3. [Sign up here - Blockstack T-Shirts](https://github.com/blockstack/community/issues/28)
+3. [Sign up here - Blockstack T-Shirts](https://github.com/blockstack/blockstack/issues/96)
 
 #### Sweatshirts and Backpacks
 
 If you'd like a sweatshirt or backpack, just drop us a line and we'll help you order one and get it shipped to you.
 - or -
-[Sign up here - Blockstack Hoodie or Backpack](https://github.com/blockstack/community/issues/28)
+[Sign up here - Blockstack Hoodie or Backpack](https://github.com/blockstack/blockstack/issues/96)
+
+
+
