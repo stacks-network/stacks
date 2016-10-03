@@ -22,13 +22,13 @@ If you're just starting with Blockstack, here are the main repositories you shou
 
 - [Blockstack Core](https://github.com/blockstack/blockstack-core) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
 - [Blockstack CLI](https://github.com/blockstack/blockstack-cli) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
-- [Blockstack Website](https://github.com/blockstack/blockstack-site)
+- [Blockstack Website](https://github.com/blockstack/blockstack-site) - the code for the official Blockstack website (found at blockstack.org)
 
 After you've gotten familiar with the components above, you may want to take a deeper dive. Below you'll find some supporting libraries to dig into:
 
 - [Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
-- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) and [Blockstack Auth Python](https://github.com/blockstack/blockstack-auth-python) - libraries that support generating, decoding and verifying auth request and auth response tokens
-- [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap)
+- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) - a JS library for generating and verifying auth requests and responses
+- [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap) - a fork of Bootstrap in the Blockstack
 
 ### Tutorials
 
