@@ -12,15 +12,6 @@ Blockstack has protocols and software projects that when used together are a pow
 
 ![The Blockstack Network](https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png)
 
-### Community Resources
-
-- [Slack Group](http://chat.blockstack.org) - Live chat with other Blockstackers
-- [Meetup Groups](http://www.meetup.com/topics/blockstack/) - Join Meetup groups around the world
-- [Subreddit](https://www.reddit.com/r/blockstack) - Share and discuss on the subreddit
-- [Blog](https://blog.blockstack.org/) - Read posts by community members
-- [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
-- [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
-
 ### Blockstack Papers
 
 - ["Blockstack: A Global Naming and Storage System Secured by Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_usenix16.pdf), Proc. USENIX Annual Technical Conference (ATC ’16), June 2016
@@ -47,17 +38,26 @@ Blockstack is already being used in production and currently [more than 60,000 n
 
 ### Project Links
 
-If you're just starting with Blockstack, here are the two main repositories you should checkout: 
+If you're just starting with Blockstack, here are the main repositories you should checkout: 
 
 - [Blockstack Core](https://github.com/blockstack/blockstack-core) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
 - [Blockstack Client](https://github.com/blockstack/blockstack-client) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
+- [Blockstack Website](https://github.com/blockstack/blockstack-site)
 
-If you're already familiar with basic concepts of Blockstack, below are some repositories and tools that can help in building applications using Blockstack or to run your own services using Blockstack:
+After you've gotten familiar with the components above, you may want to take a deeper dive. Below you'll find some supporting libraries to dig into:
 
 - [Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
 - [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) and [Blockstack Auth Python](https://github.com/blockstack/blockstack-auth-python) - libraries that support generating, decoding and verifying auth request and auth response tokens
+- [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap)
 
-Most of these repositories are under heavy development and we appreciate any feedback, bug reports, or code contributions!
+### Community Resources
+
+- [Slack Group](http://chat.blockstack.org) - Live chat with other Blockstackers
+- [Meetup Groups](http://www.meetup.com/topics/blockstack/) - Join Meetup groups around the world
+- [Subreddit](https://www.reddit.com/r/blockstack) - Share and discuss on the subreddit
+- [Blog](https://blog.blockstack.org/) - Read posts by community members
+- [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
+- [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
 
 ### Requests for Comments
 
