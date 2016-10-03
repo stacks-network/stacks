@@ -5,11 +5,11 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Project Links](#project-links)
+- [Code](#code)
 - [Tutorials](#tutorials)
 - [Papers](#papers)
 - [Articles](#articles)
-- [Community Resources](#community-resources)
+- [Online Communities](#online-communities)
 - [Events](#events)
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
@@ -29,7 +29,7 @@ Blockstack has protocols and software projects that when used together are a pow
     <img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" />
 </p>
 
-### Project Links
+### Code
 
 If you're just starting with Blockstack, here are the main repositories you should checkout: 
 
@@ -70,7 +70,7 @@ In the registry that makes up Blockstack, each of the names has an owner, repres
 
 Blockstack is already being used in production and currently [more than 60,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
-### Community Resources
+### Online Communities
 
 - [Slack Group](http://chat.blockstack.org) - Live chat with other Blockstackers
 - [Meetup Groups](http://www.meetup.com/topics/blockstack/) - Join Meetup groups around the world
