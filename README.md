@@ -14,7 +14,7 @@
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
 
-### Overview
+## Overview
 
 Blockstack is a movement to build the decentralized web - a movement of hackers, designers, and entrepreneurs from around the world deeply committed to the future of the Internet as a bastion of innovation, freedom, and economic inclusion. Blockstack is about pushing power to the edges with decentralized applications and allowing users to be in control of their data, identities and software.
 
@@ -29,7 +29,7 @@ Blockstack has protocols and software projects that when used together are a pow
     <img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram3.png" />
 </p>
 
-### Code
+## Code
 
 If you're just starting with Blockstack, here are the main repositories you should checkout: 
 
@@ -44,7 +44,7 @@ After you've gotten familiar with the components above, you may want to take a d
 - [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) - a JS library for generating and verifying auth requests and responses
 - [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap) - a fork of Bootstrap in the Blockstack
 
-### Tutorials
+## Tutorials
 
 - CLI (Command Line Interface)
   - [Installation](https://blockstack.org/tutorials/installation)
@@ -53,13 +53,13 @@ After you've gotten familiar with the components above, you may want to take a d
 - Decentralized Apps
   - [Hello World](https://blockstack.org/tutorials/hello-world)
 
-### Papers
+## Papers
 
 - ["Blockstack: A Global Naming and Storage System Secured by Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_usenix16.pdf), Proc. USENIX Annual Technical Conference (ATC ’16), June 2016
 - ["Extending Existing Blockchains with Virtualchain"](https://github.com/blockstack/blockstack/blob/master/papers/virtualchain_dccl16.pdf), Proc. Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL '16), July 2016
 - ["Bootstrapping Trust in Distributed Systems with Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_login16.pdf), USENIX ;login: Magazine (pre-print)
 
-### Articles
+## Articles
 
 - [What is Blockstack Core?](https://blockstack.org/articles/blockstack-core)
 - [How Blockstack Works](https://blockstack.org/articles/how-blockstack-works)
@@ -70,7 +70,7 @@ In the registry that makes up Blockstack, each of the names has an owner, repres
 
 Blockstack is already being used in production and currently [more than 60,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
-### Online Communities
+## Online Communities
 
 - [Slack Group](http://chat.blockstack.org) - Live chat with other Blockstackers
 - [Meetup Groups](http://www.meetup.com/topics/blockstack/) - Join Meetup groups around the world
@@ -79,7 +79,7 @@ Blockstack is already being used in production and currently [more than 60,000 n
 - [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
 - [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
 
-### Events
+## Events
 
 - [Events](/events)
     - [Blockstack Meetups](/events/meetups.md)
@@ -89,11 +89,11 @@ Blockstack is already being used in production and currently [more than 60,000 n
     - [Event Checklist](/events/event-checklist.md)
     - [Swag](/events/swag.md)
 
-### Requests for Comments
+## Requests for Comments
 
 - [Blockstack RFCs](/blockstack-rfcs.md)
 
-### How to Help
+## How to Help
 
 - **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved
 - **Help with software testing** - we really appreciate and value our testers, and encourage people who want to support Blockstack to run the software and file issues in the appropriate repository for any bugs that are found
