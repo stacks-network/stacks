@@ -81,7 +81,7 @@ Blockstack is already being used in production and currently [more than 60,000 n
 
 ## Events
 
-### [Events](/events)
+#### [Blockstack Events](/events)
 
 * Meetups
   * [Meetup Groups](/events/meetups.md)
