@@ -82,12 +82,14 @@ Blockstack is already being used in production and currently [more than 60,000 n
 ## Events
 
 - [Events](/events)
-    - [Blockstack Meetups](/events/meetups.md)
-    - [Non-Blockstack Events](/events/external-events.md)
-    - [Past Events](/events/past-events.md)
-    - [Past Meetups](/events/past-meetups.md)
-    - [Event Checklist](/events/event-checklist.md)
-    - [Swag](/events/swag.md)
+    * [Meetups](/events/meetups.md)
+      * [Past Meetups](/events/past-meetups.md)
+    * [Blockstack Attended Events](/events/external-events.md)
+      * [Past Events](/events/past-events.md)
+    * [Swag](/events/swag.md)
+    
+**Create a Blockstack Meetup** 
+Use the Events Checklist as a guide for your event [› Go to Events Checklist](/events/event-checklist.md)
 
 ## Requests for Comments
 
