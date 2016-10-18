@@ -109,7 +109,7 @@ Example response:
 To update the blockstack server that your command line client is connecting to, use the `blockstack config` command:
 
 ```bash
-# blockstack config --host=server.blockstack.org --port=6264 --advanced=off
+# blockstack configure --host=server.blockstack.org --port=6264 --advanced=off
 ```
 
 Expected response:
