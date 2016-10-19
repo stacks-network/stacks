@@ -5,11 +5,27 @@ image: /images/article-photos/persona.jpg
 next: identity-attestation
 ---
 
+### General Blockchain Identity
+
+A blockchain identity (or blockchain ID) is a generic term used to refer to any identity on the blockchain. Users can have one blockchain identity or many and can register them just like one would register domain names or accounts on Facebook or Twitter.
+
+The main difference between blockchain identities and accounts on any other service is that blockchain-based systems have strong ownership. Blockchain identities can't be confiscated by any service because the system defines ownership according to ownership of public-private keypairs, just like ownership of coins on Bitcoin. This is in direct contrast to Twitter or Facebook usernames, which could be confiscated or censored at any time by the respective companies that they belong to.
+
+### Blockstack Profiles
+
+Blockstack is the largest, most popular blockchain identity system, with 65,000 registered identities.
+
+On Blockstack, identities are referred to as "blockstack identities" and they come with profiles and globally unique names.
+
+Profiles can contain both private and public information, which is attested to by the user and can be verified by peers and select authorities.
+
+Identities can be registered for people, companies, websites, software packages, and more.
+
 When you set up a blockstack identity, you can associate as much or as little information with it as you want. This is referred to as your profile. More information means people can find you more easily and trust that you are who you say you are. Less information means being able to retain more privacy.
 
 Further, every identity on blockstack contains a series of attributes, each of which can be either public or private and either user-attested or authority-attested.
 
-### Public Profiles
+#### Public Profiles
 
 Public profiles are constructed through the compilation of public statements, signed by the user that owns the profile.
 
@@ -19,7 +35,7 @@ Here's an example of a blockstack profile:
 
 Here, Naval chose to publicly display his name, bio, and accounts across various social networks.
 
-### Extended Profiles
+#### Extended Profiles
 
 Extended profiles are public profiles, extended with other information that has not been made publicly accessible.
 
@@ -45,7 +61,7 @@ Here's an example of some address information that might be seen in an extended 
 }
 ```
 
-### Profile Data
+#### Profile Data
 
 Profiles are encoded in a format known as JSON, with a specific JSON schema that is derived from schema.org.
 

@@ -5,7 +5,9 @@ image: /images/article-photos/cup.jpg
 next: light-clients
 ---
 
-### Verified Profiles
+### Identity Attestation
+
+#### Verified Profiles
 
 User-attested information in profiles can also be verified and become trusted information.
 
@@ -15,7 +17,7 @@ For users to present their information as verified information, they must includ
 
 Proofs can either be references to data on other social networks and software systems or they can be references to signed attestations by trusted authorities or peers.
 
-### Software Proofs
+#### Software Proofs
 
 Here are a few types of software proofs that are supported:
 
@@ -36,12 +38,12 @@ Here's an example of a social network proof:
 }
 ```
 
-### Attestations
+#### Attestations
 
 - **peer attestations** - users can have multiple peers attest to information and then aggregate the attestations
 - **authority attestations** - users can have trusted authorities attest to information and reference the attestations
 
-### Authority Attestations
+#### Authority Attestations
 
 Authorities may be primary sources or secondary sources. If a senior official of your univerity attests to your status at that university, then the university/official is considered a primary source. If your local DMV (Department of Motor Vehicles) attests to your birth date, that is considered a secondary source.
 
@@ -85,7 +87,7 @@ And here is an example of an attestation made by the DMV of the state of Califor
 }
 ```
 
-### Peer Attestations
+#### Peer Attestations
 
 Peer attestations can include references to any type of information. However, they are most commonly made about relationships between the peers.
 

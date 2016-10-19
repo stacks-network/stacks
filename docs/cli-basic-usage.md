@@ -10,20 +10,15 @@ next: cli-extended-usage
 Now, to perform a name lookup, run this command:
 
 ```bash
-$ blockstack lookup fredwilson.id
+$ blockstack lookup timblee.id
 ```
 
 You should get a response like this:
 
-```json
-{
-    "data_record": {
-        "name": "Fred Wilson",
-        "bio": "I am a VC",
-        "website": "http://avc.com"
-        ...
-    }
-}
+```
+$ORIGIN timblee.id
+$TTL 3600
+_http._tcp URI 10 1 "https://blockstack.s3.amazonaws.com/timblee.id"
 ```
 
 ### Price Estimations

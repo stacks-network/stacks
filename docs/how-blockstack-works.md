@@ -5,11 +5,25 @@ image: /images/article-photos/typewriter.jpg
 next: blockstack-papers
 ---
 
-Blockstack Core is a decentralized network of computers that provides secure naming and identity services.
+### How Blockstack Core Works
 
-For a quick overview of Blockstack Core, check out [What is Blockstack Core?](/articles/blockstack-core), and continue reading on for a deeper dive into how blockstack works under the hood.
+With the Blockstack Core software, a network of computers collectively maintain a global registry of domain names, public keys, and cryptographic hashes. With this registry, Blockstack Core serves as a decentralized domain name system (DNS) and decentralized public key infrastructure (PKI).
 
-### Technical Overview
+When you run a Blockstack Core node, you join this network, which is more secure by design than traditional naming and digital registry systems. This is because the system's registry and its records are secured by an underlying blockchain, which is extremely resilient against tampering and control.
+
+In the Blockstack Core registry, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name.
+
+Blockstack Core's DNS + PKI provides:
+
+- name lookups on a decentralized naming system
+- name registrations and transfers without centralized registrars
+- automatic binding of names to owning cryptographic keypairs
+- automatic cache invalidation
+- immunity to cache poisoning
+- robust certificate pinning capabilities
+- resistance to censorship of name registration and resolution
+
+#### Technical Overview
 
 Blockstack's domain name system is supported by a network of Blockstack nodes. Each of these nodes maintains a database of domain names, the cryptographic keypairs that own the names, and the data records the names resolve to.
 
@@ -19,7 +33,7 @@ Blockstack name operations are embedded in the transactions of an underlying blo
 
 <img src="/images/article-diagrams/blockstack-network.png" class="img-fluid" alt="The Blockstack Network">
 
-### Virtual Blockchains
+#### Virtual Blockchains
 
 When a Blockstack node boots up, it derives a name database that matches the databases stored by all other nodes. It does this by connecting to a Bitcoin node that it trusts (ideally one that is local) and reading all of the transactions in the blockchain in sequence.
 
@@ -29,7 +43,7 @@ If a transaction has a sequence of data that identifies it as a Blockstack trans
 
 The embedded sequence of valid Blockstack operations make up what is referred to as a virtual blockchain. That is because the transactions of the underlying blockchain are filtered and interpreted in a context that the underlying blockchain is not aware of.   Blockstack gives the transactions extra meaning; they otherwise look like normal transactions to the underlying blockchain's nodes. For example, a Bitcoin node may look at a Blockstack transaction and only see that bitcoins are moving from one address to another and that an unintelligible sequence of data has been attached in a data field (e.g. a field identified by OP_RETURN). Meanwhile, a Blockstack node will look at that data and will know how to interpret it in a way that updates the name database.
 
-### Name Databases
+#### Name Databases
 
 Blockstack nodes update their name databases by iterating through each block in the virtual blockchain and processing each of the operations in that block.  All operations are committed at the same time in a given block. Thus, two transfer operations on the same name will not be processed. Time marches forward in a quantized fashion, where every accepted operation is non-conflicting with every other operation in the block.
 
@@ -47,7 +61,7 @@ The fourth type of operation is a name update, where the sender announces it is 
 
 Even though only data record hashes are stored in blockchain transactions, we can use them to verify the authenticity and integrity of the data itself once we get it.  For example, you can host your data in S3, and other peers can verify your data by first obtaining the hash from Blockstack DNS and then checking it against your data's hash.  Because only the name's cryptographic keypair could have feasibly signed the transaction in the blockchain that announced the hash, it is safe to assume that the data is authentic.
 
-### Data Record Storage
+#### Data Record Storage
 
 By default, Blockstack nodes store the data records in a distributed hash table (DHT) that all Blockstack nodes are connected to (the Blockstack nodes each have their own accompanying DHT nodes). Every Blockstack node knows to look in the DHT to resolve the hash of a data record to the data record itself.  The DHT is spam-proof--because each Blockstack node knows the entire set of data record hashes, it effectively has a data white-list.  It will only store data if its hash is in this set.
 

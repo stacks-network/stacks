@@ -5,6 +5,8 @@ image: /images/article-photos/sprinting.jpg
 next: namespaces
 ---
 
+### Blockstack vs. Namecoin
+
 Blockstack DNS differs from Namecoin DNS in a few fundamental ways.
 
 #### Blockchain Layering
