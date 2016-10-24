@@ -1,6 +1,6 @@
 # Swag
 
-[Sign up for Blockstack Swag](https://github.com/blockstack/blockstack/issues/90)
+[Sign up for Blockstack Swag](https://github.com/blockstack/blockstack/issues/96)
 
 #### Stickers and Shirts
 
