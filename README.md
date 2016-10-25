@@ -84,8 +84,8 @@ Blockstack is already being used in production and currently [more than 60,000 n
 #### [Blockstack Events](/events)
 
 * Meetups
-	* To find out if a Blockstack Meetup is near you, visit [Blockstack Meetup Groups](/events/meetups.md). Or to host a Blockstack Meetup, please read the following community guide.
-    * [Meetup Hosting Checklist](/events/event-checklist.md)
+	* [Blockstack Meetup Groups](/events/meetups.md)
+  * [Meetup Hosting Checklist](/events/event-checklist.md)
 * Events with a Blockstack Presence
   * [Future Events](/events/external-events.md)
   * [Past Events](/events/past-events.md)
