@@ -85,7 +85,6 @@ Blockstack is already being used in production and currently [more than 60,000 n
 
 * Meetups
   * [Meetup Groups](/events/meetups.md)
-  * [Past Meetup Events](/events/past-meetups.md)
   * [Meetup Hosting Checklist](/events/event-checklist.md)
 * Events with a Blockstack Presence
   * [Future Events](/events/external-events.md)
