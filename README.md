@@ -11,6 +11,7 @@
 - [Articles](#articles)
 - [Online Communities](#online-communities)
 - [Events](#events)
+- [Swag & Brand](#swag-&amp;-brand)
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
 
@@ -89,7 +90,10 @@ Blockstack is already being used in production and currently [more than 60,000 n
 * Events with a Blockstack Presence
   * [Future Events](/events/external-events.md)
   * [Past Events](/events/past-events.md)
+
+## Swag & Brand
 * [Swag](/events/swag.md)
+* [Blockstack Brand](https://projects.invisionapp.com/d/main#/boards/4846740)
 
 ## Requests for Comments
 
