@@ -16,7 +16,9 @@ Expected response:
 
 ```json
 {
-    "success": true
+    "success": true,
+    "transaction_hash": "8a68d52d70cf06d819eb72a9a58f4dceda942db792ceb35dd333f43f55fa8713",
+    "message": "The name has been queued up for transfer and will take ~1 hour to process. You can check on the status at any time by running 'blockstack info'."
 }
 ```
 
@@ -28,17 +30,21 @@ To get a list of the names you own, run the `blockstack names` command:
 $ blockstack names
 ```
 
-Expected response:
+Example response:
 
 ```json
 {
     "addresses": [
         {
-            "address": "1KBUsvXmSRMUTxp1GhftnbvDeRaEM2D6MX",
-            "names_owned": []
+            "address": "16EMaNw3pkn3v6f2BgnSSs53zAKH4Q8YJg", 
+            "names_owned": [
+                "judecn.id"
+            ]
         }
-    ],
-    "names_owned": []
+    ], 
+    "names_owned": [
+        "judecn.id"
+    ]
 }
 ```
 
@@ -57,11 +63,15 @@ Expected response:
 {
     "addresses": [
         {
-            "address": "13aUoeUtQnHUTfRwbksKvyvMRMzN3Qf2iR",
-            "balance": 0.05
+            "address": "1FWWR679EQ1h3v8RjegcvCDsvWqTVZKxe2", 
+            "bitcoin": 0.000959454, 
+            "satoshis": 959454
         }
-    ],
-    "total_balance": 0.05
+    ], 
+    "total_balance": {
+        "bitcoin": 0.000959454, 
+        "satoshis": 959454
+    }
 }
 ```
 
@@ -94,28 +104,72 @@ Example response:
 
 ```json
 {
-    "block_preordered_at": 374084,
-    "block_renewed_at": 374084,
-    "owner_address": "1F2nHEDLRJ39XxAvSxwQhJsaVzvS5RHDRM",
-    "owner_public_key": "0411d88aa37a0eea476a5b63ca4b1cd392ded830865824c27dacef6bde9f9bc53fa13a0926533ef4d20397207e212c2086cbe13db5470fd29616abd35326d33090",
-    "owner_script": "76a91499e7f97f5d2c77b4f32b4ed9ae0f0385c45aa5c788ac",
-    "preorder_transaction_id": "2986ec31ec957692d7f5bc58a3b02d2ac2d1a60039e9163365fc954ff51aeb5a",
-    "registered": true
+    "block_preordered_at": 374084, 
+    "block_renewed_at": 374084, 
+    "expire_block": 489247, 
+    "has_zonefile": true, 
+    "last_transaction_height": 374084, 
+    "last_transaction_id": "2986ec31ec957692d7f5bc58a3b02d2ac2d1a60039e9163365fc954ff51aeb5a", 
+    "owner_address": "1F2nHEDLRJ39XxAvSxwQhJsaVzvS5RHDRM", 
+    "owner_script": "76a91499e7f97f5d2c77b4f32b4ed9ae0f0385c45aa5c788ac", 
+    "zonefile_hash": "1a587366368aaf8477d5ddcea2557dcbcc67073e"
 }
 ```
 
 ### Blockstack Server Updates
 
-To update the blockstack server that your command line client is connecting to, use the `blockstack config` command:
+To update your settings interactively, use the `blockstack configure` command.  Hit [Enter] to select defaults.
+
+Example trace setting the blockstack server to `127.0.0.1` and the port to `8080`:
 
 ```bash
-# blockstack config --host=server.blockstack.org --port=6264 --advanced=off
-```
-
-Expected response:
-
-```json
+# blockstack configure
+---------------------------------------------------------
+Your client does not have enough information to connect
+to a Blockstack server.  Please supply the following
+parameters, or press [ENTER] to select the default value.
+---------------------------------------------------------
+blockchain_headers (default: '/Users/johnsmith/.blockstack/blockchain-headers.dat'): 
+blockchain_writer (default: 'blockcypher'): 
+api_endpoint_port (default: '6270'): 
+poll_interval (default: '300'): 
+metadata (default: '/Users/johnsmith/.blockstack/metadata'): 
+server (default: 'node.blockstack.org'): 127.0.0.1
+blockchain_reader (default: 'blockcypher'): 
+email (default: ''): 
+storage_drivers_required_write (default: 'disk,blockstack_server'): 
+port (default: '6264'): 8080
+queue_path (default: '/Users/johnsmith/.blockstack/queues.db'): 
+storage_drivers (default: 'disk,blockstack_resolver,blockstack_server,http,dht'): 
+client_version (default: '0.14.0'): 
+rpc_detach (default: 'True'): 
+advanced_mode (default: 'True'): 
+anonymous_statistics (default: 'False'): 
+--------------------------------------------------------
+Blockstack does not have enough information to connect
+to bitcoind.  Please supply the following parameters, or
+press [ENTER] to select the default value.
+--------------------------------------------------------
+passwd (default: 'blockstacksystem'): 
+regtest (default: 'False'): 
+server (default: 'bitcoin.blockstack.com'): 
+user (default: 'blockstack'): 
+timeout (default: '300.0'): 
+port (default: '8332'): 
+-------------------------------
+Blockchain reader configuration
+----------------------------------------
+Please enter your Blockcypher API token.
+----------------------------------------
+api_token (default: ''): 
+-------------------------------
+Blockchain writer configuration
+----------------------------------------
+Please enter your Blockcypher API token.
+----------------------------------------
+api_token (default: ''): 
+Saving configuration to /Users/johnsmith/.blockstack/client.ini
 {
-    "message": "Updated settings"
+    "path": "/Users/johnsmith/.blockstack/client.ini"
 }
 ```
