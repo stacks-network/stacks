@@ -70,4 +70,4 @@ The first namespace ever created is one for referring to user identities (TLD: <
   </tbody>
 </table>
 
-For help creating your own namespace, reach out to other Blockstack members in [the Blockstack Forum](http://forum.blockstack.org) or [the Blockstack Slack group](http://chat.blockstack.org).
+For help creating your own namespace, reach out to other Blockstack members in [the Blockstack Slack group](http://chat.blockstack.org).
