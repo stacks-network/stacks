@@ -3,6 +3,7 @@ title: Namespaces
 description: Learn what namespaces are and what they can be used for.
 image: /images/article-photos/bookshelves.jpg
 next: blockchain-identity
+date: February 19, 2016
 ---
 
 ### Namespaces

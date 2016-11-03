@@ -3,11 +3,10 @@ title: Blockstack DNS vs. Namecoin
 description: Learn about how Blockstack DNS differs from Namecoin.
 image: /images/article-photos/sprinting.jpg
 next: namespaces
+date: February 25, 2016
 ---
 
-### Blockstack vs. Namecoin
-
-Blockstack DNS differs from Namecoin DNS in a few fundamental ways.
+Blockstack DNS differs from Namecoin DNS in a few fundamental ways: blockchain layering, storage models, name pricing models, and incentives for miners.
 
 #### Blockchain Layering
 

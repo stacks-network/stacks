@@ -3,9 +3,8 @@ title: How Blockstack Works
 description: Learn how Blockstack works under the hood.
 image: /images/article-photos/typewriter.jpg
 next: blockstack-papers
+date: February 18, 2016
 ---
-
-### How Blockstack Core Works
 
 With the Blockstack Core software, a network of computers collectively maintain a global registry of domain names, public keys, and cryptographic hashes. With this registry, Blockstack Core serves as a decentralized domain name system (DNS) and decentralized public key infrastructure (PKI).
 

@@ -3,9 +3,8 @@ title: Blockchain Identity
 description: Learn about what blockchain identities are and what they can be used for.
 image: /images/article-photos/passport.jpg
 next: blockstack-profiles
+date: March 22, 2016
 ---
-
-### Blockchain Identity
 
 A blockchain identity (or blockchain ID) is a generic term used to refer to any identity on the blockchain. Users can have one blockchain identity or many and can register them just like one would register domain names or accounts on Facebook or Twitter.
 

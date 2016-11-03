@@ -3,9 +3,10 @@ title: Identity Attestation
 description: Explore about identity attestations on Blockstack.
 image: /images/article-photos/cup.jpg
 next: light-clients
+date: March 28, 2016
 ---
 
-### Identity Attestation
+Identities on Blockstack can be bare or they can be verified. Verification is done through the combination of both verifiable proofs and third party attestations.
 
 #### Verified Profiles
 
@@ -17,9 +18,9 @@ For users to present their information as verified information, they must includ
 
 Proofs can either be references to data on other social networks and software systems or they can be references to signed attestations by trusted authorities or peers.
 
-#### Software Proofs
+#### Verifiable Proofs
 
-Here are a few types of software proofs that are supported:
+Here are a few types of verifiable proofs that are supported:
 
 - **social network proofs** - users can show that they are a given user on Twitter, Facebook, or GitHub
 - **domain name proofs** - users can show that they own a given domain name or have admin access to the domain of a given organization
