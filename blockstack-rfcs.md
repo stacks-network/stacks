@@ -7,7 +7,7 @@
 |2014/12/02 |[Variable Name Pricing](https://github.com/blockstack/blockstack-core/issues/2)   	   |Ryan Shea   	   	|Implemented   	|
 |2014/12/04 |[DHT Integration](https://github.com/blockstack/blockstack-core/issues/5)   	   	     |Muneeb Ali    	  |Implemented   	|
 |2014/12/18 |[Name Admins](https://github.com/blockstack/blockstack-core/issues/28)                |Ryan Shea         |Open         	|
-|2014/12/18 |[DHT Mirroring](https://github.com/blockstack/blockstack-core/issues/29)              |Muneeb Ali        |Open   	   	  |
+|2014/12/18 |[DHT Mirroring](https://github.com/blockstack/blockstack-core/issues/29)              |Muneeb Ali        |Implemented   	   	  |
 |2015/01/21 |[Payments to Future Miners](https://github.com/blockstack/blockstack-core/issues/35)  |Ryan Shea         |Open     	   	|
 |2015/02/17 |[Incentives to Run Nodes](https://github.com/blockstack/blockstack-core/issues/59)    |Muneeb Ali        |Open           |
 |2015/03/23 |[Name Revokes & Resets](https://github.com/blockstack/blockstack-core/issues/75)      |Ryan Shea         |Open   	   	  |
