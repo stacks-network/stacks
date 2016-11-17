@@ -24,7 +24,8 @@
 |2015/11/30 |[Name Registration Packing](https://github.com/blockstack/blockstack-core/issues/196) |Ryan Shea         |Open     	   	|
 |2015/11/30 |[Multiple Names Per Preorder](https://github.com/blockstack/blockstack-core/issues/196)|Ryan Shea        |Open     	   	|
 |2015/11/30 |[Un-revokable Subdomains](https://github.com/blockstack/blockstack-core/issues/196)   |Ryan Shea         |Open     	   	|
-|? |[Register & Update Packing](https://github.com/blockstack/blockstack-core/issues/218)          |Muneeb Ali        |Open   	   	  |
-|? |IPFS Driver | Muneeb Ali       |Open   	|
-|? |Ethereum Driver | Jude Nelson      |Open   	|
+|2016/02/01 |[Register & Update Packing](https://github.com/blockstack/blockstack-core/issues/218)          |Muneeb Ali        |Open   	   	  |
+|2016/03/08 |[Restrict TLDs to non-ICANN TLDs](https://github.com/blockstack/blockstack-core/issues/209) |Ryan Shea  |Open |
+|2016/04/15 |IPFS Driver | Muneeb Ali       |Open   	|
+|2016/04/15 |Ethereum Driver | Jude Nelson      |Open   	|
 |2016/04/15 |Hyperledger Driver | Ryan Shea        |Open   	|
