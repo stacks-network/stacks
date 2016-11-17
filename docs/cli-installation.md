@@ -38,3 +38,16 @@ Next, use `pip` to install blockstack:
 ```bash
 $ sudo pip install blockstack
 ```
+
+#### Windows Subsystem for Linux
+
+Installation will mirror `Debian + Ubuntu`, above, with just a couple of additional packages.
+
+```bash
+$ sudo apt-get update && sudo apt-get install -y python-pip python-dev libssl-dev libffi-dev
+```
+
+```bash
+$ sudo pip install functools32
+$ sudo pip install blockstack
+```
