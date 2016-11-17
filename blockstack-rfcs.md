@@ -20,7 +20,7 @@
 |2015/10/06 |[Transaction Subsidizing](https://github.com/blockstack/blockstack-core/issues/153)   |Jude Nelson       |Implemented   	|
 |2015/10/06 |[Fast Bootstrapping](https://github.com/blockstack/blockstack-core/issues/154)        |Jude Nelson       |Implemented   	|
 |2015/09/16 |[Namespace Subset Tracking](https://github.com/blockstack/blockstack-core/issues/117) |Jude Nelson       |Open   	   	  |
-|2015/10/10 |[Internationalized Domain Names](https://github.com/blockstack/blockstack-core/issues/159)| John Light   |Open   	   	  |
+|2015/10/10 |[Internationalized Domain Names](https://github.com/blockstack/blockstack/issues/43)| Larry Salibra   |Open   	   	  |
 |2015/11/30 |[Name Registration Packing](https://github.com/blockstack/blockstack-core/issues/196) |Ryan Shea         |Open     	   	|
 |2015/11/30 |[Multiple Names Per Preorder](https://github.com/blockstack/blockstack-core/issues/196)|Ryan Shea        |Open     	   	|
 |2015/11/30 |[Un-revokable Subdomains](https://github.com/blockstack/blockstack-core/issues/196)   |Ryan Shea         |Open     	   	|
