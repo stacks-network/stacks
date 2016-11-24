@@ -64,23 +64,23 @@ Example response:
 ```json
 {
     "name_price": {
-        "btc": "0.0025", 
+        "btc": "0.00025", 
         "satoshis": "25000"
     }, 
     "preorder_tx_fee": {
-        "btc": "0.0047406", 
+        "btc": "0.00047406", 
         "satoshis": "47406"
     }, 
     "register_tx_fee": {
-        "btc": "0.0046184", 
+        "btc": "0.00046184", 
         "satoshis": "46184"
     }, 
     "total_estimated_cost": {
-        "btc": "0.0188394", 
+        "btc": "0.00188394", 
         "satoshis": "188394"
     }, 
     "update_tx_fee": {
-        "btc": "0.0069804", 
+        "btc": "0.00069804", 
         "satoshis": "69804"
     }
 }
