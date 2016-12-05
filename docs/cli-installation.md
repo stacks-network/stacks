@@ -30,7 +30,7 @@ $ sudo pip install blockstack
 Installation on Debian + Ubuntu requires `pip` and `libssl`. First, make sure you have both:
 
 ```bash
-$ sudo apt-get update && sudo apt-get install -y python-pip python-dev libssl-dev
+$ sudo apt-get update && sudo apt-get install -y python-pip python-dev libssl-dev libffi-dev rng-tools
 ```
 
 Next, use `pip` to install blockstack:
