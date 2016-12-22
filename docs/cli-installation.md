@@ -41,11 +41,13 @@ $ sudo pip install blockstack
 
 #### Windows Subsystem for Linux
 
-Installation will mirror `Debian + Ubuntu`, above, with just a couple of additional packages.
+Installation requires `pip` and `libssl`. First, make sure you have both:
 
 ```bash
 $ sudo apt-get update && sudo apt-get install -y python-pip python-dev libssl-dev libffi-dev
 ```
+
+Next, use `pip` to install functools32 and then blockstack:
 
 ```bash
 $ sudo pip install functools32
