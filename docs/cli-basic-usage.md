@@ -64,23 +64,23 @@ Example response:
 ```json
 {
     "name_price": {
-        "btc": "0.0025", 
+        "btc": "0.00025", 
         "satoshis": "25000"
     }, 
     "preorder_tx_fee": {
-        "btc": "0.0047406", 
+        "btc": "0.00047406", 
         "satoshis": "47406"
     }, 
     "register_tx_fee": {
-        "btc": "0.0046184", 
+        "btc": "0.00046184", 
         "satoshis": "46184"
     }, 
     "total_estimated_cost": {
-        "btc": "0.0188394", 
+        "btc": "0.00188394", 
         "satoshis": "188394"
     }, 
     "update_tx_fee": {
-        "btc": "0.0069804", 
+        "btc": "0.00069804", 
         "satoshis": "69804"
     }
 }
@@ -132,7 +132,7 @@ After a few hours, your registration should go through and you'll be able to upd
 To update the data record associated with a name you own, run the `blockstack update` command:
 
 ```bash
-$ echo > new_zone_file.txt <<EOF
+$ cat > new_zone_file.txt <<EOF
 $ORIGIN swiftonsecurity.id
 $TTL 3600
 pubkey TXT "pubkey:data:04cabba0b5b9a871dbaa11c044066e281c5feb57243c7d2a452f06a0d708613a46ced59f9f806e601b3353931d1e4a98d7040127f31016311050bedc0d4f1f62ff"
