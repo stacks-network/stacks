@@ -1,6 +1,6 @@
 # Blockstack
 
-[![Slack](http://slack.blockstack.org/badge.svg)](http://slack.blockstack.org/)
+[![Slack](http://chat.blockstack.org/badge.svg)](http://chat.blockstack.org/)
 
 ## Table of Contents
 
