@@ -2,17 +2,21 @@
 
 Here you can find information on the latest Blockstack events.
 
-If you want to organize a new event, check out the following links:
-
-- [Event Hosting Checklist](/events/event-checklist.md)
-- [Swag](/events/swag.md)
+If you want to organize a new event, check out the [guidelines](/events/events-guidelines.md) for hosting events.
 
 # Events 
 
 ## 2017
 
+### February 
+
+* Feb 27, 2017 - **Barcelona, Spain** -- [Mobile World Congress (MWC17)](https://www.mobileworldcongress.com/session/the-disruptive-impact-of-blockchain/)
+* Feb 16, 2017 - **Mountain View, CA** -- [SV Identity & Access Management](https://www.meetup.com/Silicon-Valley-IAM-User-Group/events/236979278/)
+* Feb 12, 2017 - **Online Event** -- [#DecentralizeTheWeb Blockstack Online Challenge](https://www.eventbrite.com/e/decentralizetheweb-challenge-tickets-31190551780)
+
 ### January
 
+* Jan 30, 2017 - **San Francisco, CA** -- [Construct 2017](http://www.coindesk.com/events/construct-2017)
 * Jan 04, 2017 - **Durham, NC** - [Triangle Bitcoin and Business Meetup](https://www.meetup.com/Triangle-Bitcoin-Business-Meetup/events/235441866/)<br>[(video)](https://www.youtube.com/watch?v=uiEdRn7tM8Y&feature=youtu.be&t=58s)
 
 ## 2016 

@@ -23,3 +23,17 @@ The following is a checklist or process for events attended by Blockstack member
 * Tweet about the event
 * Take 5 minutes to jot down key points or lessons learned from the event
 * Acquire content in the form of video, social media, audio, etc.
+
+# Swag
+
+[Sign up for Blockstack Swag](https://github.com/blockstack/blockstack/issues/96)
+
+#### Stickers and Shirts
+
+We've got stickers and t-shirts to give out. Either drop us a line or attend a meetup to get one for free.
+
+Additionally, you can purchase your own stickers via StickerMule here: https://www.stickermule.com/user/1070678819/stickers.
+
+#### Sweatshirts and Backpacks
+
+If you want sweatshirts and backpacks, they're for sale at cost, so just drop us a line.
