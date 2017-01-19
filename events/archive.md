@@ -1,3 +1,5 @@
+**NOTE: this file has outdated content and we'll move any relevant things and delete content from here**
+
 # Events
 
 Events is broken into four categories. 
