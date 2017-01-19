@@ -33,12 +33,16 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 
 ### October 
 
+* Oct 26, 2016 - **Raleigh, NC** -- [All Things Open 2016](https://allthingsopen.org/talk/decentralized-server-less-applications-with-blockstack/)
+<br>[(video)](https://www.youtube.com/watch?v=WveXpldGGa8), [(slides)](https://speakerdeck.com/ryanshea/decentralized-server-less-applications-with-blockstack-all-things-open)
 * Oct 24, 2016 -- **Las Vegas, NV** -- [Blockstack Las Vegas Meetup #1](https://www.meetup.com/Blockstack-Las-Vegas/events/234923945/)
-* Oct 10, 2016 -- **Milano, Italy** -- [Blockstack Milano Meetup #1](https://www.meetup.com/Blockstack-Milano/events/234007109/)
+* Oct 10, 2016 -- **Milano, Italy** -- [Blockstack Milano Meetup #1](https://www.meetup.com/Blockstack-Milano/events/234007109/)<br>[(video)](https://www.youtube.com/watch?v=nSRUTjH9OBQ)
 
 ### September
 
 * Sep 14, 2016 - **Boston, MA** - [Blockstack Boston Meetup #2: Tech Deep Dive](https://www.meetup.com/Blockstack-Boston/events/233827167/)
+* Sep 10, 2016 - **New York, NY** - [TEDx New York 2016](http://www.tedxnewyork.com/talks/)
+<br>[(video)](https://www.youtube.com/watch?v=qtOIh93Hvuw&feature=youtu.be&list=PLvaRUGvjpFS2ciobOlOwMeVKDqO7S9ar6), [(slides)](https://speakerdeck.com/muneeb/building-the-new-internet-tedx-new-york)
 * Sep 06, 2016 - **New York, NY** - [Blockstack NYC Meetup #3: Enterprise Applications](http://www.meetup.com/Blockstack-NYC/events/233377415/)
 
 ### August
@@ -57,6 +61,10 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 ### June
 
 * Jun 30, 2016 - **Boston, MA** - [Blockstack Boston Meetup #1](https://www.meetup.com/Blockstack-Boston/events/232082148/)
+* Jun 22, 2016 - **Denver, CO** - [USENIX Annual Technical Conference 2016](https://www.usenix.org/conference/atc16/technical-sessions/presentation/ali)
+<br>[(audio)](https://www.usenix.org/conference/atc16/technical-sessions/presentation/ali),
+[(slides)](https://www.usenix.org/sites/default/files/conference/protected-files/atc16_slides_ali.pdf),
+[(paper)](https://www.usenix.org/system/files/conference/atc16/atc16_paper-ali.pdf)
 * Jun 21, 2016 - **Denver, CO** - [Basics of Blockstack and building decentralized apps](http://www.meetup.com/Blockstack-Denver/events/231996263/)
 * Jun 16, 2016 - **New York, NY** - [Blockstack Drink Up Social](http://www.meetup.com/Blockstack-NYC/events/231699366/)
 * Jun 2, 2016 - **Berlin, Germany** - [Blockstack Berlin Meetup w/IPFS](http://www.meetup.com/Blockstack-Berlin/events/231428283/)
