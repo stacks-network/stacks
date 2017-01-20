@@ -8,7 +8,7 @@ image: /images/article-photos/computer.jpg
 
 Developers can run a copy of the Blockstack name explorer.
 
-Note that installation requires Ubunto 16.04.1 LTS and a user with root privileges.
+Note that installation requires Ubuntu 16.04.1 LTS and a user with root privileges.
 
 To install the explorer, one must first set up a name explorer API and then set up a bitcore node, configured with the explorer frontend and a reference to the name explorer API.
 
