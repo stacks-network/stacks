@@ -50,6 +50,7 @@ After you've gotten familiar with the components above, you may want to take a d
   - [Installation](https://blockstack.org/tutorials/installation)
   - [Basic Usage](https://blockstack.org/tutorials/basic-usage)
   - [Extended Usage](https://blockstack.org/tutorials/extended-usage)
+  - [Commands Video Tutorials](https://www.youtube.com/playlist?list=PLXS8JJHIn4nGCU2uW85dHXpkQJ7QA5JkX)
 - Decentralized Apps
   - [Hello World](https://blockstack.org/tutorials/hello-world)
 
