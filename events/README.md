@@ -10,6 +10,7 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 
 ### February 
 
+* Feb 27, 2017 - **Barcelona, Spain** -- [Barcelona Bitcoin Meetup](https://www.meetup.com/bitcoin-barcelona/)
 * Feb 27, 2017 - **Barcelona, Spain** -- [Mobile World Congress (MWC17)](https://www.mobileworldcongress.com/session/the-disruptive-impact-of-blockchain/)
 * Feb 23, 2017 - **New York City, New York** -- [Javascript NYC](https://www.meetup.com/JavaScript-New-York-City/events/237458699/)
 * Feb 16, 2017 - **Mountain View, CA** -- [SV Identity & Access Management](https://www.meetup.com/Silicon-Valley-IAM-User-Group/events/236979278/)
