@@ -12,6 +12,10 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 
 * Sep 4-5, 2017 - **Malmö, Sweden** -- [The Conference](https://2017.theconference.se/)
 
+### May
+
+* May 22-24, 2017 - **New York, NY** -- [Consensus 2017](http://www.coindesk.com/events/consensus-2017/)
+
 ### March 
 
 * Mar 14, 2017 - **New York, NY** -- [NYC Fullstack Engineering Meetup](https://www.meetup.com/Full-Stack-Engineering-Meetup/events/237581031/)
