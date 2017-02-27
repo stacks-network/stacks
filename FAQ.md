@@ -1,4 +1,5 @@
 General		Who should build on Blockstack?
+
 General		What is a decentralized internet?
 General		What problems does Blockstack solve?
 General		What opportunities does Blockstack enable?
