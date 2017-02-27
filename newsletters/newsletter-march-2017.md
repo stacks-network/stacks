@@ -28,10 +28,15 @@ MA: Let’s take both the storage API and RESTful API out (RESTful can be separa
 
 # Top Forum Posts
   [Cloudbleed: When Hidden Trust Parties Leak Your Data](https://forum.blockstack.org/t/cloudbleed-when-hidden-trusted-parties-leak-your-data/757)
+  
   [PoS Blockchains Require Subjectivity to Reach Consensus](https://forum.blockstack.org/t/pos-blockchains-require-subjectivity-to-reach-consensus/762)
-  [Getting High-Quality Engineers Interested in the Blockchain Space]9https://forum.blockstack.org/t/getting-high-quality-engineers-interested-in-the-blockchain-space/749)
+  
+  [Getting High-Quality Engineers Interested in the Blockchain Space](https://forum.blockstack.org/t/getting-high-quality-engineers-interested-in-the-blockchain-space/749)
+  
   [Update for OpenBazaar Users](https://forum.blockstack.org/t/update-for-openbazaar-users/688)
+  
   [How Does Blockstack Scale for Replacing the Current DNS](https://forum.blockstack.org/t/how-does-blockstack-scale-for-things-like-replacing-the-current-dns-system-as-whole/533)
+  
   [Blockstack + Lightning](https://forum.blockstack.org/t/blockstack-lightning/689?u=larry)
 
 # Press Coverage
