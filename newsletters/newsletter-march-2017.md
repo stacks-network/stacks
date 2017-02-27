@@ -21,7 +21,7 @@ MA: This is ready to be included. I can write a short description here.
 
 # 14.1 Update
 - Premiere of FastSync (@Jude N can you add a sentence here?)
-- Premiere of RESTful API (@Jude N can you add a sentence here?)
+- ~~Premiere of RESTful API (@Jude N can you add a sentence here?)
 - Alpha of Storage API (@Muneeb A should this be included?)
 
 MA: Let’s take both the storage API and RESTful API out (RESTful can be separate release, it’s probably a blog post and the API is not defined/ready yet). We can give a summary of the v14.1 release notes and then link to the release notes on Github.
