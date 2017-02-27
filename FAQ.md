@@ -1,4 +1,18 @@
 #General	-	What is Blockstack?
+Blockstack is a new decentralized internet.
+
+With Blockstack, users control their data and apps run on their devices. There are no middlemen, no passwords, no massive data silos to breach, and no services tracking us around the internet.
+
+The applications on blockstack are server-less and decentralized. Developers start by building a single-page application in Javascript, Then, instead of plugging the frontend into a centralized API, they plug into an API run by the user. Developers install a library called 'blockstack.js' and don't have to worry about running servers, maintaining databases, or building out user management systems.
+
+Personal user APIs ship with the Blockstack app and handle everything from identity and authentication to data storage. Applications can request permissions from users and then gain read and write access to user resources.
+
+Data storage is simple and reliable and uses existing cloud infrastructure. Users connect with their Dropbox, Google Drive, etc and data is synced from their local device up to the cloud.
+
+Identity is user-controlled and utilizes the blockchain for secure management of keys, devices and usernames. When users login with apps, they are anonymous by default and use an app-specific key, but their full identity can be revealed and proven at any time. Keys are for signing and encryption and can be changed as devices need to be added or removed.
+
+Under the hood, Blockstack provides a decentralized domain name system (DNS), decentralized public key distribution system, and registry for apps and user identities.
+
 
 #General	-	What is a Blockstack ID?
 
@@ -60,26 +74,26 @@
 
 #Using	-	Do apps using Blockstack work with a regular browser?
 
-Using	-	Where can I discover apps using Blockstack?
+#Using	-	Where can I discover apps using Blockstack?
 
-Using	-	What programming language can I use to build these apps?
+#Using	-	What programming language can I use to build these apps?
 
-Using	-	What is the Blockstack Portal?
+#Using	-	What is the Blockstack Portal?
 
-Using	-	How can I use the Blockstack CLI?
+#Using	-	How can I use the Blockstack CLI?
 
-Using	-	How do I get started using Blockstack to build apps?
+#Using	-	How do I get started using Blockstack to build apps?
 
-Using	-	Do I need to run a full Blockstack node to use Blockstack?
+#Using	-	Do I need to run a full Blockstack node to use Blockstack?
 
-Using	-	What language is the Blockstack software written in?
+#Using	-	What language is the Blockstack software written in?
 
-Using	-	What incentives are there to run a Blockstack node?
+#Using	-	What incentives are there to run a Blockstack node?
 
-Using	-	How does Blockstack perform against building apps on Heroku or AWS?
+#Using	-	How does Blockstack perform against building apps on Heroku or AWS?
 
-Using	-	Can Blockstack apps scale, given that Blockstack uses blockchains which don't scale that well?
+#Using	-	Can Blockstack apps scale, given that Blockstack uses blockchains which don't scale that well?
 
-Using	-	What if the current companies and developers working on Blockstack disappear, would the network keep running?
+#Using	-	What if the current companies and developers working on Blockstack disappear, would the network keep running?
 
-Using	-	What are the business models for companies working on Blockstack?
+#Using	-	What are the business models for companies working on Blockstack?
