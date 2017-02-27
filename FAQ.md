@@ -1,4 +1,6 @@
-General	-	Who should build on Blockstack?
+General	-	What is Blockstack?
+
+General	-	What is a Blockstack ID?
 
 General	-	What is a decentralized internet?
 
@@ -9,6 +11,8 @@ General	-	What opportunities does Blockstack enable?
 General	-	What is a "serverless" app?
 
 General	-	What is a "decentralized" app?
+
+General	-	Who should build on Blockstack?
 
 General	-	How are Blockstack domains different from normal DNS domains? 
 
@@ -44,9 +48,6 @@ General	-	Where are the current developers based out of? What are the requiremen
 
 General	-	I heard some companies working on Blockstack have raised venture capital, how does that impact the project?
 
-General	-	What is Blockstack?
-
-General	-	What is a Blockstack ID?
 
 Using	-	Can Blockstack control my data or ID when I use it?
 
