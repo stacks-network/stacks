@@ -19,12 +19,17 @@ MA: This is TBD given Amazon’s turn around time. I can work on the blog post a
 
 MA: This is ready to be included. I can write a short description here.
 
-# 14.1 Update
-- Premiere of FastSync (@Jude N can you add a sentence here?)
+# v0.14.1 Update
+  Release 0.14.1 brings many incremental improvements over 0.14. 
+- *Fast Sync* -  In its default setting, Blockstack needs to index the underlying blockchain in order to construct its name database and Atlas state. This can take days. To improve the user experience, 0.14.1 adds a fast_sync command that allows the user to fetch, verify, and bootstrap off of an existing node's recent state. Synchronizing with fast_sync takes only a few minutes.
+- *Zone file wizard* - The CLI interface in 0.14.1 comes with an interactive zone file wizard that makes it easy to add, remove, and change the priority of URLs to off-chain data. Before, users were expected to craft new zone files by hand, which proved tedious and error-prone.
+  
+  For the full release notes, including *Upgrade Notes* and *Selected Bugfixes & Fixes* see the latest [release notes](https://github.com/blockstack/blockstack-core/blob/rc-0.14.1b/release_notes/changelog-0.14.1.md).
+- ~~Premiere of FastSync (@Jude N can you add a sentence here?)~~
 - ~~Premiere of RESTful API (@Jude N can you add a sentence here?)~~
 - ~~Alpha of Storage API (@Muneeb A should this be included?)~~
 
-MA: Let’s take both the storage API and RESTful API out (RESTful can be separate release, it’s probably a blog post and the API is not defined/ready yet). We can give a summary of the v14.1 release notes and then link to the release notes on Github.
+_MA: Let’s take both the storage API and RESTful API out (RESTful can be separate release, it’s probably a blog post and the API is not defined/ready yet). We can give a summary of the v14.1 release notes and then link to the release notes on Github._
 
 # Top Forum Posts
   [Cloudbleed: When Hidden Trust Parties Leak Your Data](https://forum.blockstack.org/t/cloudbleed-when-hidden-trusted-parties-leak-your-data/757)
