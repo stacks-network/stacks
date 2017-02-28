@@ -32,17 +32,12 @@ MA: This is ready to be included. I can write a short description here.
 _MA: Let’s take both the storage API and RESTful API out (RESTful can be separate release, it’s probably a blog post and the API is not defined/ready yet). We can give a summary of the v14.1 release notes and then link to the release notes on Github._
 
 # Top Forum Posts
-  [Cloudbleed: When Hidden Trust Parties Leak Your Data](https://forum.blockstack.org/t/cloudbleed-when-hidden-trusted-parties-leak-your-data/757)
-  
-  [PoS Blockchains Require Subjectivity to Reach Consensus](https://forum.blockstack.org/t/pos-blockchains-require-subjectivity-to-reach-consensus/762)
-  
-  [Getting High-Quality Engineers Interested in the Blockchain Space](https://forum.blockstack.org/t/getting-high-quality-engineers-interested-in-the-blockchain-space/749)
-  
-  [Update for OpenBazaar Users](https://forum.blockstack.org/t/update-for-openbazaar-users/688)
-  
-  [How Does Blockstack Scale for Replacing the Current DNS](https://forum.blockstack.org/t/how-does-blockstack-scale-for-things-like-replacing-the-current-dns-system-as-whole/533)
-  
-  [Blockstack + Lightning](https://forum.blockstack.org/t/blockstack-lightning/689?u=larry)
+- [Cloudbleed: When Hidden Trust Parties Leak Your Data](https://forum.blockstack.org/t/cloudbleed-when-hidden-trusted-parties-leak-your-data/757)
+- [PoS Blockchains Require Subjectivity to Reach Consensus](https://forum.blockstack.org/t/pos-blockchains-require-subjectivity-to-reach-consensus/762)
+- [Getting High-Quality Engineers Interested in the Blockchain Space](https://forum.blockstack.org/t/getting-high-quality-engineers-interested-in-the-blockchain-space/749)
+- [Update for OpenBazaar Users](https://forum.blockstack.org/t/update-for-openbazaar-users/688)
+- [How Does Blockstack Scale for Replacing the Current DNS](https://forum.blockstack.org/t/how-does-blockstack-scale-for-things-like-replacing-the-current-dns-system-as-whole/533) 
+- [Blockstack + Lightning](https://forum.blockstack.org/t/blockstack-lightning/689?u=larry)
 
 # Press Coverage
 - Feb 27, [Blockchain set to move intermediary brands that 'ad no value'](http://www.campaignlive.co.uk/article/blockchain-set-remove-intermediary-brands-add-no-value/1425502#bgF4o1fOCacJEQuf.99)
