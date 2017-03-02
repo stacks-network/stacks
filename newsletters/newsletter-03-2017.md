@@ -44,5 +44,5 @@ _MA: Let’s take both the storage API and RESTful API out (RESTful can be separ
 - Feb 27, CampaignLive [Blockchain set to move intermediary brands that 'add no value'](http://www.campaignlive.co.uk/article/blockchain-set-remove-intermediary-brands-add-no-value/1425502#bgF4o1fOCacJEQuf.99)
 - Feb 21, Coindesk [Coindesk: Decentralized Web Gets Visual Aid With New Blockstack Explorer](http://www.coindesk.com/decentralized-web-gets-visual-aid-new-blockstack-explorer/?utm_content=buffer7d93f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - Feb 21, Data Center Journal [Data Center Journal: WWW Creator Calls for Internet Decentralizations & Encryption](https://www.datacenterjournal.com/world-wide-web-creator-calls-internet-decentralization-encryption/)
-- Feb 17, [3 Big Blockchain Ideas MIT is Working on Right Now](http://www.coindesk.com/3-big-blockchain-ideas-mit-working-right-now/)
+- Feb 17, Coindesk [3 Big Blockchain Ideas MIT is Working on Right Now](http://www.coindesk.com/3-big-blockchain-ideas-mit-working-right-now/)
 
