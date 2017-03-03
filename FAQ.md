@@ -52,6 +52,7 @@ Decentralized apps potentially represent the next generation of computing. In a 
 #General	-	Who should build on Blockstack?
 
 #General	-	How are Blockstack domains different from normal DNS domains? 
+Blockstack domains are not registered on the traditional DNS run by an organized called ICANN. Instead they're registered on a blockchain in a fully decentralized way. This means that Blockstack domains are truly owned by their owners and cannot be taken away. All Blockstack domains have public keys by default (public keys are required to own the domains), unlike the traditional DNS where a small fraction of domains get the (optional) public key certificates.
 
 #General	-	What is Blockstack Core and who is working on it?
 
@@ -84,27 +85,34 @@ The model we're currently exploring is where Blockstack can process multiple blo
 With the current design, names are purchased by paying tribute with Bitcoin mining fees.
 
 #General	-	How long has the project been around? What does the current development roadmap look like?
+Work on the project started in late 2013. First public commits on the code are from Jan 2014. The first registrar for Blockstack was launched in March 2014 and the project has been growing since then. See this page for the current development roadmap
 
 #General	-	Who started the project? Who maintains it?
+The project was started by two engineers from Princeton University. Muneeb Ali and Ryan Shea met at the Computer Science department at Princeton, where Muneeb was finishing his PhD and Ryan was running the enterprenurship club. In 2014, frustrated by the walled-gardens and security problems of the current internet they started working on a decentralized internet secured by blockchains. The project is currently maintained by Jude Nelson, Muneeb Ali, Ryan Shea, Larry Salibra, and Guy Lepage. A full list of contributors can be found [here](https://github.com/blockstack/blockstack-core/graphs/contributors) and [here](https://github.com/blockstack/blockstack-portal).
 
 #General	-	Where are the current core developers based? What are the requirements for being a core developer?
-Most of the core team works in NYC, but a few live in Asia. Anyone can add a PR to [core](https://github.com/blockstack/blockstack-core).
+Most of the core developers work in NYC and Hong Kong. Developers who've contributed to the [core open-source software](https://github.com/blockstack/blockstack-core) over a long enough time period, by default, get included in the list of core developers. There is no formal process for being part of this informal list. Core develoipers, generally, have the ability to write high-quality code, understand distributed systems and applied crypto, and share a vision of building a truly decentralized internet and are dedicated to that cause.
 
 #General	-	I heard some companies working on Blockstack have raised venture capital, how does that impact the project?
+Blockstack, like Linux, is an open-source project with a GPLv3 license for the core technology. Just like different companies build apps and services on top of Linux and have different individual business models, there are companies who're building apps & services for Blockstack on top of the core open-source technology and these companies have various business models and funding sources respectively. Having more venture-backed companies join the ecosystem for a decentralized internet is a good thing for everyone participating in the ecosystem including users and developers.
 
 #Using	-	Can Blockstack control my data or ID when I use it?
+No. When you're using a Blockstack client you control your data and ID with a private key. This private key never leaves your device and is meant to stay on your laptop/phone. As long as no one gets access to your private key, no one can control your data or ID. When you use Blockstack, by design, your private keys are never sent to any remote servers.
 
 #Using	-	How long can I own my ID on Blockstack?
 
 #Using	-	Where is my data stored and how do I control who access it?
 You control where your data is stored (you could run your own server, or use your own cloud storage - Dropbox, Amazon S3, and keep backups across all). You then use those places as locations pointed to by the URLs in your Blockstack ID's zone file. You can get the zone file with `blockstack lookup` in the CLI  (Check out the install video in our [CLI video tutorial series](https://www.youtube.com/playlist?list=PLXS8JJHIn4nGCU2uW85dHXpkQJ7QA5JkX). *need help on how users control who accesses the data*
+
 #Using	-	Why should I trust the information, like name ownership or public key mappings, read from Blockstack?
+Blockstack records are extremely hard to tamper with. This is because the bindings for name ownership (names on Blockstack are owned by public keys) are announced in a proof-of-work blockchain (Bitcoin) and to change these binding an attacker will need to come up with a blockchain with more proof-of-work than the current Bitcoin blockchain but with a different history. Bitcoin's [current hash rate](https://blockchain.info/charts/hash-rate) makes this task almost impossible for non-state actors.  
 
 #Using	-	Can anyone register a TLD?
+Yes, anyone can register a TLD. If a TLD has not been registered already and you're willing to pay the registration fee for it, you can go ahead and register that TLD. There is no centralized party that can stop you from registering a TLD. 
 
 #Using	-	Do apps using Blockstack work with a regular browser?
 
-#Using	-	Where can I discover apps using Blockstack?:thumbs
+#Using	-	Where can I discover apps using Blockstack?
 
 #Using	-	What programming language can I use to build these apps?
 
@@ -125,5 +133,6 @@ You control where your data is stored (you could run your own server, or use you
 #Using	-	Can Blockstack apps scale, given that Blockstack uses blockchains which don't scale that well?
 
 #Using	-	What if the current companies and developers working on Blockstack disappear, would the network keep running?
+Yes, the Blockstack network will keep running. All of Blockstack's code is open-source and anyone can deploy Blockstack nodes or maintain the code. Further, Blockstack nodes don't need to coordinate with each other to function. Any node that a user deploys can function correctly independently.
 
 #Using	-	What are the business models for companies working on Blockstack?
