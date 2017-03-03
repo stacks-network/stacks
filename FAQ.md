@@ -15,9 +15,10 @@ Under the hood, Blockstack provides a decentralized domain name system (DNS), de
 
 
 #General	-	What is a Blockstack ID?
-These are the names & identities registered in the .id namespace on Blockstack. 
+This is a the name & identity registered in the .id namespace on Blockstack. Your personal data and storage are built around this ID. Apps that want to access your data will be built around this as well.
 
 #General	-	What is a decentralized internet?
+A decentralized internet is one where users don't need to trust any intermediaries or remote services. We envision a world where users control their own data, and the power goes back to the users. Reducing the friction to deploying new Blockstack nodes is an important step towards that mission.
 
 #General	-	What problems does Blockstack solve?
 Users can now use Web applications where:
@@ -44,6 +45,9 @@ At the same time, developers are no longer on the hook for hosting user data. Si
 The application itself should not run application-specific functionality on a server. All of its functionality should run on end-points. However, the application may use non-app-specific servers with the caveat that they must not be part of the trusted computing base. This is the case with storage systems like Amazon S3 and Dropbox, for example, because Blockstack's data is signed and verified end-to-end (so the storage systems are not trusted to serve data). Serverless can also mean applications where some amount of server-side logic is still written by the application developer but unlike traditional architectures is run in stateless compute containers that are event-triggered, ephemeral (may only last for one invocation)
 
 #General	-	What is a "decentralized" app?
+Decentralized apps are a new type of software program designed to exist on the Internet in a way that is not controlled by any single entity. Where bitcoin is a decentralized value exchange, a decentralized application aims to achieve functionality beyond transactions that exchange value. Many types of decentralized apps are starting to emerge as blockchain technology continues to progress. More companies and individuals are seeing the potential for what can be achieved in decentralizing not just money but almost any type of computing imaginable.
+
+Decentralized apps potentially represent the next generation of computing. In a completely decentralized world all things occur using peer-to-peer networks and the idea of centralized entities are non-existent. This distributed future is still being designed and built but the early stages of development are looking promising.
 
 #General	-	Who should build on Blockstack?
 
@@ -52,16 +56,21 @@ The application itself should not run application-specific functionality on a se
 #General	-	What is Blockstack Core and who is working on it?
 
 #General	-	What is a virtual chain?
+Blockstack is designed around a "virtual chain" concept, where nodes only need to reach consensus on the shared "virtual chain" they're interested in. Virtual chains do not interact with one another, and a single blockchain can host many virtual chains. These virtual chains can live in any blockchain for which there exists a driver, and virtual chain clients only need to execute their virtual chain transactions (i.e. Blockstack only processes Blockstack virtual chain transactions).
 
 #General	-	What's the difference between Onename and Blockstack?
+One name is the free Blockstack ID registrar run by Blockstack to onboard new users. 
 
 #General	-	How is Blockstack different from Namecoin?
-
-#General	-	How is Blockstack different from Ethereum for building decentralized apps? 
+Blockstack DNS differs from Namecoin DNS in a few fundamental ways: blockchain layering, storage models, name pricing models, and incentives for miners. We wrote a post where you can learn more here: https://blockstack.org/docs/blockstack-vs-namecoin
 
 #General	-	I heard you guys were on Namecoin, what blockchain do you use now?
 
+#General	-	How is Blockstack different from Ethereum for building decentralized apps? 
+You can think of Ethereum as a "heavy" blockchain that does everything for you. All the complexity is handled there, computations run there, and all scalability and security issues need to be handled at the blockchain layer. Blockstack puts minimal logic into a blockchain and handles scalability outside of the blockchain by re-using existing internet infrastructure in new ways. Read more about this in the following forum post: https://forum.blockstack.org/t/what-is-the-difference-between-blockstack-and-ethereum/781/2
+
 #General	-	Can Blockstack only run on Bitcoin?
+The model we're currently exploring is where Blockstack can process multiple blockchains to construct the global state where each namespace is tied to a single blockchain. Meaning that say the .id namespace is defined to run on Bitcoin and a .eth namespace is defined to run on Ethereum. Blockstack can process transactions from both blockchains and update the state of namespaces, but the consistency of any given namespace depends only on the underlying blockchain it was defined on.
 
 #General	-	I heard Blockstack uses a DHT. How does that work?
 
@@ -72,12 +81,14 @@ The application itself should not run application-specific functionality on a se
 #General	-	Can miners take down Blockstack?
 
 #General	-	Who gets the registration fees for name registrations?
+With the current design, names are purchased by paying tribute with Bitcoin mining fees.
 
 #General	-	How long has the project been around? What does the current development roadmap look like?
 
 #General	-	Who started the project? Who maintains it?
 
-#General	-	Where are the current developers based out of? What are the requirements for being a core developer?
+#General	-	Where are the current core developers based? What are the requirements for being a core developer?
+Most of the core team works in NYC, but a few live in Asia. Anyone can add a PR to [core](https://github.com/blockstack/blockstack-core).
 
 #General	-	I heard some companies working on Blockstack have raised venture capital, how does that impact the project?
 
@@ -86,14 +97,14 @@ The application itself should not run application-specific functionality on a se
 #Using	-	How long can I own my ID on Blockstack?
 
 #Using	-	Where is my data stored and how do I control who access it?
-
+You control where your data is stored (you could run your own server, or use your own cloud storage - Dropbox, Amazon S3, and keep backups across all). You then use those places as locations pointed to by the URLs in your Blockstack ID's zone file. You can get the zone file with `blockstack lookup` in the CLI  (Check out the install video in our [CLI video tutorial series](https://www.youtube.com/playlist?list=PLXS8JJHIn4nGCU2uW85dHXpkQJ7QA5JkX). *need help on how users control who accesses the data*
 #Using	-	Why should I trust the information, like name ownership or public key mappings, read from Blockstack?
 
 #Using	-	Can anyone register a TLD?
 
 #Using	-	Do apps using Blockstack work with a regular browser?
 
-#Using	-	Where can I discover apps using Blockstack?
+#Using	-	Where can I discover apps using Blockstack?:thumbs
 
 #Using	-	What programming language can I use to build these apps?
 
