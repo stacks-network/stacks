@@ -32,6 +32,8 @@ MA: This is ready to be included. I can write a short description here.
 _MA: Let’s take both the storage API and RESTful API out (RESTful can be separate release, it’s probably a blog post and the API is not defined/ready yet). We can give a summary of the v14.1 release notes and then link to the release notes on Github._
 
 # Top Forum Posts
+- [What's the Difference between Blockstack and Ethereum](https://forum.blockstack.org/t/what-is-the-difference-between-blockstack-and-ethereum/781/5)
+- [How Blockstack Could Address Amazon S3 Outages](https://forum.blockstack.org/t/how-blockstack-could-address-amazon-s3-outages/773/6)
 - [Cloudbleed: When Hidden Trust Parties Leak Your Data](https://forum.blockstack.org/t/cloudbleed-when-hidden-trusted-parties-leak-your-data/757)
 - [PoS Blockchains Require Subjectivity to Reach Consensus](https://forum.blockstack.org/t/pos-blockchains-require-subjectivity-to-reach-consensus/762)
 - [Getting High-Quality Engineers Interested in the Blockchain Space](https://forum.blockstack.org/t/getting-high-quality-engineers-interested-in-the-blockchain-space/749)
