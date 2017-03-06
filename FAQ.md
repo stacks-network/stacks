@@ -119,7 +119,7 @@ Yes! Apps using Blockstack run in the web browsers you know and love. You will n
 To make apps that run in the web browser using Blockstack, you can use JavaScript and any of the same web frameworks or libraries you use today such as React, AngularJs, Vue.js or jQuery. You can use any language you like for native apps as long as you are able to consume a JSON REST API.
 
 #Using	-	What is the Blockstack Portal?
-This is a developer-facing term used for the application users use to create and manage their identities and configure their storage. It also handles authentication requests from apps that allow their users to log in with Blockstack. When a user clicks a Log In with Blockstack button, they are redirected to the Blockstack Portal to approve the request before being logged into the app.
+This is a developer-facing term used for the application users use to create and manage their identities and configure their storage. It also handles authentication requests from apps that allow their users to log in with Blockstack. When a user clicks a Log In with Blockstack button, they are redirected to the Blockstack Portal to approve the request before being logged into the app. The Portal is also where users can go to discover and use apps using Blockstack.
 
 #Using	-	How can I use the Blockstack CLI?
 
