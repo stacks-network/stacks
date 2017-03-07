@@ -10,6 +10,7 @@
 - [Papers](#papers)
 - [Articles](#articles)
 - [Online Communities](#online-communities)
+- [Community](#community)
 - [Events](#events)
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
@@ -80,6 +81,12 @@ Blockstack is already being used in production and currently [more than 60,000 n
 - [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
 - [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
 
+## Community
+
+* [Swag](/events/swag.md)
+* [Graphics](/community/graphics.md)
+* [Past press](/community/past-press.md)
+
 ## Events
 
 #### [Blockstack Events](/events)
@@ -91,7 +98,6 @@ Blockstack is already being used in production and currently [more than 60,000 n
 * Events with a Blockstack Presence
   * [Future Events](/events/external-events.md)
   * [Past Events](/events/past-events.md)
-* [Swag](/events/swag.md)
 
 ## Requests for Comments
 
