@@ -109,4 +109,4 @@ Blockstack is already being used in production and currently [more than 60,000 n
 ### [Communications Guide](/communications/README.md)
 * [Appearances](/communications/appearances.md)
 * [Messaging](/communications/messaging.md)
-* [Terminology](/communications/glossary.md)
+* [Terminology](/communications/terminology.md)
