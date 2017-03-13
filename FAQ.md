@@ -81,6 +81,8 @@ The model we're currently exploring is where Blockstack can process multiple blo
 
 #General	-	Can miners take down Blockstack?
 
+#General	-	How many public blockstack nodes are there?
+
 #General	-	Who gets the registration fees for name registrations?
 With the current design, names are purchased by paying tribute with Bitcoin mining fees.
 
