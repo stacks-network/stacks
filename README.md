@@ -13,6 +13,7 @@
 - [Events](#events)
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
+- [Communications Guide](#communications-guide)
 
 ## Overview
 
@@ -104,3 +105,8 @@ Blockstack is already being used in production and currently [more than 60,000 n
 - **Improve the documentation** - we can never have enough documentation so if there's anything you'd like to clarify or add, just fork any of the Blockstack repos, start writing and expanding on the docs, and submit a pull request
 - **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
 - **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and submit it to the Blockstack community blog or share it in the forum
+
+### [Communications Guide](/communications/README.md)
+* [Appearances](/communications/appearances.md)
+* [Messaging](/communications/messaging.md)
+* [Terminology](/communications/terminology.md)
