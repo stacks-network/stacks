@@ -2,6 +2,6 @@
 
 This folder contains media appearances for Blockstack and guide for messaging.
 
-* [Appearances](/communications/appearances.md)
-* [Messaging](/communications/messaging.md)
-* [Terminology](/communications/terminology.md)
+* [Appearances](/media/appearances.md)
+* [Messaging](/media/messaging.md)
+* [Terminology](/media/terminology.md)
