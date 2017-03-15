@@ -13,6 +13,7 @@ Blockstack provides services for naming/DNS, decentralized identity, authenticat
 - [Tutorials](#tutorials)
 - [Papers](#papers)
 - [Events](#events)
+- [Swag & Brand](#swag-&amp;-brand)
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
 - [Media Guide](#media-guide)
@@ -69,8 +70,17 @@ If you're just starting with Blockstack, here are the main software repositories
 
 ## Events
 
-- [Upcoming Events](/events/README.md)
-- [Events Guideline](/events/events-guidelines.md)
+* Meetups
+	* [Blockstack Meetup Groups](/events/meetups.md)
+  * [Meetup Hosting Checklist](/events/event-checklist.md)
+* Events with a Blockstack Presence
+  * [Future Events](/events/external-events.md)
+  * [Past Events](/events/past-events.md)
+
+## Swag & Brand
+
+* [Swag](/events/swag.md)
+* [Blockstack Brand](https://projects.invisionapp.com/d/main#/boards/4846740)
 
 ## Requests for Comments
 
