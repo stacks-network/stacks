@@ -2,58 +2,52 @@
 
 [![Slack](http://chat.blockstack.org/badge.svg)](http://chat.blockstack.org/)
 
+Blockstack is a new decentralized internet that replaces the current client/server model; users control their data, apps run client-side, and the open Blockstack network replaces server-side functionality.
+
+Blockstack provides services for naming/DNS, decentralized identity, authentication and storage. Developers can use JavaScript libraries to build serverless apps and they don't need to worry about managing infrastructure.
+
 ## Table of Contents
 
-- [Overview](#overview)
+- [Architecture](#architecture)
 - [Code](#code)
 - [Tutorials](#tutorials)
 - [Papers](#papers)
-- [Articles](#articles)
-- [Online Communities](#online-communities)
 - [Events](#events)
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
-- [Communications Guide](#communications-guide)
+- [Media Guide](#media-guide)
 
-## Overview
+## Architecture
 
-Blockstack is a movement to build the decentralized web - a movement of hackers, designers, and entrepreneurs from around the world deeply committed to the future of the Internet as a bastion of innovation, freedom, and economic inclusion. Blockstack is about pushing power to the edges with decentralized applications and allowing users to be in control of their data, identities and software.
+Blockstack has been used in production for 2+ years and currently [more than 70,000 domains](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
-Blockstack has protocols and software projects that when used together are a powerful way for developers to build decentralized, server-less applications, without having to rely on third parties. Blockstack Core provides decentralized naming, public key infrastructure, and storage. Blockstack Auth provides support for decentralized identity and authentication. Blockstack clients like the Blockstack CLI, Onename, and the Blockstack Browser provide complete packages that hook into Blockstack Core and Blockstack Auth.
+With the Blockstack software, a network of computers collectively maintain a global registry of names. When you run a Blockstack node, you join this network, which is more secure by design than traditional DNS and identity systems. This is because the system's registry and its records are secured by an underlying blockchain, which is extremely resilient against tampering and control.
 
-<p>
-<a href="https://blockstack.org/docs">
-<img src="/images/documentation-@2x.png" data-canonical-src="/images/documentation-@2x.png" width="209" height="29" />
-</a>
-</p>
+In the registry that makes up Blockstack, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name. Different layers of Blockstack are shown in the following figure:
+
 <p>
 <img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram5.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram5.png" />
 </p>
 
+You can read more details about Blockstack's architecture by reading the following articles:
+- [What is Blockstack Core?](https://blockstack.org/articles/blockstack-core)
+- [How Blockstack Works](https://blockstack.org/articles/how-blockstack-works)
+
 ## Code
 
-If you're just starting with Blockstack, here are the main repositories you should checkout: 
+If you're just starting with Blockstack, here are the main software repositories you should checkout: 
 
-- [Blockstack Core](https://github.com/blockstack/blockstack-core) - the server that handles the core functionality of the decentralized domain name system and has an external storage system built-in for storing data records off-chain
-- [Blockstack CLI](https://github.com/blockstack/blockstack-cli) - a CLI and client library that provides an interface for interacting with Blockstack servers and performing decentralized DNS operations
-- [Blockstack Website](https://github.com/blockstack/blockstack-site) - the code for the official Blockstack website (found at blockstack.org)
-- Blockstack Browser - the reference browser for browsing the Blockstack decentralized internet (coming soon)
-
-After you've gotten familiar with the components above, you may want to take a deeper dive. Below you'll find some supporting libraries to dig into:
-
-- [Virtualchain](https://github.com/blockstack/virtualchain) - a Python library for creating virtual blockchains on top of any underlying blockchain
-- [Blockstack Auth JS](https://github.com/blockstack/blockstack-auth-js) - a JS library for generating and verifying auth requests and responses
-- [Blockstack Bootstrap](https://github.com/blockstack/blockstack-bootstrap) - a fork of Bootstrap in the Blockstack
+- [Blockstack Core](https://github.com/blockstack/blockstack-core) - the reference implementation of Blockstack written in Python.
+- [Blockstack Portal](https://github.com/blockstack/blockstack-portal) - the Blockstack Browser Portal providing a graphical interface.
+- [blockstack.js](https://github.com/blockstack/blockstack-portal) - a JavaScript library for using Blockstack identity and authentication in your apps.
 
 ## Tutorials
 
 - CLI (Command Line Interface)
-  - [Installation](https://blockstack.org/tutorials/installation)
-  - [Basic Usage](https://blockstack.org/tutorials/basic-usage)
-  - [Extended Usage](https://blockstack.org/tutorials/extended-usage)
+  - [Installation & Usage](https://blockstack.org/docs)
   - [VIDEO Tutorials](https://www.youtube.com/playlist?list=PLXS8JJHIn4nGCU2uW85dHXpkQJ7QA5JkX)
 - Decentralized Apps
-  - [Hello World](https://blockstack.org/tutorials/hello-world)
+  - [Hello World](https://blockstack.org/tutorials/hello-world) (coming soon!)
 
 ## Papers
 
@@ -61,38 +55,20 @@ After you've gotten familiar with the components above, you may want to take a d
 - ["Extending Existing Blockchains with Virtualchain"](https://github.com/blockstack/blockstack/blob/master/papers/virtualchain_dccl16.pdf), Proc. Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL '16), July 2016
 - ["Bootstrapping Trust in Distributed Systems with Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_login16.pdf), USENIX ;login: Magazine (pre-print)
 
-## Articles
-
-- [What is Blockstack Core?](https://blockstack.org/articles/blockstack-core)
-- [How Blockstack Works](https://blockstack.org/articles/how-blockstack-works)
-
-With the Blockstack software, a network of computers collectively maintain a global registry of names. When you run a Blockstack node, you join this network, which is more secure by design than traditional DNS and identity systems. This is because the system's registry and its records are secured by an underlying blockchain, which is extremely resilient against tampering and control.
-
-In the registry that makes up Blockstack, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name.
-
-Blockstack is already being used in production and currently [more than 60,000 names](https://resolver.onename.com/v2/namespaces) have been registered using it.
-
 ## Online Communities
 
-- [Slack Group](http://chat.blockstack.org) - Live chat with other Blockstackers
+- [Mailing List](http://blockstack.us14.list-manage1.com/subscribe?u=394a2b5cfee9c4b0f7525b009&id=0e5478ae86) (3,000+ members)
+- [Blockstack Forum](http://forum.blockstack.org)
+- [Live chat on Slack](http://chat.blockstack.org/) (2,400+ members)
 - [Meetup Groups](http://www.meetup.com/topics/blockstack/) - Join Meetup groups around the world
-- [Subreddit](https://www.reddit.com/r/blockstack) - Share and discuss on the subreddit
-- [Blog](https://blog.blockstack.org/) - Read posts by community members
+- [Engineering Blog](https://blockstack.org/log) - Engineering updates by developers
 - [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
 - [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
 
 ## Events
 
-#### [Blockstack Events](/events)
-
-* Meetups
-  * [Meetup Groups](/events/meetups.md)
-  * [Past Meetup Events](/events/past-meetups.md)
-  * [Meetup Hosting Checklist](/events/event-checklist.md)
-* Events with a Blockstack Presence
-  * [Future Events](/events/external-events.md)
-  * [Past Events](/events/past-events.md)
-* [Swag](/events/swag.md)
+- [Upcoming Events](/events/README.md)
+- [Events Guideline](/events/events-guidelines.md)
 
 ## Requests for Comments
 
@@ -106,7 +82,8 @@ Blockstack is already being used in production and currently [more than 60,000 n
 - **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
 - **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and submit it to the Blockstack community blog or share it in the forum
 
-### [Communications Guide](/communications/README.md)
-* [Appearances](/communications/appearances.md)
-* [Messaging](/communications/messaging.md)
-* [Terminology](/communications/terminology.md)
+### [Media Guide](/media/README.md)
+
+- [Appearances](/media/appearances.md)
+- [Messaging](/media/messaging.md)
+- [Terminology](/media/terminology.md)
