@@ -19,11 +19,13 @@ Blockstack provides services for naming/DNS, decentralized identity, authenticat
 
 ## Architecture
 
-Blockstack has been used in production for 2+ years and currently [more than 70,000 domains](https://resolver.onename.com/v2/namespaces) have been registered using it.
+Blockstack has been used in production for 2+ years and [70,000+ domains](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
 With the Blockstack software, a network of computers collectively maintain a global registry of names. When you run a Blockstack node, you join this network, which is more secure by design than traditional DNS and identity systems. This is because the system's registry and its records are secured by an underlying blockchain, which is extremely resilient against tampering and control.
 
-In the registry that makes up Blockstack, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name. Different layers of Blockstack are shown in the following figure:
+In the registry that makes up Blockstack, each of the names has an owner, represented by a cryptographic keypair, and is associated with instructions for how DNS resolvers and other software should resolve the name. 
+
+Different layers of Blockstack are shown in the following figure:
 
 <p>
 <img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram5.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram5.png" />
