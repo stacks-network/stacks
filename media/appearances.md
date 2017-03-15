@@ -2,6 +2,10 @@
 
 **Appearances**
 
+* Mar 14, 2017 - **Cointelegraph** - [Blockstack Launches Third-Ever Blockchain Product On Amazon Marketplace](https://cointelegraph.com/news/blockstack-launches-third-ever-blockchain-product-on-amazon-marketplace)
+* Mar 13, 2017 - **EconoTimes** - [Blockchain firm releases Blockstack Core on Amazon Web Services](http://www.econotimes.com/Blockchain-firm-releases-Blockstack-Core-on-Amazon-Web-Services-585929)
+* Mar 10, 2017 - **SiliconAngle** - [Blockstack’s decentralized app platform comes to Amazon Web Services](http://siliconangle.com/blog/2017/03/10/blockstack-decentralized-internet-platform-now-available-amazon-web-services/)
+* Mar 10, 2017 - **CoinDesk** - [Blockstack Launches Decentralized Internet Platform on Amazon's AWS](http://www.coindesk.com/blockstack-bitcoin-internet-amazon-web-services/)
 * Mar 9, 2017 - **MIT Tech Review Pakistan** - [The New Decentralized Web Revolution](http://www.technologyreview.pk/new-decentralized-web-revolution/)
 * Mar 2, 2017 - **Harvard Business Review** - [How Blockchain Applications Will Move Beyond Finance](https://hbr.org/2017/03/how-blockchain-applications-will-move-beyond-finance)
 * Feb 28, 2017 - **Doc Searls Blog (Harvard)** - [IoT & IoM next week at IIW](http://blogs.harvard.edu/vrm/2016/02/28/blockstackorg-ipfs-openbazaar-onename-telehash-mine_labs-mediachain-ibmivb-adept-come-2-idworkshop-and-vrm-day/)
