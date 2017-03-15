@@ -4,6 +4,7 @@
 
 * Mar 14, 2017 - **Cointelegraph** - [Blockstack Launches Third-Ever Blockchain Product On Amazon Marketplace](https://cointelegraph.com/news/blockstack-launches-third-ever-blockchain-product-on-amazon-marketplace)
 * Mar 13, 2017 - **EconoTimes** - [Blockchain firm releases Blockstack Core on Amazon Web Services](http://www.econotimes.com/Blockchain-firm-releases-Blockstack-Core-on-Amazon-Web-Services-585929)
+* Mar 10, 2017 - **EthNews** - [Amazon Offers Third Party Blockchain Platform Into The AWS Marketplace](https://www.ethnews.com/amazon-offers-third-party-blockchain-platform-into-the-aws-marketplace)
 * Mar 10, 2017 - **SiliconAngle** - [Blockstack’s decentralized app platform comes to Amazon Web Services](http://siliconangle.com/blog/2017/03/10/blockstack-decentralized-internet-platform-now-available-amazon-web-services/)
 * Mar 10, 2017 - **CoinDesk** - [Blockstack Launches Decentralized Internet Platform on Amazon's AWS](http://www.coindesk.com/blockstack-bitcoin-internet-amazon-web-services/)
 * Mar 9, 2017 - **MIT Tech Review Pakistan** - [The New Decentralized Web Revolution](http://www.technologyreview.pk/new-decentralized-web-revolution/)
@@ -97,4 +98,3 @@
 **Social**
 * Twitter - https://twitter.com/blockstackorg
 * Facebook - https://www.facebook.com/blockstack
-* Github - https://github.com/blockstack
