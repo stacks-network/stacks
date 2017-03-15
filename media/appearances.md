@@ -91,10 +91,6 @@
 * Aug 18, 2015 - **Continuations** - [The Blockstack Summit](http://continuations.com/post/126999744785/the-blockstack-summit)
 
 **Social**
-* Facebook - https://www.facebook.com/pages/Onename/565352493563458
-* Twitter - https://twitter.com/onename
-* LinkedIn - https://www.linkedin.com/company/onename
-* Pinterest - https://www.pinterest.com/onenamecom/
-* AngelList - https://angel.co/onename
-* Github - https://github.com/onenameio
-* Crunchbase - https://www.crunchbase.com/organization/onename
+* Twitter - https://twitter.com/blockstackorg
+* Facebook - https://www.facebook.com/blockstack
+* Github - https://github.com/blockstack
