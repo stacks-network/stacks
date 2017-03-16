@@ -2,9 +2,9 @@
 
 [![Slack](http://chat.blockstack.org/badge.svg)](http://chat.blockstack.org/)
 
-Blockstack is a new decentralized internet that replaces the current client/server model; users control their data, apps run client-side, and the open Blockstack network replaces server-side functionality.
+Blockstack is a new decentralized internet where you own your data and your apps run locally without remote servers.
 
-Blockstack provides services for naming/DNS, decentralized identity, authentication and storage. Developers can use JavaScript libraries to build serverless apps and they don't need to worry about managing infrastructure.
+Blockstack provides decentralized services for naming/DNS, identity, authentication and storage. Developers can use JavaScript libraries to build serverless apps and they don't need to worry about managing infrastructure. Blockstack replaces the current client/server model; users control their data, apps run client-side, and the open Blockstack network replaces server-side functionality.
 
 ## Table of Contents
 
