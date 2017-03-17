@@ -82,6 +82,9 @@ Yes, the Blockstack network can fork if the underlying blockchain encounters a d
 We have yet to encounter a deep fork.  If this does happen, then Blockstack will use the virtualchain state on the majority fork once the fork resolves.
 
 #General	-	How is the Blockstack network upgraded over time? What parties need to agree on an upgrade?
+We're working on an on-chain voting strategy similar to how mining works, where anyone can cast a vote proportional to the amount of Bitcoin burned.  Similar to how Bitcoin upgrades, a new feature will activate if a certain threshold (e.g. 80%) of votes consistently request its adoption over a given time interval (e.g. a couple weeks).
+
+Until then, we will publicly announce the availability of new software, with the promise that each release will bring highly-desired features to make upgrading worth the users' whiles.
 
 #General	-	Can miners take down Blockstack?
 
@@ -105,7 +108,8 @@ Blockstack, like Linux, is an open-source project with a GPLv3 license for the c
 #Using	-	Can Blockstack control my data or ID when I use it?
 No. When you're using a Blockstack client you control your data and ID with a private key. This private key never leaves your device and is meant to stay on your laptop/phone. As long as no one gets access to your private key, no one can control your data or ID. When you use Blockstack, by design, your private keys are never sent to any remote servers.
 
-#Using	-	How long can I own my ID on Blockstack?
+#Using	-	How long can I own my Blockstack ID?
+You own your name for ~2 years.  You have to renew every 2 years or it expires, and someone else can claim it
 
 #Using	-	Where is my data stored and how do I control who access it?
 You control where your data is stored (you could run your own server, or use your own cloud storage - Dropbox, Amazon S3, and keep backups across all). You then use those places as locations pointed to by the URLs in your Blockstack ID's zone file. You can get the zone file with `blockstack lookup` in the CLI  (Check out the install video in our [CLI video tutorial series](https://www.youtube.com/playlist?list=PLXS8JJHIn4nGCU2uW85dHXpkQJ7QA5JkX). *need help on how users control who accesses the data*
@@ -134,12 +138,15 @@ This is a developer-facing term used for the application users use to create and
 #Using	-	Do I need to run a full Blockstack node to use Blockstack?
 
 #Using	-	What language is the Blockstack software written in?
+Python 2 and Node.js
 
 #Using	-	What incentives are there to run a Blockstack node?
+Running a Blockstack node keeps you secure by ensuring that your app gets the right names and public keys.  It's not expensive; it takes as much resources as a Chrome tab.
 
 #Using	-	How does Blockstack perform against building apps on Heroku or AWS?
 
 #Using	-	Can Blockstack apps scale, given that Blockstack uses blockchains which don't scale that well?
+Yes.  Blockstack only uses the blockchain for name registration.  Everything else happens off-chain, so apps work just as fast as they do on the Web.
 
 #Using	-	What if the current companies and developers working on Blockstack disappear, would the network keep running?
 Yes, the Blockstack network will keep running. All of Blockstack's code is open-source and anyone can deploy Blockstack nodes or maintain the code. Further, Blockstack nodes don't need to coordinate with each other to function. Any node that a user deploys can function correctly independently.
