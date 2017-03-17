@@ -73,9 +73,13 @@ You can think of Ethereum as a "heavy" blockchain that does everything for you. 
 #General	-	Can Blockstack only run on Bitcoin?
 The model we're currently exploring is where Blockstack can process multiple blockchains to construct the global state where each namespace is tied to a single blockchain. Meaning that say the .id namespace is defined to run on Bitcoin and a .eth namespace is defined to run on Ethereum. Blockstack can process transactions from both blockchains and update the state of namespaces, but the consistency of any given namespace depends only on the underlying blockchain it was defined on.
 
-#General	-	I heard Blockstack uses a DHT. How does that work?
+#General	-	Does Blockstack use a DHT (Distributed Hash Table)?
+It does not, as of November 2016.  It uses a much more reliable system called the Atlas Network.  Details here: https://blog.blockstack.org/blockstack-core-v0-14-0-release-aad748f46d#.30gzlthdw
 
 #General	-	Can the Blockstack network fork? 
+Yes, the Blockstack network can fork if the underlying blockchain encounters a deep fork.  In this case, blockstack nodes on either side of the fork will diverge from one another.
+
+We have yet to encounter a deep fork.  If this does happen, then Blockstack will use the virtualchain state on the majority fork once the fork resolves.
 
 #General	-	How is the Blockstack network upgraded over time? What parties need to agree on an upgrade?
 
