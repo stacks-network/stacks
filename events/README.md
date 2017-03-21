@@ -14,7 +14,7 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 
 ### May
 
-* May 22-24, 2017 - **New York, NY** -- [Consensus 2017](http://www.coindesk.com/events/consensus-2017/)
+* May 23, 2017 - **New York, NY** -- [Consensus 2017](http://www.coindesk.com/events/consensus-2017/)
 * May 3, 2017 - **Brooklyn, NY** -- [Smart Cities NYC 2017](http://smartcitiesnyc.com/)
 
 ### April 
@@ -40,7 +40,7 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 
 ### January
 
-* Jan 30, 2017 - **San Francisco, CA** -- [Construct 2017](http://www.coindesk.com/events/construct-2017)
+* Jan 30, 2017 - **San Francisco, CA** -- [Construct 2017](http://www.coindesk.com/events/construct-2017/videos/)
 * Jan 04, 2017 - **Durham, NC** - [Triangle Bitcoin and Business Meetup](https://www.meetup.com/Triangle-Bitcoin-Business-Meetup/events/235441866/)<br>[(video)](https://www.youtube.com/watch?v=uiEdRn7tM8Y&feature=youtu.be&t=58s)
 
 ## 2016 
