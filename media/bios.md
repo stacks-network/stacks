@@ -1,5 +1,6 @@
 # Bios
 
+[ryan](https://github.com/blockstack/blockstack/blob/master/media/jesus%20baez%20photography_ryan%2024%20(1).jpg)
 **Ryan Shea**, Core Developer, Blockstack
 
 Ryan co-founded Blockstack, a new decentralized internet where users control their data and apps run without remote servers. With his co-founder Muneeb, Blockstack has raised funding from top investors like Union Square Ventures and Naval Ravikant.
