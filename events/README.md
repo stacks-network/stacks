@@ -15,6 +15,7 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 ### May
 
 * May 23, 2017 - **New York, NY** -- [Consensus 2017](http://www.coindesk.com/events/consensus-2017/)
+* May 17, 2017 - **New York, NY** -- [NYC Nodejs](https://www.meetup.com/nodejs/)
 * May 3, 2017 - **Brooklyn, NY** -- [Smart Cities NYC 2017](http://smartcitiesnyc.com/)
 
 ### April 
