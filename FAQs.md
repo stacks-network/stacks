@@ -137,6 +137,9 @@ This is a developer-facing term used for the application users use to create and
 
 #Using	-	Do I need to run a full Blockstack node to use Blockstack?
 
+#Using	-	What is the capacity per block for registrations using blockstack?
+Initial registrations can be done at an order of hundreds per block and once an identity is registered you can do “unlimited” updates to the data because that is off-chain. We’re also working on a more scalable solution where a very large number of identities can be registered but that’s not live yet and is in the pipeline as a rough benchmark. in summer 2015, Blockstack did 30,000+ identity registrations in a matter of few days live on the blockchain and Blockstack was actually throttling its servers and not taking up more than 100-200 transactions per block. It could’ve easily taken up more transactions without impacting the network.
+
 #Using	-	What language is the Blockstack software written in?
 Python 2 and Node.js
 
