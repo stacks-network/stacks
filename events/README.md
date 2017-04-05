@@ -27,7 +27,7 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 * Mar 28, 2017 - **Jersey City, NJ** -- [PGConf US - Blockchain, Distributed Security and Regulated Industries](http://pgconf.us/conferences/2017/program/proposals/347)
 * Mar 28, 2017 - **New York, NY** -- [NYC Fullstack Engineering Meetup](https://www.meetup.com/Full-Stack-Engineering-Meetup/events/237581031/)
 * Mar 13, 2017 - **Princeton, NJ** -- [Python User Group](https://www.meetup.com/pug-ip/events/237749846/)
-* Mar 7, 2017 - **New York, NY** -- [Blockstack NYC Meetup] (https://www.meetup.com/Blockstack-NYC/events/237769804/)
+* Mar 7, 2017 - **New York, NY** -- [Blockstack NYC Meetup](https://www.meetup.com/Blockstack-NYC/events/237769804/)
 
 ### February 
 
