@@ -2,6 +2,7 @@
 
 **Appearances**
 
+* Apr 3, 2017 - **Tor: Blog** - [Cooking With Onions: Names for your onions](https://blog.torproject.org/blog/cooking-onions-names-your-onions)
 * Mar 9, 2017 - **MIT Tech Review Pakistan** - [The New Decentralized Web Revolution](http://www.technologyreview.pk/new-decentralized-web-revolution/)
 * Mar 2, 2017 - **Harvard Business Review** - [How Blockchain Applications Will Move Beyond Finance](https://hbr.org/2017/03/how-blockchain-applications-will-move-beyond-finance)
 * Feb 28, 2017 - **Doc Searls Blog (Harvard)** - [IoT & IoM next week at IIW](http://blogs.harvard.edu/vrm/2016/02/28/blockstackorg-ipfs-openbazaar-onename-telehash-mine_labs-mediachain-ibmivb-adept-come-2-idworkshop-and-vrm-day/)
