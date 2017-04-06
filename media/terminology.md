@@ -1,21 +1,30 @@
-## Terminology
+# Terminology
 
-* Blockstack
-* the Blockstack (reference) server
-* Blockstack Server
-* the Blockstack (reference) client
-* Blockstack Client
-* the Blockstack CLI
-* Blockstack CLI
-* zone file(s)
-* profile(s)
-* full node
-* Atlas Node
-* Blockstack Auth
-* Blockstack ID
-* blockchain application stack
-* Blockstack apps
-* the blockchain
-* Blockchain technology
-* blockchains
-* Onename
+### Main Software
+
+- Blockstack Core
+- Blockstack Portal
+
+### Satellite Software
+
+- Onename
+
+### Stack Components
+
+- Blockstack DNS
+- Blockstack Identity
+- Atlas Network
+- Blockstack Storage
+- Blockstack Auth
+
+### Concepts and Things
+
+- Zone file
+- Profile
+- Blockstack Identifier
+- Domain name
+- Username
+- Blockchain
+- Full node
+- Blockstack apps
+- The blockchain application stack

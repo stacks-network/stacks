@@ -1,15 +1,17 @@
-##Blockstack Messaging
+# Blockstack Messaging
 
-###Tagline
-* n/a
+### Tagline
 
-###Headline
-Building the New Internet
+The New Decentralized Internet
 
-###Short description
-Build decentralized, server-less apps where users control their data.
+### Headline
 
-###Long description
-n/a
+The New Decentralized Internet
 
-***
+### Short description
+
+Blockstack is a new decentralized internet where users control their data and apps run without remote servers.
+
+### Long description
+
+Blockstack is a new decentralized internet where users control their data and apps run without remote servers.

@@ -14,7 +14,9 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 
 ### May
 
-* May 22-24, 2017 - **New York, NY** -- [Consensus 2017](http://www.coindesk.com/events/consensus-2017/)
+* May 23, 2017 - **New York, NY** -- [Consensus 2017](http://www.coindesk.com/events/consensus-2017/)
+* May 17, 2017 - **New York, NY** -- [NYC Nodejs](https://www.meetup.com/nodejs/)
+* May 3, 2017 - **Brooklyn, NY** -- [Smart Cities NYC 2017](http://smartcitiesnyc.com/)
 
 ### April 
 
@@ -23,9 +25,9 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 ### March 
 
 * Mar 28, 2017 - **Jersey City, NJ** -- [PGConf US - Blockchain, Distributed Security and Regulated Industries](http://pgconf.us/conferences/2017/program/proposals/347)
-* Mar 14, 2017 - **New York, NY** -- [NYC Fullstack Engineering Meetup](https://www.meetup.com/Full-Stack-Engineering-Meetup/events/237581031/)
+* Mar 28, 2017 - **New York, NY** -- [NYC Fullstack Engineering Meetup](https://www.meetup.com/Full-Stack-Engineering-Meetup/events/237581031/)
 * Mar 13, 2017 - **Princeton, NJ** -- [Python User Group](https://www.meetup.com/pug-ip/events/237749846/)
-* Mar 7, 2017 - **New York, NY** -- [Blockstack NYC Meetup] (https://www.meetup.com/Blockstack-NYC/events/237769804/)
+* Mar 7, 2017 - **New York, NY** -- [Blockstack NYC Meetup](https://www.meetup.com/Blockstack-NYC/events/237769804/)
 
 ### February 
 
@@ -39,7 +41,7 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 
 ### January
 
-* Jan 30, 2017 - **San Francisco, CA** -- [Construct 2017](http://www.coindesk.com/events/construct-2017)
+* Jan 30, 2017 - **San Francisco, CA** -- [Construct 2017](http://www.coindesk.com/events/construct-2017/videos/)
 * Jan 04, 2017 - **Durham, NC** - [Triangle Bitcoin and Business Meetup](https://www.meetup.com/Triangle-Bitcoin-Business-Meetup/events/235441866/)<br>[(video)](https://www.youtube.com/watch?v=uiEdRn7tM8Y&feature=youtu.be&t=58s)
 
 ## 2016 
