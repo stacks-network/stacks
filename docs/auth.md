@@ -1,4 +1,8 @@
-# Blockstack Auth
+---
+title: Blockstack Auth
+description: Blockstack Auth libraries.
+image: /images/article-photos/chalkboard.jpg
+---
 
 ### Javascript Libraries
 
