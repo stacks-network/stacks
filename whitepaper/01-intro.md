@@ -31,4 +31,4 @@ Blockstack provides:
 - robust certificate pinning capabilities
 - resistance to censorship of name registration and resolution
 
-<img src="blockstack/images/blockstack-network.png" class="img-fluid" alt="The Blockstack Network">
+<img src="../images/blockstack-network.png" class="img-fluid" alt="The Blockstack Network">

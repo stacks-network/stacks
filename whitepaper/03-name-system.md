@@ -24,6 +24,6 @@ The third type of operation is a name transfer, where the sender announces it is
 
 The fourth type of operation is a name update, where the sender announces it is replacing the name's associated data record with a new data record. In this operation, only the hash of the data record is provided in the transaction and the data itself is stored elsewhere.
 
-<img src="blockstack/images/name-database.png" class="img-fluid" alt="Name Databases">
+<img src="../images/name-database.png" class="img-fluid" alt="Name Databases">
 
 Even though only data record hashes are stored in blockchain transactions, we can use them to verify the authenticity and integrity of the data itself once we get it.  For example, you can host your data in S3, and other peers can verify your data by first obtaining the hash from Blockstack DNS and then checking it against your data's hash.  Because only the name's cryptographic keypair could have feasibly signed the transaction in the blockchain that announced the hash, it is safe to assume that the data is authentic.
