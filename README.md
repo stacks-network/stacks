@@ -50,7 +50,7 @@ If you're just starting with Blockstack, here are the main software repositories
   - [Installation & Usage](https://blockstack.org/docs)
   - [VIDEO Tutorials](https://www.youtube.com/playlist?list=PLXS8JJHIn4nGCU2uW85dHXpkQJ7QA5JkX)
 - Decentralized Apps
-  - [Hello World](https://blockstack.org/tutorials/hello-world) (coming soon!)
+  - [Hello World](https://blockstack.org/tutorials/hello-blockstack)
 
 ## Papers
 
