@@ -2,6 +2,7 @@
 title: CLI Basics
 description: Walk through the basics of the command line interface, like looking up names, getting name prices, and registering names.
 image: /images/article-photos/chalkboard.jpg
+youtube: https://www.youtube.com/embed/GWjEGlb1aEs
 ---
 
 Welcome!
