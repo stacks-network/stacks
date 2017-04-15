@@ -1,7 +1,7 @@
 ---
 title: Hello, Blockstack Tutorial
 description: Tutorial on building a hello world application.
-image: /images/article-photos/chalkboard.jpg
+image: /images/visuals/hello-blockstack-tutorial.png
 youtube: https://www.youtube.com/embed/UbZ6PlX5rF8
 ---
 
