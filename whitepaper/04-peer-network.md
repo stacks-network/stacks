@@ -1,6 +1,7 @@
-<!--- -->
-chapter: Peer Network
-<!--- -->
+---
+title: Peer Network
+image: /images/article-photos/chalkboard.jpg
+---
 
 One of the more interesting innovations in Blockstack is in
 how it distributes the set of zone files to all peers.  

@@ -1,6 +1,7 @@
-<!--- -->
-chapter: Blockchain
-<!--- -->
+---
+title: Blockchain
+image: /images/article-photos/chalkboard.jpg
+---
 
 #### Virtualchain
 

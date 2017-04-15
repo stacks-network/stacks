@@ -1,6 +1,7 @@
-<!--- -->
-chapter: Name System
-<!--- -->
+---
+title: Name System
+image: /images/article-photos/chalkboard.jpg
+---
 
 ## Blockstack Name System (BNS)
 
