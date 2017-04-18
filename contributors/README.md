@@ -12,7 +12,7 @@
 - Muneeb Ali ([muneeb.id](https://onename.com/muneeb))
 - Ryan Shea ([ryan.id](https://onename.com/ryan))
 
-### Additional Contributors
+### Featured Contributors
 
 - Michael Freedman ([mfreed.id](https://onename.com/mfreed))
 - Daniel Buchner ([buchner.id](https://onename.com/buchner))
