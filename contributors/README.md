@@ -20,3 +20,4 @@
 - John Light ([lightcoin.id](https://onename.com/lightcoin))
 - Jorge Tapia ([itsprof.id](https://onename.com/itsprof))
 - Turner Yevich ([turnery.id](https://onename.com/turnery))
+- Sebastian Dunkel ([sebastian2112.id](https://onename.com/sebastian2112))
