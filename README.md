@@ -99,3 +99,4 @@ If you're just starting with Blockstack, here are the main software repositories
 - [Appearances](/media/appearances.md)
 - [Messaging](/media/messaging.md)
 - [Terminology](/media/terminology.md)
+- [Bio](https://github.com/blockstack/blockstack/blob/master/media/bios.md)
