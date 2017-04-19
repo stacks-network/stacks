@@ -7,10 +7,21 @@
 - urlSlug: the-lunduke-hour
 - event: The Lunduke Hour
 - speaker: Ryan Shea
-- location: New York
+- location: New York, NY
 - date: April 17, 2017
 - youtubeURL: https://youtu.be/i1fThdPbAEA?t=3m59s
-- speakerDeckID 
+- speakerDeckID: 
+- image:
+
+### Decentralized Apps and Sovereign Identity
+
+- urlSlug: decentralized-apps-and-sovereign-identity
+- event: Bitcoin Barcelona
+- speaker: Ryan Shea
+- location: Barcelona, Spain
+- date: February 9, 2017
+- youtubeURL: https://www.youtube.com/watch?v=dCNC2SjqYHc
+- speakerDeckID: 
 - image:
 
 ### Welcome to the New Internet
@@ -18,10 +29,10 @@
 - urlSlug: welcome-to-the-new-internet
 - event: TEDxNewYork
 - speaker: Muneeb Ali
-- location: New York
+- location: New York, NY
 - date: September 10, 2016
 - youtubeURL: https://www.youtube.com/embed/qtOIh93Hvuw?list=PLvaRUGvjpFS2ciobOlOwMeVKDqO7S9ar6
-- speakerDeckID 15d4861b7c1842bfbd7add80c99e1cf6
+- speakerDeckID: 15d4861b7c1842bfbd7add80c99e1cf6
 - image: /images/resources/talk-tedxnewyork.png
 
 ### Innovation & Inclusion w/ Decentralized Apps
