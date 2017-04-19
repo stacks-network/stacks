@@ -5,9 +5,9 @@
 ### Core Team
 
 - Larry Salibra ([larry.id](https://onename.com/larry))
-- Jude Nelson ([judecn.id](https://onename.com/judecn))
+- Jude Nelson ([judecn.id](https://explorer.blockstack.org/name/judecn.id))
 - Guy Lepage ([guylepage3.id](https://onename.com/guylepage3))
-- Patrick Stanley ([pstanley.id](https://onename.com/pstanley))
+- Patrick Stanley ([pstanley.id](https://explorer.blockstack.org/name/pstanley.id))
 - Aaron Blankstein ([ablankstein.id](https://onename.com/ablankstein))
 - Muneeb Ali ([muneeb.id](https://onename.com/muneeb))
 - Ryan Shea ([ryan.id](https://onename.com/ryan))
@@ -16,6 +16,8 @@
 
 - Michael Freedman ([mfreed.id](https://onename.com/mfreed))
 - Daniel Buchner ([buchner.id](https://onename.com/buchner))
+- Ty George ([cryptocracy.id](https://explorer.blockstack.org/name/cryptocracy.id))
+- Valentin Sundermann ([vsund.id](https://onename.com/vsund))
 - Elizabeth Stark ([starkness.id](https://onename.com/starkness))
 - John Light ([lightcoin.id](https://onename.com/lightcoin))
 - Jorge Tapia ([itsprof.id](https://onename.com/itsprof))
