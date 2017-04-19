@@ -1,6 +1,6 @@
 # Videos
 
-** Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org. **
+**Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org.**
 
 ### Welcome to the New Internet
 
