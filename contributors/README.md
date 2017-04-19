@@ -14,10 +14,11 @@
 
 ### Featured Contributors
 
-- Michael Freedman ([mfreed.id](https://onename.com/mfreed))
-- Daniel Buchner ([buchner.id](https://onename.com/buchner))
+- Eric Stermer ([estermer.id](https://onename.com/estermer))
 - Ty George ([cryptocracy.id](https://explorer.blockstack.org/name/cryptocracy.id))
 - Valentin Sundermann ([vsund.id](https://onename.com/vsund))
+- Michael Freedman ([mfreed.id](https://onename.com/mfreed))
+- Daniel Buchner ([buchner.id](https://onename.com/buchner))
 - Elizabeth Stark ([starkness.id](https://onename.com/starkness))
 - John Light ([lightcoin.id](https://onename.com/lightcoin))
 - Jorge Tapia ([itsprof.id](https://onename.com/itsprof))
