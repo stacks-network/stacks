@@ -2,6 +2,7 @@
 
 **Appearances**
 
+* Apr 17, 2017 - **the Lunduke Hour (YouTube)** - ["Decentralized Internet w/Blockstack" - Lunduke Hour - Apr 17, 2017](https://www.youtube.com/watch?v=i1fThdPbAEA&t)
 * Apr 3, 2017 - **Tor: Blog** - [Cooking With Onions: Names for your onions](https://blog.torproject.org/blog/cooking-onions-names-your-onions)
 * Mar 14, 2017 - **Cointelegraph** - [Blockstack Launches Third-Ever Blockchain Product On Amazon Marketplace](https://cointelegraph.com/news/blockstack-launches-third-ever-blockchain-product-on-amazon-marketplace)
 * Mar 13, 2017 - **EconoTimes** - [Blockchain firm releases Blockstack Core on Amazon Web Services](http://www.econotimes.com/Blockchain-firm-releases-Blockstack-Core-on-Amazon-Web-Services-585929)
