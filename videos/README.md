@@ -2,6 +2,17 @@
 
 **Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org.**
 
+### The Decentralized Internet with Blockstack 
+
+- urlSlug: the-lunduke-hour
+- event: The Lunduke Hour
+- speaker: Ryan Shea
+- location: New York
+- date: April 17, 2017
+- youtubeURL: https://youtu.be/i1fThdPbAEA?t=3m59s
+- speakerDeckID 
+- image:
+
 ### Welcome to the New Internet
 
 - urlSlug: welcome-to-the-new-internet
