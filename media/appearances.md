@@ -2,6 +2,7 @@
 
 **Appearances**
 
+* Apr 24, 2017 - **The Bitcoin Game Podcast** - [The Bitcoin Game #44: Ryan Shea, Blockstack for Beginners](https://soundcloud.com/the-bitcoin-game/the-bitcoin-game-44-ryan-shea-blockstack-for-beginners)
 * Apr 17, 2017 - **the Lunduke Hour (YouTube)** - ["Decentralized Internet w/Blockstack" - Lunduke Hour - Apr 17, 2017](https://www.youtube.com/watch?v=i1fThdPbAEA&t)
 * Apr 3, 2017 - **Tor: Blog** - [Cooking With Onions: Names for your onions](https://blog.torproject.org/blog/cooking-onions-names-your-onions)
 * Mar 14, 2017 - **Cointelegraph** - [Blockstack Launches Third-Ever Blockchain Product On Amazon Marketplace](https://cointelegraph.com/news/blockstack-launches-third-ever-blockchain-product-on-amazon-marketplace)
