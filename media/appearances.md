@@ -2,6 +2,7 @@
 
 **Appearances**
 
+* May 1, 2017 - **Nasdaq** - [How Blockstack Uses Bitcoin as the Base for Their Decentralized App Ecosystem](http://www.nasdaq.com/article/how-blockstack-uses-bitcoin-as-the-base-for-their-decentralized-app-ecosystem-cm782165)
 * Apr 29, 2017 - **FEE Foundation for Economic Education** - [Six Companies That Are Quietly Securing Our Identities](https://fee.org/articles/six-companies-that-are-quietly-securing-our-identities/)
 * Apr 24, 2017 - **The Bitcoin Game Podcast** - [The Bitcoin Game #44: Ryan Shea, Blockstack for Beginners](https://soundcloud.com/the-bitcoin-game/the-bitcoin-game-44-ryan-shea-blockstack-for-beginners)
 * Apr 17, 2017 - **the Lunduke Hour (YouTube)** - ["Decentralized Internet w/Blockstack" - Lunduke Hour - Apr 17, 2017](https://www.youtube.com/watch?v=i1fThdPbAEA&t)
