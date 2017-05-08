@@ -2,6 +2,7 @@
 
 **Appearances**
 
+* May 7, 2017 - **CoinDesk** - [Are Blockchains Key to the Future of Web Encryption?](http://www.coindesk.com/blockchains-key-future-web-encryption/)
 * May 1, 2017 - **Nasdaq** - [How Blockstack Uses Bitcoin as the Base for Their Decentralized App Ecosystem](http://www.nasdaq.com/article/how-blockstack-uses-bitcoin-as-the-base-for-their-decentralized-app-ecosystem-cm782165)
 * May 1, 2017 - **Bitcoin Magazine** -[How Blockstack Uses Bitcoin as the Base for Their Decentralized App Ecosystem](https://bitcoinmagazine.com/articles/how-blockstack-uses-bitcoin-base-their-decentralized-app-ecosystem/)
 * Apr 29, 2017 - **FEE Foundation for Economic Education** - [Six Companies That Are Quietly Securing Our Identities](https://fee.org/articles/six-companies-that-are-quietly-securing-our-identities/)
