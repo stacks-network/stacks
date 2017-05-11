@@ -12,6 +12,7 @@ Blockstack now has the ability to resolve Tor hidden services using human-readab
 We have released a proof-of-concept here: https://github.com/blockstack/blockstack-tor
 
 *New Blockstack Meetups*
+
 Say hello to brand new meetups, [Blockstack Cuba](https://www.meetup.com/Blockstack-cuba/) run by organizer Olemis Lang, and [Blockstack Portland](https://www.meetup.com/Blockstack-Portland/) organized by Dan Trevino. The core team is looking forward to visiting both locations for their inaugural meetups!
 
 *Popular on the Forum*
