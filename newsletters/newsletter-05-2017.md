@@ -11,8 +11,10 @@ Blockstack now has the ability to resolve Tor hidden services using human-readab
 We have released a proof-of-concept here: https://github.com/blockstack/blockstack-tor
 
 *In the News*
-- May 1, Bitcoin Magazine  [How Blockstack Uses Bitcoin as the Base for Their Decentralized App Ecosystem](https://bitcoinmagazine.com/articles/how-blockstack-uses-bitcoin-base-their-decentralized-app-ecosystem/)
+- May 1, Nasdaq,  [How Blockstack Uses Bitcoin as the Base for Their Decentralized App Ecosystem](http://www.nasdaq.com/article/how-blockstack-uses-bitcoin-as-the-base-for-their-decentralized-app-ecosystem-cm782165)
+- Apr, 27, Foundation for Economic Education, [Six Companies That Are Quietly Securing Our Identities](https://fee.org/articles/six-companies-that-are-quietly-securing-our-identities/)
 - Apr, 24, The Bitcoin Game, [The Bitcoin Game: Ryan Shea, Blockstack for Beginners](https://letstalkbitcoin.com/blog/post/the-bitcoin-game-44-ryan-shea-blockstack-for-beginners)
 - Apr, 17, Lunduke Hour, [Decentralized Internet w/ Blockstack](https://youtu.be/i1fThdPbAEA?t=3m46s)
 - Apr, 15, Brave New Coin, [Tor May Use Bitcoin to Enable User-Friendly Onion Addresses](https://bravenewcoin.com/news/tor-may-use-bitcoin-to-enable-user-friendly-onion-addresses/)
-- Apr, 14, Cryptocoins News [Blockstack Co-Founder: Segwit is More Than Malleability Fixes & Scaling](https://www.cryptocoinsnews.com/blockstack-co-founder-segwit-is-more-than-malleability-fixes-scaling/)
+- Apr, 14, Cryptocoins News, [Blockstack Co-Founder: Segwit is More Than Malleability Fixes & Scaling](https://www.cryptocoinsnews.com/blockstack-co-founder-segwit-is-more-than-malleability-fixes-scaling/)
+- Apr, 3, Tor Project [Cooking With Onions: Names for your onions](https://blog.torproject.org/blog/cooking-onions-names-your-onions)
