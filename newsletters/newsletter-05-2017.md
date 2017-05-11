@@ -18,6 +18,7 @@ We have released a proof-of-concept here: https://github.com/blockstack/blocksta
 - [Blockstack on iOS Constraints](https://forum.blockstack.org/t/blockstack-on-ios-constraints/898)
 - [Protecting Core from malicious apps](https://forum.blockstack.org/t/protecting-core-from-malicious-apps/911)
 - [Blockchain Agility, ASICBOOST & Building on the Strongest Chain](https://forum.blockstack.org/t/blockchain-agility-asicboost-building-on-the-strongest-chain/923/2)
+- [Zone file contents and blockstack update command](https://forum.blockstack.org/t/zone-file-contents-and-blockstack-update-command/616/6)
 
 *In the News*
 - May 1, Nasdaq,  [How Blockstack Uses Bitcoin as the Base for Their Decentralized App Ecosystem](http://www.nasdaq.com/article/how-blockstack-uses-bitcoin-as-the-base-for-their-decentralized-app-ecosystem-cm782165)
