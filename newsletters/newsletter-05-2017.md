@@ -1,4 +1,6 @@
 *Blockstack Storage and Atlas Network Whitepaper*
+At Blockstack, we’ve been (quietly) building a new internet that has been running in production for over 3 years now. Our design removes any trust points from the middle of the network. This internet allows for true decentralization, as envisioned by Sir Tim Berners-Lee and Vint Cerf.
+We’ve been refining the design of our blockchain, peer network, and storage over the last years of production experience and today, we’re excited to announce the details of these systems in a [Blockstack whitepaper](***Insert_URL-here***).
 
 *Decentralized Summer*
 
