@@ -2,6 +2,12 @@
 
 **Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org.**
 
+### Blockstack Whitepaper
+
+- authors: The Blockstack Team
+- url: /blockstack_whitepaper.pdf
+- date: May 2017
+
 ### Blockstack: A Global Naming and Storage System Secured by Blockchains
 
 - authors: Muneeb Ali, Jude Nelson, Ryan Shea and Michael J. Freedman
