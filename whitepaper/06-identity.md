@@ -1,6 +1,7 @@
-<!--- -->
-chapter: Identity
-<!--- -->
+---
+title: Identity
+image: /images/article-photos/chalkboard.jpg
+---
 
 The Blockstack identity system gives users a global identity on Blockstack. A Blockstack identity is a generic term used to refer to any identity . Users can have one blockchain identity or many and can register them just like one would register domain names or accounts on Facebook or Twitter.
 

@@ -1,6 +1,7 @@
-<!--- -->
-chapter: Introduction
-<!--- -->
+---
+title: Introduction
+image: /images/article-photos/chalkboard.jpg
+---
 
 # Table of Contents 
 
