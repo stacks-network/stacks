@@ -5,7 +5,7 @@
 ### Blockstack: A New Decentralized Internet
 
 - publication: Whitepaper Version 1.0
-- url: /blockstack_whitepaper.pdf
+- url: /whitepaper.pdf
 - date: May 2017
 
 ### Blockstack: A Global Naming and Storage System Secured by Blockchains
