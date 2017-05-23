@@ -19,10 +19,10 @@ Installation on OS X requires `pip`. If you're running OS X, you should already 
 $ brew install python
 ```
 
-Next, use `pip` to install blockstack:
+Next, use `pip2` (or `pip`) to install blockstack:
 
 ```bash
-$ sudo pip install blockstack
+$ sudo pip2 install blockstack   # some systems use `pip` only; make sure it's the Python 2.x pip
 ```
 
 #### Debian + Ubuntu Users
@@ -33,10 +33,11 @@ Installation on Debian + Ubuntu requires `pip` and `libssl`. First, make sure yo
 $ sudo apt-get update && sudo apt-get install -y python-pip python-dev libssl-dev libffi-dev rng-tools
 ```
 
-Next, use `pip` to install blockstack:
+Next, use `pip2` to install pyparsing and then blockstack:
 
 ```bash
-$ sudo pip install blockstack
+$ sudo pip2 install pyparsing
+$ sudo pip2 install blockstack
 ```
 
 #### Windows Subsystem for Linux
@@ -47,9 +48,9 @@ Installation requires `pip` and `libssl`. First, make sure you have both:
 $ sudo apt-get update && sudo apt-get install -y python-pip python-dev libssl-dev libffi-dev
 ```
 
-Next, use `pip` to install functools32 and then blockstack:
+Next, use `pip` to install functools32 and pyparsing modules, and then blockstack:
 
 ```bash
-$ sudo pip install functools32
+$ sudo pip install functools32 pyparsing
 $ sudo pip install blockstack
 ```
