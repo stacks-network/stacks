@@ -2,9 +2,15 @@
 
 **Appearances**
 
+* May 24, 2017 - **Observer** - [Meet the Team Making This Season’s Pied Piper Product on ‘Silicon Valley’ Real](http://observer.com/2017/05/hbo-silicon-valley-blockstack-consensus-2017/)
+* May 24, 2017 - **Hacker News** - [The Team Making This Season’s Pied Piper Product on ‘Silicon Valley’ Real](https://news.ycombinator.com/item?id=14412429)
+* May 24, 2017 - **Engadget** - [Blockstack's decentralized internet browser uses bitcoin tech](https://www.engadget.com/2017/05/24/blockstacks-decentralized-browser-bitcoin-blockchain/)
 * May 23, 2017 - **Forbes** - [Blockstack Unveils A Browser For The Decentralized Web](https://www.forbes.com/sites/laurashin/2017/05/23/blockstack-unveils-a-browser-for-the-decentralized-web/#30dc5fa671cd)
+* May 23, 2017 - **Hacker News** - [The Blockstack Browser: A Gateway to a New, Decentralized Internet](https://news.ycombinator.com/item?id=14402376)
+* May 23, 2017 - **Product Hunt** [Blockstack Browser - A gateway to a new, decentralized internet](https://www.producthunt.com/posts/blockstack-browser)
 * May 23, 2017 - **CoinDesk** - [Blockstack Releases Blockchain-Powered, Tokenized Internet Browser](http://www.coindesk.com/blockstack-blockchain-decentralized-browser/)
 * May 23, 2017 - **Motherboard** - [This Blockchain Startup Wants to End Corporate Dominance of the Internet](https://motherboard.vice.com/en_us/article/this-blockchain-startup-wants-to-end-corporate-dominance-of-the-internet)
+* May 23, 2017 - **ETHNews** - [Decentralized Identity Foundation Announces Formation At Consensus 2017](https://www.ethnews.com/decentralized-identity-foundation-announces-formation-at-consensus-2017)
 * May 7, 2017 - **CoinDesk** - [Are Blockchains Key to the Future of Web Encryption?](http://www.coindesk.com/blockchains-key-future-web-encryption/)
 * May 1, 2017 - **Nasdaq** - [How Blockstack Uses Bitcoin as the Base for Their Decentralized App Ecosystem](http://www.nasdaq.com/article/how-blockstack-uses-bitcoin-as-the-base-for-their-decentralized-app-ecosystem-cm782165)
 * May 1, 2017 - **Bitcoin Magazine** -[How Blockstack Uses Bitcoin as the Base for Their Decentralized App Ecosystem](https://bitcoinmagazine.com/articles/how-blockstack-uses-bitcoin-base-their-decentralized-app-ecosystem/)
