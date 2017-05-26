@@ -2,6 +2,9 @@
 
 **Appearances**
 
+* May 26, 2017 - **01net.com** - [Blockstack veut créer un « nouvel Internet », décentralisé et plus sécurisé](http://www.01net.com/actualites/blockstack-veut-creer-un-nouvel-internet-decentralise-et-plus-securise-1171238.html)
+* May 26, 2017 - **NeoTeo** - [Blockstack: Concepto de navegador descentralizado con tecnología Bitcoin](http://www.neoteo.com/blockstack-concepto-de-navegador-descentralizado-con-tecnologia-bitcoin/)
+* May 25, 2017 - **mynavi.jp** - [ブロックチェーンで動作するブラウザ「Blockstack」](http://news.mynavi.jp/news/2017/05/25/406/)
 * May 24, 2017 - **Observer** - [Meet the Team Making This Season’s Pied Piper Product on ‘Silicon Valley’ Real](http://observer.com/2017/05/hbo-silicon-valley-blockstack-consensus-2017/)
 * May 24, 2017 - **Hacker News** - [The Team Making This Season’s Pied Piper Product on ‘Silicon Valley’ Real](https://news.ycombinator.com/item?id=14412429)
 * May 24, 2017 - **Engadget** - [Blockstack's decentralized internet browser uses bitcoin tech](https://www.engadget.com/2017/05/24/blockstacks-decentralized-browser-bitcoin-blockchain/)
