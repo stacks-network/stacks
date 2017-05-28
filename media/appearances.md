@@ -2,6 +2,8 @@
 
 **Appearances**
 
+* May 27, 2017 - **Fortune** - [Blockchain Offers Hope for the Broken Internet](http://fortune.com/2017/05/27/blockchain-offers-hope-for-the-broken-internet/)
+* May 27, 2017 - **VentureBeat** [This was a big week for blockchain](https://venturebeat.com/2017/05/27/this-was-a-big-week-for-blockchain/)
 * May 26, 2017 - **Forbes** - [Bubble? So What? Token Summit Marks Cryptocurrency's Revitalization](https://www.forbes.com/sites/laurashin/2017/05/26/bubble-so-what-token-summit-marks-cryptocurrencys-revitalization/#2f2b5a4817b5)
 * May 26, 2017 - **01net.com** - [Blockstack veut créer un « nouvel Internet », décentralisé et plus sécurisé](http://www.01net.com/actualites/blockstack-veut-creer-un-nouvel-internet-decentralise-et-plus-securise-1171238.html)
 * May 26, 2017 - **NeoTeo** - [Blockstack: Concepto de navegador descentralizado con tecnología Bitcoin](http://www.neoteo.com/blockstack-concepto-de-navegador-descentralizado-con-tecnologia-bitcoin/)
