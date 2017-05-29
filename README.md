@@ -71,7 +71,7 @@ If you're just starting with Blockstack, here are the main software repositories
 ## Events
 
 * [Blockstack Events](/events/README.md)
-  * [Event Hosting Checklist](/events/events-guidlines.md)
+  * [Event Hosting Checklist](/events/events-guidelines.md)
   * [Past Events](/events/archive.md)
 
 ## Swag & Brand
