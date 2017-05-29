@@ -79,7 +79,7 @@ If you're just starting with Blockstack, here are the main software repositories
 
 ## Swag & Brand
 
-* [Swag](/events/swag.md)
+* [Swag](https://github.com/blockstack/blockstack/issues/96)
 * [Blockstack Brand](https://projects.invisionapp.com/d/main#/boards/4846740)
 
 ## Requests for Comments
