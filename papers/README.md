@@ -20,7 +20,7 @@
 - url: /blockstack_login16.pdf
 - date: Fall 2016
 
-### Extending Existing Blockchains with Virtualchain'
+### Extending Existing Blockchains with Virtualchain
 
 - publication: Workshop on Distributed Cryptocurrencies and Consensus Ledgers
 - url: /virtualchain_dccl16.pdf
