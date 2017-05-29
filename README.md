@@ -20,7 +20,7 @@ Blockstack provides decentralized services for naming/DNS, identity, authenticat
 
 ## Architecture
 
-Blockstack has been used in production for 2+ years and [70,000+ domains](https://resolver.onename.com/v2/namespaces) have been registered using it.
+Blockstack has been used in production for 3+ years and [70,000+ domains](https://resolver.onename.com/v2/namespaces) have been registered using it.
 
 With the Blockstack software, a network of computers collectively maintain a global registry of names. When you run a Blockstack node, you join this network, which is more secure by design than traditional DNS and identity systems. This is because the system's registry and its records are secured by an underlying blockchain, which is extremely resilient against tampering and control.
 
@@ -70,16 +70,13 @@ If you're just starting with Blockstack, here are the main software repositories
 
 ## Events
 
-* Meetups
-	* [Blockstack Meetup Groups](/events/meetups.md)
-  * [Meetup Hosting Checklist](/events/event-checklist.md)
-* Events with a Blockstack Presence
-  * [Future Events](/events/external-events.md)
-  * [Past Events](/events/past-events.md)
+* [Blockstack Events](/events/README.md)
+  * [Event Hosting Checklist](/events/events-guidlines.md)
+  * [Past Events](/events/archive.md)
 
 ## Swag & Brand
 
-* [Swag](/events/swag.md)
+* [Swag](https://github.com/blockstack/blockstack/issues/96)
 * [Blockstack Brand](https://projects.invisionapp.com/d/main#/boards/4846740)
 
 ## Requests for Comments
