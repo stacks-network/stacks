@@ -8,6 +8,10 @@ If you want to organize a new event, check out the [guidelines](/events/events-g
 
 ## 2017
 
+### October 
+
+* Oct 23-24, 2017 - **Raleigh, North Carolina** -- [All Things Open](https://allthingsopen.org/)
+
 ### September 
 
 * Sep 4-5, 2017 - **Malmö, Sweden** -- [The Conference](https://2017.theconference.se/)
