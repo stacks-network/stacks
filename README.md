@@ -91,6 +91,8 @@ If you're just starting with Blockstack, here are the main software repositories
 - **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
 - **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and submit it to the Blockstack community blog or share it in the forum
 
+* [Become a local Blockstack Community Evangelist](/community/README.md)
+
 ### [Media Guide](/media/README.md)
 
 - [Appearances](/media/appearances.md)
