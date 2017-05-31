@@ -28,4 +28,4 @@ General [guidelines](/events/events-guidelines.md) for hosting each event.
 
 * Podcasts - Appearing on Podcasts is a great way to activate the developer community. If you know of a developer-docused podcast that gets more than a few thousand views per episode, feel free to reach out to them and suggest Blockstack make an appearance.
 * Conferences - Blockstack is happy to keynote conferences that attract: Fullstack developers, Front end developers, cypherpunks, identity, and folks interested in the decentralized space. Feel free to submit applications for outstanding conferences on our behalf using info from the [Bios page](https://github.com/blockstack/blockstack/blob/master/media/bios.md)
-* Manually get people to sign up using the [Developer Sign Up page](https://blockstack.org/developers) for devs and the [User Waitlist Signup page](https://blockstack.org/users) for non-devs
+* Email Sign Ip -Manually get people to sign up using the [Developer Sign Up page](https://blockstack.org/developers) for devs and the [User Waitlist Signup page](https://blockstack.org/users) for non-devs
