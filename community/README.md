@@ -2,8 +2,6 @@
 
 Here you can find information on how to become a Blockstack Community Evangelist.
 
-Or, if you're just looking to organize a new event, check out the [guidelines](/events/events-guidelines.md) for hosting events and the steps to [HOST YOUR FIRST BLOCKSTACK MEETUP](https://github.com/blockstack/blockstack/blob/master/community/meetup.md)
-
 # Getting Started
 
 ## Learn about Blockstack
@@ -14,3 +12,9 @@ The first place to start when becoming a Blockstack Community Evangelist is know
 
 * [Blockstack Papers](https://blockstack.org/papers)
   * [Blockstack Whitepaper](https://blockstack.org/whitepaper.pdf)
+
+Host a Meetup
+
+Steps to [host your first Blockstack meetup](https://github.com/blockstack/blockstack/blob/master/community/meetup.md)
+
+General [guidelines](/events/events-guidelines.md) for hosting each event
