@@ -2,7 +2,7 @@
 
 Here you can find information on how to become a Blockstack Community Evangelist.
 
-Or, if you're just looking to organize a new event, check out the [guidelines](/events/events-guidelines.md) for hosting events and the steps to [*create your first meetup*](https://github.com/blockstack/blockstack/blob/master/community/meetup.md)
+Or, if you're just looking to organize a new event, check out the [guidelines](/events/events-guidelines.md) for hosting events and the steps to [HOST YOUR FIRST BLOCKSTACK MEETUP](https://github.com/blockstack/blockstack/blob/master/community/meetup.md)
 
 # Getting Started
 
