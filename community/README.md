@@ -18,6 +18,7 @@ The first place to start when becoming a Blockstack Community Evangelist is know
 * [Latest Browser Release](https://github.com/blockstack/blockstack-browser/releases)
 * [Blockstack Documentation & Protocol Specs](https://github.com/blockstack/blockstack)
 * [Video explainer of Blockstack](https://pusher.com/sessions/meetup/js-monthly-london/decentralizing-the-internet-with-serverless-single-page-javascript-apps)
+* [Blockstack Roadmap](https://blockstack.org/roadmap)
 
 ### Host a Meetup
 
