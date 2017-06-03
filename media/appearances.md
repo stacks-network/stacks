@@ -2,6 +2,7 @@
 
 **Appearances**
 
+* Jun 1, 2017 - **Quartz** - [Microsoft thinks blockchain tech could solve one of the internet’s toughest problems: digital identities](https://qz.com/989761/microsoft-msft-thinks-blockchain-tech-could-solve-one-of-the-internets-toughest-problems-digital-identities/)
 * May 29, 2017 - **Steemit Blog** - [Blockstack Unveils Decentralized Tokenized Blockchain Web Browser (Browser Wars 3.0)](https://steemit.com/blockchain/@zeartul/blockstack-unveils-decentralized-tokenized-blockchain-web-browser-browser-wars-3-0)
 * May 28, 2017 - [162 pts] - **Hacker News** - [Blockchains are the new Linux, not the new Internet](https://news.ycombinator.com/item?id=14434244)
 * May 28, 2017 - **TechCrunch** - [Blockchains are the new Linux, not the new Internet](https://techcrunch.com/2017/05/28/double-double-cryptocoin-bubble/)
