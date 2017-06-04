@@ -2,6 +2,8 @@
 
 **Appearances**
 
+* Jun 3, 2017 - **CryptoEconomy** - [Blockstack Browser with Blockchain: Developer Version](http://www.crypto-economy.net/blockstack-browser-with-blockchain-developer-version/?lang=en)
+* Jun 1, 2017 - **CoinDesk** - [USV's Fred Wilson: ICOs Won't Displace VC Investors](http://www.coindesk.com/usv-fred-wilson-icos-wont-displace-vc-investors/)
 * Jun 1, 2017 - **Quartz** - [Microsoft thinks blockchain tech could solve one of the internet’s toughest problems: digital identities](https://qz.com/989761/microsoft-msft-thinks-blockchain-tech-could-solve-one-of-the-internets-toughest-problems-digital-identities/)
 * May 29, 2017 - **Steemit Blog** - [Blockstack Unveils Decentralized Tokenized Blockchain Web Browser (Browser Wars 3.0)](https://steemit.com/blockchain/@zeartul/blockstack-unveils-decentralized-tokenized-blockchain-web-browser-browser-wars-3-0)
 * May 28, 2017 - [162 pts] - **Hacker News** - [Blockchains are the new Linux, not the new Internet](https://news.ycombinator.com/item?id=14434244)
@@ -15,6 +17,7 @@
 * May 26, 2017 - **NeoTeo** - [Blockstack: Concepto de navegador descentralizado con tecnología Bitcoin](http://www.neoteo.com/blockstack-concepto-de-navegador-descentralizado-con-tecnologia-bitcoin/)
 * May 25, 2017 - **Radio Sputnik** - [Blockstack is designed for security and gives users explicit control of data](https://soundcloud.com/radiosputnik/blockstack-is-designed-for-security-and-gives-users-explicit-control-of-data-muneeb-ali)
 * May 25, 2017 - **mynavi.jp** - [ブロックチェーンで動作するブラウザ「Blockstack」](http://news.mynavi.jp/news/2017/05/25/406/)
+* May 25, 2017 - **hightech.fm** - [Стартап Blockstack представил браузер на основе блокчейна](ghtech.fm/2017/05/25/Blockstack)
 * May 24, 2017 - **Observer** - [Meet the Team Making This Season’s Pied Piper Product on ‘Silicon Valley’ Real](http://observer.com/2017/05/hbo-silicon-valley-blockstack-consensus-2017/)
 * May 24, 2017 - [12 pts] - **Hacker News** - [The Team Making This Season’s Pied Piper Product on ‘Silicon Valley’ Real](https://news.ycombinator.com/item?id=14412429)
 * May 24, 2017 - **Engadget** - [Blockstack's decentralized internet browser uses bitcoin tech](https://www.engadget.com/2017/05/24/blockstacks-decentralized-browser-bitcoin-blockchain/)
