@@ -64,7 +64,7 @@ If you're just starting with Blockstack, here are the main software repositories
 - [Blockstack Forum](http://forum.blockstack.org)
 - [Live chat on Slack](http://chat.blockstack.org/) (2,400+ members)
 - [Meetup Groups](http://www.meetup.com/topics/blockstack/) - Join Meetup groups around the world
-- [Engineering Blog](https://blockstack.org/log) - Engineering updates by developers
+- [Engineering Blog](https://blockstack.org/blog) - Engineering updates by developers
 - [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
 - [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
 
