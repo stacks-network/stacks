@@ -29,11 +29,15 @@ Finally get your first meetup scheduled with a location that can seat at least 3
 
 
 ### Planning the very first meetup topic
-Typically its smart to start with an intro to Blockstack for the first meetup where we will have a presence. In the first meetup we'll cover:
-- Intro to the decentralized internet powered by Blockstack
-- Demo the Blockstack Broswer
+Typically its smart to start with an intro to Blockstack for the first meetup where we will have a presence whether via videochat or in person. In the first meetup we'll cover:
+
+- Problems with the legacy internet
+- A vision for a the decentralized internet
+- Demo the Blockstack Browser
 - Show how to build fully decentralized apps with Blockstack
 
-In the intro email you can encourage them to watch the video on [building decentralized single page javascript apps on blockstack](https://pusher.com/sessions/meetup/js-monthly-london/decentralizing-the-internet-with-serverless-single-page-javascript-apps) and show them the [Hello Blockstack Tutorial](https://blockstack.org/tutorials/hello-blockstack) which shows how to get started.
+In the intro email you can encourage them to watch the video on [building decentralized single page javascript apps on blockstack](https://pusher.com/sessions/meetup/js-monthly-london/decentralizing-the-internet-with-serverless-single-page-javascript-apps) and show them the [Hello Blockstack Tutorial](https://blockstack.org/tutorials/hello-blockstack) which shows how to get started. Good video to share is Tim Berners-Lee [explaining](https://charlierose.com/videos/29038) the exact same vision.
+
+Presentation Repo
 
 
