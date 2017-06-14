@@ -34,10 +34,18 @@ Typically its smart to start with an intro to Blockstack for the first meetup wh
 - Problems with the legacy internet
 - A vision for a the decentralized internet
 - Demo the Blockstack Browser
-- Show how to build fully decentralized apps with Blockstack
+- Show how to build fully decentralized apps with storage on Blockstack
 
-In the intro email you can encourage them to watch the video on [building decentralized single page javascript apps on blockstack](https://pusher.com/sessions/meetup/js-monthly-london/decentralizing-the-internet-with-serverless-single-page-javascript-apps) and show them the [Hello Blockstack Tutorial](https://blockstack.org/tutorials/hello-blockstack) which shows how to get started. Good video to share is Tim Berners-Lee [explaining](https://charlierose.com/videos/29038) the exact same vision.
+In the intro email you can encourage them to watch the video on [building decentralized single page javascript apps on blockstack](https://pusher.com/sessions/meetup/js-monthly-london/decentralizing-the-internet-with-serverless-single-page-javascript-apps) and a good video to share is Tim Berners-Lee [explaining](https://charlierose.com/videos/29038) the exact same vision.
 
-Presentation Repo
+If they plan to get aquianted with the system and want to not get hung up anywhere, suggest to them the [Hello Blockstack Tutorial](https://blockstack.org/tutorials/hello-blockstack), which will require them to use npm, browserify, and blockstack.js.
+
+### Become a Blockstack Evangelist
+
+Blockstack Evangelists are Blockstack experts and leaders in their communities who demonstrate a commitment to sharing their Blockstack knowledge with others. Members of the program are actively publishing blog posts, speaking at industry events, developing training materials, and involved with local meetups. Blockstack Evangelists are nominated as candidates for the program by the Blockstack team based on their exemplary contributions to and outstanding engagement with the Blockstack community. 
+
+Blockstack Evangelists are eager to bring their technical expertise to new audiences both offline and online around the world.
+
+If you are interested in getting more involved with the Blockstack community, please sign up [here](https://goo.gl/forms/EabjpOSkyxZYcgNP2). By signing up, you can join a number of initiatives we run to support local meetup organizers, community bloggers, speakers, mentors, etc.
 
 
