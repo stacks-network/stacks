@@ -46,6 +46,6 @@ Blockstack Evangelists are Blockstack experts and leaders in their communities w
 
 Blockstack Evangelists are eager to bring their technical expertise to new audiences both offline and online around the world.
 
-If you are interested in getting more involved with the Blockstack community, please sign up [HERE](https://goo.gl/forms/EabjpOSkyxZYcgNP2). By signing up, you can join a number of initiatives we run to support local meetup organizers, community bloggers, speakers, mentors, etc.
+[Sign up here](https://goo.gl/forms/EabjpOSkyxZYcgNP2) if you are interested in becoming an evangelist. By signing up, you can join a number of initiatives we run to support local meetup organizers, community bloggers, speakers, mentors, etc.
 
 
