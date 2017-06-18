@@ -24,6 +24,9 @@ Blockstack is an open source project with over thousands of meetup members world
 
 Add "blockstack" as one of the topic tags for this meetup.
 
+### Meetup Group Settings
+It is recommended that you enable links to Blockstack in your group's settings.  To do this navigate to Group Tools >> Group Settings >> Optional Features.  In the "Follow us on..." section check the box for Twitter and enter "BlockstackOrg".  Check the "Other site" checkbox and enter "http://chat.blockstack.org/"
+
 ### Picking your location and time
 Finally get your first meetup scheduled with a location that can seat at least 30 people and we'll have a Blockstack Core team member visit or video in to present material. Create an issue in this repo tagging @pstan26 when you have found a date and location and we'll coordinate with you. Blockstack Org is happy to contribute to pizza and beverages.
 
