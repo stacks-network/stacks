@@ -1,6 +1,6 @@
 # Become a Blockstack Community Evangelist
 
-Here you can find information on how to become a Blockstack Community Evangelist.
+Here you can find information on how to become a Blockstack Community Evangelist. To be considered as an official Blockstack Developer Evangelist, signup [here](https://docs.google.com/a/blockstack.com/forms/d/1oFFfBbHqwMVoveA2Aw1HVHI8WpBlUKWxR81pjpcxWbQ/edit).
 
 # Getting Started
 
