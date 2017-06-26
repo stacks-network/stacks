@@ -2,6 +2,14 @@
 
 **Appearances**
 
+* Jun 24, 2017 - [12,872 upvotes] - **r/Futurology** - [New blockchain-based decentralized internet being built by Princeton-trained computer scientists](https://www.reddit.com/r/Futurology/comments/6j6ub1/new_blockchainbased_decentralized_internet_being/)
+* Jun 22, 2017 - **Reason.tv** - [Princeton-Trained Computer Scientists Are Building a New Internet That Brings Privacy and Property Rights to Cyberspace](http://reason.com/reasontv/2017/06/22/blockstack-bitcoin-blockchain-internet)
+* Jun 18, 2017 - **VentureBeat** - [Why blockchains fail and decentralization succeeds](https://venturebeat.com/2017/06/18/why-blockchains-fail-and-decentralization-succeeds/)
+* Jun 8, 2017 - **International Business Times** - [Sia takes on cloud giants with blockchain-based decentralised storage](http://www.ibtimes.co.uk/sia-takes-cloud-giants-blockchain-based-decentralised-storage-1625126)
+* Jun 6, 2017 - **NASDAQ** - [Microsoft's Blockchain Strategy: The Cloud and Identity Systems](http://www.nasdaq.com/article/microsofts-blockchain-strategy-the-cloud-and-identity-systems-cm799572)
+* Jun 6, 2017 - **CoinDesk** - [Blockchain Consortium Draws Enterprise Giants to Revolutionize Digital Identity](http://www.coindesk.com/blockchain-consortium-draws-enterprise-giants-to-revolutionize-digital-identity/)
+* Jun 6, 2017 - **RTFB** - [Blockstack: l'initiative qui prétend remplacer Internet](https://www.rtbf.be/info/medias/detail_blockstack-l-initiative-qui-pretend-remplacer-internet?id=9626361)
+* Jun 4, 2017 - **The Bitcoin Podcast Network** - [Episode #131: Ending Corporate Dominance](http://thebitcoinpodcast.com/episode-131/)
 * Jun 3, 2017 - **CryptoEconomy** - [Blockstack Browser with Blockchain: Developer Version](http://www.crypto-economy.net/blockstack-browser-with-blockchain-developer-version/?lang=en)
 * Jun 1, 2017 - **CoinDesk** - [USV's Fred Wilson: ICOs Won't Displace VC Investors](http://www.coindesk.com/usv-fred-wilson-icos-wont-displace-vc-investors/)
 * Jun 1, 2017 - **Quartz** - [Microsoft thinks blockchain tech could solve one of the internet’s toughest problems: digital identities](https://qz.com/989761/microsoft-msft-thinks-blockchain-tech-could-solve-one-of-the-internets-toughest-problems-digital-identities/)
