@@ -11,7 +11,7 @@
 - date: June 22, 2017
 - youtubeURL: https://www.youtube.com/embed/Z4bMFKBRg_k
 - speakerDeckID: 
-- image:
+- image: /images/resources/talk-reason-tv.jpg
 
 ### Building a New Decentralized Internet
 
@@ -22,7 +22,7 @@
 - date: May 23, 2017
 - youtubeURL: https://www.youtube.com/embed/VZGyS5JobkY
 - speakerDeckID: 
-- image:
+- image: /images/resources/talk-consensus-2017.jpg
 
 ### Blockchain Powered Decentralized Applications with Blockstack
 
@@ -33,7 +33,7 @@
 - date: May 17, 2017
 - youtubeURL: https://www.youtube.com/embed/uG06irysjHg
 - speakerDeckID: 
-- image:
+- image: /images/resources/talk-nycnode.jpg
 
 ### The Decentralized Internet with Blockstack 
 
@@ -44,9 +44,9 @@
 - date: April 17, 2017
 - youtubeURL: https://www.youtube.com/embed/i1fThdPbAEA
 - speakerDeckID: 
-- image:
+- image: /images/resources/talk-lunduke.jpg
 
-### Decentralized Apps and Sovereign Identity
+### How to Create a Blockchain Identity with Bitcoin (and Ethereum)
 
 - urlSlug: decentralized-apps-and-sovereign-identity
 - event: Bitcoin Barcelona
@@ -55,7 +55,7 @@
 - date: February 9, 2017
 - youtubeURL: https://www.youtube.com/embed/dCNC2SjqYHc
 - speakerDeckID: 
-- image:
+- image: /images/resources/talk-itnig.jpg
 
 ### Welcome to the New Internet
 
