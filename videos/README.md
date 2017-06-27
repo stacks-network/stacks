@@ -2,6 +2,39 @@
 
 **Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org.**
 
+### Blockstack: A New Internet That Brings Privacy & Property Rights to Cyberspace
+
+- urlSlug: reasontv-a-new-internet-that-brings-privacy-and-property-rights-to-cyberspace
+- event: Reason TV
+- speaker: Ryan Shea + Muneeb Ali
+- location: New York, NY
+- date: June 22, 2017
+- youtubeURL: https://www.youtube.com/embed/Z4bMFKBRg_k
+- speakerDeckID: 
+- image:
+
+### Building a New Decentralized Internet
+
+- urlSlug: consensus-2017-building-a-new-decentralized-internet
+- event: Consensus 2017
+- speaker: Muneeb Ali + Ryan Shea
+- location: New York, NY
+- date: May 23, 2017
+- youtubeURL: https://www.youtube.com/embed/VZGyS5JobkY
+- speakerDeckID: 
+- image:
+
+### Blockchain Powered Decentralized Applications with Blockstack
+
+- urlSlug: nycnode-blockchain-powered-decentralized-applications-with-blockstack
+- event: NYCNode
+- speaker: Larry Salibra
+- location: New York, NY
+- date: May 17, 2017
+- youtubeURL: https://www.youtube.com/embed/uG06irysjHg
+- speakerDeckID: 
+- image:
+
 ### The Decentralized Internet with Blockstack 
 
 - urlSlug: the-lunduke-hour
@@ -9,7 +42,7 @@
 - speaker: Ryan Shea
 - location: New York, NY
 - date: April 17, 2017
-- youtubeURL: https://youtu.be/i1fThdPbAEA?t=3m59s
+- youtubeURL: https://www.youtube.com/embed/i1fThdPbAEA
 - speakerDeckID: 
 - image:
 
@@ -20,7 +53,7 @@
 - speaker: Ryan Shea
 - location: Barcelona, Spain
 - date: February 9, 2017
-- youtubeURL: https://www.youtube.com/watch?v=dCNC2SjqYHc
+- youtubeURL: https://www.youtube.com/embed/dCNC2SjqYHc
 - speakerDeckID: 
 - image:
 
