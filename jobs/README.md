@@ -4,5 +4,5 @@
 - Backend Engineer
 - DevOps Engineer
 - Mobile Engineer
-- Executive Assistant
+- [Operational Assistant](/operational-assistant.md)
 - Growth Marketer
