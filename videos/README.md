@@ -9,7 +9,6 @@
 - location: New York, NY
 - date: June 22, 2017
 - youtubeURL: https://www.youtube.com/watch?v=Z4bMFKBRg_k
-- urlSlug: reasontv-a-new-internet-that-brings-privacy-and-property-rights-to-cyberspace
 
 ### Building a New Decentralized Internet
 
