@@ -9,7 +9,7 @@
 - speaker: Ryan Shea + Muneeb Ali
 - location: New York, NY
 - date: June 22, 2017
-- youtubeURL: https://www.youtube.com/embed/Z4bMFKBRg_k
+- youtubeURL: https://www.youtube.com/watch?v=Z4bMFKBRg_k
 
 ### Building a New Decentralized Internet
 
@@ -17,7 +17,7 @@
 - speaker: Muneeb Ali + Ryan Shea
 - location: New York, NY
 - date: May 23, 2017
-- youtubeURL: https://www.youtube.com/embed/VZGyS5JobkY
+- youtubeURL: https://www.youtube.com/watch?v=VZGyS5JobkY
 
 ### Building a Foundation for Decentralized Identity
 
