@@ -24,7 +24,7 @@
 - speaker: Ryan Shea
 - location: New York, NY
 - date: May 23, 2017
-- youtubeURL: https://www.youtube.com/watch?v=tsPXWixkrFk
+- youtubeURL: https://www.youtube.com/embed/tsPXWixkrFk
 
 ### Blockchain Powered Decentralized Applications with Blockstack
 
