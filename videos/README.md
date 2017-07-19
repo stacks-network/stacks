@@ -10,8 +10,6 @@
 - location: New York, NY
 - date: June 22, 2017
 - youtubeURL: https://www.youtube.com/embed/Z4bMFKBRg_k
-- speakerDeckID: 
-- image: /images/resources/talk-reason-tv.jpg
 
 ### Building a New Decentralized Internet
 
@@ -21,10 +19,8 @@
 - location: New York, NY
 - date: May 23, 2017
 - youtubeURL: https://www.youtube.com/embed/VZGyS5JobkY
-- speakerDeckID: 
-- image: /images/resources/talk-consensus-2017.jpg
 
-### Building an Foundation for Decentralized Identity
+### Building a Foundation for Decentralized Identity
 
 - event: Consensus 2017
 - speaker: Ryan Shea
@@ -40,7 +36,6 @@
 - location: New York, NY
 - date: May 17, 2017
 - youtubeURL: https://www.youtube.com/embed/uG06irysjHg
-- speakerDeckID: 
 - image: /images/resources/talk-nycnode.jpg
 
 ### The Decentralized Internet with Blockstack 
@@ -51,7 +46,6 @@
 - location: New York, NY
 - date: April 17, 2017
 - youtubeURL: https://www.youtube.com/embed/i1fThdPbAEA
-- speakerDeckID: 
 - image: /images/resources/talk-lunduke.jpg
 
 ### How to Create a Blockchain Identity with Bitcoin (and Ethereum)
@@ -62,7 +56,6 @@
 - location: Barcelona, Spain
 - date: February 9, 2017
 - youtubeURL: https://www.youtube.com/embed/dCNC2SjqYHc
-- speakerDeckID: 
 - image: /images/resources/talk-itnig.jpg
 
 ### Welcome to the New Internet
