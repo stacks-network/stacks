@@ -13,7 +13,6 @@
 
 ### Building a New Decentralized Internet
 
-- urlSlug: consensus-2017-building-a-new-decentralized-internet
 - event: Consensus 2017
 - speaker: Muneeb Ali + Ryan Shea
 - location: New York, NY
