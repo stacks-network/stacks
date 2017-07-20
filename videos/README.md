@@ -18,6 +18,14 @@
 - date: May 23, 2017
 - youtubeURL: https://www.youtube.com/watch?v=VZGyS5JobkY
 
+### Building a Foundation for Decentralized Identity
+
+- event: Consensus 2017
+- speaker: Ryan Shea
+- location: New York, NY
+- date: May 22, 2017
+- youtubeURL: https://www.youtube.com/watch?v=tsPXWixkrFk
+
 ### Blockchain Powered Decentralized Applications with Blockstack
 
 - event: NYCNode
