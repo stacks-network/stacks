@@ -2,13 +2,13 @@
 
 Here you can find information on how to become a Blockstack Community Evangelist. To be considered as an official Blockstack Developer Evangelist, signup [here](https://docs.google.com/a/blockstack.com/forms/d/1oFFfBbHqwMVoveA2Aw1HVHI8WpBlUKWxR81pjpcxWbQ/edit).
 
-# Getting Started
+### Getting Started
 
-## Learn about Blockstack
+#### Learn about Blockstack
 
 The first place to start when becoming a Blockstack Community Evangelist is knowing and understanding Blockstack so that you may spread the word fluently and proficiently amongst your local community.
 
-### Resources
+#### Resources
 
 * [Blockstack Papers](https://blockstack.org/papers)
   * [Blockstack Whitepaper](https://blockstack.org/whitepaper.pdf)
@@ -23,13 +23,13 @@ The first place to start when becoming a Blockstack Community Evangelist is know
 * [Blockstack Forum](forum.blockstack.org)
 * [Blockstack Academy Video Series](https://www.youtube.com/playlist?list=PLXS8JJHIn4nEv_LcXIaklH_QAZaDEVD8q)
 
-### Host a Meetup
+#### Host a Meetup
 
 Steps to [host your first Blockstack meetup](https://github.com/blockstack/blockstack/blob/master/community/meetup.md)
 
 General [guidelines](/events/events-guidelines.md) for hosting each event.
 
-### Spread the word
+#### Spread the word
 
 * Podcasts - Appearing on Podcasts is a great way to activate the developer community. If you know of a developer-docused podcast that gets more than a few thousand views per episode, feel free to reach out to them and suggest Blockstack make an appearance. Here's one that worked well, [The Lunduke Hour](https://www.youtube.com/watch?v=i1fThdPbAEA&t=226s).
 * Conferences - Blockstack is happy to keynote conferences that attract: Fullstack developers, Front end developers, cypherpunks, identity, and folks interested in the decentralized space. Feel free to submit applications for outstanding conferences on our behalf using info from the [Bios page](https://github.com/blockstack/blockstack/blob/master/media/bios.md)
