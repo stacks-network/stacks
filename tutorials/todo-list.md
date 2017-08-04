@@ -2,7 +2,7 @@
 title: Blockstack Todos
 description: Walk through creating a basic Todo application with Blockstack. Learn about Sign In flow and Gaia storage.
 image: /images/article-photos/chalkboard.jpg
-youtube: https://www.youtube.com/embed/Z5XmPG3E5Fc
+youtube: https://www.youtube.com/embed/oyvg-h0obFw
 ---
 
 What are we learning today?
