@@ -1,5 +1,9 @@
 # Front-end Engineer
 
+### About Blockstack
+
+[Read About Blockstack](https://github.com/blockstack/blockstack/tree/master/jobs#about-blockstack)
+
 ### About the role
 
 Blockstack is looking for a passionate and collaborative Front-End Product Developer to help build our browser portal to the decentralized internet. At Blockstack you will play a key role in an open-source project that is serious about technology and internet infrastructure.
