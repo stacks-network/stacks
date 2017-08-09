@@ -1,5 +1,9 @@
 # Backend Engineer
 
+### About Blockstack
+
+[Read About Blockstack](https://github.com/blockstack/blockstack/tree/master/jobs#about-blockstack)
+
 ### About the role
 
 Blockstack is looking for a passionate and collaborative backend engineer to help build our infrastructure to the decentralized internet, ranging from domain name systems to storage systems to blockchain state machines. At Blockstack you will play a key role in an open-source project that is serious about technology and internet infrastructure.
