@@ -1,4 +1,4 @@
-# Front-end Engineer
+# Frontend Engineer
 
 ### About Blockstack
 
@@ -6,9 +6,9 @@
 
 ### About the role
 
-Blockstack is looking for a passionate and collaborative Front-End Product Developer to help build our browser portal to the decentralized internet. At Blockstack you will play a key role in an open-source project that is serious about technology and internet infrastructure.
+Blockstack is looking for a passionate and collaborative frontend engineer to help build our browser portal to the decentralized internet. At Blockstack you will play a key role in an open-source project that is serious about technology and internet infrastructure.
 
-Our 6-person engineering team builds software using JavaScript/ES6, React, Redux, Swift, and Objective-C on the frontend. And it uses Python, bash, and Bitcoin Core for the backend.
+Our engineering team builds software using JavaScript/ES6, React, Redux, Swift, and Objective-C on the frontend and Python, bash, and Bitcoin Core on the backend.
 
 ### You will:
 
