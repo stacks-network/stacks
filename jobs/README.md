@@ -4,7 +4,7 @@
 
 - [Frontend Engineer](https://github.com/blockstack/blockstack/blob/master/jobs/frontend-engineer.md)
 - [Backend Engineer](https://github.com/blockstack/blockstack/blob/master/jobs/backend-engineer.md)
-- [Mobile Engineer](https://github.com/blockstack/blockstack/blob/master/jobs/mobile-engineer.md)
+- Mobile Engineer
 - Growth Marketer
 
 If creating a new engineering role, feel free to use and add to the [engineering template](https://github.com/blockstack/blockstack/blob/master/jobs/engineer-template.md).
@@ -15,7 +15,7 @@ Blockstack is building a new decentralized internet where users control their da
 
 On the traditional internet, we’re highly dependent on third parties, our data is vulnerable, and power and profits consolidate within the hands of a few. With the decentralized internet on Blockstack, data and power is in the hand of the end users and everyday developers.
 
-Blockstack is a global, open source community with over 2,500 developers and over 70,000 users. It was co-founded by Muneeb Ali and Ryan Shea in 2013 at Princeton and the core team is based in New York City and Hong Kong.
+Blockstack is a global, open source community with over 6700 developers and over 73,000 users. It was co-founded by Muneeb Ali and Ryan Shea in 2013 at Princeton and the core team is based in New York City and Hong Kong.
 
 We recently raised a $4M Series A and are grateful to have the confidence of investors like Union Square Ventures, Lux Capital, Shana Fisher, and Naval Ravikant.
 
@@ -34,5 +34,3 @@ Blockstack offers a competitive salary, employer sponsored health insurance, fre
 To apply send an email to careers@blockstack.org with examples of your past work, why you want to help build the new decentralized internet, and any questions you have for us.
 
 Don't see what you're looking for? Send an email to careers@blockstack.org with how you'd like to help and we'd love to talk.
-
-We'd love to hear from you!
