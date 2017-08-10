@@ -29,7 +29,7 @@ In the registry that makes up Blockstack, each of the names has an owner, repres
 Different layers of Blockstack are shown in the following figure:
 
 <p>
-<img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram5.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram5.png" />
+<img src="https://raw.githubusercontent.com/blockstack/blockstack.org/master/app/images/visuals/blockstack-stack-diagram-2.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack.org/master/app/images/visuals/blockstack-stack-diagram-2.png" />
 </p>
 
 You can read more details about Blockstack's architecture by reading the following articles:
@@ -41,7 +41,7 @@ You can read more details about Blockstack's architecture by reading the followi
 If you're just starting with Blockstack, here are the main software repositories you should check out: 
 
 - [Blockstack Core](https://github.com/blockstack/blockstack-core) - the reference implementation of Blockstack written in Python.
-- [Blockstack Portal](https://github.com/blockstack/blockstack-portal) - the Blockstack Browser Portal providing a graphical interface.
+- [Blockstack Portal](https://github.com/blockstack/blockstack-portal) - the Blockstack Browser Portal, which provides a graphical interface.
 - [blockstack.js](https://github.com/blockstack/blockstack.js) - a JavaScript library for using Blockstack identity and authentication in your apps.
 
 ## Tutorials
