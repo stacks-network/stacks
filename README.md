@@ -4,7 +4,7 @@
 
 Blockstack is a new decentralized internet where you own your data and your apps run locally without remote servers.
 
-Blockstack provides decentralized services for naming/DNS, identity, authentication and storage. Developers can use JavaScript libraries to build serverless apps and they don't need to worry about managing infrastructure. Blockstack replaces the current client/server model; users control their data, apps run client-side, and the open Blockstack network replaces server-side functionality.
+Blockstack provides decentralized services for naming/DNS, identity, authentication and storage. Developers can use JavaScript libraries to build serverless apps without needing to worry about managing infrastructure. Blockstack replaces the current client/server model: users control their data, apps run client-side, and the open Blockstack network replaces server-side functionality.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Blockstack provides decentralized services for naming/DNS, identity, authenticat
 - [Tutorials](#tutorials)
 - [Papers](#papers)
 - [Events](#events)
-- [Swag & Brand](#swag-&amp;-brand)
+- [Swag & Brand](#swag--brand)
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
 - [Media Guide](#media-guide)
@@ -29,33 +29,33 @@ In the registry that makes up Blockstack, each of the names has an owner, repres
 Different layers of Blockstack are shown in the following figure:
 
 <p>
-<img src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram5.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack/master/images/bsk-architecture-diagram5.png" />
+<img src="https://raw.githubusercontent.com/blockstack/blockstack.org/master/app/images/visuals/blockstack-stack-diagram-2.png" data-canonical-src="https://raw.githubusercontent.com/blockstack/blockstack.org/master/app/images/visuals/blockstack-stack-diagram-2.png" />
 </p>
 
 You can read more details about Blockstack's architecture by reading the following articles:
 - [What is Blockstack Core?](https://blockstack.org/articles/blockstack-core)
-- [How Blockstack Works](https://blockstack.org/articles/how-blockstack-works)
+- [How Blockstack Works](/posts/how-blockstack-works.md)
 
 ## Code
 
-If you're just starting with Blockstack, here are the main software repositories you should checkout: 
+If you're just starting with Blockstack, here are the main software repositories you should check out: 
 
 - [Blockstack Core](https://github.com/blockstack/blockstack-core) - the reference implementation of Blockstack written in Python.
-- [Blockstack Portal](https://github.com/blockstack/blockstack-portal) - the Blockstack Browser Portal providing a graphical interface.
-- [blockstack.js](https://github.com/blockstack/blockstack-portal) - a JavaScript library for using Blockstack identity and authentication in your apps.
+- [Blockstack Portal](https://github.com/blockstack/blockstack-portal) - the Blockstack Browser Portal, which provides a graphical interface.
+- [blockstack.js](https://github.com/blockstack/blockstack.js) - a JavaScript library for using Blockstack identity and authentication in your apps.
 
 ## Tutorials
 
 - CLI (Command Line Interface)
   - [Installation & Usage](https://blockstack.org/docs)
-  - [VIDEO Tutorials](https://www.youtube.com/playlist?list=PLXS8JJHIn4nGCU2uW85dHXpkQJ7QA5JkX)
+  - [Video Tutorials](https://www.youtube.com/playlist?list=PLXS8JJHIn4nGCU2uW85dHXpkQJ7QA5JkX)
 - Decentralized Apps
   - [Hello World](https://blockstack.org/tutorials/hello-blockstack)
 
 ## Papers
 
 - ["Blockstack: A Global Naming and Storage System Secured by Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_usenix16.pdf), Proc. USENIX Annual Technical Conference (ATC ’16), June 2016
-- ["Extending Existing Blockchains with Virtualchain"](https://github.com/blockstack/blockstack/blob/master/papers/virtualchain_dccl16.pdf), Proc. Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL '16), July 2016
+- ["Extending Existing Blockchains with Virtualchain"](https://github.com/blockstack/blockstack/blob/master/papers/virtualchain_dccl16.pdf), Proc. Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL ’16), July 2016
 - ["Bootstrapping Trust in Distributed Systems with Blockchains"](https://github.com/blockstack/blockstack/blob/master/papers/blockstack_login16.pdf), USENIX ;login: Magazine (pre-print)
 
 ## Online Communities
@@ -63,10 +63,10 @@ If you're just starting with Blockstack, here are the main software repositories
 - [Mailing List](http://blockstack.us14.list-manage1.com/subscribe?u=394a2b5cfee9c4b0f7525b009&id=0e5478ae86) (3,000+ members)
 - [Blockstack Forum](http://forum.blockstack.org)
 - [Live chat on Slack](http://chat.blockstack.org/) (2,400+ members)
-- [Meetup Groups](http://www.meetup.com/topics/blockstack/) - Join Meetup groups around the world
-- [Engineering Blog](https://blockstack.org/blog) - Engineering updates by developers
-- [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - Watch videos on the YouTube channel
-- [Twitter](https://twitter.com/blockstackorg) - Follow the tweets of the Blockstack community
+- [Meetup Groups](http://www.meetup.com/topics/blockstack/) - join Meetup groups around the world.
+- [Engineering Blog](https://blockstack.org/blog) - engineering updates by developers.
+- [YouTube](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ) - watch videos on the YouTube channel.
+- [Twitter](https://twitter.com/blockstackorg) - follow the tweets of the Blockstack community.
 
 ## Events
 
@@ -85,13 +85,13 @@ If you're just starting with Blockstack, here are the main software repositories
 
 ## How to Help
 
-- **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved
-- **Help with software testing** - we really appreciate and value our testers, and encourage people who want to support Blockstack to run the software and file issues in the appropriate repository for any bugs that are found
-- **Improve the documentation** - we can never have enough documentation so if there's anything you'd like to clarify or add, just fork any of the Blockstack repos, start writing and expanding on the docs, and submit a pull request
-- **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
-- **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and submit it to the Blockstack community blog or share it in the forum
+- **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved!
+- **Help with software testing** - we really appreciate and value our testers, and encourage people who want to support Blockstack to run the software and file issues in the appropriate repository for any bugs that are found.
+- **Improve the documentation** - we can never have enough documentation so if there's anything you'd like to clarify or add, just fork any of the Blockstack repos, start writing and expanding on the docs, and submit a pull request.
+- **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area.
+- **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and submit it to the Blockstack community blog or share it in the forum.
 
-#### [Become a local Blockstack Community Evangelist](/community/README.md)
+#### [Become a local Blockstack Community Evangelist!](/evangelists/README.md)
 
 ### [Media Guide](/media/README.md)
 
