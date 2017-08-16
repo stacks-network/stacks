@@ -33,8 +33,11 @@ Different layers of Blockstack are shown in the following figure:
 </p>
 
 You can read more details about Blockstack's architecture by reading the following articles:
+<!--
 - [What is Blockstack Core?](https://blockstack.org/articles/blockstack-core)
-- [How Blockstack Works](https://blockstack.org/articles/how-blockstack-works)
+LINK REDIRECTS TO https://blockstack.org/papers
+-->
+- [Intro to Blockstack](https://blockstack.org/intro)
 
 ## Code
 
@@ -91,7 +94,7 @@ If you're just starting with Blockstack, here are the main software repositories
 - **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
 - **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and submit it to the Blockstack community blog or share it in the forum
 
-#### [Become a local Blockstack Community Evangelist](/community/README.md)
+#### [Become a local Blockstack Community Evangelist](/evangelists/README.md)
 
 ### [Media Guide](/media/README.md)
 
