@@ -25,7 +25,7 @@ The first place to start when becoming a Blockstack Community Evangelist is know
 
 #### Host a Meetup
 
-Steps to [host your first Blockstack meetup](https://github.com/blockstack/blockstack/blob/master/community/meetup.md)
+Steps to [host your first Blockstack meetup](https://github.com/blockstack/blockstack/blob/master/evangelists/meetup.md)
 
 General [guidelines](/events/events-guidelines.md) for hosting each event.
 
