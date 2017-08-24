@@ -3,12 +3,14 @@
 **Appearances**
 
 * Aug 18, 2017 - **MIT Media Lab** - [Back to the Future of The Decentralized Web](http://dci.mit.edu/decentralizedweb)
-* Aug 16, 2017 - **ConiDesk** - [Investor Albert Wenger to Fund 'XPRIZE' for Blockchain-Powered Blogs](https://www.coindesk.com/investor-albert-wenger-to-fund-xprize-for-blockchain-powered-blogs/)
+* Aug 16, 2017 - **Wall Street Journal** - [Blockstack Launches $25 Million Fund for Blockchain Startups](https://www.wsj.com/articles/blockstack-launches-25-million-fund-for-blockchain-startups-1502883001)
+* Aug 16, 2017 - **Axios** - [Blockstack debuts $25 million fund to invest in blockchain apps](https://www.axios.com/blockstack-debuts-25-million-fund-to-invest-in-blockchain-apps-2473465582.html?utm_source=twitter&utm_medium=twsocialshare&utm_campaign=organic)
+* Aug 16, 2017 - **CoinDesk** - [Investor Albert Wenger to Fund 'XPRIZE' for Blockchain-Powered Blogs](https://www.coindesk.com/investor-albert-wenger-to-fund-xprize-for-blockchain-powered-blogs/)
 * Aug 16, 2017 - **CoinDesk** - [Investor Naval Ravikant Wants to Disrupt Twitter With Blockchain 'XPRIZE'](https://www.coindesk.com/investor-naval-ravikant-wants-disrupt-twitter-blockchain-xprize/)
 * Aug 16, 2017 - **CoinDesk** - [ICO Meets VC: Blockstack Raises $25 Million for Decentralized Internet Fund](https://www.coindesk.com/ico-meets-vc-blockstack-raises-25-million-decentralized-internet-fund/)
 * Aug 16, 2017 - **Bitcoin Magazine** - [Blockstack Partners with VCs to Launch $25 Million Blockstack Signature Fund](https://bitcoinmagazine.com/articles/blockstack-partners-vcs-launch-25-million-blockstack-signature-fund/)
 * Aug 16, 2017 - **VentureBeat** - [Blockstack announces $25 million fund to rebuild the internet for a blockchain world](https://venturebeat.com/2017/08/16/blockstack-announces-25-million-fund-to-rebuild-the-internet-for-a-blockchain-world/)
-* Aug 16, 2017 - **International Busines Times** - [Why You Should Be Excited About Blockstack And The Decentralization Movement](http://www.ibtimes.com/why-you-should-be-excited-about-blockstack-decentralization-movement-2579340)
+* Aug 16, 2017 - **International Business Times** - [Why You Should Be Excited About Blockstack And The Decentralization Movement](http://www.ibtimes.com/why-you-should-be-excited-about-blockstack-decentralization-movement-2579340)
 * Aug 17, 2017 - **The Next Web** - [How blockchain solves the complicated data-ownership problem](https://thenextweb.com/contributors/2017/08/17/blockchain-solves-complicated-data-ownership-problem/#.tnw_3Wix5qOC)
 * Aug 7, 2017 - **The Merkle** - [Bitcoin Price Hits $3440, CNBC’s Kelly Explains Why It’s Just the Beginning of a Rally](https://themerkle.com/bitcoin-price-hits-3440-cnbcs-kelly-explains-why-its-just-the-beginning-of-a-rally/)
 * Jul 24, 2017 - **CNBC** - [ANALYSIS-US venture capital's digital coin quandary: cash-rich startups](https://www.cnbc.com/2017/07/24/reuters-america-analysis-us-venture-capitals-digital-coin-quandary-cash-rich-startups.html)
