@@ -8,7 +8,7 @@ Here you can find the process for hosting a meetup in your city
 First step is going to meetup.com and creating a group and title it "Blockstack [insert_your_city]" and establish yourself as the organizer. Alert @pstan26 in the issues of this repo and he'll join to be added as a co-organizer. If your country uses Facebook more often for things like this, feel free to create a facebook group.
 
 ### Images
-Next, Upload this banner image [instructions](https://www.meetup.com/help/article/604334/): https://github.com/blockstack/blockstack/blob/master/community/meetup%20banner.png
+Next, Upload this banner image [instructions](https://www.meetup.com/help/article/604334/): https://github.com/blockstack/blockstack/blob/master/evangelists/meetup%20banner.png
 
 
 ### Meetup Description
