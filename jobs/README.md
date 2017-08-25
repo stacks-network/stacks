@@ -2,8 +2,10 @@
 
 ### Positions
 
+- Product Manager
 - [Frontend Engineer](https://github.com/blockstack/blockstack/blob/master/jobs/frontend-engineer.md)
 - [Backend Engineer](https://github.com/blockstack/blockstack/blob/master/jobs/backend-engineer.md)
+- Security Engineer
 - Mobile Engineer
 - Growth Marketer
 
