@@ -30,7 +30,7 @@ You have successfully built products with an excellent user experience, and are 
 ### KPI's
 
 - Conversion rate from download to active user
-- # of hours spent on apps per user
+- Number of hours spent per user across all apps
 - Pull requests submitted to main open source projects per month
 
 ### Level
