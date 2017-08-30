@@ -35,4 +35,21 @@ You have successfully built products with an excellent user experience, and are 
 
 ### Level
 
-4+ years of functional work experience
+5+ years of functional work experience
+
+### Skills
+
+- Track record of owning a polished client-facing technical product 
+- Design simply and effectively 
+- Experience guiding product roadmap
+- Excel at project management, organization and communication 
+
+### Qualities & Traits 
+
+- Desire to build a new deentralized internet with Blockstack 
+- Independent innovator and team player 
+- Solution provider
+- Translate business needs and problems to actionable items 
+- Technical engineering background
+- Open-source experience 
+
