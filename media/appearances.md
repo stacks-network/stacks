@@ -2,6 +2,9 @@
 
 **Appearances**
 
+* Sep 5, 2017 - **Forbes** - [Blockstack On Getting Independence From Google, Facebook And Amazon](https://www.forbes.com/sites/laurashin/2017/09/05/blockstack-on-how-to-take-control-from-google-facebook-and-amazon/)
+* Sep 5, 2017 - **Unchained Podcast** - [Blockstack On Getting Independence From Google, Facebook And Amazon](http://unchained.forbes.libsynpro.com/blockstack-on-getting-independence-from-google-facebook-and-amazon)
+* Sep 2, 2017 - **CoinDesk** - [Blockstack Today: 5 Apps Already Being Built on the Decentralized Web](https://www.coindesk.com/building-blockstack-five-firms-show-us-just-platform-capable/)
 * Aug 18, 2017 - **MIT Media Lab** - [Back to the Future of The Decentralized Web](http://dci.mit.edu/decentralizedweb)
 * Aug 16, 2017 - **Wall Street Journal** - [Blockstack Launches $25 Million Fund for Blockchain Startups](https://www.wsj.com/articles/blockstack-launches-25-million-fund-for-blockchain-startups-1502883001)
 * Aug 16, 2017 - **Axios** - [Blockstack debuts $25 million fund to invest in blockchain apps](https://www.axios.com/blockstack-debuts-25-million-fund-to-invest-in-blockchain-apps-2473465582.html?utm_source=twitter&utm_medium=twsocialshare&utm_campaign=organic)
