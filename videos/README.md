@@ -2,6 +2,14 @@
 
 **Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org.**
 
+### The Future of the Internet is Decentralized
+
+- event: The Conference
+- speaker: Muneeb Ali
+- location: Malmo, Sweden
+- date: September 1, 2017
+- youtubeURL: https://www.youtube.com/watch?v=q2gy0ZRkABY
+
 ### A New Blockstack Internet
 
 - event: Blockstack Summit 2017
