@@ -8,6 +8,7 @@
 - Jude Nelson ([judecn.id](https://explorer.blockstack.org/name/judecn.id))
 - Guy Lepage ([guylepage3.id](https://onename.com/guylepage3))
 - Patrick Stanley ([pstanley.id](https://explorer.blockstack.org/name/pstanley.id))
+- Jack Zampolin ([jackzampolin.id](https://explorer.blockstack.org/name/jackzampolin.id))
 - Aaron Blankstein ([ablankstein.id](https://onename.com/ablankstein))
 - Muneeb Ali ([muneeb.id](https://onename.com/muneeb))
 - Ryan Shea ([ryan.id](https://onename.com/ryan))
