@@ -1,4 +1,4 @@
-*Blockstack is now a Public Benefit Corp*
+**Blockstack is now a Public Benefit Corp**
 
 As we’re building towards a larger ecosystem, we want to better align the structure of our for-profit corporation with our mission of enabling an open, decentralized internet. We have done that by transitioning to a Public Benefit Corporation.
 
@@ -11,13 +11,13 @@ b) supporting the decentralization of the Blockstack network.
 
 Read more about the Public Benefit Corp designation [here](https://blockstack.org/blog/public-benefit-corp)
 
-*Announcing Signature Bounties*
+**Announcing Signature Bounties**
 
 We are excited to announce the first global app bounty from the Blockstack Signature Fund: a $15,000 bounty led by our partner, Compound VC, to build a private and secure cryptocurrency portfolio management app using Blockstack for storage and identity.
 
 Signature Bounty winners (to be announced Nov 1) may receive follow-on funding from top venture capitalists and be asked to present at one of our upcoming events around the world. For more details go to the bounty sign up page to register: tokenportfolio.eventbrite.com.
 
-*A note about Future Announcements about the Blockstack Token*
+**A note about Future Announcements about the Blockstack Token**
 
 A Note About Future Announcements
 
@@ -27,25 +27,25 @@ From what we've seen with previous projects, we expect a number of phishing site
 
 With this in mind, it's extremely important to be careful with any communication related to the Blockstack sale. When the sale is set to start, we will give ample advanced notice and will never ask you to click a link. We will instead direct you to type "blockstack.org" directly into your browser. Further, it's important you do not trust any information related to the token sale unless it's (1) published on https://blockstack.org (2) published on our github at github.com/blockstack (3) confirmed by @Blockstack and @muneeb and @ryaneshea on Twitter.
 
-*New Windows Support for Blockstack Browser*
+**New Windows Support for Blockstack Browser**
 
 We've shipped a [developer release](https://github.com/blockstack/blockstack-browser/releases) of Blockstack Browser for Windows. Now Windows users will have an automated installer which sets up an environment for them to explore the new decentralized web. Be sure to let us know how it works for you!
 
-*New Blockstack Meetups*
+**New Blockstack Meetups**
 
 New meetups announced in [Japan](https://www.meetup.com/Blockstack-Japan/), [Buenos Aires](https://www.meetup.com/Blockstack-Buenos-Aires/), [Melbourne](https://www.meetup.com/Blockstack-Melbourne/), [Brisbane](https://www.meetup.com/Blockstack-Brisbane/), and [Bangalore](https://www.meetup.com/Blockstack-Bangalore/). A Recent meeup in SF featured Lightning's Olaoluwa Osuntokun who talked on HTLC-DASH: Micropayments for Decentralized Media Streaming ([slides here](https://twitter.com/roasbeef/status/911415042368614400)).
 
 If you are looking to start a meetup, join the #evangelists channel in [chat.blockstack.org](chat.blockstack.org) or simply follow the instructions in the evangelist [github repo](https://github.com/blockstack/blockstack/blob/master/evangelists/meetup.md). We'd love to have you involved in growing the Blockstack ecosystem.
 
 
-*Popular on the Forum*
+**Popular on the Forum**
 
 - [Annual Hard Fork](https://forum.blockstack.org/t/annual-hard-fork-2017/1618/6)
 - [New Features Enabled by a Layer 2 Token](https://forum.blockstack.org/t/new-features-enabled-by-a-layer-2-token/1327/11)
 - [Bringing Decentralized Governance & Incentive Protocols to Blockstack](https://forum.blockstack.org/t/bringing-decentralized-governance-incentivized-protocols-to-blockstack/1315/7)
 
 
-*In the News*
+**In the News**
 
 * Sep 5, 2017 - **Forbes** - [Blockstack On Getting Independence From Google, Facebook And Amazon](https://www.forbes.com/sites/laurashin/2017/09/05/blockstack-on-how-to-take-control-from-google-facebook-and-amazon/)
 * Sep 5, 2017 - **Unchained Podcast** - [Blockstack On Getting Independence From Google, Facebook And Amazon](http://unchained.forbes.libsynpro.com/blockstack-on-getting-independence-from-google-facebook-and-amazon)
