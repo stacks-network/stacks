@@ -1,12 +1,31 @@
+*Blockstack is now a Public Benefit Corp*
+
+As we’re building towards a larger ecosystem, we want to better align the structure of our for-profit corporation with our mission of enabling an open, decentralized internet. We have done that by transitioning to a Public Benefit Corporation.
+
+A Public Benefit Corp (PBC) is a for-profit company that is obligated to uphold certain commitments for the public good and not just stockholder interests. 
+
+The mission of Blockstack PBC is to enable an open, decentralized internet. Blockstack PBC is committed to:
+
+a) keeping the core Blockstack software open-source, and 
+b) supporting the decentralization of the Blockstack network.
+
+Read more about the Public Benefit Corp designation [here](https://blockstack.org/blog/public-benefit-corp)
+
 *Announcing Signature Bounties*
 
 We are excited to announce the first global app bounty from the Blockstack Signature Fund: a $15,000 bounty led by our partner, Compound VC, to build a private and secure cryptocurrency portfolio management app using Blockstack for storage and identity.
 
 Signature Bounty winners (announced Nov 1) may receive follow-on funding from top venture capitalists and be asked to present at one of our upcoming events around the world. For more details go to the bounty sign up page to register: tokenportfolio.eventbrite.com.
 
-*Questions about Token*
+*A note about Future Announcements about the Blockstack Token*
 
+A Note About Future Announcements
 
+We will announce more details about the token sale in the coming weeks.
+
+From what we've seen with previous projects, we expect a number of phishing sites to pop up. Imposters will announce details around the timing and location of fake token sales.
+
+With this in mind, it's extremely important to be careful with any communication related to the Blockstack sale. When the sale is set to start, we will give ample advanced notice and will never ask you to click a link. We will instead direct you to type "blockstack.org" directly into your browser. Further, it's important you do not trust any information related to the token sale unless it's (1) published on https://blockstack.org (2) published on our github at github.com/blockstack (3) confirmed by @Blockstack and @muneeb and @ryaneshea on Twitter.
 
 *New Windows Support for Blockstack Browser*
 
@@ -14,7 +33,7 @@ We've shipped a [developer release](https://github.com/blockstack/blockstack-bro
 
 *New Blockstack Meetups*
 
-New meetups announced in [Japan](https://www.meetup.com/Blockstack-Japan/), [Buenos Aires](https://www.meetup.com/Blockstack-Buenos-Aires/), [Melbourne](https://www.meetup.com/Blockstack-Melbourne/), [Brisbane](https://www.meetup.com/Blockstack-Brisbane/), and [Bangalore](https://www.meetup.com/Blockstack-Bangalore/). A Recent meeup in SF featured Lightning's Olaoluwa Osuntokun who talked on HTLC-DASH: Micropayments for Decentralized Media Streaming ([slides here](https://twitter.com/roasbeef/status/911415042368614400))
+New meetups announced in [Japan](https://www.meetup.com/Blockstack-Japan/), [Buenos Aires](https://www.meetup.com/Blockstack-Buenos-Aires/), [Melbourne](https://www.meetup.com/Blockstack-Melbourne/), [Brisbane](https://www.meetup.com/Blockstack-Brisbane/), and [Bangalore](https://www.meetup.com/Blockstack-Bangalore/). A Recent meeup in SF featured Lightning's Olaoluwa Osuntokun who talked on HTLC-DASH: Micropayments for Decentralized Media Streaming ([slides here](https://twitter.com/roasbeef/status/911415042368614400)).
 
 If you are looking to start a meetup, join the #evangelists channel in [chat.blockstack.org](chat.blockstack.org) or simply follow the instructions in the evangelist [github repo](https://github.com/blockstack/blockstack/blob/master/evangelists/meetup.md). We'd love to have you involved in growing the Blockstack ecosystem.
 
