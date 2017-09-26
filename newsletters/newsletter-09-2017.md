@@ -19,8 +19,6 @@ Signature Bounty winners (to be announced Nov 1) may receive follow-on funding f
 
 **A note about Future Announcements about the Blockstack Token**
 
-A Note About Future Announcements
-
 We will announce more details about the token sale in the coming weeks.
 
 From what we've seen with previous projects, we expect a number of phishing sites to pop up. Imposters will announce details around the timing and location of fake token sales.
