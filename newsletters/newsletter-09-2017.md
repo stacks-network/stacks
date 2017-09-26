@@ -15,7 +15,7 @@ Read more about the Public Benefit Corp designation [here](https://blockstack.or
 
 We are excited to announce the first global app bounty from the Blockstack Signature Fund: a $15,000 bounty led by our partner, Compound VC, to build a private and secure cryptocurrency portfolio management app using Blockstack for storage and identity.
 
-Signature Bounty winners (announced Nov 1) may receive follow-on funding from top venture capitalists and be asked to present at one of our upcoming events around the world. For more details go to the bounty sign up page to register: tokenportfolio.eventbrite.com.
+Signature Bounty winners (to be announced Nov 1) may receive follow-on funding from top venture capitalists and be asked to present at one of our upcoming events around the world. For more details go to the bounty sign up page to register: tokenportfolio.eventbrite.com.
 
 *A note about Future Announcements about the Blockstack Token*
 
