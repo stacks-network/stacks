@@ -3,8 +3,11 @@
 
 
 
-*Signature Bounties*
+*Announcing Signature Bounties*
 
+We are excited to announce the first global app bounty from the Blockstack Signature Fund: a $15,000 bounty led by our partner, Compound VC, to build a private and secure cryptocurrency portfolio management app using Blockstack for storage and identity.
+
+Signature Bounty winners may receive follow-on funding from top venture capitalists and be asked to present at one of our upcoming events around the world. For more details go to the bounty sign up page to register: tokenportfolio.eventbrite.com.
 
 **
 
@@ -13,13 +16,13 @@
 
 New meetups announced in [Japan](https://www.meetup.com/Blockstack-Japan/), [Buenos Aires](https://www.meetup.com/Blockstack-Buenos-Aires/), [Melbourne](https://www.meetup.com/Blockstack-Melbourne/), [Brisbane](https://www.meetup.com/Blockstack-Brisbane/), and [Bangalore](https://www.meetup.com/Blockstack-Bangalore/)
 
-If you are looking to start a meetup, join #evangelists in chat.blockstack.org
+If you are looking to start a meetup, join the #evangelists channel in [chat.blockstack.org](chat.blockstack.org) or simply follow the instructions in the evangelist [github repo](https://github.com/blockstack/blockstack/blob/master/evangelists/meetup.md). We'd love to have you involved in growing the Blockstack ecosystem.
 
 
 *Popular on the Forum*
 
 - [Annual Hard Fork](https://forum.blockstack.org/t/annual-hard-fork-2017/1618/6)
-- [New Feeatures Enabled by a Layer 2 Token](https://forum.blockstack.org/t/new-features-enabled-by-a-layer-2-token/1327/11)
+- [New Features Enabled by a Layer 2 Token](https://forum.blockstack.org/t/new-features-enabled-by-a-layer-2-token/1327/11)
 - [Bringing Decentralized Governance & Incentive Protocols to Blockstack](https://forum.blockstack.org/t/bringing-decentralized-governance-incentivized-protocols-to-blockstack/1315/7)
 
 
