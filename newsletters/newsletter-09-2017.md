@@ -17,7 +17,7 @@ We are excited to announce the first global app bounty from the Blockstack Signa
 
 Signature Bounty winners (to be announced Nov 1) may receive follow-on funding from top venture capitalists and be asked to present at one of our upcoming events around the world. For more details go to the bounty sign up page to register: tokenportfolio.eventbrite.com.
 
-**A note about Future Announcements about the Blockstack Token**
+**IMPORTANT: Future Announcements about the Blockstack Token**
 
 We will announce more details about the token sale in the coming weeks.
 
