@@ -1,20 +1,20 @@
-
-*Blockstack Storage and Atlas Network Whitepaper*
-
-
-
 *Announcing Signature Bounties*
 
 We are excited to announce the first global app bounty from the Blockstack Signature Fund: a $15,000 bounty led by our partner, Compound VC, to build a private and secure cryptocurrency portfolio management app using Blockstack for storage and identity.
 
-Signature Bounty winners may receive follow-on funding from top venture capitalists and be asked to present at one of our upcoming events around the world. For more details go to the bounty sign up page to register: tokenportfolio.eventbrite.com.
+Signature Bounty winners (announced Nov 1) may receive follow-on funding from top venture capitalists and be asked to present at one of our upcoming events around the world. For more details go to the bounty sign up page to register: tokenportfolio.eventbrite.com.
 
-**
+*Questions about Token*
 
+
+
+*New Windows Support for Blockstack Browser*
+
+We've shipped a [developer release](https://github.com/blockstack/blockstack-browser/releases) of Blockstack Browser for Windows. Now Windows users will have an automated installer which sets up an environment for them to explore the new decentralized web. Be sure to let us know how it works for you!
 
 *New Blockstack Meetups*
 
-New meetups announced in [Japan](https://www.meetup.com/Blockstack-Japan/), [Buenos Aires](https://www.meetup.com/Blockstack-Buenos-Aires/), [Melbourne](https://www.meetup.com/Blockstack-Melbourne/), [Brisbane](https://www.meetup.com/Blockstack-Brisbane/), and [Bangalore](https://www.meetup.com/Blockstack-Bangalore/)
+New meetups announced in [Japan](https://www.meetup.com/Blockstack-Japan/), [Buenos Aires](https://www.meetup.com/Blockstack-Buenos-Aires/), [Melbourne](https://www.meetup.com/Blockstack-Melbourne/), [Brisbane](https://www.meetup.com/Blockstack-Brisbane/), and [Bangalore](https://www.meetup.com/Blockstack-Bangalore/). A Recent meeup in SF featured Lightning's Olaoluwa Osuntokun who talked on HTLC-DASH: Micropayments for Decentralized Media Streaming ([slides here](https://twitter.com/roasbeef/status/911415042368614400))
 
 If you are looking to start a meetup, join the #evangelists channel in [chat.blockstack.org](chat.blockstack.org) or simply follow the instructions in the evangelist [github repo](https://github.com/blockstack/blockstack/blob/master/evangelists/meetup.md). We'd love to have you involved in growing the Blockstack ecosystem.
 
