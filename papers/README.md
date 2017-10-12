@@ -8,6 +8,12 @@
 - url: /whitepaper.pdf
 - date: May 2017
 
+### Blockstack Token Whitepaper
+
+- publication: Token Whitepaper Version 1.0
+- url: /tokenpaper.pdf
+- date: Oct 2017
+
 ### Blockstack: A Global Naming and Storage System Secured by Blockchains
 
 - publication: USENIX Annual Technical Conference
