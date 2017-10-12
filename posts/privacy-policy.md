@@ -1,8 +1,14 @@
+---
+title: Blockstack Privacy Policy
+description: The privacy policy for blockstack.org
+image: /images/article-photos/chalkboard.jpg
+---
+
 PRIVACY POLICY
 
 Effective Date: October 12, 2017
 
-This Privacy Policy is incorporated by this reference into the Blockstack Inc. Terms of Use (the “TOU”). The terms “Blockstack,” “we,” “our” and “us” include Blockstack Inc. and our affiliates and subsidiaries. All other capitalized terms not defined in this Privacy Policy will have the meanings set forth in the TOU. This Privacy Policy explains how Blockstack may collect, use, and disclose information we obtain through the Site.
+This Privacy Policy is incorporated by this reference into the Blockstack PBC Terms of Use (the “TOU”). The terms “Blockstack,” “we,” “our” and “us” include Blockstack PBC and our affiliates and subsidiaries. All other capitalized terms not defined in this Privacy Policy will have the meanings set forth in the TOU. This Privacy Policy explains how Blockstack may collect, use, and disclose information we obtain through the Site.
 
 WHEN Blockstack Collects Your Information
 
@@ -68,4 +74,4 @@ Blockstack PBC.
 319 Lafayette St. #136
 New York, New York 10012
 Telephone: (212) 634-4254
-Email: editors@blockstack.org 
+Email: legal@blockstack.org
