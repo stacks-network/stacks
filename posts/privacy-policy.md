@@ -1,10 +1,8 @@
 ---
-title: Blockstack Privacy Policy
+title: Privacy Policy
 description: The privacy policy for blockstack.org
 image: /images/article-photos/chalkboard.jpg
 ---
-
-PRIVACY POLICY
 
 Effective Date: October 12, 2017
 
