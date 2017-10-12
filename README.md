@@ -8,6 +8,7 @@ Blockstack provides decentralized services for naming/DNS, identity, authenticat
 
 ## Table of Contents
 
+- [Latest News](#latest-news)
 - [Architecture](#architecture)
 - [Code](#code)
 - [Tutorials](#tutorials)
@@ -17,6 +18,10 @@ Blockstack provides decentralized services for naming/DNS, identity, authenticat
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
 - [Media Guide](#media-guide)
+
+## Latest News
+
+[Announcing the Blockstack Token Whitepaper](https://blockstack.org/blog/announcing-the-blockstack-token-whitepaper)
 
 ## Architecture
 
