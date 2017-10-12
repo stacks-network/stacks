@@ -8,7 +8,7 @@ image: /images/article-photos/chalkboard.jpg
 
 ### What is Blockstack?
 
-Blockstack is a new decentralized internet.
+Blockstack is the new decentralized internet.
 
 With Blockstack, users control their data and apps run on their devices. There are no middlemen, no passwords, no massive data silos to breach, and no services tracking us around the internet.
 
@@ -16,7 +16,7 @@ The applications on blockstack are server-less and decentralized. Developers sta
 
 Personal user APIs ship with the Blockstack app and handle everything from identity and authentication to data storage. Applications can request permissions from users and then gain read and write access to user resources.
 
-Data storage is simple and reliable and uses existing cloud infrastructure. Users connect with their Dropbox, Google Drive, etc and data is synced from their local device up to the cloud.
+Data storage is simple and reliable and uses existing cloud infrastructure. Users connect with their Dropbox, Google Drive, S3, etc... and data is synced from their local device up to their cloud.
 
 Identity is user-controlled and utilizes the blockchain for secure management of keys, devices and usernames. When users login with apps, they are anonymous by default and use an app-specific key, but their full identity can be revealed and proven at any time. Keys are for signing and encryption and can be changed as devices need to be added or removed.
 
@@ -24,11 +24,11 @@ Under the hood, Blockstack provides a decentralized domain name system (DNS), de
 
 ### What is a Blockstack ID?
 
-This is a the name & identity registered in the .id namespace on Blockstack. Your personal data and storage are built around this ID. Apps that want to access your data will be built around this as well.
+This is your name & identity that is registered in the .id namespace on Blockstack. Your personal data and storage are built around this ID. Apps that want to access your data use your permission and identity to find it.
 
 ### What is a decentralized internet?
 
-A decentralized internet is one where users don't need to trust any intermediaries or remote services. We envision a world where users control their own data, and the power goes back to the users. Reducing the friction to deploying new Blockstack nodes is an important step towards that mission.
+A decentralized internet is one where users don't need to trust any intermediaries or remote services. We envision a world where users control their own data, and power flows back to the users. Reducing the friction to deploying new Blockstack nodes is an important step towards that mission.
 
 ### What problems does Blockstack solve?
 
@@ -50,10 +50,6 @@ Blockstack applications solve both sets of problems. Users pick and choose highl
 
 At the same time, developers are no longer on the hook for hosting user data. Since users bring their own storage and use public-key cryptography for authentication, applications don't have to store anything--there's nothing to steal when they get hacked. Moreover, many Web applications today can be re-factored so that everything happens client-side, obviating the need for running dedicated application servers.
 
-### What opportunities does Blockstack enable?
-
-(coming soon)
-
 ### What is a "serverless" app?
 
 The application itself should not run application-specific functionality on a server. All of its functionality should run on end-points. However, the application may use non-app-specific servers with the caveat that they must not be part of the trusted computing base. This is the case with storage systems like Amazon S3 and Dropbox, for example, because Blockstack's data is signed and verified end-to-end (so the storage systems are not trusted to serve data). Serverless can also mean applications where some amount of server-side logic is still written by the application developer but unlike traditional architectures is run in stateless compute containers that are event-triggered, ephemeral (may only last for one invocation)
@@ -66,23 +62,29 @@ Decentralized apps potentially represent the next generation of computing. In a 
 
 ### Who should build on Blockstack?
 
-(coming soon)
+Everyone! But more seriously, if you are building an application in JavaScript that requires sign-in and storage you should look at using Blockstack. The APIs we provide are not only decentralized (No dependency on Google, Facebook, or other OAuth provider) but easier to use than traditional OAuth. Also you no longer have to maintain and secure databases with all your user information. That data is stored securely with the people who created it.
 
-### How are Blockstack domains different from normal DNS domains? 
+### How are Blockstack domains different from normal DNS domains?
 
 Blockstack domains are not registered on the traditional DNS run by an organized called ICANN. Instead they're registered on a blockchain in a fully decentralized way. This means that Blockstack domains are truly owned by their owners and cannot be taken away. All Blockstack domains have public keys by default (public keys are required to own the domains), unlike the traditional DNS where a small fraction of domains get the (optional) public key certificates.
-
-### What is Blockstack Core and who is working on it?
-
-(coming soon)
 
 ### What is a virtual chain?
 
 Blockstack is designed around a "virtual chain" concept, where nodes only need to reach consensus on the shared "virtual chain" they're interested in. Virtual chains do not interact with one another, and a single blockchain can host many virtual chains. These virtual chains can live in any blockchain for which there exists a driver, and virtual chain clients only need to execute their virtual chain transactions (i.e. Blockstack only processes Blockstack virtual chain transactions).
 
+### What is Blockstack Core and who is working on it?
+
+Blockstack Core is the reference implementation of the Blockstack protocol described in our white paper. It consists of a couple of parts:
+
+- Virtualchain implementation: This is a python library that parses the underlying blockchain (Bitcoin) and builds the state of the Blockstack DNS.
+- Blockstack Core: Uses the Virtualchain to build the DNS state and comes to a consensus on that state in a peer network (Atlas).
+- Blockstack API: Indexes the data stored by Blockstack Core and makes it available in a performant way to applications.
+
+The project is open-source and anyone can contribute! The major contributors are mostly employees of Blockstack PBC. You can see the full list of contributors here: https://github.com/blockstack/blockstack-core/graphs/contributors
+
 ### What's the difference between Onename and Blockstack?
 
-Onename is the free Blockstack ID registrar run by Blockstack to onboard new users. 
+Onename is the free Blockstack ID registrar run by Blockstack. It makes it easy to register your name and setup your profile. Once the name has been registered in Onename you can transfer it to a wallet you control, or leave it there and use it as you like.
 
 ### How is Blockstack different from Namecoin?
 
@@ -90,11 +92,15 @@ Blockstack DNS differs from Namecoin DNS in a few fundamental ways: blockchain l
 
 ### I heard you guys were on Namecoin, what blockchain do you use now?
 
-(coming soon)
+We use the Bitcoin blockchain for our source of truth.
 
-### How is Blockstack different from Ethereum for building decentralized apps? 
+### How is Blockstack different from Ethereum for building decentralized apps?
 
-You can think of Ethereum as a "heavy" blockchain that does everything for you. All the complexity is handled there, computations run there, and all scalability and security issues need to be handled at the blockchain layer. Blockstack puts minimal logic into a blockchain and handles scalability outside of the blockchain by re-using existing internet infrastructure in new ways. Read more about this in the following forum post: https://forum.blockstack.org/t/what-is-the-difference-between-blockstack-and-ethereum/781/2
+You can think of Ethereum as a "heavy" blockchain that does everything for you. All the complexity is handled on-chain, computations are run there, and all scalability and security concerns need to be handled at the blockchain level. It amounts to a "mainframe" that runs all the applications in the ecosystem.
+
+Blockstack puts minimal logic into a blockchain and handles scalability outside of the blockchain by re-using existing internet infrastructure. Our architectural design mirrors how computing has developed; moving from mainframes to smaller networked entities.
+
+Read more about the differences between Blockstack and Ethereum dapps in the following forum post: https://forum.blockstack.org/t/what-is-the-difference-between-blockstack-and-ethereum/781/2
 
 ### Can Blockstack only run on Bitcoin?
 
@@ -104,11 +110,13 @@ The model we're currently exploring is where Blockstack can process multiple blo
 
 It does not, as of November 2016.  It uses a much more reliable system called the Atlas Network.  Details here: https://blog.blockstack.org/blockstack-core-v0-14-0-release-aad748f46d#.30gzlthdw
 
-### Can the Blockstack network fork? 
+### Can the Blockstack network fork?
 
 Yes, the Blockstack network can fork if the underlying blockchain encounters a deep fork.  In this case, blockstack nodes on either side of the fork will diverge from one another.
 
 We have yet to encounter a deep fork.  If this does happen, then Blockstack will use the virtualchain state on the majority fork once the fork resolves.
+
+We also hard fork the network once a year to make protocol breaking changes and upgrade the network. The last one of these happened on block `488500` on the bitcoin blockchain. There are more details about the fork in this forum post: https://forum.blockstack.org/t/blockstack-annual-hard-fork-2017/1618
 
 ### How is the Blockstack network upgraded over time? What parties need to agree on an upgrade?
 
@@ -117,10 +125,6 @@ We're working on an on-chain voting strategy similar to how mining works, where 
 Until then, we will publicly announce the availability of new software, with the promise that each release will bring highly-desired features to make upgrading worth the users' whiles.
 
 ### Can miners take down Blockstack?
-
-(coming soon)
-
-### How many public Blockstack nodes are there?
 
 (coming soon)
 
@@ -162,35 +166,33 @@ Blockstack records are extremely hard to tamper with. This is because the bindin
 
 ### Can anyone register a TLD?
 
-Yes, anyone can register a TLD. If a TLD has not been registered already and you're willing to pay the registration fee for it, you can go ahead and register that TLD. There is no centralized party that can stop you from registering a TLD. 
+Yes, anyone can register a TLD. If a TLD has not been registered already and you're willing to pay the registration fee for it, you can go ahead and register that TLD. There is no centralized party that can stop you from registering a TLD.
 
 ### Do apps using Blockstack work with a regular browser?
 
-Yes! Apps using Blockstack run in the web browsers you know and love. You will need to download and install Blockstack on your computer to use certain features of apps that use Blockstack. 
+Yes! Apps using Blockstack run in the web browsers you know and love. You will need to download and install Blockstack on your computer to use certain features of apps that use Blockstack.
 
 ### Where can I discover apps using Blockstack?
 
-(coming soon)
+Using the Blockstack Browser! Check our install page for more information: https://blockstack.org/install
 
 ### What programming language can I use to build these apps?
 
-To make apps that run in the web browser using Blockstack, you can use JavaScript and any of the same web frameworks or libraries you use today such as React, AngularJs, Vue.js or jQuery. You can use any language you like for native apps as long as you are able to consume a JSON REST API.
+To make apps that run in the web browser using Blockstack, you can use JavaScript and any of the same web frameworks or libraries you use today such as React, AngularJs, Vue.js or jQuery. The Blockstack Core is implementated in Python, but you can use any language you like for native apps as long as you are able to consume a JSON REST API.
 
-### What is the Blockstack Portal?
+### What is the Blockstack Browser?
 
-This is a developer-facing term used for the application users use to create and manage their identities and configure their storage. It also handles authentication requests from apps that allow their users to log in with Blockstack. When a user clicks a Log In with Blockstack button, they are redirected to the Blockstack Portal to approve the request before being logged into the app. The Portal is also where users can go to discover and use apps using Blockstack.
+This is a developer-facing term used for the application users use to create and manage their identities and configure their storage. It also handles authentication requests from apps that allow their users to log in with Blockstack. When a user clicks a Log In with Blockstack button, they are redirected to the Blockstack Browser to approve the request before being logged into the app. The Browser is also where users can go to discover and use apps using Blockstack.
 
-### How can I use the Blockstack CLI?
+### How do I get started using Blockstack to build decentralized applications?
 
-(coming soon)
-
-### How do I get started using Blockstack to build apps?
-
-(coming soon)
+We have a great tutorial on getting started building Blockstack applications: https://blockstack.org/tutorials/todo-list
 
 ### Do I need to run a full Blockstack node to use Blockstack?
 
-(coming soon)
+tl;dr: You don't, but its very easy to.
+
+To reduce the overhead involved in getting started we maintain a fleet of Blockstack Core nodes that your Blockstack applications connect to by default. If you want to run your own we provide detailed instructions on our [install page](https://blockstack.org/install). It only takes about 5-10 minutes to spin up your full node!
 
 ### What is the capacity per block for registrations using Blockstack?
 
@@ -204,10 +206,6 @@ Python 2 and Node.js
 
 Running a Blockstack node keeps you secure by ensuring that your app gets the right names and public keys.  It's not expensive; it takes as much resources as a Chrome tab.
 
-### How does Blockstack perform against building apps on Heroku or AWS?
-
-(coming soon)
-
 ### Can Blockstack apps scale, given that Blockstack uses blockchains which don't scale that well?
 
 Yes.  Blockstack only uses the blockchain for name registration.  Everything else happens off-chain, so apps work just as fast as they do on the Web.
@@ -215,7 +213,3 @@ Yes.  Blockstack only uses the blockchain for name registration.  Everything els
 ### What if the current companies and developers working on Blockstack disappear, would the network keep running?
 
 Yes, the Blockstack network will keep running. All of Blockstack's code is open-source and anyone can deploy Blockstack nodes or maintain the code. Further, Blockstack nodes don't need to coordinate with each other to function. Any node that a user deploys can function correctly independently.
-
-### What are the business models for companies working on Blockstack?
-
-(coming soon)
