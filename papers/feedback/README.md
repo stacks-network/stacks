@@ -15,4 +15,6 @@ To give your feedback, follow these instructions:
 We'll generally accept most/all pull requests for feedback. Sending negative feedback is totally fine just please be polite. 
 The only exception for not accepting a feedback pull request is if someone is spreading misinformation.
 
-This directory can also help us acknowledge and thank people. Feel free to ask any questions and thanks for taking the time to help improve the whitepapers! 
+If you prefer to submit your feedback privately, you can email it to token@blockstack.com.
+
+This directory can also help us acknowledge and thank people. Feel free to ask any questions and thanks for taking the time to help improve the whitepapers!
