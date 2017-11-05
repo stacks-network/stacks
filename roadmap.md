@@ -1,6 +1,6 @@
 # Roadmap
 
-### Q1 2017:: Identity & Authentication
+### Q1 2017: Identity & Authentication
 
 Initiate an auth request to redirect the user from your app to the Blockstack Browser. The user will see the details of the sign-in request and either confirm or deny it. They will then bring their profile information with them.
 
