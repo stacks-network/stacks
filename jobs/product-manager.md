@@ -46,7 +46,7 @@ You have successfully built products with an excellent user experience, and are 
 
 ### Qualities & Traits 
 
-- Desire to build a new deentralized internet with Blockstack 
+- Desire to build a new decentralized internet with Blockstack 
 - Independent innovator and team player 
 - Solution provider
 - Translate business needs and problems to actionable items 

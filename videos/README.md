@@ -2,6 +2,79 @@
 
 **Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org.**
 
+### The Future of the Internet is Decentralized
+
+- event: The Conference
+- speaker: Muneeb Ali
+- location: Malmo, Sweden
+- date: September 1, 2017
+- youtubeURL: https://www.youtube.com/watch?v=q2gy0ZRkABY
+
+### A New Blockstack Internet
+
+- event: Blockstack Summit 2017
+- speaker: Ryan Shea
+- location: Mountain View, CA
+- date: July 27, 2017
+- youtubeURL: https://youtu.be/YzlyEuRfXxo
+
+### The Next Wave of Computing
+
+- event: Blockstack Summit 2017
+- speaker: Muneeb Ali
+- location: Mountain View, CA
+- date: July 27, 2017
+- youtubeURL: https://youtu.be/IfONVXL6tnk
+
+### A Conversation with Naval Ravikant and Ryan Shea 
+
+- event: Blockstack Summit 2017
+- speaker: Ryan Shea & Naval Ravikant
+- location: Mountain View, CA
+- date: July 27, 2017
+- youtubeURL: https://www.youtube.com/watch?v=IrSn3zx2GbM
+
+
+### "A New Decentralized App Ecosystem on Blockstack" | Blockstack Summit 2017    
+
+- event: Blockstack Summit 2017
+- speaker: Patrick Stanley
+- location: Mountain View, CA
+- date: July 27, 2017
+- youtubeURL: https://www.youtube.com/watch?v=m3pwRj68zQ0
+
+### Q&A w/ Blockstack's Muneeb Ali & Ryan Shea, Moderated by Alice Lloyd George  
+
+- event: Blockstack Summit 2017
+- speaker: Muneeb Ali, Ryan Shea, Alice Lloyd George
+- location: Mountain View, CA
+- date: July 27, 2017
+- youtubeURL: https://youtu.be/JY5EMjHe4-Y
+
+### Jeremy Welch of Casa: "Building Decentralized Apps on Blockstack"   
+
+- event: Blockstack Summit 2017
+- speaker: Jeremy Welch
+- location: Mountain View, CA
+- date: July 27, 2017
+- youtubeURL: https://www.youtube.com/watch?v=sV3VezgIGrI
+
+### Life After Google
+
+- event: Blockstack Summit 2017
+- speaker: George Gilder
+- location: Mountain View, CA
+- date: July 27, 2017
+- youtubeURL: https://www.youtube.com/watch?v=M3Nn8nfXuB0
+
+### Decentralization and the Knowledge Age
+
+- event: Blockstack Summit 2017
+- speaker: Albert Wenger
+- location: Mountain View, CA
+- date: July 27, 2017
+- youtubeURL: https://www.youtube.com/watch?v=LgQT874KHuw
+
 ### Blockstack: A New Internet That Brings Privacy & Property Rights to Cyberspace
 
 - event: Reason TV
@@ -17,6 +90,7 @@
 - location: New York, NY
 - date: May 23, 2017
 - youtubeURL: https://www.youtube.com/watch?v=VZGyS5JobkY
+
 
 ### Building a Foundation for Decentralized Identity
 
