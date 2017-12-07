@@ -65,4 +65,4 @@
   * Local store of app data is useful to developers, and provides more ownership of user data in the case of provisioned gaia hub.
   * Can provide a 'listing' interface?
   * Today's replication strategy isn't implemented yet on gaia hubs, but can be relatively easy, while maintaining the same simple interface for clients
-  * We can make Gaia hubs composable.  The user can run a Gaia hub locally, and it can replicate both to local disk and to an upstream Gaia hub.  Generally speaking, we can make it so a Gaia hub can replicate to other Gaia hubs based on its configuration and the client request.  This could be used to implement complex replication policies by chaining together simple per-hub policies (much how like UNIX programs can be chained together into pipelines).
+  * We can make Gaia hubs composable.  The user can run a Gaia hub locally, and it can replicate both to local disk and to an upstream Gaia hub.  Moreover, a Gaia hub can replicate to other Gaia hubs based on its configuration (i.e. a Gaia hub can have a driver for another Gaia hub).
