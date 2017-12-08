@@ -1,17 +1,21 @@
 
 # Components
 
+![Components and Communication Paths](./architecture.jpg)
+
 1. Blockstack Client (Browser or a lightweight CLI)
-2. blockstackd (indexer)
-3. Blockstack Resolver
-4. Blockstack API (maybe combine with 3?)
-5. Gaia Hub
+1. blockstack.js
+1. blockstackd (indexer)
+1. Blockstack API 
+1. Gaia Hub
 
 # Client
 
 * This is blockstack-browser, or a lightweight blockstack-cli
 * This client interacts with Blockstack through `blockstack.js`
 * It is *very important* that the browser interact with blockstack only using `blockstack.js` -- this is a dog-fooding policy, which will allow for developers to implement deep integration of their applications into blockstack -- they can perform their _own_ on-boarding, etc.
+* Profile resolution is performed by clients by default (doing this client-side may have pitfalls, and we should have an option of allowing deployments of micro-services if necessary in the future, but the design does not depend on this)
+* Search is *also* an application of Blockstack, which should not be part of the core architecture. We can provide a search service as a demo and prototype, but again, design should not depend on this.
 
 # Indexer (blockstackd)
 
@@ -21,13 +25,6 @@
 * Most updates should be expected to be consensus-breaking
 * API versioning policy probably requires thought. We don't want to continuously be breaking the API, however, we also don't want to inflate the codebase with API front-end code
 * This API should be minimal -- anything that can be implemented by the resolver or the API _should_ be.
-
-# Resolver
-
-* Separate from API and Blockstack Indexer because of:
-  * Custom namespace resolution rules
-* _All_ this does is name -> profile/token-file
-* Search? Or is this provided by the Blockstack API 
 
 # Blockstack API
 
@@ -63,5 +60,4 @@
   * Per-app addresses are a little more complicated -- but whitelisting can still be achieved via the token file. 
 * Con of this design: providing local backups for users
   * Local store of app data is useful to developers, and provides more ownership of user data in the case of provisioned gaia hub.
-  * Can provide a 'listing' interface?
-  * Today's replication strategy isn't implemented yet on gaia hubs, but can be relatively easy, while maintaining the same simple interface for clients
+  * There are solutions to this (Jude mentions composable hubs, and replication support) - however, those are lower level design decisions that don't affect the other components.
