@@ -14,7 +14,6 @@ What are we learning today?
 #### Requirements
 
 - Installed and running [Blockstack Browser](https://github.com/blockstack/blockstack-browser/releases)
-- Have a registered Blockstack name in the Browser
 - node.js LTS Version -> `v6.11.2`
 
 #### Getting Started - Install Dependancies & run server
