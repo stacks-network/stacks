@@ -39,7 +39,7 @@
 * Jul 3, 2017 - **Steal This Show** - [Re-Decentralising The Net, with Blockstack’s Ryan Shea](https://stealthisshow.com/s03e04/)
 * Jul 4, 2017 - **TorrentFreak** - [Steal This Show S03E04: ‘Re-Decentralizing The Net’](https://torrentfreak.com/steal-show-s03e04-re-decentralising-net/)
 * Jun 28, 2017 - **The Merkle** - [What is Blockstack?](https://themerkle.com/what-is-blockstack/)
-* Jun 24, 2017 - [12,872 upvotes] - **r/Futurology** - [New blockchain-based decentralized internet being built by Princeton-trained computer scientists](https://www.reddit.com/r/Futurology/comments/6j6ub1/new_blockchainbased_decentralized_internet_being/)
+* Jun 24, 2017 - [12,950 upvotes] - **Reddit.com/Futurology** - [New blockchain-based decentralized internet being built by Princeton-trained computer scientists](https://www.reddit.com/r/Futurology/comments/6j6ub1/new_blockchainbased_decentralized_internet_being/)
 * Jun 23, 2017 - **NYC Node** - [Larry Salibra - Blockchain Powered Decentralized Applications with Blockstack](http://nycnode.com/videos/larry-salibra-blockchain-powered-decentralized-applications-with-blockstack)
 * Jun 22, 2017 - **Reason.tv** - [Princeton-Trained Computer Scientists Are Building a New Internet That Brings Privacy and Property Rights to Cyberspace](http://reason.com/reasontv/2017/06/22/blockstack-bitcoin-blockchain-internet)
 * Jun 18, 2017 - **VentureBeat** - [Why blockchains fail and decentralization succeeds](https://venturebeat.com/2017/06/18/why-blockchains-fail-and-decentralization-succeeds/)
