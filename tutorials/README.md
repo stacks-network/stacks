@@ -2,6 +2,12 @@
 
 **Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org.**
 
+### Multi-player storage
+
+- urlSlug: multi-player-storage
+- image: /images/tutorials/todo-list.png
+- description: Build a decentralized micro-blogging app using multi-player Gaia storage.
+
 ### Blockstack Todo
 
 - urlSlug: todo-list
