@@ -21,6 +21,13 @@ We will be using the following tools:
 - `yo` to generate boilerplate for a Blockstack React app
 - `blockstack.js` to authenticate the user and access Gaia storage
 
+For experienced Blockstack developers, the TL;DR:
+
+- Add the `publish_data` scope to sign in requests
+- Use `getFile('filename.json', { username: 'username.id' })` to read a file from another user
+- Use `lookupProfile('username.id')` to lookup user profiles
+- Use `putFile('filename.json', file)` as before
+
 ### Installation & Generation
 
 First, install Yeoman along with the Blockstack App Generator:
@@ -49,13 +56,13 @@ To run the app locally:
 npm start
 ```
 
-And open your browser to `http://localhost:8080`. You should now see a simple React app that you can sign in to using your Blockstack ID. We covered how authentication works in a previous tutorial. ([Todo List Application](/tutorials/todo-list))
+And open your browser to `http://localhost:8080`. You should now see a simple React app that you can sign in to using your Blockstack ID. We covered how authentication works in depth in a previous tutorial. ([Blockstack Todos Tutorial](/tutorials/todo-list))
 
 ### Multi-player Storage Scope
 
 In multi-player storage, user files stored on Gaia are made visible to others via the `apps` property in the user's `profile.json` file. Every app that uses multi-player storage must add itself to the user's `profile.json` file. The Blockstack Browser will handle this part automatically when the `publish_data` scope is requested during authentication. 
 
-We will need to modify our authentication request to include the `publish_data` scope.
+So the first thing we need to do is modify our authentication request to include the `publish_data` scope.
 
 Open `src/components/App.jsx` and locate the sign in handler method:
 
@@ -76,7 +83,7 @@ handleSignIn(e) {
 }
 ```
 
-Note that by default, authentiation requests include the `store_write` scope which enables storage.
+*Note that by default, authentication requests include the `store_write` scope which enables storage.*
 
 If you log out and sign in again, the authentication request will now prompt the user for permission to publish data stored for our app.
 
@@ -84,9 +91,22 @@ If you log out and sign in again, the authentication request will now prompt the
 
 ### Posting Statuses
 
-In the next step, we will add functionality to allow posting and displaying of statuses.
+In this step, we will add functionality to allow posting and displaying of "statuses".
 
-Let's open `src/components/Profile.jsx` and add a few properties that we'll be using to the the initial state:
+Let's open `src/components/Profile.jsx` and import a several methods that we'll be using from `blockstack.js`. These methods are `putFile()`, `getFile()` and `lookupProfile()`. Add them to the import statement for `blockstack` near the top of the file:
+
+```javascript
+import {
+  isSignInPending,
+  loadUserData,
+  Person,
+  getFile,
+  putFile,
+  lookupProfile
+} from 'blockstack';
+```
+
+Then, we'll need to add a few properties to the the initial state in `constructor()`. Your constructor should look like this:
 
 ```javascript
 constructor(props) {
@@ -110,20 +130,8 @@ constructor(props) {
 }
 ```
 
-We'll be using several methods provided by `blockstack.js` including `putFile()`, `getFile()` and `lookupProfile()`. So make sure to add them to the import statement at the top of `Profile.jsx`.
 
-```javascript
-import {
-  isSignInPending,
-  loadUserData,
-  Person,
-  getFile,
-  putFile,
-  lookupProfile
-} from 'blockstack';
-```
-
-Now let's modify the `render()` method to add a text input and submit button so that we can post statuses. Replace the render method with the following:
+Now let's modify the `render()` method to add a text input and submit button so that we can post statuses. Replace the `render()` method with the following:
 
 ```javascript
 render() {
@@ -183,6 +191,7 @@ render() {
 ```
 
 In the `render()` method above, we're also displaying the Blockstack ID of the user. We'll need to extract this from the user profile data. Locate the `componentWillMount()` method and add the username property below the person property:
+
 
 ```javascript
 componentWillMount() {
@@ -263,7 +272,7 @@ Go back the `render()` method and add the following block right below the `div` 
 </div>
 ```
 
-We also need to fetch statuses on page load, so let's add a new method called `fetchData()`
+We also need to fetch statuses on page load, so let's add a new method called `fetchData()` and call it from the `componentDidMount()` method
 
 ```javascript
 constructor(props) {
@@ -293,7 +302,6 @@ fetchData() {
     })
 }
 ```
-We've also added a call to `fetchData()` in `componentDidMount()` so our statuses will be fetched on page load.
 
 At this point we have a basic micro-blogging app that we can use to post and view statuses. However, there's no way to view other users' statuses. We'll get to the multi-player part in the next steps. But first, let's take a moment to pretty up our app. 
 
@@ -396,7 +404,7 @@ And replace it with the following:
 
 This sets up a route and captures the route parameter to be used as the profile lookup username.
 
-We'll also need to add a rule to our webpack config so that we can properly process URL paths that contain the `.` character. e.g. `http://localhost:8080/other_user.id`
+We'll also need to add a rule to our webpack config so that we can properly process URL paths that contain the `.` character. e.g. `http://localhost:8080/other_user.id` *Note: In a production app, the web server needs to be configured to handle this.*
 
 Open `webpack.config.js` in the root project directory and locate the following line:
 ```javascript
@@ -476,7 +484,7 @@ getFile(statusFileName, options)
   })
 ```
 
-And lastly, we need to conditionally render the logout button, status input textbox and submit button. In the `render()` method, add a `isLocal()` condition to the log out button and inputs:
+And lastly, we need to conditionally render the logout button, status input textbox and submit button so they don't show up when viewing another user's profile. In the `render()` method, add the `isLocal()` condition to the log out button and inputs:
 
 ```javascript
 {this.isLocal() &&
@@ -511,6 +519,6 @@ And lastly, we need to conditionally render the logout button, status input text
 
 And we're done! Point your browser to `http://localhost:8080/your_blockstack.id` to see the profile.
 
-To see the complete source code of this tutorial visit: https://github.com/to-be-determined
+To see the complete source code of this tutorial visit: https://github.com/yknl/publik
 
-To see a working version of the app, visit: https://to-be-determined
+See a working version of the app [here](http://publik.ykliao.com).
