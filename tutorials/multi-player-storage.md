@@ -93,7 +93,7 @@ If you log out and sign in again, the authentication request will now prompt the
 
 In this step, we will add functionality to allow posting and displaying of "statuses".
 
-Let's open `src/components/Profile.jsx` and import a several methods that we'll be using from `blockstack.js`. These methods are `putFile()`, `getFile()` and `lookupProfile()`. Add them to the import statement for `blockstack` near the top of the file:
+Let's open `src/components/Profile.jsx` and import several methods that we'll be using from `blockstack.js`. These methods are `putFile()`, `getFile()` and `lookupProfile()`. Add them to the import statement for `blockstack` near the top of the file:
 
 ```javascript
 import {
@@ -339,6 +339,7 @@ body{color:#fff}
 /* Input */
 input, textarea{color:#000;padding:10px;}
 .input-status{width:100%;height:70px;border-radius:6px;}
+.new-status{text-align:right;}
 
 /* Statuses */
 .statuses{padding-top:30px;}
@@ -433,7 +434,7 @@ Then we can modify our `fetchData()` method like so:
 fetchData() {
   this.setState({ isLoading: true })
   if (this.isLocal()) {
-    getFile(statusFileName)
+    getFile('statuses.json')
       .then((file) => {
         var statuses = JSON.parse(file || '[]')
         this.setState({
@@ -468,7 +469,7 @@ In order to fetch the user's statuses we add the following block to `fetchData()
 
 ```javascript
 const options = { username: username }
-getFile(statusFileName, options)
+getFile('statuses.json', options)
   .then((file) => {
     var statuses = JSON.parse(file || '[]')
     this.setState({
