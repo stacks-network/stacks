@@ -13,7 +13,7 @@ Blockstack provides decentralized services for naming/DNS, identity, authenticat
 - [Tutorials](#tutorials)
 - [Papers](#papers)
 - [Events](#events)
-- [Swag & Brand](#swag-&amp;-brand)
+- [Swag & Brand](#swag--brand)
 - [How to Help](#how-to-help)
 - [Media Guide](#media-guide)
 
