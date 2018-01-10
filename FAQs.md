@@ -142,7 +142,7 @@ The project was started by two engineers from Princeton University. Muneeb Ali a
 
 ### Where are the current core developers based? What are the requirements for being a core developer?
 
-Most of the core developers work in NYC and Hong Kong. Developers who've contributed to the [core open-source software](https://github.com/blockstack/blockstack-core) over a long enough time period, by default, get included in the list of core developers. There is no formal process for being part of this informal list. Core develoipers, generally, have the ability to write high-quality code, understand distributed systems and applied crypto, and share a vision of building a truly decentralized internet and are dedicated to that cause.
+Most of the core developers work in NYC and Hong Kong. Developers who've contributed to the [core open-source software](https://github.com/blockstack/blockstack-core) over a long enough time period, by default, get included in the list of core developers. There is no formal process for being part of this informal list. Core developers, generally, have the ability to write high-quality code, understand distributed systems and applied crypto, and share a vision of building a truly decentralized internet and are dedicated to that cause.
 
 ### I heard some companies working on Blockstack have raised venture capital, how does that impact the project?
 
