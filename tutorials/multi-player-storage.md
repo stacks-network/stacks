@@ -258,7 +258,7 @@ You'll see that nothing happens when you press the submit button. Because we hav
 
 ### Display Statuses
 
-Go back the `render()` method and add the following block right below the `div` element containing the text input and submit button.
+Go back to the `render()` method and add the following block right below the `div` element containing the text input and submit button.
 
 ```javascript
 <div className="col-md-12 statuses">
@@ -464,7 +464,7 @@ fetchData() {
 ```
 We first use `isLocal()` to check if we're viewing the local user profile or another user's profile. If it's the local user profile, we will run the `getFile()` function we added earlier. Otherwise, we lookup the profile belonging to the username using the `lookupProfile()` method.
 
-In order to fetch the user's statuses we add the following block to `fetchData()` right after the call to `lookupProfile(username)`:
+In order to fetch the user's statuses, we add the following block to `fetchData()` right after the call to `lookupProfile(username)`:
 
 
 ```javascript
