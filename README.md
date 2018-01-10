@@ -50,7 +50,7 @@ If you're just starting with Blockstack, here are the main software repositories
 
 - [Blockstack Core](https://github.com/blockstack/blockstack-core) - the reference implementation of Blockstack written in Python.
 - [Blockstack Portal](https://github.com/blockstack/blockstack-portal) - the Blockstack Browser Portal providing a graphical interface.
-- [blockstack.js](https://github.com/blockstack/blockstack-portal) - a JavaScript library for using Blockstack identity and authentication in your apps.
+- [blockstack.js](https://github.com/blockstack/blockstack.js) - a JavaScript library for using Blockstack identity and authentication in your apps.
 
 ## Tutorials
 
