@@ -53,7 +53,7 @@ You should get a response like this:
 
 ### Price Estimations
 
-Every name costs a certain amount of money to register, and each namespace has it's own name pricing rules.
+Every name costs a certain amount of money to register, and each namespace has its own name pricing rules.
 
 As an example, in the `.id` namespace 6-letter alphabetic-only names cost 0.001 bitcoins, but with every additional letter the names get 4x cheaper and with every fewer letter the names get 4x more expensive. In addition, names without vowels and names with numbers and special characters get a special discount.
 
