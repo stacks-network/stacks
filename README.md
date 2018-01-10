@@ -14,7 +14,7 @@ Blockstack provides decentralized services for naming/DNS, identity, authenticat
 - [Tutorials](#tutorials)
 - [Papers](#papers)
 - [Events](#events)
-- [Swag & Brand](#swag-&amp;-brand)
+- [Swag & Brand](#swag--brand)
 - [Requests for Comments](#requests-for-comments)
 - [How to Help](#how-to-help)
 - [Media Guide](#media-guide)
@@ -84,7 +84,7 @@ If you're just starting with Blockstack, here are the main software repositories
 
 ## Swag & Brand
 
-* [Swag](https://github.com/blockstack/blockstack/issues/96)
+* [Swag](https://docs.google.com/a/blockstack.com/forms/d/e/1FAIpQLSdrL2wiZTZNwJma6IBQ3CvH3VaM9ehrxtooacpzXxjIYKeUOg/viewform?c=0&w=1)
 * [Blockstack Brand](https://projects.invisionapp.com/d/main#/boards/4846740)
 
 ## Requests for Comments
