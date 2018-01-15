@@ -169,14 +169,14 @@ render() {
             <div className="col-md-12">
               <textarea className="input-status" 
                 value={this.state.newStatus} 
-                onChange={this.handleNewStatusChange} 
+                onChange={e => this.handleNewStatusChange(e)} 
                 placeholder="What's on your mind?"
               />
             </div>
             <div className="col-md-12">
               <button
                 className="btn btn-primary btn-lg"
-                onClick={this.handleNewStatusSubmit}
+                onClick={e => this.handleNewStatusSubmit(e)}
               >
                 Submit
               </button>
@@ -240,18 +240,6 @@ saveNewStatus(statusText) {
 }
 ```
 
-Don't forget to bind the new methods in the constructor:
-
-```javascript
-constructor(props) {
-  // constructor code...
-
-  this.handleNewStatusChange = this.handleNewStatusChange.bind(this);
-  this.handleNewStatusSubmit = this.handleNewStatusSubmit.bind(this);
-  this.saveNewStatus = this.saveNewStatus.bind(this);
-}
-```
-
 Now you should be able to type a status in the text box and save it by pressing the submit button.
 
 You'll see that nothing happens when you press the submit button. Because we haven't added any code to display the statuses.
@@ -275,11 +263,6 @@ Go back to the `render()` method and add the following block right below the `di
 We also need to fetch statuses on page load, so let's add a new method called `fetchData()` and call it from the `componentDidMount()` method
 
 ```javascript
-constructor(props) {
-  // constructor code...
-
-  this.fetchData = this.fetchData.bind(this);
-}
 
 componentDidMount() {
   this.fetchData()
