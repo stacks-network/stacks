@@ -5,7 +5,7 @@
 ### Multi-player storage
 
 - urlSlug: multi-player-storage
-- image: /images/tutorials/todo-list.png
+- image: /images/tutorials/multi-player-storage.png
 - description: Build a decentralized micro-blogging app using multi-player Gaia storage.
 
 ### Blockstack Todo
