@@ -345,12 +345,12 @@ Install `react-router`:
 npm install --save react-router-dom
 ```
 
-Open `src/index.jsx` and add to the top of the file:
+Open `src/index.js` and add to the top of the file:
 ```javascript
 import { BrowserRouter } from 'react-router-dom'
 ```
 
-Next, change the `ReactDOM.render()` method in `src/index.jsx` to:
+Next, change the `ReactDOM.render()` method in `src/index.js` to:
 ```javascript
 ReactDOM.render((
   <BrowserRouter>
@@ -448,7 +448,7 @@ fetchData() {
 ```
 We first use `isLocal()` to check if we're viewing the local user profile or another user's profile. If it's the local user profile, we will run the `getFile()` function we added earlier. Otherwise, we lookup the profile belonging to the username using the `lookupProfile()` method.
 
-In order to fetch the user's statuses, we add the following block to `fetchData()` right after the call to `lookupProfile(username)`:
+In order to fetch the user's statuses, we add the following block to `fetchData()` right after the call to `lookupProfile(username)... catch((error)=>{..}` block:
 
 
 ```javascript
@@ -469,7 +469,7 @@ getFile('statuses.json', options)
   })
 ```
 
-And lastly, we need to conditionally render the logout button, status input textbox and submit button so they don't show up when viewing another user's profile. In the `render()` method, add the `isLocal()` condition to the log out button and inputs:
+And lastly, we need to conditionally render the logout button, status input textbox and submit button so they don't show up when viewing another user's profile. In the `render()` method, check to ensure that you are viewing your own profile, by wrapping the Logout button and inputs with the `{isLocal() && ...}` condition:
 
 ```javascript
 {this.isLocal() &&
@@ -502,7 +502,7 @@ And lastly, we need to conditionally render the logout button, status input text
 }
 ```
 
-And we're done! Point your browser to `http://localhost:8080/your_blockstack.id` to see the profile.
+And we're done! Point your browser to `http://localhost:8080/your_blockstack.id` to see the profile.  Note, if you have not yet registered a profile, you will not have an id.
 
 To see the complete source code of this tutorial visit: https://github.com/yknl/publik/tree/tutorial-demo
 
