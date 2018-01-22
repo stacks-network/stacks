@@ -448,7 +448,7 @@ fetchData() {
 ```
 We first use `isLocal()` to check if we're viewing the local user profile or another user's profile. If it's the local user profile, we will run the `getFile()` function we added earlier. Otherwise, we lookup the profile belonging to the username using the `lookupProfile()` method.
 
-*Note: For `https` deployments, the default Blockstack Core API endpoint for name lookups should be changed to point to a core api served over `https`. Otherwise name lookups will fail due to browsers blocking mixed content on a `https` site. Refer to the [Blockstack.js documention](http://blockstack.github.io/blockstack.js/#getfile) for details. *
+*Note: For `https` deployments, the default Blockstack Core API endpoint for name lookups should be changed to point to a core API served over `https`. Otherwise name lookups will fail due to browsers blocking mixed content. Refer to the [Blockstack.js documention](http://blockstack.github.io/blockstack.js/#getfile) for details. *
 
 In order to fetch the user's statuses, we add the following block to `fetchData()` right after the call to `lookupProfile(username)... catch((error)=>{..}` block:
 
