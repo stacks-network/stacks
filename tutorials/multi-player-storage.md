@@ -345,12 +345,12 @@ Install `react-router`:
 npm install --save react-router-dom
 ```
 
-Open `src/index.jsx` and add to the top of the file:
+Open `src/index.js` and add to the top of the file:
 ```javascript
 import { BrowserRouter } from 'react-router-dom'
 ```
 
-Next, change the `ReactDOM.render()` method in `src/index.jsx` to:
+Next, change the `ReactDOM.render()` method in `src/index.js` to:
 ```javascript
 ReactDOM.render((
   <BrowserRouter>
@@ -401,7 +401,7 @@ historyApiFallback: {
   disableDotRule: true
 },
 ```
-Note: We'll need to run `npm start` again for this to take effect.
+*Note: We'll need to run `npm start` again for this to take effect.*
 
 Now we jump back to `src/components/Profile.jsx` and add a single method that will let us determine if we're viewing the local user's profile or another user's profile.
 
@@ -448,7 +448,9 @@ fetchData() {
 ```
 We first use `isLocal()` to check if we're viewing the local user profile or another user's profile. If it's the local user profile, we will run the `getFile()` function we added earlier. Otherwise, we lookup the profile belonging to the username using the `lookupProfile()` method.
 
-In order to fetch the user's statuses, we add the following block to `fetchData()` right after the call to `lookupProfile(username)`:
+*Note: For `https` deployments, the default Blockstack Core API endpoint for name lookups should be changed to point to a core api served over `https`. Otherwise name lookups will fail due to browsers blocking mixed content on a `https` site. Refer to the [Blockstack.js documention](http://blockstack.github.io/blockstack.js/#getfile) for details. *
+
+In order to fetch the user's statuses, we add the following block to `fetchData()` right after the call to `lookupProfile(username)... catch((error)=>{..}` block:
 
 
 ```javascript
@@ -469,7 +471,7 @@ getFile('statuses.json', options)
   })
 ```
 
-And lastly, we need to conditionally render the logout button, status input textbox and submit button so they don't show up when viewing another user's profile. In the `render()` method, add the `isLocal()` condition to the log out button and inputs:
+And lastly, we need to conditionally render the logout button, status input textbox and submit button so they don't show up when viewing another user's profile. In the `render()` method, check to ensure that you are viewing your own profile, by wrapping the Logout button and inputs with the `{isLocal() && ...}` condition:
 
 ```javascript
 {this.isLocal() &&
@@ -502,7 +504,7 @@ And lastly, we need to conditionally render the logout button, status input text
 }
 ```
 
-And we're done! Point your browser to `http://localhost:8080/your_blockstack.id` to see the profile.
+And we're done! Point your browser to `http://localhost:8080/your_blockstack.id` to see the profile. Note: You will need to have a registered Blockstack ID to for this to work.
 
 To see the complete source code of this tutorial visit: https://github.com/yknl/publik/tree/tutorial-demo
 
