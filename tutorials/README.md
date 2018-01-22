@@ -2,7 +2,7 @@
 
 **Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org.**
 
-### Multi-player storage
+### Multi-player Storage
 
 - urlSlug: multi-player-storage
 - image: /images/tutorials/multi-player-storage.png
