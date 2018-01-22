@@ -401,7 +401,7 @@ historyApiFallback: {
   disableDotRule: true
 },
 ```
-Note: We'll need to run `npm start` again for this to take effect.
+*Note: We'll need to run `npm start` again for this to take effect.*
 
 Now we jump back to `src/components/Profile.jsx` and add a single method that will let us determine if we're viewing the local user's profile or another user's profile.
 
@@ -447,6 +447,8 @@ fetchData() {
 }
 ```
 We first use `isLocal()` to check if we're viewing the local user profile or another user's profile. If it's the local user profile, we will run the `getFile()` function we added earlier. Otherwise, we lookup the profile belonging to the username using the `lookupProfile()` method.
+
+*Note: For `https` deployments, the default Blockstack Core API endpoint for name lookups should be changed to point to a core api served over `https`. Otherwise name lookups will fail due to browsers blocking mixed content on a `https` site. Refer to the [Blockstack.js documention](http://blockstack.github.io/blockstack.js/#getfile) for details. *
 
 In order to fetch the user's statuses, we add the following block to `fetchData()` right after the call to `lookupProfile(username)... catch((error)=>{..}` block:
 
