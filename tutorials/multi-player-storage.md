@@ -1,7 +1,7 @@
 ---
 title: Multi-player Storage Tutorial
 description: Build a decentralized micro-blogging app using multi-player storage in Gaia.
-image: /images/visuals/hello-blockstack-tutorial.png
+image: /images/tutorials/multi-player-storage.png
 youtube: https://www.youtube.com/embed/w7Sa54H-CGg
 ---
 
