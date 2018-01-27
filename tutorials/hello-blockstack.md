@@ -66,8 +66,7 @@ Inside of this, we have a sign in button handler that creates an auth request an
 
 ```js
 document.getElementById('signin-button').addEventListener('click', function() {
-  var authRequest = blockstack.makeAuthRequest(null, window.location.origin)
-  blockstack.redirectUserToSignIn(authRequest)
+  blockstack.redirectToSignIn()
 })
 ```
 
@@ -115,13 +114,11 @@ With the first condition (when the user is signed in), we load the user data fro
 
 ```js
 if (blockstack.isUserSignedIn()) {
-  blockstack.loadUserData(function(userData) {
-    showProfile(userData.profile)
-  })
+  showProfile(blockstack.loadUserData())
 } else if (blockstack.isSignInPending()) {
-  blockstack.signUserIn(function(userData) {
-    window.location = window.location.origin
-  })
+  blockstack.handlePendingSignIn().then(function(userData) {
+      window.location = window.location.origin
+    });
 }
 ```
 
