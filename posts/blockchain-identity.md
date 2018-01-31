@@ -12,7 +12,7 @@ The main difference between blockchain identities and accounts on any other serv
 
 #### Identity on Blockstack
 
-Blockstack is the largest, most popular blockchain identity system, with 50,000 registered identities.
+Blockstack is the largest, most popular blockchain identity system, with 70,000 registered identities.
 
 On Blockstack, identities are referred to as "blockstack identities" and they come with profiles and globally unique names.
 
