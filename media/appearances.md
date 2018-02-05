@@ -3,12 +3,13 @@
 **Appearances**
 
 * Feb 1, 2018 - **The Gaurdian** - [The punk rock internet – how DIY ​​rebels ​are working to ​replace the tech giants](https://www.theguardian.com/technology/2018/feb/01/punk-rock-internet-diy-rebels-working-replace-tech-giants-snoopers-charter)
+* Jan 26, 2018 - **International Business Times** - [Blockstack focuses on building decentralised web amid crypto-token mania](http://www.ibtimes.co.uk/blockstack-focuses-building-decentralised-web-amid-crypto-token-mania-1656755)
 * Jan 16, 2018 - **New York Times** - [Beyond the Bitcoin Bubble](https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html)
 * Jan 2, 2018 - **CoinDesk** - [ICOs Raise Over $1 Billion in a Month for the First Time](https://news.bitcoin.com/icos-raise-1-billion-month-first-time/)
 * Dec 9, 2017 - **TheStreet** - [Bitcoin Billionaires The Winklevoss Twins Back Blockstack Initial Coin Offering](https://www.thestreet.com/story/14415481/1/winklevoss-twins-back-blockstack-ico.html)
 * Dec 4, 2017 - **VentureBeat** - [Blockstack raises $52 million to build a parallel internet where you own all your data](https://venturebeat.com/2017/12/04/blockstack-raises-52-million-to-build-a-parallel-internet-where-you-own-all-your-data/)
 * Dec 4, 2017 - **The Globe and Mail** - [Streetwise newsletter: Manulife’s new reason to hold onto its U.S. legacy business; head of ETFs at AGF to part ways with firm](https://www.theglobeandmail.com/report-on-business/streetwise/streetwise-newsletter-manulifes-new-reason-to-hold-onto-its-us-legacy-business-head-of-etfs-at-agf-to-part-ways-with-firm/article37189653/)
-* Nov 27, 2017 - **IB Times** - [Bitcoin Price Nears $10,000, Blockstack Shows Long-Term Potential](http://www.ibtimes.com/bitcoin-price-nears-10000-blockstack-shows-long-term-potential-2620192)
+* Nov 27, 2017 - **International Business Times** - [Bitcoin Price Nears $10,000, Blockstack Shows Long-Term Potential](http://www.ibtimes.com/bitcoin-price-nears-10000-blockstack-shows-long-term-potential-2620192)
 * Nov 22, 2017 - **Yahoo Finance** - [CoinList wants to make investing in ICOs less risky](https://finance.yahoo.com/news/coinlist-wants-make-investing-icos-less-risky-173932819.html)
 * Nov 22, 2017 - **Cryptostec** - [What is Blockstack?](https://cryptostec.com/what-is-blockstack/)
 * Nov 11, 2017 - **The Economist** - [Regulators begin to tackle the craze for initial coin offerings](https://www.economist.com/news/finance-and-economics/21731157-they-raise-difficult-legal-questions-regulators-begin-tackle-craze)
