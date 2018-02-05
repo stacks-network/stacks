@@ -71,9 +71,15 @@ To see the Gaia Storage in action add a couple of todos. Maybe a list of applica
 - [ ] Mutable torrents with human readable names
 - [ ] Decentralized twitter
 
-These Todos have now been stored in your Dropbox account linked to your Blockstack ID. To view the files go to your [Dropbox account](https://dropbox.com) and open the `Apps` folder. Once inside you should see a folder called `Blockstack`. This is where all of the data stored via the Gaia storage layer lives.
+These Todos have now been stored in the Gaia Hub linked to your Blockstack ID. For more information about the Gaia hub, see the [hub documentation](https://github.com/blockstack/gaia). 
 
-You should see some files that were reciently added when you updated your todos. Download and open the file to see the created JSON. The todos above created the following json:
+You can fetch the `todos.json` file you just added by opening the Javascript console and running the following command: 
+
+```Javascript
+blockstack.getFile("todos.json", { decrypt: true }).then((file) => {console.log(file)})
+```
+
+You should see the todos that were reciently added. The todos created above generate the following json:
 
 ```json
 [
@@ -101,7 +107,7 @@ Now add another todo and mark it completed:
 - [ ] Mutable torrents with human readable names
 - [ ] Decentralized twitter
 
-When you download the newly generated file from your Dropbox it will reflect the change:
+When you fetch the newly generated file using the Javascript console it will reflect the change:
 
 ```json
 [
@@ -128,7 +134,7 @@ When you download the newly generated file from your Dropbox it will reflect the
 ]
 ```
 
-Now that you have seen the application in action lets dig into how it works. Open the `blockstack-todos` repository in a text editor.
+Now that you have seen the application in action, lets dig into how it works. Open the `blockstack-todos` repository in a text editor.
 
 #### Sign In - Implementation
 
@@ -167,26 +173,26 @@ signOut () {
 
 #### Storage - Implementation
 
-Next we are going to see how the application interacts with your Dropbox storage. This code lives in the `src/components/Dashboard.vue` file. First lets see where the changes to the Todos are processed:
+Next we are going to see how the application interacts with your Gaia Hub. This code lives in the `src/components/Dashboard.vue` file. First lets see where the changes to the Todos are processed:
 
 ```js
 todos: {
   handler: function (todos) {
     const blockstack = this.blockstack
-    return blockstack.putFile(STORAGE_FILE, JSON.stringify(todos))
+    return blockstack.putFile(STORAGE_FILE, JSON.stringify(todos), { encrypt: true })
   },
   deep: true
 }
 ```
 
-You can see that the `todos` JSON object is passed in. Then we use the `blockstack.putFile()` method to store it in our Dropbox. Quick and easy!
+You can see that the `todos` JSON object is passed in. Then we use the `blockstack.putFile()` method to store it in our Gaia Hub. Quick and easy!
 
 The other operation we need to perform is to read the Todos from the storage. This is accomplished with the `blockstack.getFile()` method which returns a promise:
 
 ```js
 fetchData () {
   const blockstack = this.blockstack
-  blockstack.getFile(STORAGE_FILE)
+  blockstack.getFile(STORAGE_FILE, { decrypt: true })
   .then((todosText) => {
     var todos = JSON.parse(todosText || '[]')
     todos.forEach(function (todo, index) {
