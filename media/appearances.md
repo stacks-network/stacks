@@ -2,6 +2,7 @@
 
 **Appearances**
 
+* Feb 1, 2018 - **The Gaurdian** - [The punk rock internet – how DIY ​​rebels ​are working to ​replace the tech giants](https://www.theguardian.com/technology/2018/feb/01/punk-rock-internet-diy-rebels-working-replace-tech-giants-snoopers-charter)
 * Jan 16, 2018 - **New York Times** - [Beyond the Bitcoin Bubble](https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html)
 * Jan 2, 2018 - **CoinDesk** - [ICOs Raise Over $1 Billion in a Month for the First Time](https://news.bitcoin.com/icos-raise-1-billion-month-first-time/)
 * Dec 9, 2017 - **TheStreet** - [Bitcoin Billionaires The Winklevoss Twins Back Blockstack Initial Coin Offering](https://www.thestreet.com/story/14415481/1/winklevoss-twins-back-blockstack-ico.html)
