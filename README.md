@@ -75,8 +75,8 @@ Blockstack has published a number of academic white-papers detailing the design 
 ## How to Help
 
 - **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved
-[Good First Issues - Github](https://github.com/blockstack/blockstack-browser/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-[Help wanted - Github](https://github.com/blockstack/blockstack-browser/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+* [Good First Issues - Github](https://github.com/blockstack/blockstack-browser/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+* [Help wanted - Github](https://github.com/blockstack/blockstack-browser/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 - **Help with software testing** - we really appreciate and value our testers, and encourage people who want to support Blockstack to run the software and file issues in the appropriate repository for any bugs that are found
 - **Improve the documentation** - we can never have enough documentation so if there's anything you'd like to clarify or add, just fork any of the Blockstack repos, start writing and expanding on the docs, and submit a pull request
 - **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
