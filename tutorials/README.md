@@ -8,6 +8,12 @@
 - image: /images/tutorials/multi-player-storage.png
 - description: Build a decentralized micro-blogging app using multi-player Gaia storage.
 
+### Managing Data with Gaia
+
+- urlSlug: managing-data-with-gaia
+- image: /images/tutorials/managing-data-with-gaia.png
+- description: This series will focus on teaching you to think like a Blockstack developer working with Gaia.
+
 ### Blockstack Todo
 
 - urlSlug: todo-list
