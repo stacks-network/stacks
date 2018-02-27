@@ -63,7 +63,9 @@ Issues that don't pass review should be moved by the pull request reviewer back 
 
 
 ## Pull Requests
+
 ### Creating a pull request
+
 **Responsible party:** Issue assignee
 
 Pull requests are made from topic (feature, hotfix, etc) branches to `develop` or `master`. We never commit directly to these two branches.
@@ -108,6 +110,8 @@ We generally use the [git flow](http://nvie.com/posts/a-successful-git-branching
 
 The `develop` branch contains the latest delivered and accepted features. New features are generally developed against the `develop` branch unless they depend on the work done in another feature branch that has yet to be accepted and merged into `develop`.
 
+The `master` branch contains the most recent shipped release.
+
 ## Planning
 
 - [ ]  Before Thursday Engineering meeting: Each team member collects notes on their top priorities for the coming week, progress on existing items, concerns etc..
@@ -138,7 +142,7 @@ We have a 45 minute weekly engineering meeting on Thursdays at 09:00 EST/EDT and
 - [ ]  Confirm attendee availability
 - [ ]  Send a calendar invite that includes the zoom meeting link & link to agenda
 
-** Public meetings only*
+** *Public meetings only*
 
 ### Agenda contents
 
@@ -175,4 +179,4 @@ Desired outcome: <what needs to be decided from this discussion>
 - [ ]  At conclusion of meeting, paste contents of paper doc into the forum meeting post
 - [ ]  Create relevant github issues for action items and link them from the forum meeting post
 
-** Public meetings only*
+** *Public meetings only*
