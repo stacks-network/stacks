@@ -176,7 +176,7 @@ Desired outcome: <what needs to be decided from this discussion>
 - [ ]  Discuss agenda items recording notes in paper document including:
 - [ ]  Record key decisions
 - [ ]  Record actions items & parties responsible for executing on each item
-- [ ]  At conclusion of meeting, paste contents of paper doc into the forum meeting post
+- [ ]  At conclusion of meeting, the note taker pastes the contents of paper doc as a reply to the forum meeting post
 - [ ]  Create relevant github issues for action items and link them from the forum meeting post
 
 ** *Public meetings only*
