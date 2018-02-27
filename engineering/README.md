@@ -161,7 +161,7 @@ Description: <a few sentences describing the concern>
 Desired outcome: <what needs to be decided from this discussion>
 ```
 
-### Holding meetings**
+### Holding meetings
 
 *Responsible person:* Person who called the meeting (or delegate)
 
