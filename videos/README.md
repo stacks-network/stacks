@@ -2,6 +2,14 @@
 
 **Note: This data is being digested by blockstack.org. Do not change the formatting of this list unless you first make an adjustment to the code on blockstack.org.**
 
+### A New Internet Where You're In Control
+
+- event: TheNextWeb 2017
+- speaker: Ryan Shea
+- location: New York, NY
+- date: December 12, 2017
+- youtubeURL: https://www.youtube.com/watch?v=iBIcQaBoslM
+
 ### The Future of the Internet is Decentralized
 
 - event: The Conference
