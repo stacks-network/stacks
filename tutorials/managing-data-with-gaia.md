@@ -97,7 +97,7 @@ Cons
 
 ### Implementing these approaches
 
-We’ve shown you conceptually how you might think about organizing your data, but you have not seem much implementation code. Check out the sandbox linked below for an implementation of services that can accommodate either the single-file or multi-file approaches for all of your collections.
+We’ve shown you conceptually how you might think about organizing your data, but you have not seen much implementation code. Check out the sandbox linked below for an implementation of services that can accommodate either the single-file or multi-file approaches for all of your collections.
 
 Note that we’ve included an interstitial “driver” layer for a few reasons:
 
