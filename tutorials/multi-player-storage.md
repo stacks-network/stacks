@@ -25,9 +25,10 @@ We will be using the following tools:
 For experienced Blockstack developers, the TL;DR:
 
 - Add the `publish_data` scope to sign in requests
-- Use `getFile('filename.json', { username: 'username.id' })` to read a file from another user
+- Use `getFile('filename.json', { username: 'username.id', decrypt: false })` to read a file from another user.
 - Use `lookupProfile('username.id')` to lookup user profiles
-- Use `putFile('filename.json', file)` as before
+- Use `putFile('filename.json', file, options)` as before where `options` is set to `{ encrypt: false }` so
+that encryption is disabled and others can read your file.
 
 ### Installation & Generation
 
@@ -61,7 +62,7 @@ And open your browser to `http://localhost:8080`. You should now see a simple Re
 
 ### Multi-player Storage Scope
 
-In multi-player storage, user files stored on Gaia are made visible to others via the `apps` property in the user's `profile.json` file. Every app that uses multi-player storage must add itself to the user's `profile.json` file. The Blockstack Browser will handle this part automatically when the `publish_data` scope is requested during authentication. 
+In multi-player storage, user files stored on Gaia are made visible to others via the `apps` property in the user's `profile.json` file. Every app that uses multi-player storage must add itself to the user's `profile.json` file. The Blockstack Browser will handle this part automatically when the `publish_data` scope is requested during authentication.
 
 So the first thing we need to do is modify our authentication request to include the `publish_data` scope.
 
@@ -125,7 +126,7 @@ constructor(props) {
     username: "",
     newStatus: "",
     statuses: [],
-    statusIndex: 0, 
+    statusIndex: 0,
     isLoading: false    
   };
 }
@@ -147,14 +148,14 @@ render() {
         <div className="col-md-offset-3 col-md-6">
           <div className="col-md-12">
             <div className="avatar-section">
-              <img 
-                src={ person.avatarUrl() ? person.avatarUrl() : avatarFallbackImage } 
-                className="img-rounded avatar" 
-                id="avatar-image" 
+              <img
+                src={ person.avatarUrl() ? person.avatarUrl() : avatarFallbackImage }
+                className="img-rounded avatar"
+                id="avatar-image"
               />
               <div className="username">
                 <h1>
-                  <span id="heading-name">{ person.name() ? person.name() 
+                  <span id="heading-name">{ person.name() ? person.name()
                     : 'Nameless Person' }</span>
                   </h1>
                 <span>{username}</span>
@@ -168,9 +169,9 @@ render() {
 
           <div className="new-status">
             <div className="col-md-12">
-              <textarea className="input-status" 
-                value={this.state.newStatus} 
-                onChange={e => this.handleNewStatusChange(e)} 
+              <textarea className="input-status"
+                value={this.state.newStatus}
+                onChange={e => this.handleNewStatusChange(e)}
                 placeholder="What's on your mind?"
               />
             </div>
@@ -225,14 +226,14 @@ saveNewStatus(statusText) {
   let statuses = this.state.statuses
 
   let status = {
-    id: this.state.statusIndex++, 
+    id: this.state.statusIndex++,
     text: statusText.trim(),
     created_at: Date.now()
   }
 
   statuses.unshift(status)
-
-  putFile('statuses.json', JSON.stringify(statuses))
+  const options = { encrypt: false }
+  putFile('statuses.json', JSON.stringify(statuses), options)
     .then(() => {
       this.setState({
         statuses: statuses
@@ -271,7 +272,8 @@ componentDidMount() {
 
 fetchData() {
   this.setState({ isLoading: true })
-  getFile('statuses.json')
+  const options = { decrypt: false }
+  getFile('statuses.json', options)
     .then((file) => {
       var statuses = JSON.parse(file || '[]')
       this.setState({
@@ -287,7 +289,7 @@ fetchData() {
 }
 ```
 
-At this point we have a basic micro-blogging app that we can use to post and view statuses. However, there's no way to view other users' statuses. We'll get to the multi-player part in the next steps. But first, let's take a moment to pretty up our app. 
+At this point we have a basic micro-blogging app that we can use to post and view statuses. However, there's no way to view other users' statuses. We'll get to the multi-player part in the next steps. But first, let's take a moment to pretty up our app.
 
 Open `src/styles/style.css` and replace the existing styles with the following:
 
@@ -376,13 +378,13 @@ Next, locate the line below in the `render()` method:
 And replace it with the following:
 
 ```javascript
-  : 
+  :
   <Switch>
-    <Route 
-      path='/:username?' 
+    <Route
+      path='/:username?'
       render={
         routeProps => <Profile handleSignOut={ this.handleSignOut } {...routeProps} />
-      } 
+      }
     />
   </Switch>
 ```
@@ -418,7 +420,8 @@ Then we can modify our `fetchData()` method like so:
 fetchData() {
   this.setState({ isLoading: true })
   if (this.isLocal()) {
-    getFile('statuses.json')
+    const options = { decrypt: false }
+    getFile('statuses.json', options)
       .then((file) => {
         var statuses = JSON.parse(file || '[]')
         this.setState({
@@ -455,7 +458,7 @@ In order to fetch the user's statuses, we add the following block to `fetchData(
 
 
 ```javascript
-const options = { username: username }
+const options = { username: username, decrypt: false }
 getFile('statuses.json', options)
   .then((file) => {
     var statuses = JSON.parse(file || '[]')
@@ -484,12 +487,12 @@ And lastly, we need to conditionally render the logout button, status input text
 
 //...
 
-{this.isLocal() && 
+{this.isLocal() &&
   <div className="new-status">
     <div className="col-md-12">
-      <textarea className="input-status" 
-        value={this.state.newStatus} 
-        onChange={this.handleNewStatusChange} 
+      <textarea className="input-status"
+        value={this.state.newStatus}
+        onChange={this.handleNewStatusChange}
         placeholder="What's on your mind?"
       />
     </div>
