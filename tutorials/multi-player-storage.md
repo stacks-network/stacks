@@ -510,6 +510,6 @@ And lastly, we need to conditionally render the logout button, status input text
 
 And we're done! Point your browser to `http://localhost:8080/your_blockstack.id` to see the profile. Note: You will need to have a registered Blockstack ID to for this to work.
 
-To see the complete source code of this tutorial visit: https://github.com/yknl/publik/tree/tutorial-demo
+To see the complete source code of this tutorial visit: https://github.com/larrysalibra/publik
 
 See a working version of the app [here](http://publik.ykliao.com).
