@@ -8,7 +8,7 @@ youtube: https://www.youtube.com/embed/oyvg-h0obFw
 What are we learning today?
 
 - How to build a Single Page Javascript application with Blockstack
-- How to manage authentication using a Blockstack ID 
+- How to manage authentication using a Blockstack ID
 - How to use Blockstack Storage (Gaia) as an application backend.
 
 #### Requirements
@@ -27,7 +27,7 @@ $ npm run start
 
 #### Sign In - How it works
 
-As you click the `Sign In With Blockstack` button an ephemeral key is generated within the application. This key, which is just used for the particular instance of the application, is just used to sign a Sign In request. It also generates a public key which is sent to the browser and used to encrypt data coming back to your Blockstack node. This allows the application to store data in your Blockstack storage. The signed authentication request is sent to Blockstack through a JSON Web Token. The JWT is passed in via a query string in the parameter: `?authRequest=j902120cn829n1jnvoa...`. 
+As you click the `Sign In With Blockstack` button an ephemeral key is generated within the application. This key, which is just used for the particular instance of the application, is just used to sign a Sign In request. It also generates a public key which is sent to the browser and used to encrypt data coming back to your Blockstack node. This allows the application to store data in your Blockstack storage. The signed authentication request is sent to Blockstack through a JSON Web Token. The JWT is passed in via a query string in the parameter: `?authRequest=j902120cn829n1jnvoa...`.
 
 To decode the token and see what information it holds you can navigate to [jwt.io](http://jwt.io/) and paste the full token there. The output should look similar to below:
 
@@ -51,11 +51,11 @@ To decode the token and see what information it holds you can navigate to [jwt.i
 
 Clicking the Sign In button brings up a modal. When you click `Approve` the following actions are taken:
 
-- A request is sent from the browser to your local blockstack-core node. 
-- The blockstack-core node generates a session token which is returned to the application. 
+- A request is sent from the browser to your local blockstack-core node.
+- The blockstack-core node generates a session token which is returned to the application.
 - This session token allows the application to read and write files to your personal Blockstack storage.
 - An authentication response is then generated which is similar to the `authRequest` above.
-- The `authResponse` also includes a private key intended only for the application. This allows the application to encrypt data on your storage. 
+- The `authResponse` also includes a private key intended only for the application. This allows the application to encrypt data on your storage.
 - You are now logged into the Todo application!
 
 ##### Notes
@@ -71,15 +71,15 @@ To see the Gaia Storage in action add a couple of todos. Maybe a list of applica
 - [ ] Mutable torrents with human readable names
 - [ ] Decentralized twitter
 
-These Todos have now been stored in the Gaia Hub linked to your Blockstack ID. For more information about the Gaia hub, see the [hub documentation](https://github.com/blockstack/gaia). 
+These Todos have now been stored in the Gaia Hub linked to your Blockstack ID. For more information about the Gaia hub, see the [hub documentation](https://github.com/blockstack/gaia).
 
-You can fetch the `todos.json` file you just added by opening the Javascript console and running the following command: 
+You can fetch the `todos.json` file you just added by opening the Javascript console and running the following command:
 
 ```Javascript
 blockstack.getFile("todos.json", { decrypt: true }).then((file) => {console.log(file)})
 ```
 
-You should see the todos that were reciently added. The todos created above generate the following json:
+You should see the todos that were recently added. The todos created above generate the following JSON:
 
 ```json
 [
@@ -159,9 +159,9 @@ if (blockstack.isUserSignedIn()) {
 }
 ```
 
-First we check if the user is signed in with `blockstack.isUserSignedIn()`. If this is true then we can pull that data from the browser and use it in our application. 
+First we check if the user is signed in with `blockstack.isUserSignedIn()`. If this is true then we can pull that data from the browser and use it in our application.
 
-If we aren't signed in we then need to check `blockstack.isSignInPending()`. This means that an `authResponse` has been sent back to the application but hasn't been processed yet. the `handlePendingSignIn` function takes care of processing that pending Sign In. 
+If we aren't signed in we then need to check `blockstack.isSignInPending()`. This means that an `authResponse` has been sent back to the application but hasn't been processed yet. the `handlePendingSignIn` function takes care of processing that pending Sign In.
 
 Signout is handled in `src/components/Dashboard.js`. The method allows the application creator to decide where to redirect the user upon Sign Out:
 
