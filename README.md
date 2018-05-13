@@ -43,6 +43,8 @@ If you're just starting with Blockstack, here are the main software repositories
 - [Blockstack Browser](https://github.com/blockstack/blockstack-browser) - the Blockstack Browser provides a graphical interface for interactions with the network.
 - [blockstack.js](https://github.com/blockstack/blockstack.js) - a JavaScript library for using Blockstack identity, authentication, and gaia storage in your apps.
 
+## Tutorials
+
 [Here is a link to our latest tutorials](https://blockstack.org/tutorials)!
 
 ## Papers
