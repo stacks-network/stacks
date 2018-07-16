@@ -47,6 +47,10 @@ To create an ID, do the following:
 
 3. Register a Blockstack id (username) and press **Check Availability**.
 
+
+    ![](images/create-id-2.png)
+
+
    This is your identity in the Blockstack network. The application limits
    you to one id per email address. If you have multiple email addresses, you
    are free to have multiple Blockstack IDs.  The format of the id is:
