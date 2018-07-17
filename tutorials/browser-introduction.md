@@ -14,13 +14,43 @@ you  use the browser to find and interact with decentralized applications
 Developers install the browser in a local environment for testing
 decentralized applications (dapps) during development.
 
-# Create a Blockstack ID
+# About Blockstack IDs
 
 To use the browser or to develop a decentralized application you require a
 Blockstack ID, for example `moxiegirl.id.blockstack`. A Blockstack ID is a
 digital identity that is registered With Blockstack. Your personal data and
-storage are built around this ID. Decnetralized applications that want to access
+storage are built around this ID. Decentralized applications that want to access
 your data need your identity and your permission.
+
+When you first sign up through the Blockstack browser, you create an initial
+human-readable identity in the `id.blockstack` domain. This initial identity has
+the format:
+
+_`USERNAME`_`.id.blockstack`
+
+You supply an email and password when you create this identity. The email and pasword is used to:
+
+ * create a _id key_ an encrypted string, for example `36mWivFdy0YPH2z31EflpQz/Y0UMrOrJ++lH=0EI7c3mop2JuRBm5W1P0BwXxSTazJsUjOAmC55rFUWINqDqGccLio0iwzGclAhaHGZQ5M52`
+ * seed a _recovery passphrase_ which is a set of 12 words `applied binge crisp pictorial fiery dancing agreeable frogs light finish ping apple`
+ * provide a mechanism for Blockstack to send you recovery information
+
+While Blockstack knows your human readable and id key, it does not store them
+with  your email, your password, or the recovery passphrase. Instead, you must
+record this information in a secure location such as a password manager.
+
+>**Warning**: Blockstack IDs are decentralized, meaning, anyone who has the secret recovery key effectively owns this ID. Please save your recovery key!
+
+Your initial ID is created in the `id.blockstack` domain. The initial identity
+remains primary, and you need this primary ID and its associated information
+(email, password, key, passphrase) to use the browser again.
+
+
+This `id.blockstack` domain is sponsored by the Blockstack registrar and
+identities on it are free. Once you are using the Blockstack Browser, you can
+create additional identities outside of this domain and controlled by other
+registrars. Coin is required to purchase identities on other domains.
+
+## Create a Blockstack ID
 
 To create an ID, do the following:
 
@@ -64,7 +94,7 @@ To create an ID, do the following:
 
 4.  Press **Continue**.
 
-    The system prompts you to save your **Recovery Key**.  A recovery key is a
+    The system prompts you to save your **Recovery Key**. A recovery key is a
     sequence of 12 words.  These words allow you to recover an `id.blockstack`
     that you've created.  You should store the words along with their order, for
     example,  `#1 pink` and so forth.
