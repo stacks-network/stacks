@@ -3,7 +3,7 @@
 Interacting within the decentralized internet requires that you have at least
 one identity, though you can create several. Your identity is created through a
 registrar.  Blockstack maintains a registrar for creating identities that you
-can use to interact with distributed applications (DAPPs).
+can use to interact with distributed applications (Dapps).
 
 This document explains Blockstack IDs, how to create them, as well as when and
 how to restore them.
@@ -26,7 +26,7 @@ The _`USERNAME`_ portion must be unique. You enter an email and password to
 create the initial identity. Blockstack uses the password to:
 
  * seed a _recovery code_ an encrypted string, for example `36mWivFdy0YPH2z31EflpQz/Y0UMrOrJ++lH=0EI7c3mop2JuRBm5W1P0BwXxSTazJsUjOAmC55rFUWINqDqGccLio0iwzGclAhaHGZQ5M52`
- * seed a _recovery key_ which is a set of 12 words `applied binge crisp pictorial fiery dancing agreeable frogs light finish ping apple`
+ * seed a _recovery key_ which is a squence of words `applied binge crisp pictorial fiery dancing agreeable frogs light finish ping apple`
 
 The email is provided to allow either Blockstack or a decentralized application
 to communicate information to you. In Blockstacks' case, the email is used to
@@ -61,15 +61,13 @@ To create an inititial Blockstack ID, do the following:
 
    ![](images/create-id-0.png)
 
-   You use this email address to recover your identity later. So, if you have
-   multiple email addresses, make sure you record which one you used to create you
-   ID.
+   Blockstack uses this email address to send you recovery information.
 
 2. Enter an email address and press **Next**.
 
-   The application prompts you to enter a password. Like your email address,
-   your password can be used with your recovery code to recover your identity later.
-   Make sure you record the password you use.
+   The application prompts you to enter a password. Blockstack users this
+   password to encrypt your recovery code.  You must record and save this
+   initial password.
 
    **NOTE**:The Blockstack team cannot restore your password for you.
 
@@ -89,55 +87,108 @@ To create an inititial Blockstack ID, do the following:
 
     ![](images/create-id-2.png)
 
-    When you choose an id that is available, the system responds with the following:
+    When you choose an ID that is available, the system responds with the following:
 
     ![](images/create-id-3.png)
 
 4.  Press **Continue**.
 
     The system prompts you to save your **recovery code**. A recovery code is a
-    sequence of 12 words.  These words allow you to recover an `id.blockstack`
+    sequence  of words.  These words allow you to recover an `id.blockstack`
     that you've created.  You should store the words along with their order, for
-    example,  `#1 pink` and so forth.
+    example,  `#1 applied` and so forth.
 
 5. Click **I have written down all the words** when you are done.
 
    The system places you in the Blockstack browser.  You can begin exploring and
-   using dapps.
+   using Dapps.
 
 ## Restore a Blockstack ID
 
 When you return to the Blockstack Browser, the browser prompts you to create a
-new Blockstack ID or restore an existing Blockstack ID.  If you have a
-Blockstack identity, you can open the browser by restoring the identity. To restore an identity, you need one of these sets of information:
+new Blockstack ID or restore an existing Blockstack ID. If you have a
+Blockstack identity, you can open the browser by restoring the identity. To
+restore an identity, there are two available methods.
 
-* the identity recovery code (`36mWivFdy0YPH2z31E...`) and both the email and password you provided when you created your identity
+Method 1: Supply the identity recovery code (`36mWivFdy0YPH2z31E...`) and the
+password you provided when you _initially_ created your identity. Method 2:
+Supply the recovery key which is a sequence of words (`applied binge ...`)
 
-Or
+If you loose either the recovery code or the password you provided when you
+_initially_ created your identity, you can no longer use method 1 to restore
+your identity. If you lose the recovery key, you can no longer use method 2.
+Once you no longer have access to either method, your identity is estranged and
+not accessible by anyone.
 
-* recovery key of 12 words (`applied binge ...`) and the email you provided when you created your identity
+### Restore with a recovery key
 
-If you use the second method, the system prompts you for a new password. This password replaces.
+1. Open the [Blockstack web application in your browser](https://browser.blockstack.org/sign-up?redirect=%2F).
+2. Choose **Restore a Blockstack ID**.
 
+   The system displays a dialog where you can enter your recovery code or a
+   recovery key.
 
-recovery key + email + password
-recovery code + email and create a new password
+3. Enter the recovery key.
 
-## Install a local Blockstack browser
+   The recovery key is a squence of words.
 
-You have Blockstack Browser installed: If you start from ADD USERNAME from IDs window, jump to 6.
-1/ You do not have the Blockstack Browser installed: go to https://explorer.blockstack.org/ 67
-2/ Search for your name typing “yourname.id” on the search box. If your .id is “free”, the response will be “Ooops ! The name yourname.id doesn’t exist.” or will show a owner “mnbhbu235j46ijnowejjybjb” with Expires field empty and just NAME_IMPORT, no NAME_REGISTRATION.
-3/ Install de Blockstack Browser, open an account, write by hand on a piece of paper and make two copies of mnemonic 12 words phrase, DO NOT KEEP IT IN THE COMPUTER, DO NOT UPLOAD IT TO THE CLOUD, DO NOT COPY IT IN THE CLIPBOARD.
-4/ Go to IDs
-5/ Click ADD USERNAME. (or MORE and CREATE NEW ID if you want more than one .id’s)
-6/ Try your selected name (without “.id”)
-7/ If available, check the price.
-(If you want to buy a name with your wallet empty the process is a little more complex because the transfer can take a long time and the process will seems frozen, so I recommend to supply your wallet before, go to step 8)
-8/ Click WALLET
-9/ Fund your wallet with the correct amount or more.
-10/ Wait until you see the bitcoin amount in your wallet. Sometimes bitcoin net can take a minute or one hour (or 5) to perform the transaction depending on the demand of network operations, in the following link you will see approx. the time it will take to complete the transaction based on your fee: https://bitcoinfees.earn.com/ 18
-10/ Back to ADD USERNAME
-11/ Write your name and click search.
-12/ Click BUY
-13/ The process takes one hour or six blocks, DO NOT TURN OFF the browser or the computer for two hours.
+   ![](images/recovery-code.png)
+
+4. Press **Next**.
+
+   The system prompts you for an email address. This email can be one you
+   entered previously or an entirely new one. Blockstack doesn't store this
+   address; it is used during your current Blockstack browser interaction to communicate
+   important information with you.
+
+5. Enter an email and press **Next**.
+
+   The system prompts you for an password and its confirmation. This password
+   can be one you entered previously or an entirely new one. Write this password
+   down. You can use the password during your current Blockstack browser
+   interaction  to reveal your keychain or change your password. Blockstack does
+   not store this information past the session.
+
+6. Enter a password and press **Next**.
+
+   The system welcomes you back.
+
+   ![](images/welcome-back.png)
+
+   At this point, you can go onto work with Dapps or you can review your recovery key.
+
+### Restore with a recovery code and original password
+
+1. Open the [Blockstack web application in your browser](https://browser.blockstack.org/sign-up?redirect=%2F).
+2. Choose **Restore a Blockstack ID**.
+
+   The system displays a dialog where you can enter your recovery code or a
+   recovery key.
+
+3. Enter your recovery code.
+
+  The recovery code is an encrypted string.
+
+  ![](images/recovery-code.png)
+
+4. Press **Next**.
+
+   The system prompts you for an email address. This email can be one you
+   entered previously or an entirely new one. Blockstack doesn't store this
+   address; it is used during your current Blockstack browser interaction to
+   communicate important information with you.
+
+5. Enter an email and press **Next**.
+
+   The system prompts you for an password. This must be the password entered
+   when you first created your identity. If you have forgetten this passowrd,
+   Blockstack cannot provide it to you. Instead, you must switch to using your
+   recovery key rather than your code to restore your identity.
+
+6. Enter your origin password and press **Next**.
+
+  The system welcomes you back.
+
+  ![](images/welcome-back.png)
+
+  At this point, you can go work with Dapps or you can review your recovery key.
