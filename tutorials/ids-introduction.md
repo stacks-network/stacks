@@ -1,14 +1,21 @@
-# Work with Blockstack IDs
+# Get and use a Blockstack IDs
+
+Through the Blockstack browser you can create an identity. Your identity is a
+point of contact as you interact with others through Dapps. Others may be
+individual users or companies or software. Unless you allow it, none of these
+others have access to anything other than your identity label, for example
+`moxiegirl.id.blockstack`. To learn more about you, others must ask and you can
+choose to share -- or not.
+
+This document explains one type of identity, the Blockstack ID. You learn how to
+create them, as well as when and how to restore them.
+
+## Understand Blockstack IDs
 
 Interacting within the decentralized internet requires that you have at least
 one identity, though you can create several. Your identity is created through a
 registrar.  Blockstack maintains a registrar for creating identities that you
 can use to interact with distributed applications (Dapps).
-
-This document explains Blockstack IDs, how to create them, as well as when and
-how to restore them.
-
-## Understand Blockstack IDs
 
 To use the Blockstack Browser or to develop a decentralized application you
 require a Blockstack ID, for example `moxiegirl.id.blockstack`. A Blockstack ID

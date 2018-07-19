@@ -1,125 +1,119 @@
-# Using the Blockstack browser
+. # Using the Blockstack Browser
 
-The Blockstack browser is a web application for exploring and using the
-decentralized Internet. The decentralized internet is an internet in which users
-control the access to their data. This data is both data about them personally,
-name, birthdate, phone number. And it is data about what they do such as visited
-a website or purchased a product.
+The Blockstack browser gives users the ability to explore and use the
+decentralized applications (dapps). The decentralized applications are a new way
+to interact with the internet. Dapps give users control of their data. Data
+about them personally, name, birthdate, phone number and data about what they do
+such as visiting a website or buying an item.
 
-The Blockstack browser contains tools for controlling your personal data.
-Through the browser, you create an identity in the decentralized interent. Then,
-you  use the browser to find and interact with decentralized applications
-(dapps) using your identity.
+## Understand the Blockstack Browser
 
-Developers install the browser in a local environment for testing
-decentralized applications (dapps) during development.
+Through the Blockstack browser you can create an identity. An identity
+represents you as you interact with others through Dapps.  The Blockstack
+browser is itself, a smiple Dapp. It allows you to:
 
-# About Blockstack IDs
+* create one or more identities
+* send and receive bitcoin
+* manage the storage of your profile and application data
+* find and launch Dapps
 
-To use the browser or to develop a decentralized application you require a
-Blockstack ID, for example `moxiegirl.id.blockstack`. A Blockstack ID is a
-digital identity that is registered With Blockstack. Your personal data and
-storage are built around this ID. Decentralized applications that want to access
-your data need your identity and your permission.
+There are two versions of the Blockstack Browser, a web edition and a local
+edition. If all you want to do is create, manage, and fund an identity you can
+s[imply use the web edition](https://browser.blockstack.org/). If you want to
+interact with Dapps built with the Blockstack platform or develop a Dapp
+yourself, you need to download and install the browser's local edition.
 
-When you first sign up through the Blockstack browser, you create an initial
-human-readable identity in the `id.blockstack` domain. This initial identity has
-the format:
+## Install the local Browser
 
-_`USERNAME`_`.id.blockstack`
+The installers are available from [the Blockstack website](https://blockstack.org/install).
 
-You supply an email and password when you create this identity. The email and pasword is used to:
+## On Mac
 
- * create a _id key_ an encrypted string, for example `36mWivFdy0YPH2z31EflpQz/Y0UMrOrJ++lH=0EI7c3mop2JuRBm5W1P0BwXxSTazJsUjOAmC55rFUWINqDqGccLio0iwzGclAhaHGZQ5M52`
- * seed a _recovery passphrase_ which is a set of 12 words `applied binge crisp pictorial fiery dancing agreeable frogs light finish ping apple`
- * provide a mechanism for Blockstack to send you recovery information
+1. Download the Mac installer.
 
-While Blockstack knows your human readable and id key, it does not store them
-with  your email, your password, or the recovery passphrase. Instead, you must
-record this information in a secure location such as a password manager.
-
->**Warning**: Blockstack IDs are decentralized, meaning, anyone who has the secret recovery key effectively owns this ID. Please save your recovery key!
-
-Your initial ID is created in the `id.blockstack` domain. The initial identity
-remains primary, and you need this primary ID and its associated information
-(email, password, key, passphrase) to use the browser again.
+## On Windows
 
 
-This `id.blockstack` domain is sponsored by the Blockstack registrar and
-identities on it are free. Once you are using the Blockstack Browser, you can
-create additional identities outside of this domain and controlled by other
-registrars. Coin is required to purchase identities on other domains.
+## On Linux
 
-## Create a Blockstack ID
+The Blockstack installer on Linux requires Docker.  Before installing
+Blockstack, install the version of Docker appropriate for your operating system.
 
-To create an ID, do the following:
-
-1. Open the [Blockstack web Applications in your browser](https://browser.blockstack.org/sign-up?redirect=%2F).
-
-   The application prompts you for an email address.
-
-   ![](images/create-id-0.png)
-
-   You use this email address to recover your identity. The application limits
-   you to one id per email address. If you have multiple email addresses, you
-   are free to have multiple Blockstack IDs.
-
-2. Enter an email address and press **Next**.
-
-   They application prompts you to enter a password.
-
-3. Enter a password, confirm it, and press **Next**.
-
-   You'll learn more about this password later. For now, ensure you store it in
-   a safe place. **The Blockstack team cannot restore your password for you.**
-
-   ![](images/create-id-1.png)
-
-3. Register a Blockstack id (username) and press **Check Availability**.
+**Note**: The Blockstack script used in the rest of this section involve running `docker` via the script. Depending on how you install and configure Docker on your system, it may or may not be necessary to have `root` or `sudo` privileges.  For this reason, the commands below show the use of `sudo` when interacting with the script or the `docker` executable.
 
 
-    ![](images/create-id-2.png)
+1. Download [the installation script](https://github.com/blockstack/blockstack-browser/releases/download/v0.30.0/Blockstack-for-Linux-v0.30.0.sh).
+
+   This downloads a `Blockstack-for-Linux-v0.30.0.sh` script to your local drive.
+
+2. Open a terminal and navigate to the directory containing the downloaded script.
+
+   When the script downloads, it is not executable.
+
+3. Set the executable bit on the file.
+
+    ```bash
+    $ chmod u+x Blockstack-for-Linux-v0.309.0.0.sh
+    ```
+4. Use the script to `pull` the Blockstack Docker images you need.
 
 
-   This is your identity in the Blockstack network. The application limits
-   you to one id per email address. If you have multiple email addresses, you
-   are free to have multiple Blockstack IDs.  The format of the id is:
+    ```bash
+    $ sudo ./Blockstack-for-Linux-v0.309.0.0.sh pull
+    ```
 
-    _`username`_`.id.blockstack`
+    Depending on your network speed this can take some time.
 
-    When you choose an id that is available, the system responds with the following:
+5. Use the `docker image ls` command to confirm you have the image.
+6.     **Note**: The commands in this sect
 
-    ![](images/create-id-3.png)
 
 
-4.  Press **Continue**.
 
-    The system prompts you to save your **Recovery Key**. A recovery key is a
-    sequence of 12 words.  These words allow you to recover an `id.blockstack`
-    that you've created.  You should store the words along with their order, for
-    example,  `#1 pink` and so forth.
 
-5. Click **I have written down all the words** when you are done.
+## Uninstall the browser
 
-   The system places you in the Blockstack browser.  You can begin using dapps.
+If you installed the browser using an installer, follow the instructions for
+your operating system.
+
+## On Mac
+
+1. Use the Finder to open the **Applications** folder.
+2. Locate the Blockstack application.
+3. Drag the appliation to the trash.
+4. Delete the `/Users/`_`YOURUSER`_`/Library/Application Support/Blockstack` folder.
+
+   From the command line:
+
+   ```bash
+   $ rm -r /Users/moxiegirl/Library/Application\ Support/Blockstack
+   ```
+
+## On Windows
+
+
+
+
+## On Linux
+
 
 
 
 ## Install a local Blockstack browser
 
 You have Blockstack Browser installed: If you start from ADD USERNAME from IDs window, jump to 6.
-1/ You do not have the Blockstack Browser installed: go to https://explorer.blockstack.org/ 67
-2/ Search for your name typing “yourname.id” on the search box. If your .id is “free”, the response will be “Ooops ! The name yourname.id doesn’t exist.” or will show a owner “mnbhbu235j46ijnowejjybjb” with Expires field empty and just NAME_IMPORT, no NAME_REGISTRATION.
-3/ Install de Blockstack Browser, open an account, write by hand on a piece of paper and make two copies of mnemonic 12 words phrase, DO NOT KEEP IT IN THE COMPUTER, DO NOT UPLOAD IT TO THE CLOUD, DO NOT COPY IT IN THE CLIPBOARD.
-4/ Go to IDs
-5/ Click ADD USERNAME. (or MORE and CREATE NEW ID if you want more than one .id’s)
-6/ Try your selected name (without “.id”)
-7/ If available, check the price.
+1. You do not have the Blockstack Browser installed: go to https://explorer.blockstack.org/ 67
+2. Search for your name typing “yourname.id” on the search box. If your .id is “free”, the response will be “Ooops ! The name yourname.id doesn’t exist.” or will show a owner “mnbhbu235j46ijnowejjybjb” with Expires field empty and just NAME_IMPORT, no NAME_REGISTRATION.
+3. Install de Blockstack Browser, open an account, write by hand on a piece of paper and make two copies of mnemonic 12 words phrase, DO NOT KEEP IT IN THE COMPUTER, DO NOT UPLOAD IT TO THE CLOUD, DO NOT COPY IT IN THE CLIPBOARD.
+4. Go to IDs
+5. Click ADD USERNAME. (or MORE and CREATE NEW ID if you want more than one .id’s)
+6. Try your selected name (without “.id”)
+7. If available, check the price.
 (If you want to buy a name with your wallet empty the process is a little more complex because the transfer can take a long time and the process will seems frozen, so I recommend to supply your wallet before, go to step 8)
-8/ Click WALLET
-9/ Fund your wallet with the correct amount or more.
-10/ Wait until you see the bitcoin amount in your wallet. Sometimes bitcoin net can take a minute or one hour (or 5) to perform the transaction depending on the demand of network operations, in the following link you will see approx. the time it will take to complete the transaction based on your fee: https://bitcoinfees.earn.com/ 18
-10/ Back to ADD USERNAME
-11/ Write your name and click search.
-12/ Click BUY
-13/ The process takes one hour or six blocks, DO NOT TURN OFF the browser or the computer for two hours.
+8. Click WALLET
+9. Fund your wallet with the correct amount or more.
+10. Wait until you see the bitcoin amount in your wallet. Sometimes bitcoin net can take a minute or one hour (or 5) to perform the transaction depending on the demand of network operations, in the following link you will see approx. the time it will take to complete the transaction based on your fee: https://bitcoinfees.earn.com/ 18
+10. Back to ADD USERNAME
+11. Write your name and click search.
+12. Click BUY
+13. The process takes one hour or six blocks, DO NOT TURN OFF the browser or the computer for two hours.
