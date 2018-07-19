@@ -55,7 +55,23 @@ Blockstack, install the version of Docker appropriate for your operating system.
     ```bash
     $ chmod u+x Blockstack-for-Linux-v0.309.0.0.sh
     ```
-4. Use the script to `pull` the Blockstack Docker images you need.
+
+4. Enter the command without any arguments to see the available subcommands.
+
+    ```bash
+    $ ./Blockstack-for-Linux-v0.309.0.0.sh
+    blockstack docker launcher commands:
+    Install-protocol-handler -> install a protocol handler for blockstack:// links remove-protocol-handler -> uninstall the protocol handler for blockstack:// links pull -> fetch docker containers from quay start -> start the blockstack browser server stop -> stop the blockstack browser server
+    To get started, use
+    $	./Blockstack-for-Linux.sh pull
+    $	./Blockstack-for-Linux.sh install-protocol-handler
+    $	./Blockstack-for-Linux.sh start
+    This *requires* Docker to run.
+    To remove the protocol handler (the only thing 'installed' when you run this launcher) $	./Blockstack-for-Linux.sh remove-protocol-handler
+    And this will start the environment for running the Blockstack Browser Note: the Docker containers mount your /home/<user>/.blockstack directory
+    ```
+
+5. Use the script to `pull` the Blockstack Docker images you need.
 
 
     ```bash
@@ -64,11 +80,44 @@ Blockstack, install the version of Docker appropriate for your operating system.
 
     Depending on your network speed this can take some time.
 
-5. Use the `docker image ls` command to confirm you have the image.
-6.     **Note**: The commands in this sect
+7. Use the `docker image ls` command to confirm you have the image.
+
+    ```bash
+    $ docker image Is
+    REPOSITORY	TAG	IMAGE ID	CREATED
+    quay.io/blockstack/blockstack-browser	v0.30.0	ad05fd844f59	2 days ago
+    ```
+
+8. Install the protocol handler
+
+    ```bash
+    $  ./Blockstack-for-Linux-vO.30.0.sh install-protocol-handler 
+    Registering protocol handler
+    ```
+
+9. Start the Blockstack containers.
+
+    ```bash
+    $ ./Blockstack-for-Linux-vO.30.0.sh start
+     C3092592e59abe3559fdb49d070a7aa5e99165c7d9f2flla20ecaf4e0dfc2f46 
+    cd92f61ae473d54398da987f5023f5462b29c03f08584ebb3c9fIbb4cd790c69 
+    Registering protocol handler
+    ```
+
+    The system launches the Blockstack Browser application.
 
 
+       ![](images/ubuntu-browser.png)
 
+
+Until you stop the Blockstack containers, the application will continue to run on your system. To display the status of the Blockstack containers, you can use the `docker container ls` command.
+
+```bash
+$ docker container ls --format '{{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}\t{{.Names}}'
+```
+
+User `docker container stop` to stop them and shutdown the application. Consult
+the Docker documentation for information on stopping the containers.
 
 
 ## Uninstall the browser
@@ -95,6 +144,10 @@ your operating system.
 
 
 ## On Linux
+
+    ```bash
+    $	./Blockstack-for-Linux.sh remove-protocol-handler
+    ```
 
 
 
