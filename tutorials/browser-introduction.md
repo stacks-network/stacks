@@ -131,8 +131,9 @@ the version of Docker appropriate for your operating system</a>.
     $ sudo ./Blockstack-for-Linux-v0.309.0.0.sh
     blockstack docker launcher commands:
     Install-protocol-handler -> install a protocol handler for blockstack:// links
- remove-protocol-handler -> uninstall the protocol handler for blockstack:// links
- pull -> fetch docker containers from quay start -> start the blockstack browser server 
+    remove-protocol-handler -> uninstall the protocol handler for blockstack:// links
+     pull -> fetch docker containers from quay
+     start -> start the blockstack browser server 
     stop -> stop the blockstack browser server
     To get started, use
     $	./Blockstack-for-Linux.sh pull
