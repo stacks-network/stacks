@@ -25,24 +25,63 @@ yourself, you need to download and install the browser's local edition.
 
 ## Install the local Browser
 
-The installers are available from [the Blockstack website](https://blockstack.org/install).
+The Blockstack Browser installer is a _multiple-context_ installer. If you run
+it as a user, the installation is avalable only for that user. If you install as
+administrator, the installation installs for all users. To find an installer for
+your operating system, visit [the Blockstack install
+page](https://blockstack.org/install).
 
 ## On Mac
 
-1. Download the Mac installer.
+Installation requires that you have macOS High Sierra 10.12 or higher. Do the following to install:
+
+1. Download the OSX installer from from <a href="https://blockstack.org/install" target="_blank">the browser installation page</a>.
+2. Double-click the downloaded DMG file to launch the installer.
+
+  ![](images/ubuntu-browser.png)
+
+
+3. Drag the Blockstack.app to the `Applications` folder.
+4. Double-click the Blockstack.app to launch it.
+
+   The system displays a notice about opening the file:
+
+   ![](images/dmg-notice.png)
+
+5. Choose **Open**.
+
+   The system opens your default browser with the Blockstack Browser
+   application, running from your machine (localhost). You'll also see the
+   Blockstack icon in your machine's
+
+   ![](images/browser-on-mac.png)
+
+   If you have loaded an identity already via the Blockstack web application,
+   you are already logged into the local application:
+
+   ![](images/browser-on-mac-1.png)
+
+
+
 
 ## On Windows
+
+Installation requires that you have Windows 10 or higher. Do the following to install:
+
+1. Download the Windows installer from from <a href="https://blockstack.org/install" target="_blank">the browser installation page</a>.
+
 
 
 ## On Linux
 
-The Blockstack installer on Linux requires Docker.  Before installing
-Blockstack, install the version of Docker appropriate for your operating system.
+The Blockstack installation on Linux requires Docker. Before installing
+Blockstack, <a href=“https://docs.docker.com/install/” target="_blank">install
+the version of Docker appropriate for your operating system</a>.
 
-**Note**: The Blockstack script used in the rest of this section involve running `docker` via the script. Depending on how you install and configure Docker on your system, it may or may not be necessary to have `root` or `sudo` privileges.  For this reason, the commands below show the use of `sudo` when interacting with the script or the `docker` executable.
+> **Note**: The Blockstack script used in the rest of this section involve running `docker` commands. Depending on how you install and configure Docker on your system, it may or may not be necessary to have `root` or `sudo` privileges.  For this reason, the commands below show the use of `sudo` when interacting with the script or the `docker` executable. If your installation allows running Docker with lower privileges, you can omit it.
 
 
-1. Download [the installation script](https://github.com/blockstack/blockstack-browser/releases/download/v0.30.0/Blockstack-for-Linux-v0.30.0.sh).
+1. Download the Linux installer from from <a href="https://blockstack.org/install" target="_blank">the browser installation page</a>.
 
    This downloads a `Blockstack-for-Linux-v0.30.0.sh` script to your local drive.
 
@@ -78,7 +117,7 @@ Blockstack, install the version of Docker appropriate for your operating system.
     $ sudo ./Blockstack-for-Linux-v0.309.0.0.sh pull
     ```
 
-    Depending on your network speed this can take some time.
+    Depending on your network speed, this can take some time.
 
 7. Use the `docker image ls` command to confirm you have the image.
 
@@ -107,7 +146,7 @@ Blockstack, install the version of Docker appropriate for your operating system.
     The system launches the Blockstack Browser application.
 
 
-       ![](images/ubuntu-browser.png)
+    ![](images/ubuntu-browser.png)
 
 
 Until you stop the Blockstack containers, the application will continue to run on your system. To display the status of the Blockstack containers, you can use the `docker container ls` command.
@@ -129,7 +168,8 @@ your operating system.
 
 1. Use the Finder to open the **Applications** folder.
 2. Locate the Blockstack application.
-3. Drag the appliation to the trash.
+3. Open your `Applications` folder and locate the **Blockstack.app**.
+4. Drag the appliation to the trash.
 4. Delete the `/Users/`_`YOURUSER`_`/Library/Application Support/Blockstack` folder.
 
    From the command line:
@@ -145,10 +185,56 @@ your operating system.
 
 ## On Linux
 
+Your Blockstack instalaltion relies on Docker containers and their associated
+images.  It also includes a supporting protocol handler you must remove.  If you
+installed Docker so that you can run Blockstack, you can uninstall Docker as well,
+but that is not explained here.
+
+Do the following to uninstall Blockstack:
+
+1. Stop and remove the Docker containers if they are running.
+
+   ```bash
+   $ docker container Is --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}\t{{.Names}}"
+   CONTAINER ID	IMAGE	STATUS	PORTS	NAMES
+   cd92f61ae473	quay.io/blockstack/blockstack-browser:vO.30.0	Up 17 hours	127.0.0.1:1337->1337/tcp	blockstack-browser-cors
+   c3092592e59a	quay.io/blockstack/blockstack-browser:vO.30.0	Up 17 hours	127.0.0.1:8888->8888/tcp	blockstack-browser-static
+   $ docker container stop cd92f61ae473 
+   cd92f61ae473
+   $ docker container stop c3092592e59a
+   c3092592e59a
+   $ docker container rm cd92f61ae473 
+   cd92f61ae473
+   $ docker container rm c3092592e59a
+   c3092592e59a
+   ```
+
+2. Remove the images.
+
+    ```bash
+    $ docker image Is
+    REPOSITORY	                          TAG	    IMAGE ID	    CREATED
+    quay.io/blockstack/blockstack-browser	v0.30.0	ad05fd844f59	3 days ago
+    $ docker image rm ad05fd844f59 Untagged : quay.io/blockstack/blockstack- browser :vO.30.0
+    Untagged: quay.io/blockstack/blockstack-browser@sha256:b20c9514c56b99398fd4946af39e7537b807e85694943ac3b8807dlb3625833b
+    Deleted: Sha256:ad05fd844f5948blee06a0a09228df946478393c0a7588cbc65dlb8817f5b34e
+    Deleted: Sha256:7c3d0043f2ba01cf285f3fe09701b086c349b6380c2e42f25b31ac65c6626ec8
+    Deleted: sha256:54ea2aa7d7d000e7483f299eeca9e5466fa86231f4cd4cld3c3096d97e61c5df
+    Deleted: sha256:38e61054355adefc3c2de031462114a9946cfc0e44444a38a27d0f115aba0da2
+    ....
+    ```
+
+3. Use the script to remove teh protocol handler
+
     ```bash
     $	./Blockstack-for-Linux.sh remove-protocol-handler
     ```
 
+4. Delete the script.
+
+    ```bash
+    $	rm Blockstack-for-Linux.sh
+    ```
 
 
 
