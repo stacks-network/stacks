@@ -159,7 +159,7 @@ Until you stop the Blockstack containers, the application will continue to run o
 $ docker container ls --format '{{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}\t{{.Names}}'
 ```
 
-Use `./Blockstack-for-Linux-vO.30.0.sh stop` to stop the Blockstack browser. 
+Use `./Blockstack-for-Linux-vO.30.0.sh stop` to stop the Blockstack browser and its containers.
 
 
 ## Uninstall the browser
@@ -197,20 +197,14 @@ Do the following to uninstall Blockstack:
 
 1. Stop and remove the Docker containers if they are running.
 
-   ```bash
-   $ docker container Is --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}\t{{.Names}}"
-   CONTAINER ID	IMAGE	STATUS	PORTS	NAMES
-   cd92f61ae473	quay.io/blockstack/blockstack-browser:vO.30.0	Up 17 hours	127.0.0.1:1337->1337/tcp	blockstack-browser-cors
-   c3092592e59a	quay.io/blockstack/blockstack-browser:vO.30.0	Up 17 hours	127.0.0.1:8888->8888/tcp	blockstack-browser-static
-   $ docker container stop cd92f61ae473 
-   cd92f61ae473
-   $ docker container stop c3092592e59a
-   c3092592e59a
-   $ docker container rm cd92f61ae473 
-   cd92f61ae473
-   $ docker container rm c3092592e59a
-   c3092592e59a
-   ```
+    ```bash
+    ./Blockstack-for-Linux-vO.30.0.sh stop
+    stopping the running blockstack-browser containers
+    69a686799d4f
+    56fc6189ff97
+    69a686799d4f
+    56fc6189ff97
+    ```
 
 2. Remove the images.
 
@@ -227,7 +221,7 @@ Do the following to uninstall Blockstack:
     ....
     ```
 
-3. Use the script to remove teh protocol handler
+3. Use the script to remove the protocol handler
 
     ```bash
     $ ./Blockstack-for-Linux.sh remove-protocol-handler
