@@ -147,7 +147,7 @@ the version of Docker appropriate for your operating system</a>.
     Registering protocol handler
     ```
 
-    The system launches the Blockstack Browser application.
+    The system launches the Blockstack Browser application for you.
 
 
     ![](images/ubuntu-browser.png)
@@ -169,11 +169,19 @@ your operating system.
 
 ## On Mac
 
-1. Use the Finder to open the **Applications** folder.
-2. Locate the Blockstack application.
-3. Open your `Applications` folder and locate the **Blockstack.app**.
-4. Drag the appliation to the trash.
-4. Delete the `/Users/USERNAME/Library/Application Support/Blockstack` folder.
+1. Quit the Blockstack application if it is running.
+
+  ![](images/quit-blockstack.png)
+
+2. Check if you have a Blockstack device and eject it if you do.
+
+   ![](images/eject-blockstack.png)
+
+3. Use the Finder to open the **Applications** folder.
+4. Locate the Blockstack application.
+5. Open your `Applications` folder and locate the **Blockstack.app**.
+6. Drag the appliation to the trash.
+7. Delete the `/Users/USERNAME/Library/Application Support/Blockstack` folder.
 
    From the command line:
 
@@ -231,7 +239,7 @@ Do the following to uninstall Blockstack:
 4. Delete the script.
 
     ```bash
-    $rm Blockstack-for-Linux.sh
+    $ rm Blockstack-for-Linux.sh
     ```
 
 
