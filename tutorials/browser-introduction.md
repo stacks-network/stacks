@@ -38,7 +38,7 @@ Installation requires that you have macOS High Sierra 10.12 or higher. Do the fo
 1. Download the OSX installer from from <a href="https://blockstack.org/install" target="_blank">the browser installation page</a>.
 2. Double-click the downloaded DMG file to launch the installer.
 
-  ![](images/ubuntu-browser.png)
+   ![](images/ubuntu-browser.png)
 
 
 3. Drag the Blockstack.app to the `Applications` folder.
@@ -66,7 +66,8 @@ Installation requires that you have macOS High Sierra 10.12 or higher. Do the fo
 
 ## On Windows
 
-Installation requires that you have Windows 10 or higher. Do the following to install:
+Installation requires that you have Windows 10 or higher. Do the following to
+install:
 
 1. Download the Windows installer from from <a href="https://blockstack.org/install" target="_blank">the browser installation page</a>.
 
@@ -78,7 +79,7 @@ The Blockstack installation on Linux requires Docker. Before installing
 Blockstack, <a href=“https://docs.docker.com/install/” target="_blank">install
 the version of Docker appropriate for your operating system</a>.
 
-> **Note**: The Blockstack script used in the rest of this section involve running `docker` commands. Depending on how you install and configure Docker on your system, it may or may not be necessary to have `root` or `sudo` privileges.  For this reason, the commands below show the use of `sudo` when interacting with the script or the `docker` executable. If your installation allows running Docker with lower privileges, you can omit it.
+>**Note**: The Blockstack script used in this procedure runs `docker` commands. Depending on how you installed and configure Dockered on your system, it may or may not be necessary to have `root` or `sudo` privileges.  For this reason, the commands below show the use of `sudo` when interacting with the script or the `docker` executable. If your installation allows running Docker with lower privileges, you can omit it.
 
 
 1. Download the Linux installer from from <a href="https://blockstack.org/install" target="_blank">the browser installation page</a>.
@@ -170,7 +171,7 @@ your operating system.
 2. Locate the Blockstack application.
 3. Open your `Applications` folder and locate the **Blockstack.app**.
 4. Drag the appliation to the trash.
-4. Delete the `/Users/`_`YOURUSER`_`/Library/Application Support/Blockstack` folder.
+4. Delete the `/Users/USERNAME/Library/Application Support/Blockstack` folder.
 
    From the command line:
 
@@ -227,13 +228,13 @@ Do the following to uninstall Blockstack:
 3. Use the script to remove teh protocol handler
 
     ```bash
-    $	./Blockstack-for-Linux.sh remove-protocol-handler
+    $ ./Blockstack-for-Linux.sh remove-protocol-handler
     ```
 
 4. Delete the script.
 
     ```bash
-    $	rm Blockstack-for-Linux.sh
+    $ rm Blockstack-for-Linux.sh
     ```
 
 
