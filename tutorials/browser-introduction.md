@@ -1,10 +1,26 @@
-# Using the Blockstack Browser
+# Use the Blockstack Browser
 
 The Blockstack browser gives users the ability to explore and use the
 decentralized applications (dapps). The decentralized applications are a new way
 to interact with the internet. Dapps give users control of their data. Data
 about them personally, name, birthdate, phone number and data about what they do
 such as visiting a website or buying an item.
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Use the Blockstack Browser](#use-the-blockstack-browser)
+	- [Understand the Blockstack Browser](#understand-the-blockstack-browser)
+	- [Install the local browser](#install-the-local-browser)
+		- [On Mac](#on-mac)
+		- [On Windows](#on-windows)
+		- [On Linux](#on-linux)
+	- [Uninstall the browser](#uninstall-the-browser)
+		- [On Mac](#on-mac)
+		- [On Windows](#on-windows)
+		- [On Linux](#on-linux)
+	- [Install a local Blockstack browser](#install-a-local-blockstack-browser)
+
+<!-- /TOC -->
 
 ## Understand the Blockstack Browser
 
@@ -23,7 +39,7 @@ s[imply use the web edition](https://browser.blockstack.org/). If you want to
 interact with Dapps built with the Blockstack platform or develop a Dapp
 yourself, you need to download and install the browser's local edition.
 
-## Install the local Browser
+## Install the local browser
 
 The Blockstack Browser installer is a _multiple-context_ installer. If you run
 it as a user, the installation is avalable only for that user. If you install as
@@ -31,7 +47,7 @@ administrator, the installation installs for all users. To find an installer for
 your operating system, visit [the Blockstack install
 page](https://blockstack.org/install).
 
-## On Mac
+### On Mac
 
 Installation requires that you have macOS High Sierra 10.12 or higher. Do the following to install:
 
@@ -61,7 +77,7 @@ Installation requires that you have macOS High Sierra 10.12 or higher. Do the fo
    ![](images/browser-on-mac-1.png)
 
 
-## On Windows
+### On Windows
 
 Installation requires that you have Windows 10 or higher. Do the following to
 install:
@@ -86,7 +102,7 @@ install:
     ![](images/windows-browser.png)
 
 
-## On Linux
+### On Linux
 
 The Blockstack installation on Linux requires Docker. Before installing
 Blockstack, <a href=“https://docs.docker.com/install/” target="_blank">install
@@ -180,7 +196,7 @@ Use `./Blockstack-for-Linux-vO.30.0.sh stop` to stop the Blockstack browser and 
 If you installed the browser using an installer, follow the instructions for
 your operating system.
 
-## On Mac
+### On Mac
 
 1. Quit the Blockstack application if it is running.
 
@@ -202,7 +218,7 @@ your operating system.
    $ rm -r /Users/moxiegirl/Library/Application\ Support/Blockstack
    ```
 
-## On Windows
+### On Windows
 
 1. Open the **Start** menu.
 2. Click **Settings > System**.
@@ -215,7 +231,7 @@ your operating system.
    ![](images/browser-uninstall.png)
 
 
-## On Linux
+### On Linux
 
 Your Blockstack instalaltion relies on Docker containers and their associated
 images.  It also includes a supporting protocol handler you must remove.  If you
