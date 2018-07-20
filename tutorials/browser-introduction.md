@@ -101,7 +101,10 @@ the version of Docker appropriate for your operating system</a>.
     ```bash
     $ ./Blockstack-for-Linux-v0.309.0.0.sh
     blockstack docker launcher commands:
-    Install-protocol-handler -> install a protocol handler for blockstack:// links remove-protocol-handler -> uninstall the protocol handler for blockstack:// links pull -> fetch docker containers from quay start -> start the blockstack browser server stop -> stop the blockstack browser server
+    Install-protocol-handler -> install a protocol handler for blockstack:// links
+ remove-protocol-handler -> uninstall the protocol handler for blockstack:// links
+ pull -> fetch docker containers from quay start -> start the blockstack browser server 
+    stop -> stop the blockstack browser server
     To get started, use
     $	./Blockstack-for-Linux.sh pull
     $	./Blockstack-for-Linux.sh install-protocol-handler
@@ -156,8 +159,7 @@ Until you stop the Blockstack containers, the application will continue to run o
 $ docker container ls --format '{{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}\t{{.Names}}'
 ```
 
-User `docker container stop` to stop them and shutdown the application. Consult
-the Docker documentation for information on stopping the containers.
+User `./Blockstack-for-Linux-vO.30.0.sh stop` to stop the application. 
 
 
 ## Uninstall the browser
@@ -234,7 +236,7 @@ Do the following to uninstall Blockstack:
 4. Delete the script.
 
     ```bash
-    $ rm Blockstack-for-Linux.sh
+    $rm Blockstack-for-Linux.sh
     ```
 
 
