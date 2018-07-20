@@ -206,13 +206,14 @@ Do the following to uninstall Blockstack:
     56fc6189ff97
     ```
 
-2. Remove the images.
+2. Remove the associated Blockstack images.
 
     ```bash
-    $ docker image Is
+    $ docker image ls
     REPOSITORY	                          TAG	    IMAGE ID	    CREATED
     quay.io/blockstack/blockstack-browser	v0.30.0	ad05fd844f59	3 days ago
-    $ docker image rm ad05fd844f59 Untagged : quay.io/blockstack/blockstack- browser :vO.30.0
+    $ docker image rm ad05fd844f59 
+    Untagged : quay.io/blockstack/blockstack- browser :vO.30.0
     Untagged: quay.io/blockstack/blockstack-browser@sha256:b20c9514c56b99398fd4946af39e7537b807e85694943ac3b8807dlb3625833b
     Deleted: Sha256:ad05fd844f5948blee06a0a09228df946478393c0a7588cbc65dlb8817f5b34e
     Deleted: Sha256:7c3d0043f2ba01cf285f3fe09701b086c349b6380c2e42f25b31ac65c6626ec8
