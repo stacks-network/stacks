@@ -159,7 +159,7 @@ Until you stop the Blockstack containers, the application will continue to run o
 $ docker container ls --format '{{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}\t{{.Names}}'
 ```
 
-User `./Blockstack-for-Linux-vO.30.0.sh stop` to stop the application. 
+Use `./Blockstack-for-Linux-vO.30.0.sh stop` to stop the Blockstack browser. 
 
 
 ## Uninstall the browser
