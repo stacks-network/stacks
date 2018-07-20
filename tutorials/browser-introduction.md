@@ -162,7 +162,7 @@ the version of Docker appropriate for your operating system</a>.
 
     ```bash
     $ sudo ./Blockstack-for-Linux-vO.30.0.sh start
-     C3092592e59abe3559fdb49d070a7aa5e99165c7d9f2flla20ecaf4e0dfc2f46 
+    c3092592e59abe3559fdb49d070a7aa5e99165c7d9f2flla20ecaf4e0dfc2f46 
     cd92f61ae473d54398da987f5023f5462b29c03f08584ebb3c9fIbb4cd790c69 
     Registering protocol handler
     ```
