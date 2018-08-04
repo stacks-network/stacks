@@ -118,7 +118,7 @@ if (blockstack.isUserSignedIn()) {
 } else if (blockstack.isSignInPending()) {
   blockstack.handlePendingSignIn().then(function(userData) {
       window.location = window.location.origin
-    });
+    })
 }
 ```
 
