@@ -8,7 +8,7 @@ youtube: https://www.youtube.com/embed/oyvg-h0obFw
 What are we learning today?
 
 - How to build a Single Page Javascript application with Blockstack
-- How to manage authentication using a Blockstack ID 
+- How to manage authentication using a Blockstack ID
 - How to use Blockstack Storage (Gaia) as an application backend.
 
 #### Requirements
@@ -27,7 +27,7 @@ $ npm run start
 
 #### Sign In - How it works
 
-As you click the `Sign In With Blockstack` button an ephemeral key is generated within the application. This key, which is just used for the particular instance of the application, is just used to sign a Sign In request. It also generates a public key which is sent to the browser and used to encrypt data coming back to your Blockstack node. This allows the application to store data in your Blockstack storage. The signed authentication request is sent to Blockstack through a JSON Web Token. The JWT is passed in via a query string in the parameter: `?authRequest=j902120cn829n1jnvoa...`. 
+As you click the `Sign In With Blockstack` button an ephemeral key is generated within the application. This key, which is just used for the particular instance of the application, is just used to sign a Sign In request. It also generates a public key which is sent to the browser and used to encrypt data coming back to your Blockstack node. This allows the application to store data in your Blockstack storage. The signed authentication request is sent to Blockstack through a JSON Web Token. The JWT is passed in via a query string in the parameter: `?authRequest=j902120cn829n1jnvoa...`.
 
 To decode the token and see what information it holds you can navigate to [jwt.io](http://jwt.io/) and paste the full token there. The output should look similar to below:
 
@@ -51,11 +51,11 @@ To decode the token and see what information it holds you can navigate to [jwt.i
 
 Clicking the Sign In button brings up a modal. When you click `Approve` the following actions are taken:
 
-- A request is sent from the browser to your local blockstack-core node. 
-- The blockstack-core node generates a session token which is returned to the application. 
+- A request is sent from the browser to your local blockstack-core node.
+- The blockstack-core node generates a session token which is returned to the application.
 - This session token allows the application to read and write files to your personal Blockstack storage.
 - An authentication response is then generated which is similar to the `authRequest` above.
-- The `authResponse` also includes a private key intended only for the application. This allows the application to encrypt data on your storage. 
+- The `authResponse` also includes a private key intended only for the application. This allows the application to encrypt data on your storage.
 - You are now logged into the Todo application!
 
 ##### Notes
@@ -71,9 +71,15 @@ To see the Gaia Storage in action add a couple of todos. Maybe a list of applica
 - [ ] Mutable torrents with human readable names
 - [ ] Decentralized twitter
 
-These Todos have now been stored in your Dropbox account linked to your Blockstack ID. To view the files go to your [Dropbox account](https://dropbox.com) and open the `Apps` folder. Once inside you should see a folder called `Blockstack`. This is where all of the data stored via the Gaia storage layer lives.
+These Todos have now been stored in the Gaia Hub linked to your Blockstack ID. For more information about the Gaia hub, see the [hub documentation](https://github.com/blockstack/gaia).
 
-You should see some files that were reciently added when you updated your todos. Download and open the file to see the created JSON. The todos above created the following json:
+You can fetch the `todos.json` file you just added by opening the Javascript console and running the following command:
+
+```Javascript
+blockstack.getFile("todos.json", { decrypt: true }).then((file) => {console.log(file)})
+```
+
+You should see the todos that were recently added. The todos created above generate the following JSON:
 
 ```json
 [
@@ -101,7 +107,7 @@ Now add another todo and mark it completed:
 - [ ] Mutable torrents with human readable names
 - [ ] Decentralized twitter
 
-When you download the newly generated file from your Dropbox it will reflect the change:
+When you fetch the newly generated file using the Javascript console it will reflect the change:
 
 ```json
 [
@@ -128,7 +134,7 @@ When you download the newly generated file from your Dropbox it will reflect the
 ]
 ```
 
-Now that you have seen the application in action lets dig into how it works. Open the `blockstack-todos` repository in a text editor.
+Now that you have seen the application in action, lets dig into how it works. Open the `blockstack-todos` repository in a text editor.
 
 #### Sign In - Implementation
 
@@ -153,9 +159,9 @@ if (blockstack.isUserSignedIn()) {
 }
 ```
 
-First we check if the user is signed in with `blockstack.isUserSignedIn()`. If this is true then we can pull that data from the browser and use it in our application. 
+First we check if the user is signed in with `blockstack.isUserSignedIn()`. If this is true then we can pull that data from the browser and use it in our application.
 
-If we aren't signed in we then need to check `blockstack.isSignInPending()`. This means that an `authResponse` has been sent back to the application but hasn't been processed yet. the `handlePendingSignIn` function takes care of processing that pending Sign In. 
+If we aren't signed in we then need to check `blockstack.isSignInPending()`. This means that an `authResponse` has been sent back to the application but hasn't been processed yet. the `handlePendingSignIn` function takes care of processing that pending Sign In.
 
 Signout is handled in `src/components/Dashboard.js`. The method allows the application creator to decide where to redirect the user upon Sign Out:
 
@@ -167,26 +173,26 @@ signOut () {
 
 #### Storage - Implementation
 
-Next we are going to see how the application interacts with your Dropbox storage. This code lives in the `src/components/Dashboard.vue` file. First lets see where the changes to the Todos are processed:
+Next we are going to see how the application interacts with your Gaia Hub. This code lives in the `src/components/Dashboard.vue` file. First lets see where the changes to the Todos are processed:
 
 ```js
 todos: {
   handler: function (todos) {
     const blockstack = this.blockstack
-    return blockstack.putFile(STORAGE_FILE, JSON.stringify(todos))
+    return blockstack.putFile(STORAGE_FILE, JSON.stringify(todos), { encrypt: true })
   },
   deep: true
 }
 ```
 
-You can see that the `todos` JSON object is passed in. Then we use the `blockstack.putFile()` method to store it in our Dropbox. Quick and easy!
+You can see that the `todos` JSON object is passed in. Then we use the `blockstack.putFile()` method to store it in our Gaia Hub. Quick and easy!
 
 The other operation we need to perform is to read the Todos from the storage. This is accomplished with the `blockstack.getFile()` method which returns a promise:
 
 ```js
 fetchData () {
   const blockstack = this.blockstack
-  blockstack.getFile(STORAGE_FILE)
+  blockstack.getFile(STORAGE_FILE, { decrypt: true })
   .then((todosText) => {
     var todos = JSON.parse(todosText || '[]')
     todos.forEach(function (todo, index) {

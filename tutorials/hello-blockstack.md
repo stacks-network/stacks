@@ -58,7 +58,7 @@ The main file of our app is called `app.js` (in the `/public` folder). This is w
 As you can see, all of the code in the file is wrapped in an event listener that waits until the DOM content has been loaded:
 
 ```js
-document.addEventListener("DOMContentLoaded", function(event) { 
+document.addEventListener("DOMContentLoaded", function(event) {
 })
 ```
 
@@ -66,7 +66,7 @@ Inside of this, we have a sign in button handler that creates an auth request an
 
 ```js
 document.getElementById('signin-button').addEventListener('click', function() {
-  blockstack.redirectToSignIn()
+  blockstack.redirectUserToSignIn()
 })
 ```
 
@@ -110,15 +110,16 @@ if (blockstack.isUserSignedIn()) {
 }
 ```
 
-With the first condition (when the user is signed in), we load the user data from local storage and then display the profile. With the second condition (when the user has a pending sign in request), we sign the user in and redirect the user back to the home page. 
+With the first condition (when the user is signed in), we load the user data from local storage and then display the profile. With the second condition (when the user has a pending sign in request), we sign the user in and redirect the user back to the home page.
 
 ```js
 if (blockstack.isUserSignedIn()) {
-  showProfile(blockstack.loadUserData())
+  var profile = blockstack.loadUserData().profile
+  showProfile(profile)
 } else if (blockstack.isSignInPending()) {
   blockstack.handlePendingSignIn().then(function(userData) {
-      window.location = window.location.origin
-    })
+    window.location = window.location.origin
+  })
 }
 ```
 
