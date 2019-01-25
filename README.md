@@ -50,7 +50,7 @@ You can also order t-shirts, sweatshirts, and other swag [here!](https://blockst
 
 ## Contributing Guidelines
 
-* Contributing Guidelines [https://github.com/blockstack/blockstack-browser/blob/master/CONTRIBUTING.md]
+* [Contributing Guidelines](https://github.com/blockstack/blockstack-browser/blob/master/CONTRIBUTING.md)
 * Code of Conduct
 
 ## Code
@@ -77,12 +77,13 @@ If you're just starting with Blockstack, here are the main software repositories
 
 - **Attend open meetings**: 
 
-- Engineering: every Wednesday, 10-10:45 am EST (link to Calendar)
+- Engineering: [every Wednesday, 10-10:45 am EST](https://community.blockstack.org/events#start_date=2019-01-01&view=month)
 
-** [Past Engineering Meeting Minutes](https://forum.blockstack.org/search?q=%22engineering%20meeting%22%20order%3Alatest)
-- Community Update: every other Thursday, 1:30-2:30 pm EST (link to Calendar)
+*[Past Engineering Meeting Minutes](https://forum.blockstack.org/search?q=%22engineering%20meeting%22%20order%3Alatest)
 
-** [Past Evangelist Meeting Minutes](https://forum.blockstack.org/search?q=evangelist%20meeting%20order%3Alatest)
+- Community Update: [every other Thursday, 1:30-2:30 pm EST](https://community.blockstack.org/events#start_date=2019-01-01&view=month)
+
+*[Past Evangelist Meeting Minutes](https://forum.blockstack.org/search?q=evangelist%20meeting%20order%3Alatest)
 
 ## Stay informed and engaged!
 
