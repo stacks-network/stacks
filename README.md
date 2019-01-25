@@ -1,53 +1,59 @@
-# Blockstack
-
-Welcome to Blockstack’s growing global community! This guide is designed to help you learn what resources are available and get started as a contributor. We welcome builders, creators, hackers, writers and contributors of all kinds. Please read below and jump in to help us build the decentralized internet!
+# Community
 
 ## Table of Contents
 
-### Community
+- [About](#about)
 - [People](#people)
 - [Stats](#stats)
 - [Events](#events)
-- [Swag](#Swag)
-### Ways to Contribute
-- [Become an Evanelist](#evangelists)
-- [Events](#events)
+- [Swag](#swag)
+- [Contributing Guidelines](#contributing-guidelines)
+- [Code](#code)
 - [How to Help](#how-to-help)
-- [Media Guide](#media-guide)
+- [Stay Informed and Engaged!](#stay-informed-and-engaged)
 
-## Community
 
-### People
+## About
+
+Welcome to Blockstack’s growing global community! This guide is designed to help you learn what resources are available and get started as a contributor. We welcome builders, creators, hackers, writers and contributors of all kinds. Please read below and jump in to help us build the decentralized internet!
+
+## People
 
 Blockstack is an open source project committed to basic digital rights with a large and global community. Here are some of the great people participating in our project:
 
 
-### Stats
+## Stats
 
 Blockstack has been in production since 2014 with [70,000+ domains](https://resolver.onename.com/v2/namespaces) registered.
 
 
-### Events
+## Events
 
-* [Blockstack Events](/events/README.md)
-  * [Event Hosting Checklist](/events/events-guidelines.md)
-  * [Past Events](/events/archive.md)
+### Calendar
+
+We maintain a calendar for community events hosted and organized by Blockstack developers and supporters. Any community member is welcome to attend or submit an event.
+
+* [Blockstack Calendar](https://community.blockstack.org/events)
+
+### Meetups
+
+Blockstack also has a Meetup group with thousands of members globally. Join in!
+
+* [Meetup](https://meetup.com/pro/blockstack)
 
 
-### Swag
+## Swag
 
 Interested in showing your support for Blockstack? We're happy to send you stickers (ADD IMAGE). Please send a request to <office@blockstack.com> with your mailing address.
 
-You can also order t-shirts and sweatshirts .[here!] (https://blockstack.myshopify.com/collections/all)
+You can also order t-shirts, sweatshirts, and other swag [here!](https://blockstack.myshopify.com/collections/all)
 
-## Ways to Contribute
-
-### Contributing Guidelines
+## Contributing Guidelines
 
 * Contributing Guidelines [https://github.com/blockstack/blockstack-browser/blob/master/CONTRIBUTING.md]
 * Code of Conduct
 
-### Code
+## Code
 
 If you're just starting with Blockstack, here are the main software repositories you should checkout:
 
@@ -58,7 +64,7 @@ If you're just starting with Blockstack, here are the main software repositories
 [Here is a link to our latest tutorials](https://blockstack.org/tutorials)!
 
 
-### How to Help
+## How to Help
 
 - **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved
 * [Good First Issues - Github](https://github.com/blockstack/blockstack-browser/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
@@ -66,22 +72,23 @@ If you're just starting with Blockstack, here are the main software repositories
 - **Help with software testing** - we really appreciate and value our testers, and encourage people who want to support Blockstack to run the software and file issues in the appropriate repository for any bugs that are found
 - **Improve the documentation** - we can never have enough documentation so if there's anything you'd like to clarify or add, just fork any of the Blockstack repos, start writing and expanding on the docs, and submit a pull request
 - **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
-- **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and submit it to the Blockstack community blog or share it in the forum
-- **[Become a local Blockstack Community Evangelist](https://community.blockstack.org/evangelists)**
+- **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and share it in the forum
+- **[Become a local Blockstack Community Evangelist](https://community.blockstack.org/evangelists)** - join other passionate community leaders around the world supporting and spreading Blockstack's mission
 
-
-Attend Open Meetings: 
+- **Attend open meetings**: 
 
 - Engineering: every Wednesday, 10-10:45 am EST (link to Calendar)
+
+** [Past Engineering Meeting Minutes](https://forum.blockstack.org/search?q=%22engineering%20meeting%22%20order%3Alatest)
 - Community Update: every other Thursday, 1:30-2:30 pm EST (link to Calendar)
 
+** [Past Evangelist Meeting Minutes](https://forum.blockstack.org/search?q=evangelist%20meeting%20order%3Alatest)
 
 ## Stay informed and engaged!
 
 - [Mailing List](https://blockstack.org/signup)
 - [Blockstack Forum](http://forum.blockstack.org)
 - [Live chat on Slack](http://chat.blockstack.org/)
-- [Meetup Groups](http://www.meetup.com/topics/blockstack/)
 - [Blockstack Blog](https://blockstack.org/blog)
 - [YouTube Videos](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ)
 - [Twitter](https://twitter.com/blockstack)
