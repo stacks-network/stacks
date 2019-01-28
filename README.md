@@ -71,15 +71,13 @@ If you're just starting with Blockstack, here are the main software repositories
 - **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and share it in the forum
 - **[Become a local Blockstack Community Evangelist](https://community.blockstack.org/evangelists)** - join other passionate community leaders around the world supporting and spreading Blockstack's mission
 
-- **Attend open meetings**:
+## Meetings open to the community
 
-- Engineering: [every Wednesday, 10-10:45 am EST](https://community.blockstack.org/events#start_date=2019-01-01&view=month)
+* Engineering: [every Wednesday, 10-10:45 am EST](https://forum.blockstack.org/c/community/meetings)
 
-*[Past Engineering Meeting Minutes](https://forum.blockstack.org/search?q=%22engineering%20meeting%22%20order%3Alatest)
+* Community Update: [every other Thursday, 1:30-2:30 pm EST](https://community.blockstack.org/events#start_date=2019-01-01&view=month)
 
-- Community Update: [every other Thursday, 1:30-2:30 pm EST](https://community.blockstack.org/events#start_date=2019-01-01&view=month)
-
-*[Past Evangelist Meeting Minutes](https://forum.blockstack.org/search?q=evangelist%20meeting%20order%3Alatest)
+* [Past Evangelist Meeting Minutes](https://forum.blockstack.org/search?q=evangelist%20meeting%20order%3Alatest)
 
 ## Stay informed and engaged!
 
