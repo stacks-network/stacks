@@ -4,11 +4,7 @@ Blockstack is an open source project created to enable fundamental digital right
 
 ## Table of Contents
 
-- [About](#about)
-- [People](#people)
-- [Stats](#stats)
-- [Events](#events)
-- [Swag](#swag)
+- [Overview](#overview)
 - [Contributing Guidelines](#contributing-guidelines)
 - [Code](#code)
 - [How to Help](#how-to-help)
@@ -16,7 +12,7 @@ Blockstack is an open source project created to enable fundamental digital right
 - [Stay Informed and Engaged!](#stay-informed-and-engaged)
 
 
-## About
+## Overview
 
 Welcome to Blockstack’s growing global community! This repository is designed to help you learn what resources are available and get started as a contributor. We welcome builders, creators, hackers, writers and contributors of all kinds.
 
