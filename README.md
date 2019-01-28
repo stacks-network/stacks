@@ -1,4 +1,6 @@
-# Community
+# Blockstack Open Source community
+
+Blockstack is an open source project created to enable fundamental digital rights for all internet users. Using the Blockstack Network, developers create blockchain applications that users can use and still retain ownership of their data.
 
 ## Table of Contents
 
@@ -15,17 +17,12 @@
 
 ## About
 
-Welcome to Blockstack’s growing global community! This guide is designed to help you learn what resources are available and get started as a contributor. We welcome builders, creators, hackers, writers and contributors of all kinds. Please read below and jump in to help us build the decentralized internet!
-
-## People
-
-Blockstack is an open source project committed to basic digital rights with a large and global community. Here are some of the great people participating in our project:
+Welcome to Blockstack’s growing global community! This repository is designed to help you learn what resources are available and get started as a contributor. We welcome builders, creators, hackers, writers and contributors of all kinds. Please read below and jump in to help us build the decentralized internet!
 
 
 ## Stats
 
-Blockstack has been in production since 2014 with [70,000+ domains](https://resolver.onename.com/v2/namespaces) registered.
-
+Blockstack has been in production since 2014 with [80,000+ domains](https://explorer.blockstack.org/) registered.
 
 ## Events
 
@@ -50,7 +47,7 @@ You can also order t-shirts, sweatshirts, and other swag [here!](https://blockst
 
 ## Contributing Guidelines
 
-* [Contributing Guidelines](https://github.com/blockstack/blockstack-browser/blob/master/CONTRIBUTING.md)
+* [Contributing Guidelines](CONTRIBUTING.md)
 * Code of Conduct
 
 ## Code
@@ -61,21 +58,20 @@ If you're just starting with Blockstack, here are the main software repositories
 - [Blockstack Browser](https://github.com/blockstack/blockstack-browser) - the Blockstack Browser provides a graphical interface for interactions with the network.
 - [blockstack.js](https://github.com/blockstack/blockstack.js) - a JavaScript library for using Blockstack identity, authentication, and gaia storage in your apps.
 
-[Here is a link to our latest tutorials](https://blockstack.org/tutorials)!
+[Here is a link to our developer documentation and the latest tutorials](https://docs.blockstack.org/browser/hello-blockstack.html)!
 
 
 ## How to Help
 
 - **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved
-* [Good First Issues - Github](https://github.com/blockstack/blockstack-browser/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-* [Help wanted - Github](https://github.com/blockstack/blockstack-browser/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+* Look for issues on a issue tracker labeled **good first issue** or **help wanted**.
 - **Help with software testing** - we really appreciate and value our testers, and encourage people who want to support Blockstack to run the software and file issues in the appropriate repository for any bugs that are found
 - **Improve the documentation** - we can never have enough documentation so if there's anything you'd like to clarify or add, just fork any of the Blockstack repos, start writing and expanding on the docs, and submit a pull request
 - **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
 - **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and share it in the forum
 - **[Become a local Blockstack Community Evangelist](https://community.blockstack.org/evangelists)** - join other passionate community leaders around the world supporting and spreading Blockstack's mission
 
-- **Attend open meetings**: 
+- **Attend open meetings**:
 
 - Engineering: [every Wednesday, 10-10:45 am EST](https://community.blockstack.org/events#start_date=2019-01-01&view=month)
 
