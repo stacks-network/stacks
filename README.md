@@ -18,13 +18,17 @@ Blockstack is an open source project created to enable fundamental digital right
 
 ## About
 
-Welcome to Blockstack’s growing global community! This repository is designed to help you learn what resources are available and get started as a contributor. We welcome builders, creators, hackers, writers and contributors of all kinds. Please read below and jump in to help us build the decentralized internet!
+Welcome to Blockstack’s growing global community! This repository is designed to help you learn what resources are available and get started as a contributor. We welcome builders, creators, hackers, writers and contributors of all kinds.
 
-| Stats    	| Blockstack has been in production since 2014 with [80,000+ domains](https://explorer.blockstack.org/) registered.                        |
-| Calendar 	| We maintain a [detailed calendar](https://community.blockstack.org/events) for community events hosted and organized by Blockstack developers and supporters. Any community member is welcome to attend or submit an event.                                 	|
-| Meetups  	| Blockstack also has a [Meetup](https://meetup.com/pro/blockstack) group with thousands of members globally. Join in! |
-| Swag     	| You can also order t-shirts, sweatshirts, and other swag [here!](https://blockstack.myshopify.com/collections/all) Interested in showing your support for Blockstack? We're happy to send you stickers. Please send a request to,with your mailing address. 	|
+You can find information about Blockstack and our community at these sites around the web.
 
+|  | Description |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Stats** | Blockstack has been in production since 2014 with [80,000+ domains](https://explorer.blockstack.org/) registered. |
+| **Documentation** | Our documentation is generated from a markdown sources. You can find the documentation here: (https://docs.blockstack.org/). |
+| **Calendar** | We maintain a [detailed calendar](https://community.blockstack.org/events) for community events hosted and organized by Blockstack developers and supporters. Any community member is welcome to attend or submit an event. |
+| **Meetups** | Blockstack also has a [Meetup](https://meetup.com/pro/blockstack) group with thousands of members globally. Join in! |
+| **Swag** | You can also order t-shirts, sweatshirts, and other swag [here!](https://blockstack.myshopify.com/collections/all) Interested in showing your support for Blockstack? We're happy to send you stickers. Please send a request to,with your mailing address. |
 
 
 ## Contributing Guidelines
