@@ -24,7 +24,7 @@ Blockstack is an open source project committed to basic digital rights with a la
 
 ## Stats
 
-Blockstack has been in production since 2014 with [70,000+ domains](https://resolver.onename.com/v2/namespaces) registered.
+Blockstack has been in production since 2014 with [70,000+ domains](https://core.blockstack.org/v1/blockchains/bitcoin/name_count?all=1) registered.
 
 
 ## Events
