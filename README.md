@@ -29,9 +29,9 @@ Check out the [latest docs](https://docs.blockstack.org) for the easiest way to 
 
 ## How to Help
 
-- **Contribute code** - all software is open-source, so send us pull requests with improvements! See some [good first issues](https://github.com/blockstack/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
-- **Help with software testing** - we value testers, and encourage the community to run the software and file issues
-- **Become a community evangelist** - [join other passionate community leaders](https://community.blockstack.org/evangelists) around the world supporting our mission
+- **Contribute open-source code** - send us pull requests with improvements! See some [good first issues](https://github.com/blockstack/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+- **Help with software testing** - we encourage the community to run the software and file issues
+- **Become a community evangelist** - [join community leaders](https://community.blockstack.org/evangelists) around the world supporting our mission
 - **Weekly Stacks meetings** on [Discord](https://stacks.chat) (Thur at 10am ET).
 
 ## Resources
