@@ -27,12 +27,6 @@ If you're just starting with Stacks, here are the main software repositories you
 
 Check out the [latest docs](https://docs.blockstack.org) for the easiest way to get started!
 
-## Resources
-
-* [Stacks Events](https://community.blockstack.org/events)
-* [Meetups](https://meetup.com/pro/blockstack)
-* [Stacks.zone](https://stacks.zone), community wiki
-
 ## How to Help
 
 - **Contribute code** - all software is open-source, so send us pull requests with improvements! See some [good first issues](https://github.com/blockstack/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
@@ -40,10 +34,13 @@ Check out the [latest docs](https://docs.blockstack.org) for the easiest way to 
 - **[Become a community evangelist](https://community.blockstack.org/evangelists)** - join other passionate community leaders around the world supporting our mission
 - **Weekly Stacks meetings** on [Discord](https://stacks.chat) (Thur at 10am ET).
 
-## Stay informed and engaged!
+## Resources
 
-- [Mailing List](https://blockstack.org/updates)
 - [Stack Forum](http://forum.blockstack.org)
+- [Stacks.zone](https://stacks.zone), community wiki
 - [Telegram, Discord, and other channels](https://community.blockstack.org/groups)
+- [Mailing List](https://blockstack.org/updates)
 - [YouTube Videos](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ)
 - [Twitter](https://twitter.com/blockstack)
+- [Stacks Events](https://community.blockstack.org/events)
+- [Meetups](https://meetup.com/pro/blockstack)
