@@ -13,7 +13,17 @@ Clarity is a new language for smart contracts. Clarity is a decidable language, 
 ## Stacks 2.0 blockchain
 
 * [File Issues](https://github.com/blockstack/blockstack-core/issues/new)
-* [Source Code](https://github.com/blockstack/blockstack-core/tree/develop/src/vm)
+
+## Code
+
+If you're just starting with Stacks, here are the main software repositories you should checkout:
+
+- [Stacks Blockchain](https://github.com/blockstack/stacks-blockchain) - the reference implementation of the Stacks 2.0 blockchain in Rust.
+- [Stack Authenticator](https://github.com/blockstack/ux) - the Authenticator app and developer tools for decentralized login.
+- [blockstack.js](https://github.com/blockstack/blockstack.js) - a JavaScript library for using identity, auth, and storage in your apps.
+- [Stacks Explorer](https://github.com/blockstack/explorer) - blockchain explorer for Stacks 2.0 blockchain.
+
+[Here is a link to our latest tutorials](https://docs.blockstack.org)!
 
 ## Resources
 
@@ -22,49 +32,19 @@ Clarity is a new language for smart contracts. Clarity is a decidable language, 
 * You can also order t-shirts, sweatshirts, and other
 swag [here!](https://blockstack.myshopify.com/collections/all)
 
-## Contributing Guidelines
-
-When contributing to Blockstack repositories
-[https://github.com/blockstack], follow the relevant repository's
-contributing guidelines. You can also reference
-our [engineering guide](https://github.com/blockstack/blockstack/blob/master/engineering/README.md) for
-more advice.
-
-## Code
-
-If you're just starting with Stacks, here are the main software repositories you should checkout:
-
-- [Blockstack Core](https://github.com/blockstack/blockstack-core) - the reference implementation of the Stacks blockchain. Active development of Stacks V2 is under way in the `develop` branch.
-- [Blockstack Browser](https://github.com/blockstack/blockstack-browser) - the Blockstack Browser provides a graphical interface for interactions with the network.
-- [blockstack.js](https://github.com/blockstack/blockstack.js) - a JavaScript library for using Blockstack identity, authentication, and gaia storage in your apps.
-
-[Here is a link to our latest tutorials](https://blockstack.org/tutorials)!
-
 
 ## How to Help
 
-- **Contribute code** - all Blockstack software is free and open source, so send us pull requests if you have any suggestions for ways the software can be improved
-- **Help with software testing** - we really appreciate and value our testers, and encourage people who want to support Blockstack to run the software and file issues in the appropriate repository for any bugs that are found
-- **Improve the documentation** - we can never have enough documentation so if there's anything you'd like to clarify or add, just fork any of the Blockstack repos, start writing and expanding on the docs, and submit a pull request
+- **Contribute code** - all Stacks software is free and open-source, so send us pull requests with improvements and bug fixes; see some [good first issues](https://github.com/blockstack/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+- **Help with software testing** - we really appreciate and value our testers, and encourage the community to run the software and file issues
 - **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
-- **Produce and share content** - if you have ideas or insights about Blockstack or decentralized applications in general, write a post and share it in the forum
-- **[Become a local Blockstack Community Evangelist](https://community.blockstack.org/evangelists)** - join other passionate community leaders around the world supporting and spreading Blockstack's mission
-
-- **Attend open meetings**: 
-
-- Engineering: [every Wednesday, 10-10:45 am EST](https://community.blockstack.org/events#start_date=2019-01-01&view=month)
-
-*[Past Engineering Meeting Minutes](https://forum.blockstack.org/search?q=%22engineering%20meeting%22%20order%3Alatest)
-
-- Community Update: [every other Thursday, 1:30-2:30 pm EST](https://community.blockstack.org/events#start_date=2019-01-01&view=month)
-
-*[Past Evangelist Meeting Minutes](https://forum.blockstack.org/search?q=evangelist%20meeting%20order%3Alatest)
+- **[Become a community evangelist](https://community.blockstack.org/evangelists)** - join other passionate community leaders around the world supporting our mission
+- Weekly Stacks meetings on [Discord](https://stacks.chat) (Thur at 10am ET).
 
 ## Stay informed and engaged!
 
-- [Mailing List](https://blockstack.org/signup)
-- [Blockstack Forum](http://forum.blockstack.org)
-- [Live chat on Slack](http://chat.blockstack.org/)
-- [Blockstack Blog](https://blockstack.org/blog)
+- [Mailing List](https://blockstack.org/updates)
+- [Stack Forum](http://forum.blockstack.org)
+- [Telegram, Discord, and other channels](https://community.blockstack.org/groups)
 - [YouTube Videos](https://www.youtube.com/channel/UC3J2iHnyt2JtOvtGVf_jpHQ)
 - [Twitter](https://twitter.com/blockstack)
