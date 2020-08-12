@@ -12,7 +12,7 @@ Clarity is a new language for smart contracts. Clarity is a decidable language, 
 
 ## Stacks 2.0 blockchain
 
-Stacks 2.0 blockchain implements [Proof-of-Transfer (PoX)](https://blockstack.org/pox.pdf) mining and connects to Bitcoin for security. The main idea is that the Bitcoin blockchain is the most durable and secure base-layer and a separate blockchain like Stacks can connect to it to enable smart contracts and apps. With PoX there is no need to modify Bitcoin to enable smart contracts around it. Miners on the Stacks chain can view state on both the Bitcoin blockchain and the Stacks blockchain, they participate in leader election by sending transactions on the Bitcoin blockchain, a Verificable Random Function (VRF) randomly selects leader of each round, and the leader writes the new block on the Stacks chain. Stacks miners get newly minted STX (coinbase rewards) and transaction fees and Clarity contract execution fees of each block. STX miners express the cost of mining in BTC and spend BTC to participate in leader election. Stacks holders can lock STX to actively participate in consensus and earn Bitcoin rewards.
+Stacks 2.0 blockchain implements [Proof-of-Transfer (PoX)](https://blockstack.org/pox.pdf) mining and connects to Bitcoin for security. The main idea is that the Bitcoin blockchain is the most durable and secure base-layer and a separate blockchain like Stacks can connect to it to enable smart contracts and apps. With PoX there is no need to modify Bitcoin to enable smart contracts around it. Miners on the Stacks chain can view state on both the Bitcoin blockchain and the Stacks blockchain, they participate in leader election by sending transactions on the Bitcoin blockchain, a Verifiable Random Function (VRF) randomly selects leader of each round, and the leader writes the new block on the Stacks chain. Stacks miners get newly minted STX (coinbase rewards) and transaction fees and Clarity contract execution fees of each block. STX miners express the cost of mining in BTC and spend BTC to participate in leader election. Stacks holders can lock STX to actively participate in consensus and earn Bitcoin rewards.
 
 See [Stacks Improvement Proposals](https://github.com/blockstack/stacks-blockchain/tree/master/sip) (SIPS), and [SIP-007](https://github.com/blockstack/stacks-blockchain/blob/master/sip/sip-007-stacking-consensus.md) in particular for more details.
 
@@ -21,7 +21,7 @@ See [Stacks Improvement Proposals](https://github.com/blockstack/stacks-blockcha
 If you're just starting with Stacks, here are the main software repositories you should checkout:
 
 - [Stacks Blockchain](https://github.com/blockstack/stacks-blockchain) - the reference implementation of the Stacks 2.0 blockchain in Rust.
-- [Stack Authenticator](https://github.com/blockstack/ux) - the Authenticator app and developer tools for decentralized login.
+- [Stacks Authenticator](https://github.com/blockstack/ux) - the Authenticator app and developer tools for decentralized login.
 - [blockstack.js](https://github.com/blockstack/blockstack.js) - a JavaScript library for using identity, auth, and storage in your apps.
 - [Stacks Explorer](https://github.com/blockstack/explorer) - blockchain explorer for Stacks 2.0 blockchain.
 
@@ -36,7 +36,7 @@ Check out the [latest docs](https://docs.blockstack.org) for the easiest way to 
 
 ## Resources
 
-- [Stack Forum](http://forum.blockstack.org)
+- [Stacks Forum](http://forum.blockstack.org)
 - [Stacks.zone](https://stacks.zone), community wiki
 - [Telegram, Discord](https://community.blockstack.org/groups), and other channels
 - [Mailing List](https://blockstack.org/updates)
