@@ -4,36 +4,22 @@ The Stacks blockchain enables a user-owned internet connected to Bitcoin. Stacks
 
 Stacks cryptocurrency (STX) is used as fuel for smart contract execution, transaction processing, and digital asset registrations. STX is a unique crypto asset that can be locked by STX holders to actively participate in consensus and earn Bitcoin (BTC) rewards from the protocol. STX is a yield generating asset when used in consensus and functions as a utility token when consumed as fuel. Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history.
 
-* [Clarity Documentation and Tutorials](https://docs.blockstack.org/core/smart/overview.html)
-* [Clarity SDK](https://github.com/blockstack/clarity-js-sdk)
+For a recent overview of the Stacks ecosystem see this [July 2020 update presentation slides](https://docs.google.com/presentation/d/15lKVjbpRpGPH4-sybepXS3X9hwsqw-h1rqo8VntbADM).
+
+## Clarity Language for Smart Contracts
+
+Clarity is a new language for smart contracts. Clarity is a decidable language, meaning you can know, with certainty, from the code itself what the program will do. Clarity is interpreted (not compiled) and the source code is published on the blockchain. See the [Clarity website](https://clarity-lang.org) and [Clarity Github](https://github.com/clarity-lang) for details.
+
+## Stacks 2.0 blockchain
+
 * [File Issues](https://github.com/blockstack/blockstack-core/issues/new)
 * [Source Code](https://github.com/blockstack/blockstack-core/tree/develop/src/vm)
 
-## Events
+## Resources
 
-### Calendar
-
-We maintain a calendar for community events hosted and organized by
-Blockstack developers and supporters. Any community member is welcome
-to attend or submit an event.
-
-* [Blockstack Calendar](https://community.blockstack.org/events)
-
-### Meetups
-
-Blockstack also has a Meetup group with thousands of members
-globally. Join in!
-
-* [Meetup](https://meetup.com/pro/blockstack)
-
-
-## Swag
-
-Interested in showing your support for Blockstack? We're happy to send
-you stickers (ADD IMAGE). Please send a request to
-<office@blockstack.com> with your mailing address.
-
-You can also order t-shirts, sweatshirts, and other
+* [Stacks Events](https://community.blockstack.org/events)
+* [Meetups](https://meetup.com/pro/blockstack)
+* You can also order t-shirts, sweatshirts, and other
 swag [here!](https://blockstack.myshopify.com/collections/all)
 
 ## Contributing Guidelines
@@ -46,7 +32,7 @@ more advice.
 
 ## Code
 
-If you're just starting with Blockstack, here are the main software repositories you should checkout:
+If you're just starting with Stacks, here are the main software repositories you should checkout:
 
 - [Blockstack Core](https://github.com/blockstack/blockstack-core) - the reference implementation of the Stacks blockchain. Active development of Stacks V2 is under way in the `develop` branch.
 - [Blockstack Browser](https://github.com/blockstack/blockstack-browser) - the Blockstack Browser provides a graphical interface for interactions with the network.
