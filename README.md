@@ -25,7 +25,7 @@ If you're just starting with Stacks, here are the main software repositories you
 - [blockstack.js](https://github.com/blockstack/blockstack.js) - a JavaScript library for using identity, auth, and storage in your apps.
 - [Stacks Explorer](https://github.com/blockstack/explorer) - blockchain explorer for Stacks 2.0 blockchain.
 
-[Here is a link to our latest tutorials](https://docs.blockstack.org)!
+Check out the [latest docs](https://docs.blockstack.org) for the easiest way to get started!
 
 ## Resources
 
@@ -35,11 +35,10 @@ If you're just starting with Stacks, here are the main software repositories you
 
 ## How to Help
 
-- **Contribute code** - all Stacks software is free and open-source, so send us pull requests with improvements and bug fixes; see some [good first issues](https://github.com/blockstack/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+- **Contribute code** - all Stacks software is free and open-source, so send us pull requests with improvements! See some [good first issues](https://github.com/blockstack/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 - **Help with software testing** - we really appreciate and value our testers, and encourage the community to run the software and file issues
-- **Organize community events** - we welcome anyone interested in putting together anything as simple as a meetup at a local library or community center to discuss the latest Blockstack developments and applications with like-minded people from your area
 - **[Become a community evangelist](https://community.blockstack.org/evangelists)** - join other passionate community leaders around the world supporting our mission
-- Weekly Stacks meetings on [Discord](https://stacks.chat) (Thur at 10am ET).
+- **Weekly Stacks meetings** on [Discord](https://stacks.chat) (Thur at 10am ET).
 
 ## Stay informed and engaged!
 
