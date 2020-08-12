@@ -1,68 +1,8 @@
-# Community
+## Stacks: A Foundation for a User-owned Internet
 
-## Table of Contents
+The Stacks blockchain enables a user-owned internet connected to Bitcoin. Stacks blockchain introduces predictable smart contracts and decentralized apps that anchor to the security of Bitcoin. Bitcoin is the most durable and secure blockchain that is minimal by design. Stacks extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of Stacks transactions result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming blocks.
 
-- [About](#about)
-- [Events](#events)
-- [Code](#code)
-- [How to Help](#how-to-help)
-- [Stay Informed](#stay-informed-and-engaged)
-
-
-## About
-
-Blockstack is a decentralized computing network which currently has
-165+ apps built on top [https://blockstack.org].
-
-Blockstack believes that the "traditional internet" has become too
-dependent on a handful of companies. Blockstack wants to take the
-internet back to its decentralized roots. The Blockstack network is a
-product of 4+ years of R&D and infrastructure building. Blockstack
-gives developers the right tools to build decentralized apps.
-
-The big difference between these and traditional internet apps is that: 
-
-1. Apps mostly run client-side (no servers or databases)
-2. Users are in control of their data with encrypted private data lockers
-3. Users have universal cryptographic logins without any third-party providers.
-
-Blockstack PBC is a public benefit corporation building the core
-protocols and developer tools for decentralized computing. Developers
-use our open-source reference implementations and SDKs to build
-decentralized apps. These include Graphite (decentralized Google
-docs), Dmail (encrypted email), BitPatron (decentralized Patreon), and
-others [https://app.co/blockstack]. The Blockstack software stack
-gives developers decentralized solutions for auth and storage. The
-Stacks V2 blockchain will further allow developers to develop and
-launch smart contracts.
-
-The Stacks blockchain is a foundational layer of our architecture. It
-enables our decentralized qauth and storage to work without
-centralized operators. Users register their usernames on the Stacks
-blockchain and link their storage credentials. Technical details of
-our full decentralized computing stack are at
-[https://blockstack.org/whitepaper.pdf].
-
-Stacks is the native crypto token of Blockstack. Stacks are used as
-"fuel" to register digital assets and, once such functionality is
-launched, execute smart contracts. Compared to other decentralized app
-platforms, we:
-
-1. Keep on-chain logic to a minimum 
-2. Scale apps by localizing state changes
-3. Enable developers to write general-purpose apps, not just smart contracts
-
-### Stacks Version 2
-
-Development of Stacks version 2 (described in our whitepaper:
-[https://blockstack.org/whitepaper.pdf]) is in progress in the `develop`
-branch of [`blockstack-core`](https://github.com/blockstack/blockstack-core/tree/develop/).
-
-Stacks version 2 introduces support for [Clarity Smart
-Contracts](https://blog.blockstack.org/introducing-clarity-the-language-for-predictable-smart-contracts/).
-Clarity is a smart contracting language that optimizes for predictability and security.
-Clarity is currently in "a developer preview" mode, with releases of the Clarity VM and typechecker
-available via builds on the `develop` branch of `blockstack-core`.
+Stacks cryptocurrency (STX) is used as fuel for smart contract execution, transaction processing, and digital asset registrations. STX is a unique crypto asset that can be locked by STX holders to actively participate in consensus and earn Bitcoin (BTC) rewards from the protocol. STX is a yield generating asset when used in consensus and functions as a utility token when consumed as fuel. Stacks is the first cryptocurrency that was distributed to the general public through a SEC qualified token offering, the first-ever such offering in the US history.
 
 * [Clarity Documentation and Tutorials](https://docs.blockstack.org/core/smart/overview.html)
 * [Clarity SDK](https://github.com/blockstack/clarity-js-sdk)
