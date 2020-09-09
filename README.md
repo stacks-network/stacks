@@ -1,6 +1,6 @@
-## Stacks: A Foundation for a User-owned Internet
+## Stacks: Secure Apps and Smart Contracts
 
-The Stacks blockchain enables a user-owned internet connected to Bitcoin. Stacks blockchain introduces predictable smart contracts and decentralized apps that anchor to the security of Bitcoin. Bitcoin is the most durable and secure blockchain that is minimal by design. Stacks extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of Stacks transactions result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming blocks.
+The Stacks blockchain enables predictable smart contracts and decentralized apps that anchor to the security of Bitcoin. We're building a user-owned internet connected to Bitcoin. Bitcoin is the most durable and secure blockchain that is minimal by design. Stacks extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of Stacks transactions result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming blocks.
 
 Stacks cryptocurrency (STX) is used as fuel for smart contract execution, transaction processing, and digital asset registrations. STX is a unique crypto asset that can be locked by STX holders to actively participate in consensus and earn Bitcoin (BTC) rewards from the protocol. STX is a yield generating asset when used in consensus and functions as a utility token when consumed as fuel. Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history.
 
