@@ -21,6 +21,8 @@ Here is a screenshot of Krypton status as of Mon Sep 14th:
 
 ![](images/krypton.png)
 
+You can see the status of the currently deployed Phase 2 (Argon) [here](http://status.test-blockstack.com/).
+
 # What happens after Krypton?
 
 After Krypton completion, the next two phases (Phase 4 and 5) focus on testing. STX miners and stackers will be able to mine and stack on the testnet at this point. Microblocks is one feature that will be implemented in Phase 4 in addition to testing. Here is a status visual from testnet.blockstack.org (as of Mon Sep 14th):
