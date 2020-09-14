@@ -16,5 +16,19 @@ Phase 3 (Krypton) is the most complex phase which implements consensus, mining, 
 
 Phase 3 (Krypton) is currently in the final stages of implementation. Krypton is expected to be deployed in the week of Sep 21, 2020.
 
-You can follow Krypton's progress on [Github here](https://github.com/orgs/blockstack/projects) and on Discord on the [#stacks-core-devs channel](https://stacks.chat).
+You can follow Krypton's progress on [Github here](https://github.com/orgs/blockstack/projects) and on Discord on the [#stacks-core-devs channel](https://discord.gg/XYdRyhf).
 Here is a screenshot of Krypton status as of Mon Sep 14th:
+
+![](images/krypton.png)
+
+# What happens after Krypton?
+
+After Krypton completion, the next two phases (Phase 4 and 5) focus on testing. STX miners and stackers will be able to mine and stack on the testnet at this point. Microblocks is one feature that will be implemented in Phase 4 in addition to testing. Here is a status visual from testnet.blockstack.org (as of Mon Sep 14th):
+
+![](images/testnet-phases.png)
+
+Blockstack PBC plans to release a new estimate of mainnet launch after Krypton is deployed. Generally, Fall 2020 is the estimated launch.
+
+# Where do I ask questions?
+
+You can join the [Stacks Telegram group](https://t.me/BlockstackChat) to ask any further questions!
