@@ -1,4 +1,4 @@
-TLDR: There is no exact launch date, estimate is Fall 2020. We'll publish a more accurate estimate *after* Phase 3 testnet (Krypton) launch. Krypton launch is estimated for week 4 of Sep 2020.
+TLDR: There is no exact launch date, estimate is Fall 2020. We'll publish a more accurate estimate *after* Phase 3 testnet (Krypton) launch. Krypton launch is estimated for Thur Sep 24, 2020.
 
 # What is Stacks 2.0?
 Stacks 2.0 is a new layer-1 blockchain that uses [Proof-of-Transfer (PoX)](https://blockstack.org/pox.pdf) to connect to Bitcoin. Stacks 2.0 enables secure apps and [predictable smart contracts](https://clarity-lang.org)
@@ -16,7 +16,7 @@ Phase 3 (Krypton) is the most complex phase which implements consensus, mining, 
 
 # OK, so what is the status of Phase 3 (Krypton)?
 
-Phase 3 (Krypton) is currently in the final stages of implementation. Krypton is expected to be deployed in week 4 of September (week of Sep 21 - Sep 27, 2020).
+Phase 3 (Krypton) is currently in the final stages of implementation. Krypton is expected to be deployed on Thur Sep 24, 2020.
 
 You can follow Krypton's progress on [Github here](https://github.com/orgs/blockstack/projects) and on Discord on the [#stacks-core-devs channel](https://discord.gg/XYdRyhf).
 Here is a screenshot of Krypton status as of Mon Sep 14th:
