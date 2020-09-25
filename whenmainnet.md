@@ -7,12 +7,12 @@ in the broader Bitcoin ecosystem. Assets and contracts are secured by Bitcoin, a
 # When is Stacks 2.0 mainnet launching? 
 
 Stacks 2.0 is currently [being implemented](https://github.com/blockstack/stacks-blockchain)
-in the Rust language, and the mainnet launch is divided into [five testnet phases](https://www.blockstack.org/testnet).
+in the Rust language, and the mainnet launch is divided into [four testnet phases](https://www.blockstack.org/testnet).
 
-Stacks 2.0 mainnet is expected to launch in Fall 2020. **There is no exact launch date.** Independent miners will trigger the launch
+Stacks 2.0 mainnet is roughly expected to launch in Fall 2020. **There is no exact launch date.** Independent miners will trigger the launch
 after the successful completion of all testnet phases. We're currently in the implementation part of Phase 4.
 
-Phase 3 (Krypton) was the most complex phase which implemented consensus, mining, and stacking (earning BTC). After Krypton, Phase 4 (Xenon) is mostly about testing and microblocks.
+Phase 3 (Krypton) was the most complex phase which implemented consensus, mining, and stacking (earning BTC). After Krypton went live, Phase 4 (Xenon) is mostly about testing and microblocks.
 
 # OK, so what is the status of Phase 4 (Xenon)?
 
