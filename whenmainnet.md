@@ -29,6 +29,7 @@ You can see the status of the currently deployed Phase 3 (Krypton) [here](http:/
 # What happens after Krypton?
 
 The next two phases (Phase 4 and 5) focus on testing. STX miners and stackers will be able to mine and stack on the testnet at this point. Microblocks is one feature that will be implemented in Phase 4 in addition to testing. Here is a status visual from testnet.blockstack.org (as of Fri Sep 25th): 
+
 <img width="866" alt="Screen Shot 2020-09-25 at 1 20 10 PM" src="https://user-images.githubusercontent.com/30627583/94297604-c95d3d00-ff32-11ea-88ce-8f75bfdd7ca7.png">
 
 Blockstack PBC plans to release a new estimate of mainnet launch after Krypton is deployed. Generally, Fall 2020 is the estimated launch.
