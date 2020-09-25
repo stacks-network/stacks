@@ -20,6 +20,7 @@ Krypton was deployed on Thur Sep 24, 2020. Phase 4 (Xenon) is currently in the b
 
 You can follow Xenon's progress on [Github here](https://github.com/orgs/blockstack/projects) and on Discord on the [#stacks-core-devs channel](https://discord.gg/XYdRyhf).
 Here is a screenshot of Xenon's status as of Fri Sep 25th:
+
 <img width="870" alt="Screen Shot 2020-09-25 at 1 33 18 PM" src="https://user-images.githubusercontent.com/30627583/94298212-ba2abf00-ff33-11ea-8097-ab8b7b9e748f.png">
 
 
