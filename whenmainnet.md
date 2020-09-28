@@ -9,30 +9,35 @@ in the broader Bitcoin ecosystem. Assets and contracts are secured by Bitcoin, a
 Stacks 2.0 is currently [being implemented](https://github.com/blockstack/stacks-blockchain)
 in the Rust language, and the mainnet launch is divided into [four testnet phases](https://www.blockstack.org/testnet).
 
-Stacks 2.0 mainnet is roughly expected to launch in Fall 2020. **There is no exact launch date.** Independent miners will trigger the launch
-after the successful completion of all testnet phases. We're currently in the implementation part of Phase 4.
+With Phase 3 (Krypton) going live earlier this week, 90% of the implementation outlined in the whitepapers has been implemented. We won’t rush something out just to hit a date, but rest assured everyone is working extremely hard to make it happen soon. The best engineering estimate is as follows:
 
-Phase 3 (Krypton) was the most complex phase which implemented consensus, mining, and stacking (earning BTC). After Krypton went live, Phase 4 (Xenon) is mostly about testing and microblocks.
+a) Stacks 2.0 will certainly not launch before Oct 31st (Xenon will not finish by then).
+
+b) Stacks 2.0 mainnet readiness will likely not go beyond Dec 15th 2020.
+
+This gives an estimated range of 6 weeks (Nov 1st to Dec 15th). Mainnet readiness means that there is a release that can be deployed by miners and it passes all checks. Miners will decide the exact launch date.
+
+**We’ll do our best to give everyone a 2-4 week heads up before the launch is ready to be adopted by independent miners.** The advance notice would give developers, exchanges, and others a chance to potentially integrate before the public launch and give the community time to plan an event around the launch.
+
 
 # OK, so what is the status of Phase 4 (Xenon)?
 
-Krypton was deployed on Thur Sep 24, 2020! Phase 4 (Xenon) is currently in the beginning stages of implementation.
+Phase 4 (Xenon) is currently in the beginning stages of implementation.
 
 You can follow Xenon's progress on [Github here](https://github.com/orgs/blockstack/projects) and on Discord on the [#stacks-core-devs channel](https://discord.gg/XYdRyhf).
 Here is a screenshot of Xenon's status as of Fri Sep 25th:
 
 <img width="870" alt="Screen Shot 2020-09-25 at 1 33 18 PM" src="https://user-images.githubusercontent.com/30627583/94298212-ba2abf00-ff33-11ea-8097-ab8b7b9e748f.png">
 
-
 You can see the status of the currently deployed Phase 3 (Krypton) [here](http://status.test-blockstack.com/).
 
 # What happens after Krypton?
 
-The next two phases (Phase 4 and 5) focus on testing. STX miners and stackers will be able to mine and stack on the testnet at this point. Microblocks is one feature that will be implemented in Phase 4 in addition to testing. Here is a status visual from testnet.blockstack.org (as of Fri Sep 25th): 
+We're in the home stretch. Xenon the Stacks 2.0 Phase 4 has started! STX miners and stackers will be able to mine and stack on the testnet at this point. Microblocks is one feature that will be implemented in Phase 4 in addition to testing. Here is a status visual from testnet.blockstack.org (as of Fri Sep 25th): 
 
 <img width="866" alt="Screen Shot 2020-09-25 at 1 20 10 PM" src="https://user-images.githubusercontent.com/30627583/94297604-c95d3d00-ff32-11ea-88ce-8f75bfdd7ca7.png">
 
-Generally, Fall 2020 is the rough estimate but read [this post](https://blog.blockstack.org/when-stacks-2/) to understand why there is no exact date and when launch can actually happen.
+Thank you again to all those contributing to Stacks 2.0 and for your patience as we diligently work together toward a quantum leap for the ecosystem.  
 
 # Where do I ask questions?
 
