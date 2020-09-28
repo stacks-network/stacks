@@ -21,6 +21,11 @@ This gives an estimated range of 6 weeks (Nov 1st to Dec 15th). Mainnet readines
 
 **We’ll do our best to give everyone a 2-4 week heads up before the launch is ready to be adopted by independent miners.** The advance notice would give developers, exchanges, and others a chance to potentially integrate before the public launch and give the community time to plan an event around the launch.
 
+# What happens after Krypton?
+
+We're in the home stretch. Xenon the Stacks 2.0 Phase 4 has started! STX miners and stackers will be able to mine and stack on the testnet at this point. Microblocks is one feature that will be implemented in Phase 4 in addition to testing. Here is a status visual from testnet.blockstack.org (as of Fri Sep 25th): 
+
+<img width="866" alt="Screen Shot 2020-09-25 at 1 20 10 PM" src="https://user-images.githubusercontent.com/30627583/94297604-c95d3d00-ff32-11ea-88ce-8f75bfdd7ca7.png">
 
 # OK, so what is the status of Phase 4 (Xenon)?
 
@@ -32,12 +37,6 @@ Here is a screenshot of Xenon's status as of Fri Sep 25th:
 <img width="870" alt="Screen Shot 2020-09-25 at 1 33 18 PM" src="https://user-images.githubusercontent.com/30627583/94298212-ba2abf00-ff33-11ea-8097-ab8b7b9e748f.png">
 
 You can see the status of the currently deployed Phase 3 (Krypton) [here](http://status.test-blockstack.com/).
-
-# What happens after Krypton?
-
-We're in the home stretch. Xenon the Stacks 2.0 Phase 4 has started! STX miners and stackers will be able to mine and stack on the testnet at this point. Microblocks is one feature that will be implemented in Phase 4 in addition to testing. Here is a status visual from testnet.blockstack.org (as of Fri Sep 25th): 
-
-<img width="866" alt="Screen Shot 2020-09-25 at 1 20 10 PM" src="https://user-images.githubusercontent.com/30627583/94297604-c95d3d00-ff32-11ea-88ce-8f75bfdd7ca7.png">
 
 Thank you again to all those contributing to Stacks 2.0 and for your patience as we diligently work together toward a quantum leap for the ecosystem.  
 
