@@ -1,4 +1,4 @@
-TLDR: There is no exact launch date, estimate is Fall 2020. Krypton Phase 3 [was deployed](https://blog.blockstack.org/krypton-launch-proof-of-transfer-now-implemented-on-the-stacks-2-0-testnet/) on Thur Sep 24, 2020 :rocket::tada: -- Xenon Phase 4 is the last phase and focuses mostly on testing. Read [this post](https://blog.blockstack.org/when-stacks-2/) about our philosophy of focusing on quality.
+TLDR: Krypton Phase 3 [was deployed](https://blog.blockstack.org/krypton-launch-proof-of-transfer-now-implemented-on-the-stacks-2-0-testnet/) on Thur Sep 24, 2020 :rocket::tada: -- Xenon Phase 4 is the last phase and focuses mostly on testing. Independent miners will pick the exact launch date after we reach "mainnet readiness" i.e., end of Xenon phase. The estimated range is the 6-week window starting Nov 1st. Read [this post](https://blog.blockstack.org/when-stacks-2/) about our philosophy of focusing on quality.
 
 # What is Stacks 2.0?
 Stacks 2.0 is a new layer-1 blockchain that uses [Proof-of-Transfer (PoX)](https://blockstack.org/pox.pdf) to connect to Bitcoin. Stacks 2.0 enables secure apps and [predictable smart contracts](https://clarity-lang.org)
