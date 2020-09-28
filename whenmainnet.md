@@ -9,7 +9,7 @@ in the broader Bitcoin ecosystem. Assets and contracts are secured by Bitcoin, a
 Stacks 2.0 is currently [being implemented](https://github.com/blockstack/stacks-blockchain)
 in the Rust language, and the mainnet launch is divided into [four testnet phases](https://www.blockstack.org/testnet).
 
-With Phase 3 (Krypton) going live earlier this week, 90% of the implementation outlined in the whitepapers has been implemented. We won’t rush something out just to hit a date, but rest assured everyone is working extremely hard to make it happen soon. The best engineering estimate is as follows:
+With Phase 3 (Krypton) going live last week, 90% of the implementation outlined in the whitepapers has been implemented. We won’t rush something out just to hit a date, but rest assured everyone is working extremely hard to make it happen soon. The best engineering estimate is as follows:
 
 a) Stacks 2.0 will certainly not launch before Oct 31st (Xenon will not finish by then).
 
