@@ -32,9 +32,9 @@ We're in the home stretch. Xenon the Stacks 2.0 Phase 4 has started! STX miners 
 Phase 4 (Xenon) is currently in the beginning stages of implementation.
 
 You can follow Xenon's progress on [Github here](https://github.com/orgs/blockstack/projects) and on Discord on the [#stacks-core-devs channel](https://discord.gg/XYdRyhf).
-Here is a screenshot of Xenon's status as of Fri Sep 25th:
+Here is a screenshot of Xenon's status as of Thur Oct 8th:
 
-<img width="870" alt="Screen Shot 2020-09-25 at 1 33 18 PM" src="https://user-images.githubusercontent.com/30627583/94298212-ba2abf00-ff33-11ea-8097-ab8b7b9e748f.png">
+<img width="1250" alt="Screen Shot 2020-10-08 at 4 54 42 PM" src="https://user-images.githubusercontent.com/30627583/95512672-2d4a2180-0987-11eb-9346-3ec3740ab72c.png">
 
 You can see the status of the currently deployed Phase 3 (Krypton) [here](http://status.test-blockstack.com/).
 
