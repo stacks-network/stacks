@@ -1,8 +1,8 @@
 TLDR: Krypton Phase 3 [was deployed](https://blog.blockstack.org/krypton-launch-proof-of-transfer-now-implemented-on-the-stacks-2-0-testnet/) on Thur Sep 24, 2020 :rocket::tada: -- Xenon Phase 4 is the last phase and focuses mostly on testing. Stacks 2.0 will launch only when specific criteria (engineering tests) are met. Independent miners will pick the exact launch date after we reach "mainnet readiness" i.e., end of Xenon phase. The estimated launch range is the 6-week window starting Nov 1st. Read [this post](https://blog.blockstack.org/when-stacks-2/) about our philosophy of focusing on quality.
 
 # What is Stacks 2.0?
-Stacks 2.0 is a new layer-1 blockchain that uses [Proof-of-Transfer (PoX)](https://blockstack.org/pox.pdf) to connect to Bitcoin. Stacks 2.0 enables secure apps and [predictable smart contracts](https://clarity-lang.org)
-in the broader Bitcoin ecosystem. Assets and contracts are secured by Bitcoin, and STX holders can earn BTC by participating in consensus (see a [community intro video](http://stacks.zone/#IntroVideo)). 
+Stacks 2.0 is a new layer-1 blockchain that uses [Proof-of-Transfer (PoX)](https://blockstack.org/pox.pdf) to connect to Bitcoin. Stacks 2.0 brings apps and [predictable smart contracts](https://clarity-lang.org)
+to Bitcoin. Assets and contracts are secured by Bitcoin, and STX holders can earn BTC by participating in consensus (see a [community intro video](http://stacks.zone/#IntroVideo)). 
 
 # When is Stacks 2.0 mainnet launching? 
 
