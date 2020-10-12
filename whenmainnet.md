@@ -2,7 +2,7 @@ TLDR: Krypton Phase 3 [was deployed](https://blog.blockstack.org/krypton-launch-
 
 # What is Stacks 2.0?
 Stacks 2.0 is a new layer-1 blockchain that uses [Proof-of-Transfer (PoX)](https://blockstack.org/pox.pdf) to connect to Bitcoin. Stacks 2.0 brings apps and [predictable smart contracts](https://clarity-lang.org)
-to Bitcoin. Assets and contracts are secured by Bitcoin, and STX holders can earn BTC by participating in consensus (see a [community intro video](http://stacks.zone/#IntroVideo)). 
+to Bitcoin. Assets and contracts are secured by Bitcoin, and STX holders can earn BTC by participating in consensus. See an [earnings calculator](https://docs.google.com/spreadsheets/d/1OJ_pFQ8njpsBPYtWV9bXRx_aJejeXIkQwwiZzuWhvZQ/edit#gid=505229599) and a [community intro video](http://stacks.zone/#IntroVideo)). 
 
 # When is Stacks 2.0 mainnet launching? 
 
