@@ -2,7 +2,7 @@
 
 The Stacks blockchain brings predictable smart contracts and decentralized apps to Bitcoin. Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant not to change. Stacks extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of Stacks transactions result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming blocks.
 
-Stacks cryptocurrency (STX) is used as fuel for smart contract execution, transaction processing, and digital asset registrations. STX is a unique crypto asset that can be locked by STX holders to actively participate in consensus and earn Bitcoin (BTC) rewards from the protocol. STX holders can either (a) lock STX in consensus to earn BTC rewards, or (b) use STX as fuel for smart contracts and transactions. 
+Stacks cryptocurrency (STX) is used as fuel for smart contract execution, transaction processing, and digital asset registrations. STX is a unique crypto asset that can be locked by STX holders to actively participate in consensus and earn Bitcoin (BTC) rewards from the protocol. STX holders can either (a) lock STX in consensus to earn BTC rewards, or (b) use STX as fuel for smart contracts and transactions. More details on earning Bitcoin rewards is [here](https://github.com/blockstack/stacks/blob/master/stacking.md).
 
 Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history. For a recent overview of the Stacks ecosystem see this [July 2020 update presentation slides](https://docs.google.com/presentation/d/15lKVjbpRpGPH4-sybepXS3X9hwsqw-h1rqo8VntbADM).
 
