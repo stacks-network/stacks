@@ -1,18 +1,26 @@
 ## Stacks: Apps and Smart Contracts for Bitcoin
 
-The Stacks blockchain brings predictable smart contracts and decentralized apps to Bitcoin. Bitcoin is the most durable and secure blockchain that is minimal by design. Stacks extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of Stacks transactions result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming blocks.
+The Stacks blockchain brings predictable smart contracts and decentralized apps to Bitcoin. Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant not to change. Stacks extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of Stacks transactions result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming blocks.
 
-Stacks cryptocurrency (STX) is used as fuel for smart contract execution, transaction processing, and digital asset registrations. STX is a unique crypto asset that can be locked by STX holders to actively participate in consensus and earn Bitcoin (BTC) rewards from the protocol. STX holders can either (a) lock STX in consensus to earn BTC rewards, or (b) use STX as fuel for smart contracts and transactions. See the [STX earning model](https://github.com/blockstack/stacks/blob/master/stacking.md) for potential earning rate. Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history.
+Stacks cryptocurrency (STX) is used as fuel for smart contract execution, transaction processing, and digital asset registrations. STX is a unique crypto asset that can be locked by STX holders to actively participate in consensus and earn Bitcoin (BTC) rewards from the protocol. STX holders can either (a) lock STX in consensus to earn BTC rewards, or (b) use STX as fuel for smart contracts and transactions. 
 
-For a recent overview of the Stacks ecosystem see this [July 2020 update presentation slides](https://docs.google.com/presentation/d/15lKVjbpRpGPH4-sybepXS3X9hwsqw-h1rqo8VntbADM).
+Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history. For a recent overview of the Stacks ecosystem see this [July 2020 update presentation slides](https://docs.google.com/presentation/d/15lKVjbpRpGPH4-sybepXS3X9hwsqw-h1rqo8VntbADM).
 
 ## Clarity Language for Smart Contracts
 
 Clarity is a new language for smart contracts. Clarity is a decidable language, meaning you can know, with certainty, from the code itself what the program will do. Clarity is interpreted (not compiled) and the source code is published on the blockchain. See the [Clarity website](https://clarity-lang.org) and [Clarity Github](https://github.com/clarity-lang) for details.
 
+## Proof-of-Transfer (PoX)
+
+[PoX consensus](https://blockstack.org/pox.pdf) is a new algorithm that spans consensus between two blockchains. Leader election happens on a base chain and new blocks are written on a connected chain. PoX has the unique property that it establishes a native exchange pair between two cryptocurrencies. Miners use a base cryptocurrency to mine newly minted units of a new cryptocurrency.
+
 ## Stacks 2.0 blockchain
 
-Stacks 2.0 blockchain implements [Proof-of-Transfer (PoX)](https://blockstack.org/pox.pdf) mining and connects to Bitcoin for security. The main idea is that the Bitcoin blockchain is the most durable and secure base-layer and a separate blockchain like Stacks can connect to it to enable smart contracts and apps. With PoX there is no need to modify Bitcoin to enable smart contracts around it. Miners on the Stacks chain can view state on both the Bitcoin blockchain and the Stacks blockchain, they participate in leader election by sending transactions on the Bitcoin blockchain, a Verifiable Random Function (VRF) randomly selects leader of each round, and the leader writes the new block on the Stacks chain. Stacks miners get newly minted STX (coinbase rewards) and transaction fees and Clarity contract execution fees of each block. STX miners express the cost of mining in BTC and spend BTC to participate in leader election. Stacks holders can lock STX to actively participate in consensus and earn Bitcoin rewards.
+Stacks 2.0 blockchain is a layer-1 blockchain that uses the Bitcoin blockchain as a secure base-layer and brings apps and smart contracts to Bitcoin. Stacks implements PoX consensus and natively connects to Bitcoin. With PoX there is no need to modify Bitcoin to enable smart contracts around it. There are two types of participants on Stacks (a) STX miners, and (b) STX holders. 
+
+**STX miners** can view state on both the Bitcoin blockchain and the Stacks blockchain. STX miners participate in leader election by sending transactions on the Bitcoin blockchain, a Verifiable Random Function (VRF) randomly selects leader of each round, and the leader writes the new block on the Stacks chain. STX miners get newly minted STX (coinbase rewards) and transaction fees and Clarity contract execution fees of each block. STX miners express the cost of mining in BTC and spend BTC to participate in leader election. 
+
+**STX holders** can participate in consensus by locking their STX for a cycle, running a full node, and sending useful information on the network as transactions. STX holders who actively participate in consensus can earn Bitcoin rewards. Unlike proof of stake, there is no risk of slashing for STX holders. See the [STX earning model](https://github.com/blockstack/stacks/blob/master/stacking.md) for potential earning rate.
 
 See [Stacks Improvement Proposals](https://github.com/blockstack/stacks-blockchain/tree/master/sip) (SIPS), and [SIP-007](https://github.com/blockstack/stacks-blockchain/blob/master/sip/sip-007-stacking-consensus.md) in particular for more details.
 
