@@ -8,7 +8,7 @@ Stacks cryptocurrency was distributed to the general public through the first-ev
 
 ## Clarity Language for Smart Contracts
 
-Clarity is a new language for smart contracts. Clarity is a decidable language, meaning you can know, with certainty, from the code itself what the program will do. Clarity is interpreted (not compiled) and the source code is published on the blockchain. See the [Clarity website](https://clarity-lang.org) and [Clarity Github](https://github.com/clarity-lang) for details.
+Clarity is a new language for smart contracts. Clarity is a decidable language, meaning you can know, with certainty, from the code itself what the program will do. Clarity is interpreted (not compiled) and the source code is published on the blockchain. See the [Clarity website](https://clarity-lang.org) and [Clarity Github](https://github.com/clarity-lang/overview) for details.
 
 ## Proof-of-Transfer (PoX)
 
