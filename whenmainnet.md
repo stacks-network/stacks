@@ -9,7 +9,7 @@ to Bitcoin. Assets and contracts are secured by Bitcoin, and STX holders can ear
 Stacks 2.0 is currently [being implemented](https://github.com/blockstack/stacks-blockchain)
 in the Rust language, and the mainnet launch is divided into [four testnet phases](https://www.blockstack.org/testnet).
 
-We're in the home stretch. Stacks 2.0 is on track to reach code completion by Dec 15th. Mainnet launch is set for Jan 14th. Xenon the Stacks 2.0 Phase 4 is currently in the implementation phase. Microblocks is one feature that will be implemented in Phase 4 in addition to testing. Here is a status visual from testnet.blockstack.org (as of Nov 19th): 
+We're in the home stretch. Stacks 2.0 is on track to reach code completion by Dec 15th. Mainnet launch is set for Jan 14th 2021. Xenon the Stacks 2.0 Phase 4 is currently in the implementation phase. Microblocks is one feature that will be implemented in Phase 4 in addition to testing. Here is a status visual from testnet.blockstack.org (as of Nov 19th): 
 
 <img width="866" alt="Screen Shot 2020-09-25 at 1 20 10 PM" src="https://user-images.githubusercontent.com/30627583/94297604-c95d3d00-ff32-11ea-88ce-8f75bfdd7ca7.png">
 
