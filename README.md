@@ -6,7 +6,7 @@ Stacks cryptocurrency (STX) is used as fuel for smart contract execution, transa
 
 Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history. 
 
-See these [presentation slides](https://docs.google.com/presentation/d/1sHU3H6nHbh4ft7vrB5i7tXfmro7N-NsW1g4ysrDgytg/edit#slide=id.ga8c5458d86_0_0) and draft [Whitepaper] (https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf)for an overview. 
+See these [presentation slides](https://docs.google.com/presentation/d/1sHU3H6nHbh4ft7vrB5i7tXfmro7N-NsW1g4ysrDgytg/edit#slide=id.ga8c5458d86_0_0) and draft [Whitepaper](https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf) for an overview. 
 
 ## Clarity Language for Smart Contracts
 
