@@ -4,7 +4,9 @@ The Stacks blockchain brings predictable smart contracts and decentralized apps 
 
 Stacks cryptocurrency (STX) is used as fuel for smart contract execution, transaction processing, and digital asset registrations. STX is a unique crypto asset that can be locked by STX holders to actively participate in consensus and earn Bitcoin (BTC) rewards from the protocol. STX holders can either (a) lock STX in consensus to earn BTC rewards, or (b) use STX as fuel for smart contracts and transactions. More details on earning Bitcoin rewards is [here](https://github.com/blockstack/stacks/blob/master/stacking.md).
 
-Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history. See these [presentation slides](https://docs.google.com/presentation/d/1sHU3H6nHbh4ft7vrB5i7tXfmro7N-NsW1g4ysrDgytg/edit#slide=id.ga8c5458d86_0_0) for a detailed overview.
+Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history. 
+
+See these [presentation slides](https://docs.google.com/presentation/d/1sHU3H6nHbh4ft7vrB5i7tXfmro7N-NsW1g4ysrDgytg/edit#slide=id.ga8c5458d86_0_0) and draft [Whitepaper] (https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf)for an overview. 
 
 ## Clarity Language for Smart Contracts
 
