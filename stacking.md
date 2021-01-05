@@ -10,7 +10,7 @@ By end-Jan 2021 approximately 1,006M (1B) liquid STX participation rates are as 
 - Assume 50% of liquid supply is participating, the min threshold is 130k STX (~125k STX rounded up to the nearest 10,000)
 
 **Pooling and services:**
-Users can pool together to meet the minimum threshold using the *delegrate* transactions. Further, we anticipate users to reap the benefits of Stacking rewards through partners like OkCoin, Staked, and others, even if they themselves don’t individually own the relevant minimum threshold amount.
+Users can pool together to meet the minimum threshold using the *delegate* transactions. Further, we anticipate users to reap the benefits of Stacking rewards through partners like OkCoin, Staked, and others, even if they themselves don’t individually own the relevant minimum threshold amount.
 
 **Stacks future supply:** 
 The Stacks cryptocurrency has a predefined future supply that reaches approximately 1,818M STX by year 2050. See [here](https://github.com/zone117x/stx-supply-schedule/blob/master/supply.csv) for data on STX tokens unlocking by block. 
