@@ -107,17 +107,17 @@ Stox and Stacks are not related whatsoever and are two completely independent bl
 
 Simple arbitrage between the value of STX on exchanges and STX minted by mining. 
 
-Earlier this year we introduced a limited mining bonus that gives early miners even more than 1000 STX/block in the early weeks of the system.
-    - Specifically the STX mining schedule is:
-        - Years 0-4: 1000 STX/block
-        - Years 4-8: 500 STX/block
-        - Years 8-12: 250 STX/block
-        - Years 12+: 125 STX/block
-    - See the Whitepaper for updated token economics. 
+Earlier this year we introduced a limited mining bonus that gives early miners even more than 1000 STX/block in the early weeks of the system. Specifically the STX mining schedule is:
+- Years 0-4: 1000 STX/block
+- Years 4-8: 500 STX/block
+- Years 8-12: 250 STX/block
+- Years 12+: 125 STX/block
+
+See the [Whitepaper](https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf) for updated token economics. 
 
 **How can I calculate the amount of BTC required for mining for one week?** 
 
-See this community built [calculator](https://friedger.github.io/mining-calculator) There are lots of moving parts, but this calculator should help you get the gist of it.
+See this community built [calculator](https://friedger.github.io/mining-calculator). There are lots of moving parts, but this calculator should help you get the gist of it.
 
 **What are the minimum hardware requirements for mining?**
 
