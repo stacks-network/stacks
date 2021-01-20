@@ -49,12 +49,12 @@ You can always view your address balances at the [Stacks explorer](https://explo
 
 Ledger is currently the only hardware wallet option supported. Trezor hardware wallets are no longer supported.
 
-The Stacks software wallet offers a software wallet option, but hardware wallets are generally recommended for security. Several other entities in the Stacks ecosystem are working on wallets, like Secret Key Labs, Cerebro Wallet and the Boom Wallet. 
+The Stacks software wallet offers a software wallet option, but hardware wallets are generally recommended for security. Several other entities in the Stacks ecosystem are working on wallets, like [Secret Key Labs](https://www.secretkeylabs.com/), [Cerebro Wallet](https://cerebrowallet.com/) and the [Boom Wallet](https://boom.money/). 
 
 Trezor hardware wallet users will have 3 options:
 
 1. Do nothing. Your Stacks will remain safe. You won't be able to send your Stacks until you upgrade to the new version of the wallet and recover your wallet from seed phrase OR transfer to Ledger.
-2. [Recommended, Low Risk] Purchase a Ledger (Nano S or X) device and restore it using the same seed phrase as on your Trezor. Then install the Stacks app from the Ledger Live app.
+2. [Recommended, Low Risk] Purchase a Ledger (Nano S or X) device and [restore it](https://support.ledger.com/hc/en-us/articles/360005434914-Restore-from-recovery-phrase) using the same seed phrase as on your Trezor. Then install the Stacks app from the Ledger Live app.
 3. [High Risk]: It is also possible to recover your Trezor funds by using a software wallet. Be warned: it is not a recommended security practice to enter your hardware wallet seed phrases to a software wallet. Only use this method if you have removed all other funds from your Trezor device first.
 
 **Will BTC still be needed to transact on Stacks?**
