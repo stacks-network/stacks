@@ -33,6 +33,38 @@ Further details: The Clarity language, a secure and predictable smart contract l
 
 STX are consumed when apps interact with [Clarity](https://clarity-lang.org/) smart contracts and users register blockchain-based names across hundreds of Blockstack apps. You can also Stack STX tokens to receive BTC rewards in a process called Stacking. 
 
+View the full Stacks Token FAQ [here](https://docs.blockstack.org/references/faqs/stacks-token). 
+
+# Stacks Wallet 
+
+**What happened to STX through the transition from Stacks 1.0 to Stacks 2.0?**
+
+All data from Stacks 1.0 including prior token purchases and accounts were translated to Stacks 2.0. Now that the network has upgraded, you will need to download the [new Stacks wallet](https://www.hiro.so/wallet) to send Stacks.
+
+Upon downloading the new desktop wallet, STX holders will need to restore their holdings from your wallet seed phrase — either a 12 or 24 word phrase used to initially set up your wallet.
+
+You can always view your address balances at the [Stacks explorer](https://explorer.stacks.co/?chain=mainnet) as well. 
+
+**What hardware wallets are compatible with the Stacks wallet?** 
+
+Ledger is currently the only hardware wallet option supported. Trezor hardware wallets are no longer supported.
+
+The Stacks software wallet offers a software wallet option, but hardware wallets are generally recommended for security. Several other entities in the Stacks ecosystem are working on wallets, like Secret Key Labs, Cerebro Wallet and the Boom Wallet. 
+
+Trezor hardware wallet users will have 3 options:
+
+1. Do nothing. Your Stacks will remain safe. You won't be able to send your Stacks until you upgrade to the new version of the wallet and recover your wallet from seed phrase OR transfer to Ledger.
+2. [Recommended, Low Risk] Purchase a Ledger (Nano S or X) device and restore it using the same seed phrase as on your Trezor. Then install the Stacks app from the Ledger Live app.
+3. [High Risk]: It is also possible to recover your Trezor funds by using a software wallet. Be warned: it is not a recommended security practice to enter your hardware wallet seed phrases to a software wallet. Only use this method if you have removed all other funds from your Trezor device first.
+
+**Will BTC still be needed to transact on Stacks?**
+
+In the past, users have needed both STX and BTC to transact on Stacks. Upon Stacks 2.0 launch, only STX will be required for transacting in the STX ecosystem.
+
+Folks that held bitcoin in the Stacks 1.0 wallet can still access their Bitcoin via the [Stacks 1.0 wallet](https://www.hiro.so/questions/how-can-i-withdraw-the-btc-ive-deposited-into-the-stacks-wallet-v3-x) and are encouraged to send it elsewhere at their convenience.
+
+**View the full Stacks wallet FAQ at https://www.hiro.so/wallet**
+
 ## Stacking 
 
 **What is Stacking?**
@@ -55,6 +87,19 @@ Stacking minimums are dynamic minimum based on participation levels. There are a
 Stacking rewards will be initiated following the first stacking cycle on the Stacks network, around end Jan. 2021 and paid out mid Feb. 2021. 
 
 Further details: Upon launch, STX holders will be able to participate in the first Stacking cycle to test setup. BTC rewards are anticipated to start in following rewards cycle starting around the end of Jan. 2021. During the first reward cycle the network essentially getting up to speed and an anticipated beginning phase for the network.
+
+## Exchanges
+
+**What will happen to STX tokens held on exchanges and custody providers?**
+
+In the process of the hardfork from Stacks 1.0 to Stacks 2.0, users might see some expected impacts on exchange activity. Users with STX on exchanges or custody providers should refer to updates from respective exchanges and custody providers on how the network upgrade impacts them.
+
+We're providing all resources possible to make it a seamless experience for exchanges, custody providers, and their users.
+
+**Are Stox and Stacks the same?**
+
+Stox and Stacks are not related whatsoever and are two completely independent blockchain projects. Stox is a prediction market platform, currently with minimal usage. They also have a token with the ticker $STX, but with almost nonexistent volume and a market cap under $1M USD. 
+
 
 ## **Stacks Mining**
 
