@@ -35,7 +35,7 @@ STX are consumed when apps interact with [Clarity](https://clarity-lang.org/) sm
 
 View the full Stacks Token FAQ [here](https://docs.blockstack.org/references/faqs/stacks-token). 
 
-# Stacks Wallet 
+## Stacks Wallet 
 
 **What happened to STX through the transition from Stacks 1.0 to Stacks 2.0?**
 
