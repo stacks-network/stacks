@@ -80,7 +80,6 @@ Stacking minimums are dynamic minimum based on participation levels. There are a
 - Users can pool their STX together to meet the minimum threshold using the delegate transactions. (Note that the minimum is dynamic and subject to change.) For example, third parties like OKCoin, Staked, and others anticipate enabling users to participate in Stacking even if they don't individually own the minimum threshold amount of STX. More info available on Stacks.org/stacking.
 
 - For further info on Stacking protocol minimums via the wallet, see the [Stacking summary page](https://github.com/blockstack/stacks/blob/master/stacking.md) and [SIP-007](https://github.com/blockstack/stacks-blockchain/blob/master/sip/sip-007-stacking-consensus.md)
-- For live updates on network minimums, see the Stacking API end point [here](https://stacks-node-api.mainnet.stacks.co/v2/pox) (NOTE: these are subject to change up until the end of the “prepare” phase of stacking.)
 
 **When do Stacking rewards start?** 
 
