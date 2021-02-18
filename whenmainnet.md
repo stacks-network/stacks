@@ -1,4 +1,4 @@
-TLDR: Stacks 2.0 is on track to reach code completion by Dec 15th. Launch date is set for Thur Jan 14th. Read [this post](https://blog.blockstack.org/stacks-2-code-complete-dec-15/) for details.
+UPDATE: Stacks 2.0 was successfully launched by independent miners on Jan 14th, 2021. You can see the launch event at https://stacks2.com
 
 # What is Stacks 2.0?
 Stacks 2.0 is a new layer-1 blockchain that uses [Proof-of-Transfer (PoX)](https://blockstack.org/pox.pdf) to connect to Bitcoin. Stacks 2.0 brings apps and [predictable smart contracts](https://clarity-lang.org)
