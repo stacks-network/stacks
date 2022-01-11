@@ -3,7 +3,7 @@
 The Stacks blockchain brings predictable smart contracts and decentralized apps to Bitcoin.
 
 [>> Read the Stacks 2.0 whitepaper](https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf).<br>
-[>> See the Stacks 2.0 overview slides](https://docs.google.com/presentation/d/1sHU3H6nHbh4ft7vrB5i7tXfmro7N-NsW1g4ysrDgytg/edit#slide=id.ga8c5458d86_0_0).
+[>> See the Stacks 2.0 overview slides](https://github.com/blockstack/stacks/blob/master/Stacks%20Overview%20-%20Nov.%20version.pdf).
 
 Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant to not change. Stacks extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of Stacks transactions result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming blocks.
 
