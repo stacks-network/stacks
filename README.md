@@ -15,11 +15,15 @@ Stacks cryptocurrency was distributed to the general public through the first-ev
 
 ## Clarity Language for Smart Contracts
 
-Clarity is a new language for smart contracts that [focuses on safety](https://stacks.org/bringing-clarity-to-8-dangerous-smart-contract-vulnerabilities/). Clarity is a decidable language, meaning you can know, with certainty, from the code itself what the program will do. Clarity is interpreted (not compiled) and the source code is published on the blockchain. See the [Clarity book](https://book.clarity-lang.org/) and [Clarity website](https://clarity-lang.org) for details.
+Clarity is a new language for smart contracts that [focuses on safety](https://stacks.org/bringing-clarity-to-8-dangerous-smart-contract-vulnerabilities/). Clarity is a decidable language, meaning you can know, with certainty, from the code itself what the program will do. Clarity is interpreted (not compiled) and the source code is published on the blockchain (see [this deployed code](https://explorer.stacks.co/txid/SP000000000000000000002Q6VF78.pox?chain=mainnet) for the PoX contract).
+
+For details, see the [Clarity book](https://book.clarity-lang.org/) and [Clarity website](https://clarity-lang.org).
 
 ## Proof-of-Transfer (PoX)
 
-[PoX consensus](https://blockstack.org/pox.pdf) is a new algorithm that spans consensus between two blockchains. Unlike burning electricity in proof-of-work, miners bid by spending BTC and get a random probability for becoming a leader. Leader election happens on the base chain (Bitcoin) and new blocks are written on the connected chain. Miners use a base cryptocurrency (Bitcoin) to mine newly minted units of a new cryptocurrency. PoX recyles proof-of-work energy to provide Nakamoto-style consensus for the connected chain/layer. (See a [community post](https://medium.com/@sonkaos999/the-bullish-case-for-stacks-8ef75849861f) on PoX for more details.)
+[PoX consensus](https://blockstack.org/pox.pdf) is a new algorithm that spans consensus between two blockchains. Unlike burning electricity in proof-of-work, miners bid by spending BTC and get a random probability for becoming a leader. Leader election happens on the base chain (Bitcoin) and new blocks are written on the connected chain. Miners use a base cryptocurrency (Bitcoin) to mine newly minted units of a new cryptocurrency. PoX recyles proof-of-work energy to provide Nakamoto-style consensus for the connected chain/layer. 
+
+See [this post](https://medium.com/@sonkaos999/the-bullish-case-for-stacks-8ef75849861f) on PoX for more details.
 
 ## Stacks blockchain
 
@@ -48,9 +52,9 @@ If you're just starting with Stacks, here are the main software repositories you
 ## How to Help
 
 - **Contribute open-source code** - send us pull requests with improvements! See some [good first issues](https://github.com/blockstack/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
-- **Help with software testing** - we encourage the community to run the software and file issues
-- **Become a community evangelist** - [join community leaders](https://community.stacks.org/evangelists) around the world supporting our mission
-- **Weekly Stacks meetings** on [Discord](https://stacks.chat) (Thur at 10am ET).
+- **Help with software testing** - we encourage the community to run the software and file issues.
+- **Become a community evangelist** - [join community leaders](https://community.stacks.org/evangelists) around the world supporting our mission.
+- **Weekly Stacks meetings** on [Discord](https://stacks.chat).
 
 ## Resources
 
