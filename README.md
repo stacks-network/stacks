@@ -45,9 +45,9 @@ Check out the [latest docs](https://docs.stacks.co/) for the easiest way to get 
 If you're just starting with Stacks, here are the main software repositories you should checkout:
 
 - [Stacks Blockchain](https://github.com/blockstack/stacks-blockchain) - the reference implementation of the Stacks blockchain in Rust.
-- [Stacks Authenticator](https://github.com/blockstack/ux) - the Authenticator app and developer tools for decentralized login.
+- [Stacks Documentation](https://github.com/blockstack/docs) - community documentation for Stacks
 - [stacks.js](https://github.com/blockstack/stacks.js) - a JavaScript library for using identity, auth, and storage in your apps.
-- [Stacks Explorer](https://github.com/blockstack/explorer) - blockchain explorer for Stacks.
+- [Stacks Explorer](https://github.com/hirosystems/explorer) - blockchain explorer for Stacks.
 
 ## How to Help
 
