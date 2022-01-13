@@ -9,7 +9,7 @@ Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minim
 
 Stacks makes Bitcoin productive; BTC can be deployed into DeFi applications, NFT marketplaces etc. For example, see native [BTC swaps](https://www.hiro.so/blog/bitcoin-defi-is-here-a-deep-dive-into-trust-less-swaps), and [Lightning swaps](https://lnswap.org) to stablecoins and NFTs. You can see some applications built using Stacks [here](https://www.stacks.co/explore/discover-apps).
 
-Stacks cryptocurrency (STX) is used as gas for smart contract execution. STX is a unique crypto asset that can be locked by STX holders to Bitcoin (BTC) rewards from the protocol. More details on earning Bitcoin rewards are at [stacking.club](https://stacking.club).
+Stacks cryptocurrency (STX) is used as gas for smart contract execution. STX is a unique crypto asset that can be locked by STX holders to earn Bitcoin rewards from the protocol. More details on earning Bitcoin rewards are at [stacking.club](https://stacking.club).
 
 Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history. The project decentralized before the mainnet launch in Jan 2021. There are [30+ independent companies](https://twitter.com/zrixes/status/1433248424271355905?s=20) that work in the ecosystem.
 
