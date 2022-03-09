@@ -6,7 +6,7 @@ Note this is an *ongoing Stacks FAQ* and can continue to be updated by various c
 
 While Stacks 2.0 code has undergone significant testing (public testnets running for ~8 months; multiple security audits; bug bounties), like any complex software (~200K lines of code!) and protocol, there can be latent or emergent bugs (remember the early days of [Bitcoin](https://en.wikipedia.org/wiki/History_of_bitcoin) and [Ethereum](https://medium.com/mycrypto/the-history-of-ethereum-hard-forks-6a6dae76d56f)). See [this post](https://forum.stacks.org/t/500-blocks-into-the-stacks-2-0-mainnet/11606) for a summary of salient updates following the first 500 blocks, and this general [status update](https://blog.stacks.co/stacks-2-status-update). You can also view this [Stacks status page](https://stacks-status.com/ ). 
 
-Additional details: We’ve crafted a proposal for dealing with any CRITICAL issues post-launch: critical meaning there’s active or imminent threat to the network security or assets. For everything else, we will follow the SIP process (outlined in [SIP-000](https://github.com/blockstack/stacks-blockchain/blob/master/sip/sip-000-stacks-improvement-proposal-process.md)).
+Additional details: We’ve crafted a proposal for dealing with any CRITICAL issues post-launch: critical meaning there’s active or imminent threat to the network security or assets. For everything else, we will follow the SIP process (outlined in [SIP-000](https://github.com/stacks-network/stacks-blockchain/blob/master/sip/sip-000-stacks-improvement-proposal-process.md)).
 
 Regarding critical but non-consensus-breaking updates (e.g. a crash on the networking path):
 
@@ -32,8 +32,6 @@ Further details: The Clarity language, a secure and predictable smart contract l
 **What can I do with STX?** 
 
 STX are consumed when apps interact with [Clarity](https://clarity-lang.org/) smart contracts and users register blockchain-based names across hundreds of Blockstack apps. You can also Stack STX tokens to receive BTC rewards in a process called Stacking. 
-
-View the full Stacks Token FAQ [here](https://docs.blockstack.org/references/faqs/stacks-token). 
 
 ## Stacks Wallet 
 
@@ -79,7 +77,7 @@ Stacking minimums are dynamic minimum based on participation levels. There are a
 
 - Users can pool their STX together to meet the minimum threshold using the delegate transactions. (Note that the minimum is dynamic and subject to change.) For example, third parties like OKCoin, Staked, and others anticipate enabling users to participate in Stacking even if they don't individually own the minimum threshold amount of STX. More info available on Stacks.org/stacking.
 
-- For further info on Stacking protocol minimums via the wallet, see the [Stacking summary page](https://github.com/blockstack/stacks/blob/master/stacking.md) and [SIP-007](https://github.com/blockstack/stacks-blockchain/blob/master/sip/sip-007-stacking-consensus.md)
+- For further info on Stacking protocol minimums via the wallet, see the [Stacking summary page](https://github.com/stacks-network/stacks/blob/master/stacking.md) and [SIP-007](https://github.com/stacks-network/stacks-blockchain/blob/master/sip/sip-007-stacking-consensus.md)
 
 **When do Stacking rewards start?** 
 
@@ -126,7 +124,7 @@ Just about any VPS or home PC will work - “mining” is not a compute intensiv
     
 **Where can I learn more about STX mining?**
 
-- [Mining Docs](https://docs.blockstack.org/start-mining/mainnet) 
+- [Mining Docs](https://docs.stacks.co/start-mining/mainnet) 
 - https://stacks101.com/stx-mining-faq/
 - Comprehensive document of community-compiled [mining questions](https://paper.dropbox.com/doc/Stacks-2.0-Mining-Questions--BDjmfvyQCysQI_2cIuhmmi0GAg-63CU2wD4zQsiiU6XPUtlr) 
 
@@ -138,4 +136,4 @@ In the immediate term, users’ experiences with Stacks login, usernames, and ex
 
 Note this is an *ongoing Stacks FAQ* and can continue to be updated by various community and entity leaders. Please feel free to add question and answer suggestions via GitHub issues in the Stacks repository here - thanks! 
 
-Also see [Stacks docs](https://docs.blockstack.org/understand-stacks/overview), [Forum](https://forum.stacks.org/), and [Discord](https://discord.gg/C8ycHu4)! 
+Also see [Stacks docs](https://docs.stacks.co/understand-stacks/overview), [Forum](https://forum.stacks.org/), and [Discord](https://discord.gg/C8ycHu4)! 

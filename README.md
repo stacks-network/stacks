@@ -31,7 +31,7 @@ Stacks is a programming layer for Bitcoin. The Stacks blockchain connects to Bit
 
 **STX miners** can view state on both the Bitcoin blockchain and the Stacks blockchain. STX miners participate in leader election by sending transactions on the Bitcoin blockchain, a Verifiable Random Function (VRF) randomly selects leader of each round, and the leader writes the new block on the Stacks chain. STX miners get newly minted STX (coinbase rewards), transaction fees, and Clarity contract execution fees of each block. STX miners express the cost of mining in BTC and spend BTC to participate in leader election. 
 
-**STX holders** can participate in the PoX contract by locking their STX for a cycle, running a full node, and sending useful information on the network as transactions. STX holders who actively participate in the PoX contract can earn Bitcoin rewards. Unlike proof of stake, there is no risk of slashing for STX holders. See the [STX earning model](https://github.com/blockstack/stacks/blob/master/stacking.md) for potential earning rate and [stacking.club](https://stacking.club) for details.
+**STX holders** can participate in the PoX contract by locking their STX for a cycle, running a full node, and sending useful information on the network as transactions. STX holders who actively participate in the PoX contract can earn Bitcoin rewards. Unlike proof of stake, there is no risk of slashing for STX holders. See the [STX earning model](https://github.com/stacks-network/stacks/blob/master/stacking.md) for potential earning rate and [stacking.club](https://stacking.club) for details.
 
 Some resources for further details:
 - [Post on the Stacks blockchain](https://stacks.org/stacks-blockchain).
@@ -44,21 +44,21 @@ Check out the [latest docs](https://docs.stacks.co/) for the easiest way to get 
 
 If you're just starting with Stacks, here are the main software repositories you should checkout:
 
-- [Stacks Blockchain](https://github.com/blockstack/stacks-blockchain) - the reference implementation of the Stacks blockchain in Rust.
-- [Stacks Documentation](https://github.com/blockstack/docs) - community documentation for Stacks
-- [stacks.js](https://github.com/blockstack/stacks.js) - a JavaScript library for using identity, auth, and storage in your apps.
+- [Stacks Blockchain](https://github.com/stacks-network/stacks-blockchain) - the reference implementation of the Stacks blockchain in Rust.
+- [Stacks Documentation](https://github.com/stacks-network/docs) - community documentation for Stacks
+- [stacks.js](https://github.com/hirosystems/stacks.js) - a JavaScript library for using identity, auth, and storage in your apps.
 - [Stacks Explorer](https://github.com/hirosystems/explorer) - blockchain explorer for Stacks.
 
 ## How to Help
 
-- **Contribute open-source code** - send us pull requests with improvements! See some [good first issues](https://github.com/blockstack/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+- **Contribute open-source code** - send us pull requests with improvements! See some [good first issues](https://github.com/stacks-network/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 - **Help with software testing** - we encourage the community to run the software and file issues.
 - **Become a community evangelist** - [join community leaders](https://community.stacks.org/evangelists) around the world supporting our mission.
 - **Weekly Stacks meetings** on [Discord](https://stacks.chat).
 
 ## Resources
 
-- [Stacks Forum](http://forum.stacks.org)
+- [Stacks Forum](https://forum.stacks.org)
 - [Telegram](https://t.me/StacksChat)
 - [Discord](https://stacks.chat)
 - [Mailing List](https://stacks.org/updates)
