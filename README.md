@@ -1,17 +1,17 @@
-## Stacks: Smart Contracts for Bitcoin
+## Stacks: A Bitcoin Layer for Smart Contracts
 
-Stacks is a programming layer for Bitcoin. The Stacks blockchain enables smart contracts and decentralized apps for Bitcoin.
+Stacks is a Bitcoin layer for smart contracts. The Stacks layer enables smart contracts and decentralized apps for Bitcoin.
 
 [>> Read the Stacks whitepaper](https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf).<br>
 [>> See the Stacks overview slides](https://drive.google.com/file/d/19IX1PHshiXfdg7HXVJSQ8bPME_uizH6-/view).
 
-Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant to not change. Stacks extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of Stacks transactions result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming blocks. Bitcoin is used as a settlement layer and ultra-fast transactions are enabled as [scalable hyperchains](https://www.hiro.so/blog/introducing-hyperchains-by-hiro), amongst other scalability solutions (like [appchains](https://gist.github.com/jcnelson/c982e52075337ba75e00b79942164e31)). 
+Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant to not change. Stacks layer extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of transactions at the Stacks layer result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming transactions. Bitcoin is used as a settlement layer and ultra-fast transactions are enabled as [scalable hyperchains](https://www.hiro.so/blog/introducing-hyperchains-by-hiro), amongst other scalability solutions (like [appchains](https://gist.github.com/jcnelson/c982e52075337ba75e00b79942164e31)). 
 
-Stacks makes Bitcoin productive; BTC can be deployed into DeFi applications, NFT marketplaces etc. For example, see native [BTC swaps](https://www.hiro.so/blog/bitcoin-defi-is-here-a-deep-dive-into-trust-less-swaps), and [Lightning swaps](https://lnswap.org) to stablecoins and NFTs. You can see some applications built using Stacks [here](https://www.stacks.co/explore/discover-apps).
+Bitcoin's Stacks layer makes BTC productive; BTC can be deployed into DeFi applications, NFT marketplaces etc. For example, see native [BTC swaps](https://www.hiro.so/blog/bitcoin-defi-is-here-a-deep-dive-into-trust-less-swaps), and [Lightning swaps](https://lnswap.org) to stablecoins and NFTs. You can see some applications built using Stacks [here](https://www.stacks.co/explore/discover-apps).
 
-Stacks cryptocurrency (STX) is used as gas for smart contract execution. STX is a unique crypto asset that can be locked by STX holders to earn Bitcoin rewards from the protocol. More details on earning Bitcoin rewards are at [stacking.club](https://stacking.club).
+Stacks asset (STX) is used for mining incentives (block subsidy for miners) of the Stacks layer. These miners secure the global ledger of the Stacks layer. This data cannot be stored at the Bitcoin main chain and needs to be stored outside Bitcoin. STX is also used as gas for smart contract execution. STX is a unique crypto asset that can be locked by STX holders to earn Bitcoin rewards from the protocol. More details on earning Bitcoin rewards are at [stacking.club](https://stacking.club).
 
-Stacks cryptocurrency was distributed to the general public through the first-ever SEC qualified token offering in US history. The project decentralized before the mainnet launch in Jan 2021. There are [30+ independent companies](https://twitter.com/zrixes/status/1433248424271355905?s=20) that work in the ecosystem.
+STX was distributed to the general public through the first-ever SEC qualified token offering in US history. The project decentralized before the mainnet launch in Jan 2021. There are [50+ independent companies](https://twitter.com/zrixes/status/1433248424271355905?s=20) that work in the ecosystem.
 
 ## Clarity Language for Smart Contracts
 
@@ -21,15 +21,15 @@ For details, see the [Clarity book](https://book.clarity-lang.org/) and [Clarity
 
 ## Proof-of-Transfer (PoX)
 
-[PoX consensus](https://blockstack.org/pox.pdf) is a new algorithm that spans consensus between two blockchains. Unlike burning electricity in proof-of-work, miners bid by spending BTC and get a random probability for becoming a leader. Leader election happens on the base chain (Bitcoin) and new blocks are written on the connected chain. Miners use a base cryptocurrency (Bitcoin) to mine newly minted units of a new cryptocurrency. PoX recyles proof-of-work energy to provide Nakamoto-style consensus for the connected chain/layer. 
+[PoX consensus](https://blockstack.org/pox.pdf) is a new algorithm that spans consensus between the Bitcoin blockchain and the Stacks layer. Unlike burning electricity in proof-of-work, miners bid by spending BTC and get a random probability for becoming a leader. Leader election happens on Bitcoin and new blocks are written on the Stacks layer. Miners use BTC to mine newly minted STX. PoX recyles proof-of-work energy to provide Nakamoto-style consensus for the Stacks layer. 
 
 See [this post](https://medium.com/@sonkaos999/the-bullish-case-for-stacks-8ef75849861f) on PoX for more details.
 
-## Stacks blockchain
+## Stacks layer
 
-Stacks is a programming layer for Bitcoin. The Stacks blockchain connects to Bitcoin using PoX and enables smart contracts for Bitcoin. Smart contracts on Stacks can read and react to BTC transactions and developers can build cross-chain apps between Bitcoin and Stacks. With PoX there is no need to modify Bitcoin to enable smart contracts around it. There are two types of participants on Stacks (a) STX miners, and (b) STX holders. 
+Stacks is a programming layer for Bitcoin. The Stacks layer connects to Bitcoin using PoX and enables smart contracts for Bitcoin. Smart contracts on the Stacks layer can read and react to BTC transactions and developers can build cross-chain apps between Bitcoin and the Stacks layer. With PoX there is no need to modify Bitcoin to enable smart contracts around it. There are two types of participants on Stacks (a) STX miners, and (b) STX holders. 
 
-**STX miners** can view state on both the Bitcoin blockchain and the Stacks blockchain. STX miners participate in leader election by sending transactions on the Bitcoin blockchain, a Verifiable Random Function (VRF) randomly selects leader of each round, and the leader writes the new block on the Stacks chain. STX miners get newly minted STX (coinbase rewards), transaction fees, and Clarity contract execution fees of each block. STX miners express the cost of mining in BTC and spend BTC to participate in leader election. 
+**STX miners** can view state on both the Bitcoin blockchain and the Stacks layer. STX miners participate in leader election by sending transactions on the Bitcoin blockchain, a Verifiable Random Function (VRF) randomly selects leader of each round, and the leader writes the new block on the Stacks chain. STX miners get newly minted STX (coinbase rewards), transaction fees, and Clarity contract execution fees of each block. STX miners express the cost of mining in BTC and spend BTC to participate in leader election. 
 
 **STX holders** can participate in the PoX contract by locking their STX for a cycle, running a full node, and sending useful information on the network as transactions. STX holders who actively participate in the PoX contract can earn Bitcoin rewards. Unlike proof of stake, there is no risk of slashing for STX holders. See the [STX earning model](https://github.com/stacks-network/stacks/blob/master/stacking.md) for potential earning rate and [stacking.club](https://stacking.club) for details.
 
