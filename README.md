@@ -2,8 +2,9 @@
 
 Stacks is a Bitcoin layer for smart contracts. The Stacks layer enables smart contracts and decentralized apps for Bitcoin.
 
-[>> Read the Stacks whitepaper](https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf).<br>
-[>> See the Stacks overview slides](https://drive.google.com/file/d/19IX1PHshiXfdg7HXVJSQ8bPME_uizH6-/view).
+NEW: See the [working groups](https://github.com/stacks-network/stacks/discussions) for the design of non-custodial BTC peg and faster blocks<br>
+[>> Read the Stacks whitepaper](https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf) (slightly outdated).<br>
+[>> See the Stacks overview slides](https://drive.google.com/file/d/19IX1PHshiXfdg7HXVJSQ8bPME_uizH6-/view) (slightly outdated).
 
 Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant to not change. Stacks layer extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of transactions at the Stacks layer result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming transactions. Bitcoin is used as a settlement layer and ultra-fast transactions are enabled as [scalable hyperchains](https://www.hiro.so/blog/introducing-hyperchains-by-hiro), amongst other scalability solutions (like [appchains](https://gist.github.com/jcnelson/c982e52075337ba75e00b79942164e31)). 
 
