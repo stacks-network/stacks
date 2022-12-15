@@ -1,18 +1,33 @@
 ## Stacks: A Bitcoin Layer for Smart Contracts
 
-Stacks is a Bitcoin layer for smart contracts. The Stacks layer enables smart contracts and decentralized apps for Bitcoin.
 
-NEW: See the [working groups](https://github.com/stacks-network/stacks/discussions) for the design of non-custodial BTC peg and faster blocks<br>
-[>> Read the Stacks whitepaper](https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf) (slightly outdated).<br>
+Stacks is a Bitcoin layer for smart contracts; it enables smart contracts and decentralized applications to trustlessly use Bitcoin as an asset and settle transactions on the Bitcoin blockchain. 
+
+[>> Read the Stacks whitepaper](https://stacks.co/stacks.pdf).<br>
+[>> Read the sBTC whitepaper](https://stacks.co/sBTC.pdf).<br>
 [>> See the Stacks overview slides](https://drive.google.com/file/d/19IX1PHshiXfdg7HXVJSQ8bPME_uizH6-/view) (slightly outdated).
 
-Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant to not change. Stacks layer extends the design of Bitcoin to enable smart contracts and apps without modifying Bitcoin and with minimal transaction load on Bitcoin. Thousands of transactions at the Stacks layer result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming transactions. Bitcoin is used as a settlement layer and ultra-fast transactions are enabled as [scalable hyperchains](https://www.hiro.so/blog/introducing-hyperchains-by-hiro), amongst other scalability solutions (like [appchains](https://gist.github.com/jcnelson/c982e52075337ba75e00b79942164e31)). 
+The initial version of Stacks, launched in early 2021, introduced Bitcoin settlement of transactions, the Clarity language for safe contracts that can respond to Bitcoin transactions, and atomic swaps of assets with BTC. The next major proposed upgrade of Stacks, the Nakamoto release (see SIP-021), adds important capabilities that will enhance the power of Stacks as a Bitcoin layer: (a) a trustless, two-way Bitcoin peg to move BTC in/out of the layer and write to Bitcoin, (b) transactions secured by Bitcoin finality, and (c) fast transactions in between Bitcoin blocks. The resulting Stacks layer makes Bitcoin a fully programmable asset in a trustless manner. This can make hundreds of billions of dollars of passive Bitcoin capital productive, unlock it into decentralized applications, and make Bitcoin the backbone of a more secure web3.
 
-Bitcoin's Stacks layer makes BTC productive; BTC can be deployed into DeFi applications, NFT marketplaces etc. For example, see native [BTC swaps](https://www.hiro.so/blog/bitcoin-defi-is-here-a-deep-dive-into-trust-less-swaps), and [Lightning swaps](https://lnswap.org) to stablecoins and NFTs. You can see some applications built using Stacks [here](https://www.stacks.co/explore/discover-apps).
+The Stacks layer for smart contracts has the following innovations that make it unique:<br>
+**S – S**ecured by the entire hash power of Bitcoin (Bitcoin finality).<br>
+**T – T**rustless Bitcoin peg mechanism; write to Bitcoin.<br>
+**A – A**tomic BTC swaps and assets owned by BTC addresses.<br>
+**C – C**larity language for safe, decidable contracts.<br>
+**K – K**nowledge of full Bitcoin state; read from Bitcoin.<br>
+**S – S**calable, fast transactions that settle on Bitcoin.<br>
+
+Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant to not change. Stacks layer brings more functionality to Bitcoin without modifying Bitcoin L1. Thousands of transactions at the Stacks layer result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming transactions. Bitcoin is used as a settlement layer. and ultra-fast transactions are enabled as [subnets](https://github.com/hirosystems/stacks-subnets), amongst other scalability solutions (like [appchains](https://gist.github.com/jcnelson/c982e52075337ba75e00b79942164e31)).
+
+Bitcoin's Stacks layer makes BTC productive in two ways:
+- Stacks consensus enables a trust-minimized Bitcoin peg mechanism, called sBTC. A dynamic group of economically incentivized actors operate the peg. See the [sBTC page](https://stacks.co/sbtc) for more details.
+- Further, through atomic swaps BTC can be trustlessly swaped and deployed into DeFi applications, NFT marketplaces etc. For example, see [Magic BTC atomic swaps](https://magic.fun) and [Catamaran BTC atomic swaps](https://www.hiro.so/blog/bitcoin-defi-is-here-a-deep-dive-into-trust-less-swaps), and [Lightning swaps](https://lnswap.org). 
+
+You can see some applications built using Stacks [here](https://www.stacks.co/explore/discover-apps).
 
 Stacks asset (STX) is used for mining incentives (block subsidy for miners) of the Stacks layer. These miners secure the global ledger of the Stacks layer. This data cannot be stored at the Bitcoin main chain and needs to be stored outside Bitcoin. STX is also used as gas for smart contract execution. STX is a unique crypto asset that can be locked by STX holders to earn Bitcoin rewards from the protocol. More details on earning Bitcoin rewards are at [stacking.club](https://stacking.club).
 
-STX was distributed to the general public through the first-ever SEC qualified token offering in US history. The project decentralized before the mainnet launch in Jan 2021. There are [50+ independent companies](https://twitter.com/zrixes/status/1433248424271355905?s=20) that work in the ecosystem.
+STX was distributed to the general public through the first-ever SEC qualified token offering in US history. The project decentralized before the mainnet launch in Jan 2021. There are [30+ independent companies](https://twitter.com/zrixes/status/1433248424271355905?s=20) that work in the ecosystem.
 
 ## Clarity Language for Smart Contracts
 
@@ -26,18 +41,12 @@ For details, see the [Clarity book](https://book.clarity-lang.org/) and [Clarity
 
 See [this post](https://medium.com/@sonkaos999/the-bullish-case-for-stacks-8ef75849861f) on PoX for more details.
 
-## Stacks layer
-
-Stacks is a programming layer for Bitcoin. The Stacks layer connects to Bitcoin using PoX and enables smart contracts for Bitcoin. Smart contracts on the Stacks layer can read and react to BTC transactions and developers can build cross-chain apps between Bitcoin and the Stacks layer. With PoX there is no need to modify Bitcoin to enable smart contracts around it. There are two types of participants on Stacks (a) STX miners, and (b) STX holders. 
-
-**STX miners** can view state on both the Bitcoin blockchain and the Stacks layer. STX miners participate in leader election by sending transactions on the Bitcoin blockchain, a Verifiable Random Function (VRF) randomly selects leader of each round, and the leader writes the new block on the Stacks chain. STX miners get newly minted STX (coinbase rewards), transaction fees, and Clarity contract execution fees of each block. STX miners express the cost of mining in BTC and spend BTC to participate in leader election. 
-
-**STX holders** can participate in the PoX contract by locking their STX for a cycle, running a full node, and sending useful information on the network as transactions. STX holders who actively participate in the PoX contract can earn Bitcoin rewards. Unlike proof of stake, there is no risk of slashing for STX holders. See the [STX earning model](https://github.com/stacks-network/stacks/blob/master/stacking.md) for potential earning rate and [stacking.club](https://stacking.club) for details.
+## Resources
 
 Some resources for further details:
-- [Post on the Stacks blockchain](https://stacks.org/stacks-blockchain).
+- [Working groups](https://github.com/stacks-network/stacks/discussions) for non-custodial BTC peg and faster blocks<br>
 - In-depth [video interview](https://www.youtube.com/watch?v=dEQFPNWaOHY) for Stacks blockchain and consensus.
-- [Stacks Improvement Proposals](https://github.com/stacksgov/sips/tree/main/sips) (SIPS), and [SIP-007](https://github.com/stacksgov/sips/blob/main/sips/sip-007/sip-007-stacking-consensus.md) in particular for more details.
+- [Stacks Improvement Proposals](https://github.com/stacksgov/sips/tree/main/sips) (SIPS)
 
 ## Code
 
@@ -45,10 +54,10 @@ Check out the [latest docs](https://docs.stacks.co/) for the easiest way to get 
 
 If you're just starting with Stacks, here are the main software repositories you should checkout:
 
-- [Stacks Blockchain](https://github.com/stacks-network/stacks-blockchain) - the reference implementation of the Stacks blockchain in Rust.
+- [Stacks Layer Code](https://github.com/stacks-network/stacks-blockchain) - the reference implementation of the Stacks layer in Rust.
 - [Stacks Documentation](https://github.com/stacks-network/docs) - community documentation for Stacks
 - [stacks.js](https://github.com/hirosystems/stacks.js) - a JavaScript library for using identity, auth, and storage in your apps.
-- [Stacks Explorer](https://github.com/hirosystems/explorer) - blockchain explorer for Stacks.
+- [Stacks Explorer](https://github.com/hirosystems/explorer) - explorer for Stacks layer.
 
 ## How to Help
 
