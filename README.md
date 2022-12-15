@@ -4,12 +4,12 @@
 Stacks is a Bitcoin layer for smart contracts; it enables smart contracts and decentralized applications to trustlessly use Bitcoin as an asset and settle transactions on the Bitcoin blockchain. 
 
 [>> Read the Stacks whitepaper](https://stacks.co/stacks.pdf).<br>
-[>> Read the sBTC whitepaper](https://stacks.co/sBTC.pdf).<br>
+[>> Read the sBTC whitepaper](https://stacks.co/sbtc.pdf).<br>
 [>> See the Stacks overview slides](https://drive.google.com/file/d/19IX1PHshiXfdg7HXVJSQ8bPME_uizH6-/view) (slightly outdated).
 
-The initial version of Stacks, launched in early 2021, introduced Bitcoin settlement of transactions, the Clarity language for safe contracts that can respond to Bitcoin transactions, and atomic swaps of assets with BTC. The next major proposed upgrade of Stacks, the Nakamoto release (see SIP-021), adds important capabilities that will enhance the power of Stacks as a Bitcoin layer: (a) a trustless, two-way Bitcoin peg to move BTC in/out of the layer and write to Bitcoin, (b) transactions secured by Bitcoin finality, and (c) fast transactions in between Bitcoin blocks. The resulting Stacks layer makes Bitcoin a fully programmable asset in a trustless manner. This can make hundreds of billions of dollars of passive Bitcoin capital productive, unlock it into decentralized applications, and make Bitcoin the backbone of a more secure web3.
+The initial version of Stacks, launched in early 2021, introduced Bitcoin settlement of transactions, the Clarity language for safe contracts that can respond to Bitcoin transactions, and atomic swaps of assets with BTC. The next major proposed upgrade of Stacks, the Nakamoto release (see [SIP-021](https://github.com/stacksgov/sips/blob/56b73eada5ef1b72376f4a230949297b3edcc562/sips/sip-021/sip-021-trustless-two-way-peg-for-bitcoin.md)), adds important capabilities that will enhance the power of Stacks as a Bitcoin layer: (a) a trustless, two-way Bitcoin peg to move BTC in/out of the layer and write to Bitcoin, (b) transactions secured by Bitcoin finality, and (c) fast transactions in between Bitcoin blocks. The resulting Stacks layer makes Bitcoin a fully programmable asset in a trustless manner. This can make hundreds of billions of dollars of passive Bitcoin capital productive, unlock it into decentralized applications, and make Bitcoin the backbone of a more secure web3.
 
-The Stacks layer for smart contracts has the following innovations that make it unique:<br>
+The Stacks layer for smart contracts has the following innovations that make it unique:<br><br>
 **S – S**ecured by the entire hash power of Bitcoin (Bitcoin finality).<br>
 **T – T**rustless Bitcoin peg mechanism; write to Bitcoin.<br>
 **A – A**tomic BTC swaps and assets owned by BTC addresses.<br>
@@ -17,7 +17,7 @@ The Stacks layer for smart contracts has the following innovations that make it 
 **K – K**nowledge of full Bitcoin state; read from Bitcoin.<br>
 **S – S**calable, fast transactions that settle on Bitcoin.<br>
 
-Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant to not change. Stacks layer brings more functionality to Bitcoin without modifying Bitcoin L1. Thousands of transactions at the Stacks layer result in a single hash at the Bitcoin blockchain, and Stacks microblocks offer fast confirmations of streaming transactions. Bitcoin is used as a settlement layer. and ultra-fast transactions are enabled as [subnets](https://github.com/hirosystems/stacks-subnets), amongst other scalability solutions (like [appchains](https://gist.github.com/jcnelson/c982e52075337ba75e00b79942164e31)).
+Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minimal by design and is meant to not change. Stacks layer brings more functionality to Bitcoin without modifying Bitcoin L1. Thousands of transactions at the Stacks layer result in a settlement at the Bitcoin L1, and Stacks microblocks offer fast confirmations of streaming transactions. Bitcoin is used as a settlement layer and fast transactions in-between two Bitcoin blocks are proposed for the Nakamoto release ([SIP-21](https://github.com/stacksgov/sips/blob/56b73eada5ef1b72376f4a230949297b3edcc562/sips/sip-021/sip-021-trustless-two-way-peg-for-bitcoin.md)). Further, scalability is enabled as [subnets](https://github.com/hirosystems/stacks-subnets), amongst other scalability solutions (like [appchains](https://gist.github.com/jcnelson/c982e52075337ba75e00b79942164e31)).
 
 Bitcoin's Stacks layer makes BTC productive in two ways:
 - Stacks consensus enables a trust-minimized Bitcoin peg mechanism, called sBTC. A dynamic group of economically incentivized actors operate the peg. See the [sBTC page](https://stacks.co/sbtc) for more details.
@@ -25,7 +25,7 @@ Bitcoin's Stacks layer makes BTC productive in two ways:
 
 You can see some applications built using Stacks [here](https://www.stacks.co/explore/discover-apps).
 
-Stacks asset (STX) is used for mining incentives (block subsidy for miners) of the Stacks layer. These miners secure the global ledger of the Stacks layer. This data cannot be stored at the Bitcoin main chain and needs to be stored outside Bitcoin. STX is also used as gas for smart contract execution. STX is a unique crypto asset that can be locked by STX holders to earn Bitcoin rewards from the protocol. More details on earning Bitcoin rewards are at [stacking.club](https://stacking.club).
+Stacks asset (STX) is used for mining incentives (block subsidy for miners) of the Stacks layer and for incentives for sBTC peg-out signing. These miners secure the global ledger of the Stacks layer. This data cannot be stored at the Bitcoin main chain and needs to be stored outside Bitcoin. STX is also used as gas for smart contract execution. STX is a unique crypto asset that can be locked by STX holders to earn Bitcoin rewards from the protocol. More details on earning Bitcoin rewards are at [stacking.club](https://stacking.club).
 
 STX was distributed to the general public through the first-ever SEC qualified token offering in US history. The project decentralized before the mainnet launch in Jan 2021. There are [30+ independent companies](https://twitter.com/zrixes/status/1433248424271355905?s=20) that work in the ecosystem.
 
