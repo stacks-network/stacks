@@ -3,8 +3,8 @@
 
 Stacks is a Bitcoin layer for smart contracts; it enables smart contracts and decentralized applications to trustlessly use Bitcoin as an asset and settle transactions on the Bitcoin blockchain. 
 
-[>> Read the Stacks whitepaper](https://stacks.co/stacks.pdf).<br>
-[>> Read the sBTC whitepaper](https://stacks.co/sbtc.pdf).<br>
+➡️ Read the Stacks whitepaper [html](https://stacks-network.github.io/stacks/stacks.html) [pdf](https://stacks-network.github.io/stacks/stacks.pdf)<br>
+➡️ Read the sBTC whitepaper [html](https://stacks-network.github.io/stacks/sbtc.html) [pdf](https://stacks-network.github.io/stacks/sbtc.pdf)<br>
 [>> See the Stacks overview slides](https://drive.google.com/file/d/19IX1PHshiXfdg7HXVJSQ8bPME_uizH6-/view) (slightly outdated).
 
 The initial version of Stacks, launched in early 2021, introduced Bitcoin settlement of transactions, the Clarity language for safe contracts that can respond to Bitcoin transactions, and atomic swaps of assets with BTC. The next major proposed upgrade of Stacks, the Nakamoto release (see [SIP-021](https://github.com/stacksgov/sips/blob/56b73eada5ef1b72376f4a230949297b3edcc562/sips/sip-021/sip-021-trustless-two-way-peg-for-bitcoin.md)), adds important capabilities that will enhance the power of Stacks as a Bitcoin layer: (a) a trustless, two-way Bitcoin peg to move BTC in/out of the layer and write to Bitcoin, (b) transactions secured by Bitcoin finality, and (c) fast transactions in between Bitcoin blocks. The resulting Stacks layer makes Bitcoin a fully programmable asset in a trustless manner. This can make hundreds of billions of dollars of passive Bitcoin capital productive, and make Bitcoin the backbone of a more secure web3.
