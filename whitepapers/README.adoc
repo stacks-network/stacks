@@ -1,0 +1,6 @@
+= Stacks Whitepapers
+
+This folder contains the source of the latest Stacks whitepapers. They're written using https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc] and converted to HTML/PDF using https://docs.asciidoctor.org/asciidoctor/latest/[AsciiDoctor].
+
+* Stacks Nakamoto Paper xref:stacks.adoc[Stacks paper]
+* sBTC Paper xref:sbtc.adoc[sBTC paper]

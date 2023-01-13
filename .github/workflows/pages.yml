@@ -39,6 +39,7 @@ jobs:
           asciidoctor -D dist whitepapers/*.adoc
           asciidoctor-pdf -D dist --theme whitepapers/pdf-theme.yml -a "!toc" whitepapers/*.adoc
           cp whitepapers/*.png dist/
+          mv dist/README.html dist/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
