@@ -1,8 +1,8 @@
 # Why is the STX token needed for Stacks?
 
-Many Bitcoin community members are skeptical of new tokens and rightly so. There are countless projects out there that force the use of a token on their project and in many cases a token is actually not needed. Stacks project was started by Bitcoin builders who have a long history of building apps & protocols on Bitcoin L1 without any token (e.g., BNS launched in 2015 on Bitcoin L1 which was one of the [largest protocols using OP_RETURN](https://twitter.com/TO/status/1625136789676756992?s=20) on Bitcoin L1). So why did a bunch of Bitcoin builders decided to have a separate token for Stacks L2? Great question! Let's dig into the details.
+Many Bitcoin community members are skeptical of new tokens and rightly so. There are countless projects out there that force the use of a token on their project and in many cases a token is actually not needed. Stacks project was started by Bitcoin builders who have a long history of building apps & protocols on Bitcoin L1 without any token (e.g., BNS launched [in 2015 on Bitcoin L1](https://twitter.com/muneeb/status/642714729169985537) which was one of the largest protocols using OP_RETURN on Bitcoin L1). So why did a bunch of Bitcoin builders decided to have a separate token for Stacks L2? Great question! Let's dig into the details.
 
-The Stacks token (STX) is primarily meant to be used for two things:
+The Stacks token (STX) is primarily meant to be used for two things (details in [Stacks paper](https://stacks.co/stacks.pdf)):
 
 1) Incentives for Stacks L2 miners
 2) Incentives for peg-out signers 
