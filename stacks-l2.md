@@ -1,5 +1,5 @@
 
-# Why is Stacks considered a Bitcoin L2? 
+# Why is Stacks a Bitcoin L2? 
 
 There are no clear definitions on what is a layer-1 (L1) or layer-2 (L2) in the Bitcoin and crypto industry. Any classification of chains as L1, L2, or other terms like sidechains depends on the exact definition used. With that said, generally speaking L1 chains are sovereign meaning that (a) they have their own security budget, and (b) they can survive without the need for any other L1 chain. L2 chains typically do not have their own security budget and share the security of the underlying L1 chain, and they cannot live without the underlying L1 chain.
 
