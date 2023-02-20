@@ -21,3 +21,5 @@ Given all the details above, why would some people think that Stacks is not a Bi
 3) Bitcoin community members are generally skeptical of claims and on a look out for people making any false marketing claims. This is generally a healthy thing for the Bitcoin ecosystem and builds up the immune system. Some such community members might be skeptical about Stacks as a Bitcoin L2 until they fully read the technical details and reasoning. There is a [good Twitter thread](https://twitter.com/lopp/status/1623756872976158722?s=20) about his topic as well.
 
 Hope this FAQ is helpful. If you have more comments or questions then feel free to [start a Github issue](https://github.com/stacks-network/stacks/issues/new) for discussion.
+
+Related FAQ: [Why is the STX token needed for Stacks?](https://github.com/stacks-network/stacks/blob/master/why-stx.md)
