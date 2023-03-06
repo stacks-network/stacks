@@ -1,5 +1,5 @@
 
-# How does the Stacks layer compare with rollups?
+# How do rollups compare with the Stacks layer?
 
 Rollups are an exciting development for scaling decentralized applications. There are many different types of rollups; they're broadly divided into ZK rollups and Optimistic rollups, although other classifications are also there (see [this overview](https://era.zksync.io/docs/dev/fundamentals/rollups.html#what-are-rollups)).
 
