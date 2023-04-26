@@ -17,7 +17,7 @@ We're in the home stretch. Stacks 2.0 is on track to reach code completion by De
 
 Phase 4 (Xenon) is currently in the implementation stage.
 
-You can follow Xenon's progress on [Github here](https://github.com/orgs/stacks-network/projects) and on Discord on the [#stacks-core-devs channel](https://discord.gg/XYdRyhf).
+You can follow Xenon's progress on [Github here](https://github.com/orgs/stacks-network/projects) and on Discord on the [#stacks-core-devs channel](https://discord.gg/stacks-621759717756370964).
 Here is a screenshot of Xenon's status as of Thur Nov 19th:
 
 <img width="1250" alt="Screen Shot 2020-11-19 at 5 42 09 PM" src="https://user-images.githubusercontent.com/30627583/99733110-a6608c80-2a8e-11eb-8e12-d33fead17e11.png">
