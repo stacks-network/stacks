@@ -13,7 +13,7 @@ By improving the Clarity VM, the [Stacks Blockchain](https://github.com/stacks-n
 `Clarity` → `clar2wasm` (using [walrus](https://github.com/rustwasm/walrus)) → `Clarity VM` (using [wasmtime](https://github.com/bytecodealliance/wasmtime))
 
 ```
-	     	   +--------+   clar2wasm    +-------------------+
+               +--------+   clar2wasm    +-------------------+
                |        | -------------> |                   |
     Clarity →  |        |                |  Clarity VM       |
                |        | -------------> |                   |
