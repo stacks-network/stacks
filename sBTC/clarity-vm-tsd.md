@@ -8,7 +8,7 @@ The current Clarity VM can sometimes be slow in processing these instructions, w
 
 By improving the Clarity VM, the [Stacks Blockchain](https://github.com/stacks-network/stacks-blockchain) will be able to process more transactions quickly, in turn making it easier for people to use and enjoy the benefits of the [Stacks Blockchain](https://github.com/stacks-network/stacks-blockchain), contributing to a more reliable and user-friendly experience.
 
-### Architectural Diagrams
+### Architectural Diagram
 
 `Clarity` → `clar2wasm` (using [walrus](https://github.com/rustwasm/walrus)) → `Clarity VM` (using [wasmtime](https://github.com/bytecodealliance/wasmtime))
 
@@ -20,11 +20,11 @@ By improving the Clarity VM, the [Stacks Blockchain](https://github.com/stacks-n
                +--------+   walrus       +--------+----------+
                                                |
                                                v
-                                            +----------------+
-                                            |                |
-                                            |   Wasmtime     |
-                                            |                |
-                                            +----------------+
+                                          +----------------+
+                                          |                |
+                                          |   Wasmtime     |
+                                          |                |
+                                          +----------------+
 ```
 
 ## 👉 What specific problem does a new Clarity VM solve?
