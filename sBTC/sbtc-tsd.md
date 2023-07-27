@@ -3,7 +3,7 @@
 - [Product Requirements Document for sBTC](sbtc-prd.md).
 - [Product Requirements Document for sBTC Signer](sbtc-signer-prd.md).
 
-## 👉 What technical requirements must sBTC meet to be fully functional and successfully implemented?
+## What technical requirements must sBTC meet to be fully functional and successfully implemented?
 
 [sBTC](./../sBTC-FAQ.md) implements the [SIP-010](https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md) token standard and enables the minting, burning, locking, and unlocking of sBTC tokens. The Peg-in [sBTC Signer](./sbtc-signer-prd.md) API facilitates the signing of peg-in requests by Stackers to approve the transfer of Bitcoin into the sBTC system.
 
@@ -13,7 +13,7 @@
 
 [The architecture is explained in the sBTC technical docs](https://github.com/stacks-network/sbtc-docs/blob/master/src/architecture.md).
 
-## 👉 What is the comprehensive testing plan in place to ensure quality assurance?
+## What is the comprehensive testing plan in place to ensure quality assurance?
 
 Testing a protocol is very different from testing a typical software product.
 
@@ -22,7 +22,7 @@ The strategy in [sBTC](./../sBTC-FAQ.md) is to break the final sBTC application 
 1. Release a _custodial version_ of the protocol to test the user interface of [sBTC](./../sBTC-FAQ.md).
 2. Release a _non-consensus breaking version_ of the protocol to allow testing of operator implementations.
 
-## 👉 What does the sBTC deployment plan look like?
+## What does the sBTC deployment plan look like?
 
 ### sBTC Protocol Deployment
 
