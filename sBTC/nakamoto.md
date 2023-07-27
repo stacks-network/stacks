@@ -29,7 +29,7 @@ This new arrangement allows for a significantly lower transaction confirmation l
 
 ## What specific problem does The Nakamoto Release solve?
 
-Since activation in January of 2021, the Stacks network has operated with limitations due to single-leader block production. As a result, issues including high transaction latency, independent security budget, MEV, and unequal mining rewards have arisen. These problems stem from forking behavior and the lack of equitable rewards for minoritarian miners.
+> Since activation in January of 2021, the Stacks network has operated with limitations due to single-leader block production. As a result, issues including high transaction latency, independent security budget, MEV, and unequal mining rewards have arisen. These problems stem from forking behavior and the lack of equitable rewards for minoritarian miners.
 
 Per SIP-001, block production in Stacks executes through a single-leader process: in each Bitcoin block, several miners compete to win the right to append a block to the Stacks blockchain through a cryptographic sortition process. While this has served to keep the network running, it has several limitations:
 
@@ -66,7 +66,7 @@ Requiring miners and Stackers to cooperate to produce blocks mitigates the impac
 
 ## Producer Set Terms and Block Production
 
-Utilizing a single producer set, this approach emphasizes collaboration during fixed-length terms for block mining. To be valid, blocks must receive signatures from over 67% of the set's weighted public keys. Block production spans 10 Bitcoin blocks, treating Stacks blocks and microblocks without distinction. Each term enforces a cost limit of 10 times the Stacks 2.4 single block limit. Producers are selected based on their BTC spent on enrollments, with the top 100 being chosen. The primary goals of this proposal are to enhance mining efficiency and reduce transaction fees.
+> Utilizing a single producer set, this approach emphasizes collaboration during fixed-length terms for block mining. To be valid, blocks must receive signatures from over 67% of the set's weighted public keys. Block production spans 10 Bitcoin blocks, treating Stacks blocks and microblocks without distinction. Each term enforces a cost limit of 10 times the Stacks 2.4 single block limit. Producers are selected based on their BTC spent on enrollments, with the top 100 being chosen. The primary goals of this proposal are to enhance mining efficiency and reduce transaction fees.
 
 Rather than requiring competition among miners to mine blocks, each block is mined by a single, globally visible, producer set. A _producer set_ collaborates to mine blocks during fixed length _terms_. For a given term, every Stacks block is assembled and signed by a Byzantine fault-tolerant majority of that term's producer set.
 
@@ -147,7 +147,7 @@ Would-be producers with valid producer set enrollments in term _N-2_ are eligibl
 
 ## Producer Rewards
 
-Producers in the set receive a share of coinbase rewards and transaction fees for their produced blocks during a term. The coinbase reward is distributed proportionally based on BTC spent in producer set enrollments. All producers receive their share of the coinbase, regardless of block signing. Transaction fees are paid only to block signers, distributed based on their BTC spend in enrollments.
+> Producers in the set receive a share of coinbase rewards and transaction fees for their produced blocks during a term. The coinbase reward is distributed proportionally based on BTC spent in producer set enrollments. All producers receive their share of the coinbase, regardless of block signing. Transaction fees are paid only to block signers, distributed based on their BTC spend in enrollments.
 
 During a term, producers in the set are eligible to receive a portion of the coinbase rewards and transaction fees for blocks they produce. Since a term is defined as 10 Bitcoin blocks, the coinbase reward is equal to 10 times the coinbase. This amount is distributed to all producers in the set proportionally, based on the percentage of the total BTC spent in the producer set enrollments. All producers receive their portion of the coinbase, regardless of whether or not they signed the blocks produced by the set. The coinbase transaction should be the first transaction in a term.
 
