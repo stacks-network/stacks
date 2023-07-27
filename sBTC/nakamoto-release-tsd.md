@@ -72,13 +72,13 @@ Rather than requiring competition among miners to mine blocks, each block is min
 
 The producer set is a collection of weighted public keys. Each member of the producer set is associated with a public key and is assigned a weight according to the proportion of Bitcoin committed during the term's selection (see [Producer Set Selection](#producer-set-selection)).
 
-For a block to be validated, it must be signed by over 67% of the producer set by weight. The signature scheme uses a weighted extension of FROST threshold signatures, described in [Signature Generation](#signature-generation). A valid signature can be created if and only if this 67% threshold is achieved.
+For a block to be validated, it must be signed by over 67% of the producer set by weight. The signature scheme uses a weighted extension of FROST threshold signatures, described in [Signature Generation](./nakamoto/block_signing_announcement.md). A valid signature can be created if and only if this 67% threshold is achieved.
 
 ### Block Production during a Term
 
 Each producer set term is 10 Bitcoin blocks in length. Stacks cost limits are applied to the term as a whole rather than individual Stacks blocks, and each term's cost limit is 10x the Stacks 2.4 single block limit (or the single block limit after improvements to the Clarity runtime and improved benchmark results).
 
-During a term, there is no distinction between Stacks blocks and microblocks: there are only blocks. Terms are not limited to 10 Stacks blocks (i.e., there may be more than one Stacks block produced during a given Bitcoin block), but rather the only limit applied to the term is the overall cost limit (which may be increased through application of a VDF to accomodate an unusually long term length; see [Extension: Overdue Term](#overdue-terms)).
+During a term, there is no distinction between Stacks blocks and microblocks: there are only blocks. Terms are not limited to 10 Stacks blocks (i.e., there may be more than one Stacks block produced during a given Bitcoin block), but rather the only limit applied to the term is the overall cost limit (which may be increased through application of a VDF to accomodate an unusually long term length; see [Extension: Overdue Term](./nakamoto/extensions/overdue_term.md)).
 
 The first block of a term always builds off the last block stackers accepted from the prior term, which itself is a descendant of the last on-Bitcoin snapshot. Producers may not choose to reorganize a prior term, nor may they reorganize any stacker-accepted blocks. But, any unannounced or not-yet-accepted blocks from the prior term are dropped.
 
