@@ -1,6 +1,6 @@
 # sBTC Concerns
 
-Notable changes are proposed for the sBTC system (**SIP-021**) in the Stacks blockchain. These changes include delaying sBTC materialization until Bitcoin transactions receive at least one tenure of confirmations, simplifying sBTC transfers as regular SIP-010 token transfers without requiring materialization on the Bitcoin chain, and eliminating the need for unconfirmed or frozen blocks and stacker blessings since Stacks no longer experiences forks. These modifications effectively address concerns related to sBTC operations and consensus rules in the Stacks blockchain.
+> Notable changes are proposed for the sBTC system (**SIP-021**) in the Stacks blockchain. These changes include delaying sBTC materialization until Bitcoin transactions receive at least one tenure of confirmations, simplifying sBTC transfers as regular SIP-010 token transfers without requiring materialization on the Bitcoin chain, and eliminating the need for unconfirmed or frozen blocks and stacker blessings since Stacks no longer experiences forks. These modifications effectively address concerns related to sBTC operations and consensus rules in the Stacks blockchain.
 
 This SIP proposes incorporating the sBTC system described in **SIP-021**, but with the following changes.
 

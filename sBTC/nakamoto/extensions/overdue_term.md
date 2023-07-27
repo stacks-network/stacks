@@ -1,6 +1,6 @@
 # Extension: Overdue Term
 
-This extension suggests the implementation of a replicated verifiable delay function (VDF) to manage variations in tenure length within the Stacks blockchain. Block producers execute the VDF and submit proofs to increase their tenure's execution budget in case it takes longer than anticipated. VDF calibration adjusts the required ticks for a valid proof based on historical tenure data. Checkpoint blocks report the adjusted tick count, which is then recorded on-chain for reference by Clarity contracts. The primary objective is to eliminate idle time and enhance overall efficiency within the Stacks network.
+> This extension suggests the implementation of a replicated verifiable delay function (VDF) to manage variations in tenure length within the Stacks blockchain. Block producers execute the VDF and submit proofs to increase their tenure's execution budget in case it takes longer than anticipated. VDF calibration adjusts the required ticks for a valid proof based on historical tenure data. Checkpoint blocks report the adjusted tick count, which is then recorded on-chain for reference by Clarity contracts. The primary objective is to eliminate idle time and enhance overall efficiency within the Stacks network.
 
 Naively, the execution budget available to block producers can be treated as equal to the number of Stacks blocks' budgets today, multipled by the tenure length. Ideally, block producers would produce blocks at a rate such that under network congestion, the tenure budget is completely consumed just as the tenure ends.
 
