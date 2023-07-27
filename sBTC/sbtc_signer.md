@@ -1,8 +1,7 @@
 # sBTC Signer | Product Requirements Document
 
->Detailed Technical Specifications Document can be found [here](sbtc-tsd.md).
-
->Detailed Product Requirements Document for sBTC can be found [here](sbtc-prd.md).
+- [Technical Specifications Document](./sbtc_technical.md).
+- [Product Requirements Document](./sbtc_product.md).
 
 # Introduction
 
@@ -16,11 +15,11 @@ The system must enable seamless integration with the Chainalysis API to facilita
 
 **Requirements:**
 
-| No. | Task |
-| --- | --- |
-| 1 | Support third-party applications to make Chainalysis API calls. |
-| 2 | Provide minimal configuration control for secure and flexible API calls, including a list of auto-deny addresses for flagged transactions. |
-| 3 | Implement auto-deny capability for transactions based on Chainalysis API analysis results. |
+| No. | Task                                                                                                                                       |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Support third-party applications to make Chainalysis API calls.                                                                            |
+| 2   | Provide minimal configuration control for secure and flexible API calls, including a list of auto-deny addresses for flagged transactions. |
+| 3   | Implement auto-deny capability for transactions based on Chainalysis API analysis results.                                                 |
 
 ## Requirement 2: Trigger Manual Review for Transactions Above Certain Threshold
 
@@ -30,10 +29,10 @@ The system should automatically initiate a manual review process for specific tr
 
 **Requirements:**
 
-| No. | Task |
-| --- | --- |
-| 1 | Allow setting a maximum auto-approve transaction amount. Transactions exceeding this amount will trigger a manual review for approval. |
-| 2 | Implement a default time limit for the manual review process (e.g., 24 hours) to ensure timely action on flagged transactions. |
+| No. | Task                                                                                                                                   |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Allow setting a maximum auto-approve transaction amount. Transactions exceeding this amount will trigger a manual review for approval. |
+| 2   | Implement a default time limit for the manual review process (e.g., 24 hours) to ensure timely action on flagged transactions.         |
 
 ## Requirement 3: Auto Deny Configuration After X Blocks
 
@@ -43,10 +42,10 @@ The system must automatically deny transactions after a specified number of bloc
 
 **Requirements:**
 
-| No. | Task |
-| --- | --- |
-| 1 | Allow configuration of the number of blocks after which a transaction is automatically denied. |
-| 2 | Determine and specify the penalty mechanism for cases where a user does not sign a transaction during the manual review process (e.g., freezing or slashing rewards). |
+| No. | Task                                                                                                                                                                  |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Allow configuration of the number of blocks after which a transaction is automatically denied.                                                                        |
+| 2   | Determine and specify the penalty mechanism for cases where a user does not sign a transaction during the manual review process (e.g., freezing or slashing rewards). |
 
 ## Requirement 4: Delegated Signing (Mini v2 Feature)
 
@@ -56,10 +55,10 @@ Delegated signing enables designated signers to perform transactions on behalf o
 
 **Requirements:**
 
-| No. | Task |
-| --- | --- |
-| 1 | Implement delegated signing in V2 of the product. |
-| 2 | Conduct further analysis of delegated signing product requirements. |
+| No. | Task                                                                |
+| --- | ------------------------------------------------------------------- |
+| 1   | Implement delegated signing in V2 of the product.                   |
+| 2   | Conduct further analysis of delegated signing product requirements. |
 
 ## Requirement 5: Signer Dashboard
 
@@ -69,10 +68,10 @@ The Signer Dashboard provides signers with an overview of their responsibilities
 
 **Requirements:**
 
-| No. | Task |
-| --- | --- |
-| 1 | Display a list of all signers in the network on the Signer Dashboard, including their voting power and public key. |
-| 2 | Provide signers with analytics related to their activities, including the number of transactions signed and a history of past transactions. |
+| No. | Task                                                                                                                                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Display a list of all signers in the network on the Signer Dashboard, including their voting power and public key.                          |
+| 2   | Provide signers with analytics related to their activities, including the number of transactions signed and a history of past transactions. |
 
 ## Explicit Non-Requirements for Mini
 

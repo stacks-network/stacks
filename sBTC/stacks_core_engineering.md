@@ -11,12 +11,12 @@ Stacks contributors are committed to propelling the Bitcoin economy forward. Cur
 - [Product Requirements Document for sBTC](sbtc-prd.md).
 - [Product Requirements Document for sBTC Signer](sbtc-signer-prd.md).
 
-| Initiative          | Engineering Lead                     | Technical Specification Document       | Repo                                                        |
-| ------------------- | ------------------------------------ | -------------------------------------- | ----------------------------------------------------------- |
-| Nakamoto Release    | [Jude](https://github.com/jcnelson)  | [link](./nakamoto-release-tsd.md)      | [link](https://github.com/stacks-network/stacks-blockchain) |
-| sBTC                | [Mårten](https://github.com/netrome) | [link](./sbtc-tsd.md)                  | [link](https://github.com/stacks-network/sbtc)              |
-| Clarity VM          | [Brice](https://github.com/obycode)  | [link](./clarity-vm-tsd.md)            | [link](https://github.com/stacks-network/clar2wasm)         |
-| Testing & Hardening | [Aaron](https://github.com/kantai)   | [link](./testing-and-hardening-tsd.md) | -                                                           |
+| Initiative          | Engineering Lead                     | Technical Specification Document   | Repo                                                        |
+| ------------------- | ------------------------------------ | ---------------------------------- | ----------------------------------------------------------- |
+| Nakamoto Release    | [Jude](https://github.com/jcnelson)  | [link](./nakamoto.md)              | [link](https://github.com/stacks-network/stacks-blockchain) |
+| sBTC                | [Mårten](https://github.com/netrome) | [link](./sbtc_technical.md)        | [link](https://github.com/stacks-network/sbtc)              |
+| Clarity VM          | [Brice](https://github.com/obycode)  | [link](./clarity_vm.md)            | [link](https://github.com/stacks-network/clar2wasm)         |
+| Testing & Hardening | [Aaron](https://github.com/kantai)   | [link](./testing_and_hardening.md) | -                                                           |
 
 ## Current Objectives and Key Results
 

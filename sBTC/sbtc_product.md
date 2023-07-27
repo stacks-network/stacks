@@ -1,7 +1,7 @@
 # sBTC Product | Requirements Document
 
-- [Technical Specifications Document](./sbtc-tsd.md)
-- [sBTC Signer Product Requirement Document](./sbtc-signer-prd.md)
+- [Technical Specifications Document](./sbtc_technical.md)
+- [sBTC Signer Product Requirement Document](./sbtc_signer.md)
 
 ## At a high-level what is sBTC?
 
