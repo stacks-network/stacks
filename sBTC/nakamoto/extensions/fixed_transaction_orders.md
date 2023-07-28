@@ -14,7 +14,9 @@ Nevertheless, short-lived Bitcoin forks arise often. A naive stawman way of deal
 
 While this naive approach would work, the problem is that the second and third requirements introduce a very high transaction confirmation latency for Bitcoin-dependent transactions -- users would need to wait for over two tenures (over 20 Bitcoin blocks) before their Bitcoin-dependent transactions could be processed.
 
-Because Bitcoin forks are rare, this document proposes a form of speculative execution whereby Bitcoin-dependent transactions are processed as soon as they are available (and Bitcoin-dependent information exposed to Clarity as soon as available), but with the caveat that unfinalized transactions may be discarded if a fork arises. To minimize the disruption this would cause, stackers require that producers
+Because Bitcoin forks are rare, this document proposes a form of speculative execution whereby Bitcoin-dependent transactions are processed as soon as they are available (and Bitcoin-dependent information exposed to Clarity as soon as available), but with the caveat that unfinalized transactions may be discarded if a fork arises.
+
+<!-- To minimize the disruption this would cause, stackers require that producers -->
 
 ## Recovery from Bitcoin Forks
 
