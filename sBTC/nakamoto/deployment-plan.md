@@ -2,7 +2,7 @@
 
 _This is a very big undertaking; almost as big as Stacks 2.0_.
 
-Fortunately, there are a lot of things that can be tested and deployed on mainnet without creating a hard fork. The pieces of infrastructure that I suspect will need by far and away the most testing (since they’re filled with unknown-unknowns) are the stacker DB implementation and the producer set and stacker signer FROST groups.
+Fortunately, there are a lot of things that can be tested and deployed on mainnet without creating a hard fork. The pieces of infrastructure that will need by far and away the most testing (since they’re filled with unknown-unknowns) are the stacker DB implementation and the producer set and stacker signer FROST groups.
 
 ## Epic 1: Stacker DB Rollout
 
