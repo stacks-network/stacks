@@ -17,11 +17,11 @@ This is a novel distributed database that producers and stackers use to communic
 ## Testable Interfaces
 
 - P2P message StacksMessageCodec implementations
-- DB connection and transaction objects:
-- For load/store of stacker DB chunks
-- Each state machine step, with explicit pre/post-conditions to validate the state transition
-- Smart contract callbacks for write authentication and garbage-collection
-- Throttling and rate-limiting statistical reports
+- DB connection and transaction objects
+  - For load/store of stacker DB chunks
+  - Each state machine step, with explicit pre/post-conditions to validate the state transition
+  - Smart contract callbacks for write authentication and garbage-collection
+  - Throttling and rate-limiting statistical reports
 
 ## Properties of a successful implementation
 
