@@ -29,7 +29,7 @@ By improving the Clarity VM, the [Stacks Blockchain](https://github.com/stacks-n
 
 ## What specific problem does a new Clarity VM solve?
 
-Currently, the Clarity VM implementation in the [Stacks Blockchain](https://github.com/stacks-network/stacks-blockchain) has some inefficiencie in transaction processing which limits the total number of transactions that can be included in a block.
+Currently, the Clarity VM implementation in the [Stacks Blockchain](https://github.com/stacks-network/stacks-blockchain) has some inefficiencies in transaction processing which limits the total number of transactions that can be included in a block.
 
 With an improved Clarity VM, transactions can be processed much faster, and will enable an increase in the number of transactions that can fit into each block, improving the overall user experience significantly.
 
