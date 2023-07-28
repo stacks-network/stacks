@@ -24,7 +24,7 @@ Old Stacks blocks that contain potentially-invalid state are discarded.
 
 ## Bitcoin Forks and sBTC
 
-The sBTC wallet operations already require sufficient Bitcoin confirmations that it is effectively guaranteed that they will never be orphaned by the time the producer set processes them. As such, sBTC by itself is not speculatively instantiated or destroyed -- it can only materialize or dematerialize once its deposit and withdraw transactions are sufficiently confirmed, Consequently, sBTC transfers will remain valid even when Stacks transactions are replayed to recover from Bitcoin forks.
+The sBTC wallet operations already require sufficient Bitcoin confirmations that it is effectively guaranteed that they will never be orphaned by the time the producer set processes them. As such, sBTC by itself is not speculatively instantiated or destroyed -- it can only materialize or dematerialize once its deposit and withdraw transactions are sufficiently confirmed. Consequently, sBTC transfers will remain valid even when Stacks transactions are replayed to recover from Bitcoin forks.
 
 ## Future Work: Taint Tracking
 
