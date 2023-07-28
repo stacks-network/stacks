@@ -29,7 +29,7 @@ To calculate the minimum number of ticks for tenure N, a node will load the foll
 
 The node then calculates the scaled average number of times the tenure budget was exceeded as: `s = (sum(TIMES) / 1500) \* (sum(EXCEEDED) / 15)`
 
-If `s >= 0.5`, then it means that in the average tenure in this sample, producers were able to earn expanded tenures with over 50% probability. This indicates that the tick count needs to be increased, because producers were able to regularly evaluate the VDF faster than the tenures completed. In this case, it is multiplicatively incrased by a factor of `min(2.0, s / 0.5)`, and rounded down to the nearest integer.
+If `s >= 0.5`, then it means that in the average tenure in this sample, producers were able to earn expanded tenures with over 50% probability. This indicates that the tick count needs to be increased, because producers were able to regularly evaluate the VDF faster than the tenures completed. In this case, it is multiplicatively increased by a factor of `min(2.0, s / 0.5)`, and rounded down to the nearest integer.
 
 If `s < 0.5`, then in the average tenure, producers did not expand the budget over 50% of the time. This could be due to any of three reasons:
 
