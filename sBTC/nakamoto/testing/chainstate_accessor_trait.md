@@ -34,4 +34,4 @@ API for querying Stacks and Bitcoin blocks, ancestors, consensus, and more. The 
 ## Properties of a successful implementation
 
 - We can use this accessor trait in place of all of the struct-specific connection and transaction objects that we currently use for reading chainstate from these various DBs
-- The APIs exposed by the accessor are sufficient to allow us to mock the new modules we’re going to build so we an test them on synthesized data in isolation
+- The APIs exposed by the accessor are sufficient to allow us to mock the new modules we’re going to build so we can test them on synthesized data in isolation
