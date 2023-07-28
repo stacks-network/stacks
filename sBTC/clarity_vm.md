@@ -35,7 +35,7 @@ With an improved Clarity VM, transactions can be processed much faster, and will
 
 ## How does a new Clarity VM provide a solution to the identified problem?
 
-The plan to speed up the Clarity VM is to compile Clarity contracts into [WebAssembly (Wasm)](https://webassembly.org/), and then integrate a Wasm runtime into the Clarity VM. [Wasm](https://webassembly.org) has proven to be an effective tool for fast, safe, and portable code execution, and is being used in several other blockchain projects already. Initial proof of concept testing shows that a [wasm](https://webassembly.org) runtime has the potential to be at least an order of magnitude faster, assuming we do not hit other bottlenecks, specifically I/O related bottlenecks (e.g. MARF database reads/writes).
+The plan to speed up the Clarity VM is to compile Clarity contracts into [WebAssembly (Wasm)](https://webassembly.org/), and then integrate a Wasm runtime into the Clarity VM. [Wasm](https://webassembly.org) has proven to be an effective tool for fast, safe, and portable code execution, and is being used in several other blockchain projects already. Initial proof of concept testing shows that a [Wasm](https://webassembly.org) runtime has the potential to be at least an order of magnitude faster, assuming we do not hit other bottlenecks, specifically I/O related bottlenecks (e.g. MARF database reads/writes).
 
 ## What technical requirements and criteria must the new Clarity VM meet to be fully functional and successfully implemented?
 
