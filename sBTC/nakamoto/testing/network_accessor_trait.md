@@ -1,6 +1,6 @@
 # Network Accessor Trait
 
-API for querying neighbor information and block inventories.Some state machines need to read state in others, but we don’t want to block implementation work by waiting for dependent state machines to be available.
+API for querying neighbor information and block inventories. Some state machines need to read state in others, but we don’t want to block implementation work by waiting for dependent state machines to be available.
 
 ## Dependencies
 
