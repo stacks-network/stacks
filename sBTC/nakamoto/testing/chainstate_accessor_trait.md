@@ -17,7 +17,7 @@ API for querying Stacks and Bitcoin blocks, ancestors, consensus, and more. The 
 - An API for querying the canonical Stacks chain tip
 - An API for querying a Bitcoin block’s header and burnchain operations
 - An API for calculating a snapshot of a Bitcoin block
-- We already have BlockSnapshot ; we can make this into an enum to capture both the current sortition DB as well as the new snapshot DB state
+- We already have BlockSnapshot; we can make this into an enum to capture both the current sortition DB as well as the new snapshot DB state
 - An API for querying the consensus hash of a Bitcoin block
 - An API for querying a Bitcoin block’s ancestor at a given height
 - An API for querying the canonical Bitcoin chain tip
