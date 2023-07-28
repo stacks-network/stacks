@@ -4,7 +4,7 @@
 
 Because Stacks block production is no longer tied to Bitcoin block production, producers and stackers must explicitly determine the earliest Stacks block at which newly-discovered Bitcoin state can be queried. To achieve this, producers propose a special-purpose _checkpoint transaction_ for each new Bitcoin block they see that does not already have one.
 
-A checkpoint transaction serves to identify the new Bitcoin block header and serve as a synchronization hint for Stacks nodes. When they see a block with a checkpoint transaction, Stacks nodes pause Stacks block-processing in order to ensure that they have first processed the identified Bitcoin block. Once they have done so, they can proceed to process this block and its descendants.
+A checkpoint transaction serves to identify the new Bitcoin block header behaves as a synchronization hint for Stacks nodes. When they see a block with a checkpoint transaction, Stacks nodes pause Stacks block-processing in order to ensure that they have first processed the identified Bitcoin block. Once they have done so, they can proceed to process this block and its descendants.
 
 Checkpoint transactions are necessary to ensure that Stacks transactions which are causally-dependent on Bitcoin state are only processed once the referenced Bitcoin block has been processed. Checkpoint transactions also ensure that bootstrapping Stacks nodes validate Bitcoin-dependent Stacks transactions only once they have obtained the relevant Bitcoin state to do so. As such, there must exist one checkpoint transaction for each Bitcoin block, and they must be in the same order in the Stacks transaction history as the Bitcoin blocks they reference.
 
@@ -34,7 +34,7 @@ The checkpoint transaction contains information that today is found in anchored 
 - The total number of Stacks blocks so far
 - The total amount of BTC spent to produce this chain as of the parent of this Bitcoin block
 - A VRF proof
-- The Stacks chainstate root hash as of the end of processing this block and all of its ancestors.
+- The Stacks chainstate root hash as of the end of processing this block and all of its ancestors
 - The Bitcoin block header
 - The consensus hash of the Bitcoin block
 - VDF calibration data (see [Extension: Overdue Term](./extensions/overdue_term.md))

@@ -6,7 +6,7 @@ Fortunately, there are a lot of things that can be tested and deployed on mainne
 
 ## Epic 1: Stacker DB Rollout
 
-We can implement the stacker DB system well before anything else needs to be implemented. I recommend finishing the in-flight implementation and using it to try replicating databases of similar size to the producer and stacker signer DBs using Hiro and Foundation nodes. We can benchmark and improve the performance of replication concurrently with everything else
+We can implement the stacker DB system well before anything else needs to be implemented. It is recommended to finish the in-flight implementation and using it to try replicating databases of similar size to the producer and stacker signer DBs using Hiro and Foundation nodes. We can benchmark and improve the performance of replication concurrently with everything else.
 
 ## Epic 2: Producer and Signer Rollout
 
