@@ -39,7 +39,7 @@ Delegated signing enables designated signers to perform transactions on behalf o
 
 **Description:**
 
-The system must be able to automatically deny transactions after a protocol-defined number of blocks if the Signer is unable to manually sign within the timeframe. The purpose of this requirement is to accommodate a Signer who has logic that triggers a manual review but is unable to perform the action in the defined timeframe. Rather than allow them to pass the vote deadline and potentially fail to sign, this would default sign Deny.
+The system must be able to automatically deny transactions after a protocol-defined number of blocks if the Signer is unable to manually sign within the timeframe. The purpose of this requirement is to accommodate a Signer who has logic that triggers a manual review but is unable to perform the action in the defined timeframe. By default, signers will Deny a transaction rather than allow them to pass the vote deadline and potentially fail to sign.
 
 **Requirements:**
 
