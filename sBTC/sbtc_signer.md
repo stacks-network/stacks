@@ -7,60 +7,48 @@
 
 This document outlines the requirements for the development of the sBTC Signer, providing guidance and allowing for potential refinements based on continuous feedback and project progress. The requirements are derived from the Signer user stories, which serve as a foundational reference.
 
-## Requirement 1: Integration with Transaction Monitoring API
+## Requirement 1: Enable Third-party API Integrations
 
 **Description:**
 
-The system must enable seamless integration with the Chainalysis API to facilitate blockchain transaction analysis, enhancing security and compliance. The product will offer the necessary tools and configuration options to facilitate API calls by third-party applications.
+The system must enable optional integration with third-party APIs for compliance purposes. The product will provide the necessary tools and configuration options for third-party applications to make local API calls. 
 
 **Requirements:**
 
 | No. | Task                                                                                                                                       |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | Support third-party applications to make Chainalysis API calls.                                                                            |
-| 2   | Provide minimal configuration control for secure and flexible API calls, including a list of auto-deny addresses for flagged transactions. |
-| 3   | Implement auto-deny capability for transactions based on Chainalysis API analysis results.                                                 |
+| 1   | Enable third-party applications to make local API calls.                                                                            |
+| 2   | Develop an SDK to provide enough control for a user to integrate whichever API or tooling they wish into the signer's deny or approve logic. |
+| 3   | Implement auto-sign capability for transactions based on the API results.                                                 |
 
-## Requirement 2: Trigger Manual Review for Transactions Above Certain Threshold
-
-**Description:**
-
-The system should automatically initiate a manual review process for specific transactions based on predefined conditions to ensure compliance and prevent suspicious activities.
-
-**Requirements:**
-
-| No. | Task                                                                                                                                   |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Allow setting a maximum auto-approve transaction amount. Transactions exceeding this amount will trigger a manual review for approval. |
-| 2   | Implement a default time limit for the manual review process (e.g., 24 hours) to ensure timely action on flagged transactions.         |
-
-## Requirement 3: Auto Deny Configuration After X Blocks
+## Requirement 2: Delegated Signing 
 
 **Description:**
 
-The system must automatically deny transactions after a specified number of blocks if the signer is unable to sign within the timeframe.
+Delegated signing enables designated signers to perform transactions on behalf of users, improving the efficiency and scalability of the signing process. This is a requirement for custodians if the institution chooses not to self-stack. 
 
-**Requirements:**
-
-| No. | Task                                                                                                                                                                  |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Allow configuration of the number of blocks after which a transaction is automatically denied.                                                                        |
-| 2   | Determine and specify the penalty mechanism for cases where a user does not sign a transaction during the manual review process (e.g., freezing or slashing rewards). |
-
-## Requirement 4: Delegated Signing (Mini v2 Feature)
-
-**Description:**
-
-Delegated signing enables designated signers to perform transactions on behalf of users, improving the efficiency and scalability of the signing process.
 
 **Requirements:**
 
 | No. | Task                                                                |
 | --- | ------------------------------------------------------------------- |
-| 1   | Implement delegated signing in V2 of the product.                   |
+| 1   | Implement delegated signing in V0.2 of the Signer product.                   |
 | 2   | Conduct further analysis of delegated signing product requirements. |
 
-## Requirement 5: Signer Dashboard
+## Requirement 3: Implement an Auto-Deny Configuration For Transactions That Require a Manual Review 
+
+**Description:**
+
+The system must be able to automatically deny transactions after a protocol-defined number of blocks if the Signer is unable to manually sign within the timeframe. The purpose of this requirement is to accommodate a Signer who has logic that triggers a manual review but is unable to perform the action in the defined timeframe. By default, signers will Deny a transaction rather than allow them to pass the vote deadline and potentially fail to sign.
+
+**Requirements:**
+
+| No. | Task                                                                                                                                   |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Enable an auto deny configuration for transactions that require manual review, and the signer is unable to perform the action within a protocol-defined timeframe. |
+
+
+## Requirement 4: Signer Dashboard
 
 **Description:**
 
@@ -78,12 +66,7 @@ The Signer Dashboard provides signers with an overview of their responsibilities
 1. **Vote Obfuscation:** Vote choices will not be hidden prior to consensus being reached or a vote deadline passed to minimize on-chain collusion. The option of switching to a commit-reveal system to obfuscate vote choices is not included in V1 of the product, but it will be considered for the final release to prevent collusion between signers.
 2. **Signer Abstention:** The protocol will not provide signers with the ability to abstain from signing transactions due to the technical complexity involved.
 
-## Open Questions:
 
-1. How to attribute votes correctly during delegated signing, considering multiple layers of delegation?
-2. What are the downstream requirements of delegated signing?
-3. How will signers be motivated or penalized? What happens if a signer fails to vote? Are rewards frozen or slashed? Will they miss the entire POX cycle?
-4. What is the maximum time allowed for manual review of transactions?
 
 ## Action Items:
 
@@ -93,7 +76,7 @@ The Signer Dashboard provides signers with an overview of their responsibilities
 
 **Institutional Partner Requirements:**
 
-1. Signer Binary and Configuration: High-reputation signers will download the signer binary and receive comprehensive documentation on configuration and operation. The configuration process will involve setting up necessary parameters, with the public key as the minimum requirement.
-2. API Usage for Configuration: Larger companies may prefer automated processes, so high-reputation signers are expected to utilize API calls for automated configuration. They will programmatically configure the signer and update the config file accordingly.
-3. Reduced Manual Intervention: High-reputation signers expect minimal manual intervention and will rely on automated processes and API calls for most interactions with the product.
-4. Auto Approval Logic: Institutional signers may implement logic for automating the approval process for specific transaction types, but it should minimize the risk of erroneous approvals.
+1. Signer Binary and Configuration: Sophisticated signers will download the signer binary and receive comprehensive documentation on its operation. The configuration process will involve setting up necessary parameters, with the public key as the minimum requirement.
+2. API Usage for Configuration: Larger companies may prefer automated processes, so signers are expected to utilize API calls for automated configuration. They will programmatically configure the signer and update the config file accordingly.
+3. Reduced Manual Intervention: Signers expect minimal manual intervention and will rely on automated processes and API calls for most interactions with the product.
+4. Auto Approval Logic: The signer binary will automatically sign peg-in and peg-out transactions unless explicitly instructed not to. Institutional signers may implement logic for automating the approval process for specific transaction types.
