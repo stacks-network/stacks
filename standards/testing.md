@@ -231,10 +231,6 @@ In preparation for a hard fork feature release, we should execute stress tests o
 
 ## Appendix
 
-**TODO 1:** Create a roadmap of work required to meet the pre-release standards within this document. We do not yet have the infrastructure or standards to do this.
-
-**TODO 2:** Another document, the QA standards of blockchain designs prior to execution. (e.g. `include a testing plan and formalize the design early to allow time for a security audit`)
-
 ### 7.1 Pull Requests
 
 #### 7.1.1 Example Pull Request Template
