@@ -18,7 +18,7 @@ This new arrangement allows for a significantly lower transaction confirmation l
 
 ### In summary, The Nakamoto Release
 
-- Replaces competitive mining (ratified in [SIP-001](https://github.com/stacksgov/sips/blob/main/sips/sip-001/sip-001-burn-election.md) and [SIP-000](https://github.com/stacksgov/sips/blob/main/sips/sip-000/sip-000-stacks-improvement-proposal-process.md) with a cooperative system between miners and PoX stackers through Byzantine fault-tolerant (BFT) agreement that produces a linearized stream of confirmed transactions with periodic chainstate recording to Bitcoin blockchain.
+- Replaces competitive mining (ratified in [SIP-001](https://github.com/stacksgov/sips/blob/main/sips/sip-001/sip-001-burn-election.md) and [SIP-007](https://github.com/stacksgov/sips/blob/main/sips/sip-007/sip-007-stacking-consensus.md) with a cooperative system between miners and PoX stackers through Byzantine fault-tolerant (BFT) agreement that produces a linearized stream of confirmed transactions with periodic chainstate recording to Bitcoin blockchain.
 
 ### Impact of The Nakamoto Release
 
