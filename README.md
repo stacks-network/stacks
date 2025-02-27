@@ -21,7 +21,7 @@ Why Bitcoin? Bitcoin is the most durable and secure blockchain. Bitcoin is minim
 
 Bitcoin's Stacks layer makes BTC productive in two ways:
 - Stacks consensus enables a trust-minimized Bitcoin peg mechanism, called sBTC. A dynamic group of economically incentivized actors operate the peg. See the [sBTC page](https://stacks.co/sbtc) for more details.
-- Further, through atomic swaps BTC can be trustlessly swaped and deployed into DeFi applications, NFT marketplaces etc. For example, see [Magic BTC atomic swaps](https://magic.fun) and [Catamaran BTC atomic swaps](https://www.hiro.so/blog/bitcoin-defi-is-here-a-deep-dive-into-trust-less-swaps), and [Lightning swaps](https://lnswap.org). 
+- Further, through atomic swaps BTC can be trustlessly swapped and deployed into DeFi applications, NFT marketplaces etc. For example, see [Magic BTC atomic swaps](https://magic.fun) and [Catamaran BTC atomic swaps](https://www.hiro.so/blog/bitcoin-defi-is-here-a-deep-dive-into-trust-less-swaps), and [Lightning swaps](https://lnswap.org). 
 
 You can see some applications built using Stacks [here](https://www.stacks.co/explore/discover-apps).
 
@@ -37,7 +37,7 @@ For details, see the [Clarity book](https://book.clarity-lang.org/) and [Clarity
 
 ## Proof-of-Transfer (PoX)
 
-[PoX consensus](https://blockstack.org/pox.pdf) is a new algorithm that spans consensus between the Bitcoin blockchain and the Stacks layer. Unlike burning electricity in proof-of-work, miners bid by spending BTC and get a random probability for becoming a leader. Leader election happens on Bitcoin and new blocks are written on the Stacks layer. Miners use BTC to mine newly minted STX. PoX recyles proof-of-work energy to provide Nakamoto-style consensus for the Stacks layer. 
+[PoX consensus](https://blockstack.org/pox.pdf) is a new algorithm that spans consensus between the Bitcoin blockchain and the Stacks layer. Unlike burning electricity in proof-of-work, miners bid by spending BTC and get a random probability for becoming a leader. Leader election happens on Bitcoin and new blocks are written on the Stacks layer. Miners use BTC to mine newly minted STX. PoX recycles proof-of-work energy to provide Nakamoto-style consensus for the Stacks layer. 
 
 See [this post](https://medium.com/@sonkaos999/the-bullish-case-for-stacks-8ef75849861f) on PoX for more details.
 
