@@ -4,7 +4,7 @@ API for committing processed Stacks blocks to storage.
 
 ## Dependencies
 
-- [Block and transaction defintions](./block_and_transaction_definitions.md)
+- [Block and transaction definitions](./block_and_transaction_definitions.md)
 
 ## Requirements
 
