@@ -27,14 +27,14 @@ Bitcoin finality and fast transactions are two key components that are part of t
 
 
 . *Secured by Bitcoin:* enables Bitcoin finalization for Stacks transactions; transactions that happen on the Stacks layer are secured by the entire hash power of Bitcoin. Meaning that to reverse these transactions, an attacker will need to reorg Bitcoin. Such transactions settle on Bitcoin and have Bitcoin finality. Further, the Stacks layer forks with Bitcoin, so any state on Stacks automatically follows the Bitcoin forks.
-. *Trust-minimized Bitcoin peg:* lays the foundation for a novel decentralized, non-custodial, Bitcoin- pegged asset, sBTC, so smart contracts can run much faster and more cheaply using the Bitcoin-pegged asset with minimal counterparty risk. This also enables contracts on the Stacks layer to write to Bitcoin through the peg-out transactions without needing to rely on a centralized, closed set of entities. Atomic swaps and assets: Stacks already has atomic BTC swaps and enables Bitcoin addresses to own and move assets defined on the Stacks layer. Magic swaps <<magic-swaps>> and Catamaran swaps <<defi-swaps>> are examples of decentralized atomic swaps between BTC on Bitcoin L1 and assets on the Stacks layer that are already live. Further, users can own Stacks layer assets like STX, stablecoins, and NFTs on Bitcoin addresses and transfer them using Bitcoin L1 transactions if they prefer. Although the Nakamoto Release is necessary in order for sBTC to function, sBTC itself is not part of the Nakamoto Release and is outlined in a separate whitepaper <<sbtc>>.
+. *Trust-minimized Bitcoin peg:* lays the foundation for a novel decentralized, non-custodial, Bitcoin- pegged asset, sBTC, so smart contracts can run much faster and more cheaply using the Bitcoin-pegged asset with minimal counterparty risk. This also enables contracts on the Stacks layer to write to Bitcoin through the peg-out transactions without needing to rely on a centralized, closed set of entities. Atomic swaps and assets: Stacks already has atomic BTC swaps and enables Bitcoin addresses to own and move assets defined on the Stacks layer. Magic swaps <<magic-swaps>> and Catamaran swaps <<defi-swaps>> are examples of decentralized atomic swaps between BTC on Bitcoin L1 and assets on the Stacks layer that are already live. Further, users can own Stacks layer assets like STX, stablecoins, and NFTs on Bitcoin addresses and transfer them using Bitcoin L1 transactions if they prefer.
 . *Clarity language:* supports Clarity, a safe, decidable language for provable smart contracts. With Clarity, developers can know with mathematical certainty what a contract can and cannot do, even before executing it <<clarity-lang>>. The decentralized peg contract will benefit from the safety properties of the Clarity language. Of particular note, Clarity WASM is a change being made to the Clarity VM that provides significantly faster execution times, along with creating a potential path to Rust and Solidity developers being able to write smart contracts on Stacks, although this work is not part of the Nakamoto release.
 . *Knowledge of Bitcoin state:* has knowledge of the full Bitcoin state; it can trustlessly read Bitcoin transactions and state changes and execute smart contracts triggered by Bitcoin transactions. The Bitcoin read functionality helps to keep the decentralized peg state consistent with BTC locked on Bitcoin L1, amongst other things.
 . *Scalable, fast transactions:* will provide high performance and scalability through several mechanisms, including faster Stacks layer blocks. Further, scalability layers like subnets can make different tradeoffs between performance and decentralization than the main Stacks layer.
 
 If users can represent their Bitcoin with minimal counterparty risk on a decentralized Bitcoin layer, and smart contracts at the layer are able to read and write Bitcoin state in a trust-minimized way then that unlocks the deployment of hundreds of billions of dollars of latent Bitcoin capital into applications like decentralized Bitcoin-backed lending, Bitcoin-backed stablecoins, and more. All these applications increase demand for Bitcoin, making it more valuable and increasing its utility to the world. Increased application activity through Stacks can result in higher transaction fees for Bitcoin miners, aiding Bitcoin's security in the long term, as Bitcoin coinbase incentives must be replaced by transaction fees in the coming years. The Nakamoto release of Stacks, with trust-minimized writes and a decentralized Bitcoin peg, is a major step towards growing the Bitcoin economy.
 
-The Stacks layer's consensus protocol, Proof of Transfer (PoX), inspired by Bitcoin's Proof of Work (PoW), is extremely energy-efficient and recycles PoW energy. The design of the decentralized peg is integrated with, and made possible by, PoX consensus. The Stacks layer's native token (STX) is essential to PoX consensus: STX is needed for (a) incentivizing Stacks miners to maintain the Stacks layer global ledger outside the Bitcoin L1, and (b) providing liveness guarantee to the sBTC peg and incentives for threshold signers that participate in the peg mechanism. Existing approaches to Bitcoin pegs, which lack a native token, cannot support a permissionless, open system and fallback to using custodians or trusting known federation members.
+The Stacks layer's consensus protocol, Proof of Transfer (PoX), inspired by Bitcoin's Proof of Work (PoW), is extremely energy-efficient and recycles PoW energy. The design of the decentralized peg is integrated with, and made possible by, PoX consensus. The Stacks layer's native token (STX) is essential to PoX consensus: STX is needed for (a) incentivizing Stacks miners to maintain the Stacks layer global ledger outside the Bitcoin L1, and (b) incentives for threshold signers that participate in the peg mechanism. Existing approaches to Bitcoin pegs, which lack a native token, cannot support a permissionless, open system and fallback to using custodians or trusting known federation members.
 
 == Bitcoin Layers
 
@@ -120,7 +120,7 @@ The primary difference between how the Clarity VM and EVM handle smart contract 
 
 While Clarity has several advantages over existing smart contract languages like Solidity and Rust, one potential roadblock for developers exploring building on Stacks is the learning curve of a new language. The ClarityWASM upgrade provides potential routes for creating SolidityWASM and RustWASM compilers that would allow developers already familiar with these languages to write smart contracts on Stacks. While specific technical implementations and security models (say for how a Rust contract might call into a Clarity contract) still need to be fleshed out, it provides an interesting path for including a broader pool of smart contract developers in the Stacks ecosystem.
 
-In the rest of this section, we first examine how the Stacks layer rates with regard to the properties of hypothetical native Bitcoin smart contracts that we discussed earlier, and touch upon how it provides higher performance. We discuss how the fact that Stacks has a native token helps Bitcoin rather than hurting it. We then describe the decentralized two-way Bitcoin peg a little further (a detailed description is available in the sBTC paper <<sbtc>>), and we discuss the related security and forking rules of the Stacks chain in the new release. Finally, we discuss additional capabilities for performance and versatility, including subnets, future EVM compatibility, and the potential for ZK-rollups.
+In the rest of this section, we first examine how the Stacks layer rates with regard to the properties of hypothetical native Bitcoin smart contracts that we discussed earlier, and touch upon how it provides higher performance. We discuss how the fact that Stacks has a native token helps Bitcoin rather than hurting it. We then describe the decentralized two-way Bitcoin peg a little further, and we discuss the related security and forking rules of the Stacks chain in the new release. Finally, we discuss additional capabilities for performance and versatility, including subnets, future EVM compatibility, and the potential for ZK-rollups.
 
 === How Stacks Leverages the Connection to Bitcoin
 
@@ -139,7 +139,7 @@ This tight connection to Bitcoin, in addition to providing several security bene
 
 The Stacks Bitcoin layer clearly relies on Bitcoin in a fundamental way. At the same time, the argument can be made that because it has its own token (STX), it pulls value away from Bitcoin. While this may be true of other tokens that directly compete with Bitcoin, it is not true of STX as the Stacks layer helps grow the Bitcoin ecosystem rather than compete with Bitcoin.
 
-We mentioned earlier that the STX token is not merely a governance or speculative token, but it is necessary to the PoX consensus mechanism of the Stacks Bitcoin layer and essential for two key functional purposes: (i) incentivizing mining Stacks blocks with a new block subsidy, which is critical since transaction fees are not enough to sustain a ledger at least in the early days (as is the case with Bitcoin itself), and (ii) serving as the liveness incentive and the basis for the economically secured decentralized Bitcoin peg.
+We mentioned earlier that the STX token is not merely a governance or speculative token, but it is necessary to the PoX consensus mechanism of the Stacks Bitcoin layer and essential to maintain an open network, as it incentivizes miners to mine new Stacks blocks.
 
 The token is thus essential to the goal of building and growing decentralized applications that make Bitcoin productive and more useful. Such applications *increase demand for Bitcoin block space and make Bitcoin more valuable*. These applications and other activities that can be performed on Bitcoin using the Stacks layer also *result in higher transaction fees for Bitcoin miners*, in two ways: (a) the applications directly cause more transactions on the Bitcoin chain, which generate fees, and (b) Stacks mining and settlement on Bitcoin result in high-fee BTC transactions. These transaction fee incentives for Bitcoin miners become increasingly important as the Bitcoin coinbase rewards (or "new block subsidies") are reduced with "Bitcoin halvings" every four years and Bitcoin miners must rely more on transaction fees. Finally, enabling decentralized applications with Bitcoin gives users fewer reasons to use other chains and monetary assets that compete with Bitcoin.
 
@@ -151,15 +151,7 @@ Smart contracts that run on Bitcoin layers and truly use BTC as their asset must
 
 Pegged Bitcoin assets aim to achieve these goals. A user locks an amount of BTC in a "peg wallet" on the Bitcoin chain and an equivalent amount of the pegged asset is issued on the other chain/layer (the "deposit" operation). The pegged asset is used as often as desired on that layer (which maintains its own state), including by smart contracts, modifying state on that layer with higher performance. When desired, an amount of the pegged asset is destroyed and an equivalent amount of BTC released back on Bitcoin, i.e., unlocked from the peg wallet and sent to a specified Bitcoin address (the "withdrawal").
 
-Because of signature management, the withdrawal is a challenging operation. Pegged assets are implemented on other blockchains and Bitcoin layers, including wBTC on Ethereum, RBTC on RSK, and L-BTC on Liquid. However, in all those cases the pegs are entrusted to and managed by a centralized custodian or a federation of trusted and permissioned entities that sign the Bitcoin withdrawal transactions (using multisig methods). wBTC, on Ethereum, has ranged from $5-$15B in usage, even though it is entrusted to a single custodian and hence antithetical to Bitcoin ethos. Reliance on centralized custodians or federations is unacceptable, especially for large amounts of BTC (e.g., hundreds of billions of dollars).
-
-sBTC<<sbtc>> is a decentralized pegged Bitcoin asset on the Stacks layer, pegged 1:1 to BTC, that does not rely on centralized or pre-determined entities for its management. Rather, it is maintained in a decentralized manner by a permissionless, open-membership group of dynamically changing entities that can start or stop contributing to peg maintenance as they please, but who—as a result of the design—have a clear economic incentive to properly maintain the peg. These entities are the Stackers of the PoX consensus protocol, who lock, or "Stack" STX and perform withdrawal signing and other consensus-critical tasks; in return, they are rewarded in BTC proportionally to the STX they stack. The decentralized peg is integrated into the Stacks consensus protocol (Proof of Transfer or PoX), and it relies on PoX and its native STX token for the needed incentive engineering. Such a decentralized Bitcoin peg has been an unsolved, "holy grail" problem. It allows BTC to be made a productive asset in smart contracts without entrusting it to centralized entities, and to be deployed in applications like  decentralized Bitcoin lending, Bitcoin-backed stablecoins, etc. with high performance and with the decentralized security that Bitcoin holders critically desire.
-
-Anybody can become (or unbecome) a Stacker and hence a signer of withdrawals, just as anyone can become (or unbecome) a Stacks miner. The stacking of STX serves as collateral, and the BTC rewards as incentive, for the honest behavior of Stackers in signing proper withdrawals and not signing improper ones. The protocol provides incentive-compatible economic guarantees for a successful ledger and peg: For Stacks miners, it is always incentive-compatible to mine on the canonical fork, and for Stackers, it is always most profitable to faithfully maintain the peg. In keeping with Bitcoin’s PoW ethos, Stackers are rewarded for their positive contributions to the system and inhibited by economic disincentives from behaving poorly (but they are not "slashed" for the latter, as in Proof of Stake systems).
-
-Withdrawals use a threshold signature mechanism: Liveness persists as long the Stackers of 70% of stacked STX sign the withdrawals, and safety is preserved (BTC cannot be stolen) as long as Stackers of at least 30% of the stacked STX do not sign unauthorized withdrawals (which are  easily detected). To compromise the peg wallet, a lot of Stackers would have to maliciously collude as well as behave economically irrationally. Withdrawals of arbitrary size are fulfilled within a single Bitcoin block plus a single Stacks block, and faster exchange of BTC/sBTC can be achieved through trustless atomic swaps. The STX token is essential to the economic guarantees that secure the sBTC Bitcoin peg in a permissionless setting. Existing sidechains (RSK, Liquid) that lack a native token cannot support a permissionless, decentralized peg and must rely on centralized, federated approaches. As Stacking incentives compensate the Stackers that maintain the peg, *sBTC does not need users to pay "wrapping fees"*, a key advantage over other pegged assets, including wBTC.
-
-The peg also inherits all the other properties and benefits of the Stacks Bitcoin layer.
+On Stacks, this system is known as sBTC. sBTC is a critical component of Stacks and has its own dedicated section below.
 
 === Security, Block Production, & Forking Rules
 
@@ -214,6 +206,106 @@ The figure above illustrates the relationship between Bitcoin blocks and Stacks 
 This relationship between Stackers, miners, Bitcoin blocks, and Stacks blocks is what maintains Bitcoin finality while allowing miners to rapidly produce Stacks blocks. Bitcoin finality is achieved because at every Bitcoin block N + 1, the state of the Stacks chain as of the start of tenure N is written to Bitcoin. Even if at a future date all of the former Stackers’ signing keys were compromised, they would be unable to rewrite Stacks history for tenure N without rewriting Bitcoin history back to tenure N + 1.
 
 Subnets provide an additional avenue for further experimentation and performance increases if desired.
+
+== sBTC: A Decentralized Bitcoin Bridge
+
+=== Overview
+
+sBTC is a decentralized, trust-minimized two-way Bitcoin peg between Bitcoin and the Stacks blockchain. Implemented as a SIP-010 compliant fungible token on Stacks, sBTC enables Bitcoin holders to securely represent their BTC as tokens on the Stacks chain without relying on a single trusted entity. This bridge allows Bitcoin to be seamlessly integrated into the Stacks ecosystem, significantly expanding Bitcoin's utility through programmable smart contracts while maintaining its fundamental security properties.
+
+The system combines the computational capabilities of the Stacks blockchain with Bitcoin's reliability and security. Users can deposit BTC into the protocol, conduct transactions using sBTC on the Stacks blockchain, and redeem their sBTC tokens for the underlying BTC at any time. The protocol maintains security through a decentralized signer network, eliminating single points of failure and reducing trust requirements.
+First, we’ll describe how the two core operations of sBTC (deposit and withdrawal) work, and then we’ll dig into each component of sBTC to see how they all work together to conduct these operations.
+
+=== Core Operations
+
+==== Deposit Process
+
+The sBTC deposit process facilitates the conversion of BTC into sBTC tokens through a multi-step process that completes within a maximum of three Bitcoin blocks (although this process usually happens in a single block). This process ensures both the security of users' funds and the maintenance of the 1:1 peg between BTC and sBTC.
+
+To initiate a deposit, a Bitcoin holder creates a transaction containing a special UTXO that can be spent by the sBTC Signers. This transaction includes an OP_DROP payload that specifies two crucial pieces of information: the recipient's Stacks address where the sBTC should be minted, and the maximum fee the depositor is willing to contribute toward UTXO consolidation. After broadcasting this transaction, the user submits proof of their deposit through the Deposit API.
+
+In practice, this transaction would be generated by the sBTC Bridge application or a third-party application that would implement this logic into their frontend user interface. Users would not be expected to construct these transactions manually.
+
+sBTC Signers continuously monitor for these deposit transactions using the Deposit API (known as Emily<<emily>>). When a deposit is initiated, in addition to conducting the actual Bitcoin transaction, users will use the Emily API to notify the sBTC signers that the deposit occurred.
+
+Upon detecting the deposit transaction, the sBTC Signers validate the UTXO format and parameters. If the validation succeeds, the Signers create a Bitcoin transaction that consumes the deposit UTXO and consolidates it into the main sBTC UTXO (discussed below). Following successful consolidation, the Signers execute a mint function call in the .sbtc Clarity contract, creating the corresponding sBTC tokens on the Stacks blockchain.
+
+In the case that signers do not pick up the deposit, the deposit mechanism includes a safety feature: deposit UTXOs can be spent under one of two conditions. Either the signer set spends the UTXO as part of normal operations, or after a predetermined number of Bitcoin blocks, the user can reclaim their BTC. This ensures users maintain ultimate control over their funds even in the event of signer set unavailability.
+
+==== Withdrawal Process
+
+
+
+The withdrawal process allows users to convert their sBTC tokens back into BTC through a coordinated series of operations on both blockchains, completing within six Bitcoin blocks. This process ensures secure and verifiable conversion while maintaining the system's integrity.
+
+Users initiate withdrawals by calling the `withdraw-request` function in the .sbtc contract, specifying their desired Bitcoin withdrawal address. This function transfers the specified amount of sBTC to the contract and mints a non-transferable locked-sBTC token as a placeholder, ensuring the funds remain accounted for during the withdrawal process.
+
+The sBTC Signers evaluate each withdrawal request according to predetermined criteria. Upon acceptance, the withdrawal enters a mandatory waiting period of six Bitcoin blocks to ensure transaction finality and prevent potential blockchain reorganizations from compromising the withdrawal process. After this period, the Signers create and broadcast a Bitcoin transaction that fulfills the withdrawal by transferring BTC from the main sBTC UTXO to the user's specified address.
+
+Once the Bitcoin transaction confirms, the Signers execute a smart contract call to mark the transaction as fulfilled and burn the user's locked-sBTC, maintaining the system's 1:1 peg. In cases where a withdrawal request is rejected, the Signers call the `withdraw-reject` function, which returns the original sBTC to the holder and records the signer votes for transparency.
+
+==== Deposit and Withdrawal Confirmation Times
+
+In the previous section, we mentioned that deposits can occur within 3 blocks, but withdrawals take 6 blocks. The key reason for this difference lies in how Stacks block production works and how it is connected with Bitcoin.
+Due to Proof of Transfer (PoX) consensus, the Stacks blockchain maintains synchronization with Bitcoin by following its fork choice rule. When Bitcoin experiences a reorganization, Stacks reorganizes in parallel, ensuring all Stacks blocks reference Bitcoin's canonical chain. This synchronization mechanism directly impacts sBTC operations.
+Withdrawals require a six-block waiting period because they trigger irreversible Bitcoin transactions. This delay ensures that the withdrawal transaction won't be reorganized out of the Stacks chain before the sBTC signers execute the corresponding Bitcoin transaction. Without this waiting period, a chain reorganization could result in BTC being released while the corresponding sBTC remains in circulation.
+Deposits, however, can be processed more rapidly because they maintain consistency even during chain reorganizations. If a deposit transaction is reorganized out of the Bitcoin chain, the Stacks reorganization will automatically remove the corresponding sBTC minting operation. This natural synchronization maintains the protocol's 1:1 backing without requiring extended confirmation times.
+While deposits can be processed quickly by the protocol, users may still choose to wait for additional Bitcoin block confirmations to ensure the finality of their minted sBTC tokens. The finality of minted sBTC is equivalent to the finality of the Bitcoin block containing the deposit transaction.
+
+
+=== System Components
+
+==== Signer Network
+
+The sBTC protocol operates through an elected network of 14 independent entities that collectively manage the system through a democratic process. The mature sBTC protocol will move from an elected Signer set to a fully open, decentralized, rotating Signer set.
+
+This signer set forms the backbone of the protocol's security and operational model, with each signer holding exactly one vote in the network's decision-making process.
+
+The system employs a threshold signature scheme requiring approval from at least 70% (11 out of 15) of the signers for any operation to proceed. This design creates a security model with two key properties: the system maintains liveness as long as 70% of signers remain online and honest, while security against theft is preserved as long as at least 30% of signers remain honest.
+
+Signers bear significant responsibilities in maintaining the protocol's operation. They must process deposits and withdrawals, manage UTXO consolidation, handle key rotations, and maintain high operational security standards. The geographic distribution of signers is carefully considered during selection to ensure network resilience against regional failures or regulatory changes.
+
+==== sBTC Peg Wallet
+
+The sBTC protocol utilizes a single-UTXO design for its peg wallet, which holds the entire BTC balance backing the sBTC tokens in circulation. This architectural choice simplifies wallet management and reduces transaction complexity while maintaining security through the threshold signature scheme.
+
+The signer set collectively manages this UTXO, handling all aspects of its operation including deposit consolidation, withdrawal execution, and key rotation events. They also manage transaction fees, ensuring proper fee deduction from users for Bitcoin network operations while maintaining appropriate minimum withdrawal amounts to cover these costs.
+
+==== Smart Contract Infrastructure
+
+The .sbtc contract suite forms the protocol's operational core on the Stacks blockchain. These Clarity smart contracts implement the SIP-010 fungible token standard and manage all aspects of sBTC operation on Stacks. The contracts handle deposit acceptance and token minting, withdrawal requests and token burning, and maintain the locked-sBTC placeholder system during withdrawals.
+
+The smart contract infrastructure also manages the signer set, implementing the voting and coordination mechanisms necessary for decentralized operation. This includes handling signer set updates and key rotations through transparent, on-chain processes.
+
+==== API Layer
+
+The API layer of sBTC (known as Emily) serves as the interface for the sBTC bridge, facilitating communication between protocol users and sBTC signers. Named after Emily Warren Roebling, who supervised the Brooklyn Bridge construction, the API monitors and tracks the status of cross-chain operations within the sBTC ecosystem.
+
+Emily does not effect user’s ability to convert their sBTC to Bitcoin because in the event that Emily were to go offline, withdrawals would still be functional because users only need to call the sBTC contract on Stacks to initiate the process.
+The API serves two primary user groups - sBTC users and sBTC application developers - by providing comprehensive operation tracking and status updates. Its core functionalities include:
+Deposit Tracking: Monitoring the conversion process from BTC to sBTC
+Withdrawal Tracking: Tracking the conversion of sBTC back to BTC
+Status Updates: Providing real-time operation status information
+Historical Data: Maintaining queryable records of past operations
+The API tracks all sBTC operations through four distinct states:
+PENDING: Initial state when an operation is first initiated
+ACCEPTED: Indicates signer approval of the operation
+CONFIRMED: Marks successful completion and blockchain confirmation
+FAILED: Indicates operation failure
+For deposits, the API coordinates the following sequence:
+Records the user's deposit submission as PENDING
+Tracks signer validation and voting
+Updates to ACCEPTED upon signer approval
+Monitors Bitcoin transaction processing
+Tracks sBTC minting on Stacks
+Updates to CONFIRMED upon completion
+For withdrawals, the API manages:
+Records the withdrawal initiation from the sBTC contract as PENDING
+Monitors signer acceptance or rejection
+Updates to ACCEPTED upon approval
+Tracks Bitcoin transaction processing
+Monitors sBTC burning on Stacks
+Updates to CONFIRMED upon completion
 
 == Future Work: Bitcoin Rollups, BitVM, DLCs and the Stacks Layer
 
@@ -272,3 +364,4 @@ network/tbtc/index.pdf.
 * [[[virtualchain,9]]] Jude Nelson, Muneeb Ali, Ryan Shea, and Michael J Freedman. Extending existing
 blockchains with virtualchain. In Workshop on Distributed Cryptocurrencies and Consensus Ledgers (DCCL'16), Chicago, IL, June 2016.
 * [[[bitcoin-rollups,10]]] John Light. Validity rollups on bitcoin, 2021. https://bitcoinrollups.org/
+* [[[emily, 11]]] Stacks Documentation. https://docs.stacks.co/concepts/sbtc/emily
