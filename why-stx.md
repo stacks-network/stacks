@@ -1,22 +1,192 @@
-# Why is the STX token needed for Stacks?
+Why is the STX token needed for Stacks?
 
-After Stacks Nakamoto release developers and users will be able to simply use BTC in apps and pay gas fees in BTC by using sBTC (BTC on L2). To keep the Stacks L2 network decentralized the STX asset is used for incentives for sequencers (miners) and validators (signers). Without STX, you'd end up with a federation like Liquid.
+With the Nakamoto upgrade and the rollout of sBTC, Stacks is evolving toward a Bitcoin-native application layer where users and applications primarily interact with BTC. In practice, this means users can hold BTC-denominated assets, use BTC inside apps via sBTC, and (in many cases) pay transaction fees using BTC.
 
-Many Bitcoin community members are skeptical of new tokens and rightly so. There are countless projects out there that force the use of a token on their project and in many cases a token is actually not needed. Stacks project was started by Bitcoin builders who have a long history of building apps & protocols on Bitcoin L1 without any token (e.g., BNS launched [in 2015 on Bitcoin L1](https://twitter.com/muneeb/status/642714729169985537) which was one of the largest protocols using OP_RETURN on Bitcoin L1). So why did a bunch of Bitcoin builders decided to have a separate token for Stacks L2? Great question! Let's dig into the details.
+Given this shift, a common question is:
 
-The Stacks token (STX) is primarily meant to be used for two things (details in [Stacks paper](https://stacks.co/stacks.pdf)):
+If apps use BTC, why does STX still exist?
 
-1) Incentives for Stacks L2 sequencers (miners)
-2) Incentives for validators (peg-out signers)
+This document explains why STX is still necessary, what role it plays today, and what it does not try to be.
 
-The only way to remove the token is to build Stacks as a federated network like Liquid. In a federation the pre-selected group of companies control the mining and block production and a pre-selected group of companies need to be trusted for peg-out transactions. Stacks developers wanted to design an open and permissionsless system. The only way to have a decentralized mining process is through incentives. This is how Bitcoin works as well, where newly minted BTC are used as incentives to mine new blocks and anyone in the world can decide to become a miner. Anyone with BTC can mine the Stacks L2 chain, it is open and permissionless. 
+Short answer
 
-Simiarly, the way the decentralized BTC peg, called sBTC (see the [sBTC paper](https://stacks.co/sbtc.pdf)), is designed is that the group of signer is open and permissionless (unlike a federation). These signers have economic incentives to correctly follow the protocol for peg-out requests. In a federation, users need to blindly trust the pre-set federation members to get their BTC out of the federation and back on Bitcoin L1. Stacks developers wanted to have an open, permissionless, and decentralized way to move BTC from Bitcoin L1 to Stacks L2 and back. This is made possible through economic incentives i.e., need for a token.
+STX exists to keep Stacks decentralized.
 
-Once the upcoming sBTC peg is live most of the economy of Stacks L2 is expected to follow a Bitcoin standard and work using BTC as the economic unit. It is expected that users will mostly interact with BTC in wallets and apps and pay gas fees in BTC. It is important to note that BTC **cannot** be used for mining incentives on Stacks L2 because the only way to incentivize decentralized block production is through newly minted assets by the protocol (similar to how Bitcoin works itself) i.e., need for a token.
+It is not designed to be the dominant user currency of the ecosystem. Instead, STX plays a protocol-level role by providing incentives that cannot be fulfilled by BTC alone.
 
-More details about these tradeoffs can be found in the ["Bitcoin L2 trilemma"](https://x.com/muneeb/status/1717542872545628394?s=20) post.
+Without STX, Stacks would have to rely on trusted federations — similar to Liquid — rather than operating as an open, permissionless network.
 
-Hope this FAQ is helpful. If you have more comments or questions then feel free to [start a Github issue](https://github.com/stacks-network/stacks/issues/new) for discussion.
+What STX does (today)
 
-Related FAQ: [Why is Stacks a Bitcoin L2?](https://github.com/stacks-network/stacks/blob/master/stacks-l2.md)
+As of the Nakamoto era, STX is primarily used for:
+
+Incentivizing decentralized block production (sequencers / miners)
+
+Incentivizing decentralized sBTC peg security (signers)
+
+Coordinating long-term network security via Stacking
+
+These are infrastructure roles, not application-level currency roles.
+
+Why BTC alone is not enough
+
+Many Bitcoin community members are rightly skeptical of unnecessary tokens. In many projects, a token adds no real value.
+
+Stacks is different.
+
+Stacks was created by Bitcoin builders with a long history of building directly on Bitcoin L1 without tokens (e.g., BNS on Bitcoin in 2015 using OP_RETURN). The decision to introduce STX was not ideological — it was architectural.
+
+The core problem
+
+Bitcoin cannot mint new BTC to secure another chain.
+
+But any decentralized network needs a way to:
+
+Incentivize block production
+
+Penalize misbehavior
+
+Remain open and permissionless
+
+Bitcoin solves this on L1 via block rewards.
+Stacks must solve the same problem off L1, without modifying Bitcoin.
+
+That requires a native asset.
+
+STX and decentralized block production
+
+Stacks uses Proof-of-Transfer (PoX), where miners commit BTC to Bitcoin L1 to participate in block production on Stacks.
+
+However:
+
+BTC cannot be minted by the Stacks protocol
+
+BTC fees alone are insufficient to guarantee open participation
+
+Using BTC directly would bias control toward large incumbents
+
+STX is minted by the protocol and used to:
+
+Reward sequencers
+
+Keep block production permissionless
+
+Avoid cartelization or federation control
+
+This mirrors Bitcoin’s own design, where BTC issuance secures the network.
+
+STX and sBTC security (peg-out signers)
+
+sBTC is designed as a trust-minimized, open peg, not a federation.
+
+Key properties:
+
+Anyone can become a signer
+
+Signers are economically incentivized to act honestly
+
+Misbehavior is economically punishable
+
+This requires:
+
+A native asset to align incentives
+
+A unit that the protocol can control
+
+BTC cannot fulfill this role.
+STX is used to secure the peg-out path and make sBTC non-custodial.
+
+Without STX, sBTC would require a trusted federation — the exact outcome Stacks is designed to avoid.
+
+STX is not meant to replace BTC in apps
+
+An important clarification:
+
+STX is not meant to be the primary currency users interact with in applications.
+
+Post-sBTC:
+
+BTC is the dominant unit of account
+
+Users can hold BTC-backed assets
+
+Apps can price in BTC
+
+Fees can be paid in BTC via sBTC
+
+STX operates below the application layer, similar to how:
+
+ETH secures Ethereum but stablecoins dominate usage
+
+BTC secures Bitcoin but users transact via layers and abstractions
+
+Stacking: aligning long-term incentives
+
+STX holders can participate in Stacking, where they:
+
+Lock STX
+
+Help secure the network
+
+Earn BTC rewards
+
+This mechanism:
+
+Aligns STX holders with Bitcoin’s success
+
+Converts protocol participation into BTC yield
+
+Avoids inflation-only security models
+
+Importantly, Stacking pays out in BTC, not STX — reinforcing Bitcoin as the economic center.
+
+The alternative: federation
+
+Removing STX would force Stacks into a federated model:
+
+Fixed set of block producers
+
+Trusted peg operators
+
+Permissioned governance
+
+Reduced censorship resistance
+
+This is a valid design (e.g., Liquid), but not the design goal of Stacks.
+
+Stacks aims to be:
+
+Open
+
+Permissionless
+
+Bitcoin-aligned
+
+Decentralized at the protocol layer
+
+STX is the minimal mechanism required to achieve that.
+
+Summary
+
+BTC is the user-facing asset of Stacks
+
+sBTC enables Bitcoin programmability
+
+STX secures the network and peg
+
+STX exists to prevent federation
+
+Bitcoin remains the economic center
+
+Stacks does not introduce a token to extract value —
+it introduces STX to protect decentralization.
+
+Further reading
+
+Stacks whitepaper: https://stacks.co/stacks.pdf
+
+sBTC design: https://stacks.co/sbtc
+
+Bitcoin L2 trilemma: https://x.com/muneeb/status/1717542872545628394
+
+Related FAQ: Why is Stacks a Bitcoin L2?
