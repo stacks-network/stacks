@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  lint:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["markdownlint", "**/*.md", "--ignore", "node_modules"]
+
+  serve:
+    image: python:3.12-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    command: ["python", "-m", "http.server", "8000"]
