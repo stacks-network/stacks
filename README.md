@@ -3,10 +3,11 @@
 
 Stacks is a Bitcoin layer for enabling the onchain Bitcoin economy; it enables smart contracts and decentralized applications to trustlessly use Bitcoin as an asset and settle transactions on the Bitcoin blockchain. 
 
-NEW: Read the Stacks historical overview & current ecosystem status [(doc)](https://docs.google.com/document/d/17GCoe3gKDHY98QWnE2odWLRWSj9NDSpMXXP90cIpFyM/edit?usp=sharing)<br>
-NEW: Read the Bitcoin Staking whitepaper, that introduces Bitcoin Bonds [(pdf)](https://cdn.prod.website-files.com/618b0aafa4afde65f2fe38fe/6a046453621aeb10783f9079_5179c4752d4c999ef57ef49c5e6de186_Bitcoin%20Staking%20on%20Stacks%20Whitepaper.pdf)<br>
-NEW: Stacks 2026 overview slides [(doc)](https://docs.google.com/presentation/d/1rjp_YFFNieNElrFpxMw2NfktnUq1SjTi2abVj2x9pf0/edit?usp=sharing)<br>
+➡️ Read the Stacks historical overview & current ecosystem status [(doc)](https://docs.google.com/document/d/17GCoe3gKDHY98QWnE2odWLRWSj9NDSpMXXP90cIpFyM/edit?usp=sharing)<br>
+➡️ Stacks 2026 overview slides [(doc)](https://docs.google.com/presentation/d/1rjp_YFFNieNElrFpxMw2NfktnUq1SjTi2abVj2x9pf0/edit?usp=sharing)<br>
+➡️ Read the 2026 Bitcoin Staking whitepaper, that introduces Bitcoin Bonds [(pdf)](https://cdn.prod.website-files.com/618b0aafa4afde65f2fe38fe/6a046453621aeb10783f9079_5179c4752d4c999ef57ef49c5e6de186_Bitcoin%20Staking%20on%20Stacks%20Whitepaper.pdf)<br>
 
+Older links:<br>
 ➡️ Read the Stacks whitepaper [(html)](https://stacks-network.github.io/stacks/stacks.html) [(pdf)](https://stacks-network.github.io/stacks/stacks.pdf)<br>
 ➡️ Read the sBTC whitepaper [(html)](https://stacks-network.github.io/stacks/sbtc.html) [(pdf)](https://stacks-network.github.io/stacks/sbtc.pdf)<br>
 
