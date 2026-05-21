@@ -78,7 +78,7 @@ For a block to be validated, it must be signed by over 67% of the producer set b
 
 Each producer set term is 10 Bitcoin blocks in length. Stacks cost limits are applied to the term as a whole rather than individual Stacks blocks, and each term's cost limit is 10x the Stacks 2.4 single block limit (or the single block limit after improvements to the Clarity runtime and improved benchmark results).
 
-During a term, there is no distinction between Stacks blocks and microblocks: there are only blocks. Terms are not limited to 10 Stacks blocks (i.e., there may be more than one Stacks block produced during a given Bitcoin block), but rather the only limit applied to the term is the overall cost limit (which may be increased through application of a VDF to accomodate an unusually long term length; see [Extension: Overdue Term](./nakamoto/extensions/overdue_term.md)).
+During a term, there is no distinction between Stacks blocks and microblocks: there are only blocks. Terms are not limited to 10 Stacks blocks (i.e., there may be more than one Stacks block produced during a given Bitcoin block), but rather the only limit applied to the term is the overall cost limit (which may be increased through application of a VDF to accommodate an unusually long term length; see [Extension: Overdue Term](./nakamoto/extensions/overdue_term.md)).
 
 The first block of a term always builds off the last block stackers accepted from the prior term, which itself is a descendant of the last on-Bitcoin snapshot. Producers may not choose to reorganize a prior term, nor may they reorganize any stacker-accepted blocks. But, any unannounced or not-yet-accepted blocks from the prior term are dropped.
 

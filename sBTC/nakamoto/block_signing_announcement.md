@@ -110,7 +110,7 @@ The `.block-producers` contract defines a Stacker DB with 300 slots. The first 1
 
 The number of DB signer slots are assigned to a producer represents the weight of the producer's signature. For example, if four producers each registered for tenure N, and each spent 10%, 20%, 30%, and 40% of the BTC, then the 10% producer would receive 10 slots, the 20% producer would receive 20 slots, the 30% 30 slots, and the 40% 40 slots. The 10% producer receives DB slots `0, 10, 20, 30, 40, 50, 60, 70, 80, ... 180, 190`; the 20% producer receives DB slots `1, 2, 11, 12, 21, 22, ..., 191, 192`; the 30% producer receives DB slots `3, 4, 5, 13, 14, 15, 23, 24, 25, ..., 193, 194, 195`; the 40% producer receives DB slots `6, 7, 8, 9, 16, 17, 18, 19, ..., 196, 197, 198, 199`. The `.block-producers` contract's `stackerdb-auth-write` function ensures that each producer can only write to their assigned slots; the requisite state for doing so is directly written into the contract's data space at the start of each tenure, which this function queries.
 
-The proposed block slots are alloted to producers in ascending order by BTC weight. In the above example, slot 200 is alloted to the 10% producer, slot 201 to the 20% producer, slot 202 to the 30% producer, and slot 203 to the 40% producer. If there are fewer than 100 producers, then the remaining slots are unused.
+The proposed block slots are allotted to producers in ascending order by BTC weight. In the above example, slot 200 is allotted to the 10% producer, slot 201 to the 20% producer, slot 202 to the 30% producer, and slot 203 to the 40% producer. If there are fewer than 100 producers, then the remaining slots are unused.
 
 ### Producer Signing Protocol
 
@@ -122,7 +122,7 @@ The signed block is automatically propagated to stackers via the `.block-produce
 
 ### Stacker Signer DB Setup
 
-Like the `.block-producers` contract, the `.pox-4` contract maintains a set of DB slots for storing FROST pre-computed data and signature data. The stacker signer DB has 8,000 slots. The first 4,000 are allotted to stackers based on how many reward slots they earn. These slots are assigned to stackers in contiguous ranges, based on the order in which their STX were stacked for this reward cycle (i.e. as determined by the `.pox-4` contract's `reward-cycle-pox-address-list` map), and are used to hold each stackers' signers' FROST pre-computation state. The last 4,000 are similarly alloted to stackers, but are used to contain in-flight signature metadata regarding the proposed block.
+Like the `.block-producers` contract, the `.pox-4` contract maintains a set of DB slots for storing FROST pre-computed data and signature data. The stacker signer DB has 8,000 slots. The first 4,000 are allotted to stackers based on how many reward slots they earn. These slots are assigned to stackers in contiguous ranges, based on the order in which their STX were stacked for this reward cycle (i.e. as determined by the `.pox-4` contract's `reward-cycle-pox-address-list` map), and are used to hold each stackers' signers' FROST pre-computation state. The last 4,000 are similarly allotted to stackers, but are used to contain in-flight signature metadata regarding the proposed block.
 
 ### Stacker Signing Protocol
 

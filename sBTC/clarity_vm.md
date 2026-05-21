@@ -41,7 +41,7 @@ The plan to speed up the Clarity VM is to compile Clarity contracts into [WebAss
 
 The new compiler and runtime must execute all valid [Clarity](https://clarity-lang.org/) code, including all contracts currently supported by the existing runtime. If any changes are made to [Clarity](https://clarity-lang.org/) to simplify or improve the implementation, this runtime will be epoch gated (versioned), and the old runtime will be used before activation at a future block height.
 
-The [Stacks Blockchain](https://github.com/stacks-network/stacks-blockchain) will also need to efficiently store the compiled [Wasm](<(https://webassembly.org/)>) code alongside the [Clarity](https://clarity-lang.org/) source for all published contracts and willl need to retrieve it quickly when a contract is called. The stored [Wasm](https://webassembly.org/) will also need to be accessible via RPC calls for verification and debugging purposes.
+The [Stacks Blockchain](https://github.com/stacks-network/stacks-blockchain) will also need to efficiently store the compiled [Wasm](<(https://webassembly.org/)>) code alongside the [Clarity](https://clarity-lang.org/) source for all published contracts and will need to retrieve it quickly when a contract is called. The stored [Wasm](https://webassembly.org/) will also need to be accessible via RPC calls for verification and debugging purposes.
 
 The runtime needs to establish a mechanism to interact with the MARF using Clarity's native functions for reading/writing data-vars and maps.
 
