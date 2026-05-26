@@ -63,6 +63,14 @@ If you're just starting with Stacks, here are the main software repositories you
 - [stacks.js](https://github.com/hirosystems/stacks.js) - a JavaScript library for using identity, auth, and storage in your apps.
 - [Stacks Explorer](https://github.com/hirosystems/explorer) - explorer for Stacks layer.
 
+## Community Apps
+
+Projects built on Stacks by the community:
+
+| App | Description |
+|-----|-------------|
+| [StacksHurry](https://stackshurry.vercel.app) | On-chain rocket shooter game with Clarity smart contracts for scoring, pilot registry, NFT minting, and powerup store. npm: `stacks-hurry` |
+
 ## How to Help
 
 - **Contribute open-source code** - send us pull requests with improvements! See some [good first issues](https://github.com/stacks-network/stacks-blockchain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
